@@ -361,7 +361,16 @@
     "2092325604628779316",
     "2061975944223760499",
     "2092621499849138314",
-    "2092577143310164395"
+    "2092577143310164395",
+    "2092661573223657834",
+    "2092661574523867302",
+    "2092659221477077101",
+    "2092659223591039374",
+    "2092644384730972669",
+    "2092640995401736544",
+    "2092639558815060281",
+    "2092628869350080692",
+    "2092316934712729894"
   ],
   "source_checkpoints": {
     "account:@OpenAI": {
@@ -370,18 +379,18 @@
       "initial_baseline": false
     },
     "account:@AnthropicAI": {
-      "status_id": "2089842387845804246",
-      "captured_at": "2026-08-26T15:14:58.033Z",
+      "status_id": "2092661573223657834",
+      "captured_at": "2026-08-26T17:16:50.707Z",
       "initial_baseline": false
     },
     "account:@GoogleDeepMind": {
-      "status_id": "2090772922818286080",
-      "captured_at": "2026-08-26T15:14:58.033Z",
+      "status_id": "2092659221477077101",
+      "captured_at": "2026-08-26T17:16:50.707Z",
       "initial_baseline": false
     },
     "account:@xai": {
-      "status_id": "2035562571932024842",
-      "captured_at": "2026-08-26T15:14:58.033Z",
+      "status_id": "2092644384730972669",
+      "captured_at": "2026-08-26T17:16:50.707Z",
       "initial_baseline": false
     },
     "account:@MistralAI": {
@@ -415,8 +424,8 @@
       "initial_baseline": false
     },
     "account:@TechCrunch": {
-      "status_id": "2092629417910571226",
-      "captured_at": "2026-08-26T15:14:58.033Z",
+      "status_id": "2092661119823356001",
+      "captured_at": "2026-08-26T17:16:50.707Z",
       "initial_baseline": false
     },
     "account:@arxiv": {
@@ -470,8 +479,8 @@
       "initial_baseline": true
     },
     "query:robotics foundation model": {
-      "status_id": "2092624051865100621",
-      "captured_at": "2026-08-26T15:14:58.033Z",
+      "status_id": "2092646599436476515",
+      "captured_at": "2026-08-26T17:16:50.707Z",
       "initial_baseline": false
     },
     "query:AI security OR prompt injection": {
@@ -480,9 +489,9 @@
       "initial_baseline": true
     },
     "following": {
-      "status_id": "2092591393424515114",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "status_id": "2092633969380442525",
+      "captured_at": "2026-08-26T17:16:50.707Z",
+      "initial_baseline": false
     },
     "account:@nvidia": {
       "status_id": "2092390101959479713",
@@ -491,7 +500,7 @@
     }
   },
   "note": "Test artifacts are not continuity checkpoints; first scheduled run establishes per-source cursors after GitHub push.",
-  "last_run_at_utc": "2026-08-26T13:49:19.324Z",
+  "last_run_at_utc": "2026-08-26T17:16:50.707Z",
   "for_you_snapshots": [
     {
       "captured_at": "2026-08-26T13:15:26.066Z",
@@ -769,28 +778,45 @@
       "complete": true,
       "frozen": false,
       "reason": null
+    },
+    {
+      "captured_at": "2026-08-26T17:16:50.707Z",
+      "batches": [
+        {"visible_count":5,"new_status_ids":["2092649564767400363","2090111249980002594","2092628869350080692","2092316934712729894"],"first_status_id":"2092649564767400363","last_status_id":"2092316934712729894"},
+        {"visible_count":6,"new_status_ids":["2092315859377172644"],"first_status_id":"2092649564767400363","last_status_id":"2092315859377172644"},
+        {"visible_count":7,"new_status_ids":["2046847265495494955"],"first_status_id":"2092649564767400363","last_status_id":"2046847265495494955"},
+        {"visible_count":8,"new_status_ids":["2092529266726445087"],"first_status_id":"2092649564767400363","last_status_id":"2092529266726445087"},
+        {"visible_count":8,"new_status_ids":[],"first_status_id":"2090111249980002594","last_status_id":"2092609286434169226"},
+        {"visible_count":9,"new_status_ids":["2092406704491102459"],"first_status_id":"2092628869350080692","last_status_id":"2092406704491102459"},
+        {"visible_count":9,"new_status_ids":["2088603203688349812"],"first_status_id":"2092613342300942342","last_status_id":"2088603203688349812"},
+        {"visible_count":9,"new_status_ids":["2092623661135991274"],"first_status_id":"2092316934712729894","last_status_id":"2092623661135991274"},
+        {"visible_count":10,"new_status_ids":["2092336453070254320","2092633561119482037"],"first_status_id":"2092315859377172644","last_status_id":"2092633561119482037"},
+        {"visible_count":10,"new_status_ids":["2092353823809339721"],"first_status_id":"2046847265495494955","last_status_id":"2092353823809339721"},
+        {"visible_count":10,"new_status_ids":["2087867649799995755","2092226822457250301"],"first_status_id":"2092609286434169226","last_status_id":"2092226822457250301"},
+        {"visible_count":9,"new_status_ids":[],"first_status_id":"2092446438756134939","last_status_id":"2092226822457250301"}
+      ],
+      "complete": false,
+      "frozen": true,
+      "reason": "No two consecutive batches without new status IDs before bounded snapshot window ended."
     }
   ],
   "frozen_sources": {
     "query:AI agent OR agentic coding": {
-      "at": "2026-08-26T15:14:58.033Z",
-      "reason": "checkpoint not reached in 10 batches"
+      "at": "2026-08-26T17:16:50.707Z",
+      "reason": "checkpoint not reached in 25 batches"
     },
     "query:LLM inference OR AI chips": {
-      "at": "2026-08-26T15:14:58.033Z",
-      "reason": "checkpoint not reached in 10 batches"
+      "at": "2026-08-26T17:16:50.707Z",
+      "reason": "checkpoint not reached in 25 batches"
     },
     "query:open weights OR open source AI": {
-      "at": "2026-08-26T15:14:58.033Z",
-      "reason": "checkpoint not reached in 10 batches"
+      "at": "2026-08-26T17:16:50.707Z",
+      "reason": "checkpoint not reached in 25 batches"
     },
     "query:AI security OR prompt injection": {
-      "at": "2026-08-26T15:14:58.033Z",
-      "reason": "checkpoint not reached in 10 batches"
+      "at": "2026-08-26T17:16:50.707Z",
+      "reason": "checkpoint not reached in 25 batches"
     },
-    "following": {
-      "at": "2026-08-26T15:14:58.033Z",
-      "reason": "checkpoint not reached in 10 batches"
-    }
+    "for_you": {"at":"2026-08-26T17:16:50.707Z","reason":"snapshot retained; two consecutive zero-new batches not reached"}
   }
 }
