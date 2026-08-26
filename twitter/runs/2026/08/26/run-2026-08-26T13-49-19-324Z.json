@@ -242,12 +242,19 @@
     ]
   },
   "github": {
-    "status": "pending_push"
+    "status": "pushed",
+    "content_commit": "a7bf0b3"
   },
   "pages": {
-    "status": "pending_verification"
+    "status": "reachable",
+    "url": "https://convee.github.io/daily-content-archive/",
+    "current_run_brief_updated": false,
+    "note": "This was not the 09:10 daily-brief window; the deployed index exposes the existing X brief, not a new brief for this raw-only run."
   },
   "dingtalk": {
-    "status": "pending"
+    "status": "SUCCESS",
+    "delivery": "SUCCESS",
+    "read_status": "READ",
+    "read_at": "2026-08-26 21:50:41 Asia/Shanghai"
   }
 }
