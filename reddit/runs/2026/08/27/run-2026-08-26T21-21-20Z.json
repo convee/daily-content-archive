@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "captured_at_utc": "2026-08-26T21:21:20Z",
+  "captured_at_local": "2026-08-27T05:21:20+08:00",
+  "mode": "logged_in_local_chrome_read_only",
+  "outcome": "incomplete_no_state_advance",
+  "authoritative_state_commit": "9b358e0",
+  "integrity_gate": {
+    "status": "FAIL",
+    "reason": "The authoritative New checkpoints are not safe incremental cursors: the original 307-post baseline has only 8 durable raw post lines, so a visible page delta cannot be distinguished from already-seen history."
+  },
+  "verification": {
+    "community": "MachineLearning",
+    "sort": "new",
+    "checkpoint": "t3_1vv2nkh",
+    "scroll_batches": 6,
+    "checkpoint_seen": true,
+    "visible_permalink_ids_after_scroll": 51,
+    "first_id": "t3_1vd5kqk",
+    "last_id": "t3_1vsjlzj",
+    "finding": "The prior checkpoint was visible after six read-only scroll batches. This verifies the current page boundary only; the incomplete raw archive prevents safe deduplication and recovery, so no collection layer was advanced."
+  },
+  "layers": {
+    "new": {"success": 0, "failure": 12, "frozen": 12, "reason": "Integrity gate failed; no checkpoints advanced."},
+    "hot": {"success": 0, "failure": 12, "frozen": 12, "reason": "Not collected because durable post archival and de-duplication are unsafe."},
+    "rising": {"success": 0, "failure": 12, "frozen": 12, "reason": "Not collected because durable post archival and de-duplication are unsafe."},
+    "global": {"success": 0, "failure": 3, "frozen": ["home", "popular", "all"], "reason": "Not collected under integrity gate; All retains prior redirect-to-Home failure."},
+    "search": {"success": 0, "failure": 8, "frozen": 8, "reason": "All query checkpoints remain frozen because Posts + New was not verifiable."},
+    "comments": {"success": 0, "failure": 3, "overdue_revisits": 3, "reason": "No comment JSONL appended while the candidate-post archive is incomplete."},
+    "community_discovery": {"success": 0, "failure": 1, "reason": "No new evidence considered because discovery inputs were frozen."}
+  },
+  "counts": {"posts_written": 0, "raw_comments_written": 0, "selected_comments": 0, "revisit_queue": 3, "community_candidates": 1},
+  "raw_written": false,
+  "state_advanced": false,
+  "pages": {"configured_url": "https://convee.github.io/daily-content-archive/", "http_status": 200, "updated_by_this_run": false, "daily_reddit_brief_generated": false, "reason": "Not the 09:20 daily-brief window; collection integrity failed."},
+  "failure_ledger": [
+    "MachineLearning New checkpoint t3_1vv2nkh was visible after six scroll batches, but the durable post archive remains insufficient to identify an incremental delta.",
+    "New, Hot and Rising are frozen for all 12 communities because the raw post archive contains 8 lines versus the 307-post claimed New baseline.",
+    "Home, Popular and All are frozen; All retains prior redirect-to-Home failure.",
+    "All eight search queries remain frozen because Posts + New was not verifiable.",
+    "Three overdue comment revisits remain frozen to avoid orphaned comment records.",
+    "No daily brief, index update or success notification was produced."
+  ]
+}
