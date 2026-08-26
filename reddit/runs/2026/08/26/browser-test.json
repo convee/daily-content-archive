@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "mode": "logged_in_local_browser",
+  "communities_tested": ["MachineLearning", "LocalLLaMA", "programming", "technology", "netsec", "opensource", "selfhosted", "science"],
+  "communities_succeeded": 8,
+  "posts_inspected": 24,
+  "post_samples_saved": 8,
+  "comment_thread": "https://www.reddit.com/r/MachineLearning/comments/1vxryws/reviewing_4_papers_for_aaai_2027_and_none_have/",
+  "comments_detected": 68,
+  "valuable_comment_samples_saved": 1,
+  "captured_at_utc": "2026-08-26T12:44:32Z",
+  "complete_for_test_scope": true
+}

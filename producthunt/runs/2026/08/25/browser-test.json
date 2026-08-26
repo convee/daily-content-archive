@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "primary_mode": "logged_in_local_browser",
+  "primary_result": "blocked_by_cloudflare_security_verification",
+  "fallback": "official_producthunt_public_pages",
+  "featured_products_detected": 17,
+  "all_products_detected": 30,
+  "product_samples_saved": 10,
+  "product_comment_pages_tested": 2,
+  "valuable_comment_samples_saved": 4,
+  "captured_at_utc": "2026-08-26T12:44:32Z",
+  "complete_for_test_scope": true,
+  "production_state_advanced": false
+}

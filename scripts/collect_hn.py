@@ -72,24 +72,29 @@ def fetch_item(item_id: int):
     return item_id, fetch_json(f"{API_ROOT}/item/{item_id}.json")
 
 
-def normalize_story(item: dict, retrieved_at: str) -> dict:
-    story_id = int(item["id"])
-    return {
-        "item_id": story_id,
-        "title": html.unescape(item.get("title", "")),
+def normalize_item(item: dict, retrieved_at: str) -> dict:
+    item_id = int(item["id"])
+    item_type = item.get("type")
+    normalized = {
+        "item_id": item_id,
+        "type": item_type,
+        "title": html.unescape(item.get("title", "")) if item_type == "story" else None,
         "by": item.get("by"),
         "created_at_utc": dt.datetime.fromtimestamp(
             item.get("time", 0), tz=dt.timezone.utc
         ).isoformat().replace("+00:00", "Z"),
-        "url": item.get("url") or f"https://news.ycombinator.com/item?id={story_id}",
-        "hn_url": f"https://news.ycombinator.com/item?id={story_id}",
+        "url": item.get("url") or f"https://news.ycombinator.com/item?id={item_id}",
+        "hn_url": f"https://news.ycombinator.com/item?id={item_id}",
         "score": item.get("score", 0),
         "comments": item.get("descendants", 0),
+        "parent": item.get("parent"),
+        "kids": item.get("kids", []),
         "dead": bool(item.get("dead", False)),
         "deleted": bool(item.get("deleted", False)),
         "text": item.get("text"),
         "retrieved_at_utc": retrieved_at,
     }
+    return normalized
 
 
 def main() -> int:
@@ -113,7 +118,7 @@ def main() -> int:
     retrieved_at = retrieved.isoformat().replace("+00:00", "Z")
     failures: list[tuple[int, str]] = []
     null_ids: list[int] = []
-    stories: list[dict] = []
+    items: list[dict] = []
 
     ids = range(start_id + 1, end_id + 1)
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
@@ -127,8 +132,8 @@ def main() -> int:
                 continue
             if item is None:
                 null_ids.append(item_id)
-            elif item.get("type") == "story":
-                stories.append(normalize_story(item, retrieved_at))
+            elif item.get("type") in {"story", "comment"}:
+                items.append(normalize_item(item, retrieved_at))
 
     if failures:
         sample = failures[:20]
@@ -136,7 +141,7 @@ def main() -> int:
             f"Incomplete HN window: {len(failures)} item requests failed; sample={sample}"
         )
 
-    stories.sort(key=lambda value: value["item_id"])
+    items.sort(key=lambda value: value["item_id"])
     local_end = retrieved.astimezone(ZoneInfo("Asia/Shanghai"))
     folder = Path(
         "hackernews/raw",
@@ -147,7 +152,7 @@ def main() -> int:
     stem = f"items-{start_id + 1}-{end_id}"
     raw_path = repo / folder / f"{stem}.jsonl"
     raw_text = "".join(
-        json.dumps(story, ensure_ascii=False, sort_keys=True) + "\n" for story in stories
+        json.dumps(item, ensure_ascii=False, sort_keys=True) + "\n" for item in items
     )
     atomic_write(raw_path, raw_text)
 
@@ -159,7 +164,8 @@ def main() -> int:
         "range_start_id_exclusive": start_id,
         "range_end_id_inclusive": end_id,
         "ids_checked": max(0, end_id - start_id),
-        "story_count": len(stories),
+        "story_count": sum(item["type"] == "story" for item in items),
+        "comment_count": sum(item["type"] == "comment" for item in items),
         "null_item_ids": null_ids,
         "request_failures": [],
         "retrieved_at_utc": retrieved_at,
@@ -192,7 +198,8 @@ def main() -> int:
                 "complete": True,
                 "start_id_exclusive": start_id,
                 "end_id_inclusive": end_id,
-                "stories": len(stories),
+                "stories": sum(item["type"] == "story" for item in items),
+                "comments": sum(item["type"] == "comment" for item in items),
                 "raw_file": str(raw_path.relative_to(repo)),
                 "run_file": str(run_path.relative_to(repo)),
                 "state_file": "hackernews/state.json",
@@ -205,4 +212,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

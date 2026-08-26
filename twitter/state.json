@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "continuity_started_at_utc": "2026-08-26T12:44:32Z",
+  "last_successful_run_at_utc": null,
+  "seen_status_ids": [],
+  "source_checkpoints": {},
+  "note": "Test artifacts are not continuity checkpoints; first scheduled run establishes per-source cursors after GitHub push."
+}

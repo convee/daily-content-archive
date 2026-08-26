@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "focus": ["AI research", "foundation models", "AI infrastructure", "developer tools", "chips", "robotics", "security", "startups"],
+  "official_accounts": ["OpenAI", "AnthropicAI", "GoogleDeepMind", "xai", "MistralAI", "AIatMeta", "huggingface", "nvidia", "GitHub", "ycombinator", "producthunt", "TechCrunch", "arxiv"],
+  "expert_accounts": ["karpathy", "AndrewYNg", "ylecun", "simonw", "swyx", "hardmaru"],
+  "topic_queries": ["AI agent OR agentic coding", "LLM inference OR AI chips", "open weights OR open source AI", "robotics foundation model", "AI security OR prompt injection"],
+  "language": ["en", "zh"],
+  "read_only": true
+}

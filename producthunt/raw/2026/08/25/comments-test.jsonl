@@ -1,0 +1,4 @@
+{"product":"Diet Claude","author":"Surbhi Singla","role":"Maker","url":"https://www.producthunt.com/products/diet-claude","text":"Maker 解释产品通过使用量可视化、上下文裁剪/分支和跨 LLM 继续对话来缓解 Claude 限额中断。","selection_reason":"补足产品页面 tagline 未说明的实现路径和使用场景。"}
+{"product":"Diet Claude","author":"Conor Fennell","url":"https://www.producthunt.com/products/diet-claude","text":"认为产品创意并非独有，但命名和品牌记忆度明显更强。","selection_reason":"提供竞争差异化判断，而非单纯祝贺。"}
+{"product":"Agnost AI","author":"Priya K","url":"https://www.producthunt.com/products/agnost-ai","text":"追问能否把发现的失败直接导出为 DeepEval 或 Braintrust 等框架的合成测试集。","selection_reason":"指出从生产洞察到评测闭环的关键集成问题。"}
+{"product":"Agnost AI","author":"Lisa","url":"https://www.producthunt.com/products/agnost-ai","text":"追问系统能否识别自信但错误的答案，而不仅是智能体明显放弃的失败。","selection_reason":"直接检验产品核心能力边界。"}

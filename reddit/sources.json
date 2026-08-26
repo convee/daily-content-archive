@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "communities": ["MachineLearning", "LocalLLaMA", "programming", "technology", "netsec", "opensource", "selfhosted", "science", "OpenAI", "Anthropic", "singularity", "robotics"],
+  "primary_focus": ["AI research", "local models", "developer tools", "cybersecurity", "open source", "computing infrastructure", "robotics"],
+  "sort": "new",
+  "read_only": true
+}
