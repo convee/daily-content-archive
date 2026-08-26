@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-25",
+  "run_at_utc": "2026-08-26T13:49:14Z",
+  "mode": "closed_day_finalization",
+  "result": "partial",
+  "official_date_verified": true,
+  "browser": "logged_in_local_chrome_read_only",
+  "counts": {"featured_visible_ranked": 17, "all_visible_ranked": 17, "ai_tech_candidates_checked": 0, "raw_comments": 0, "selected_comments": 0},
+  "missing_gates": [
+    "All pagination exhausted",
+    "unique product identifiers and ranks",
+    "Featured product identifiers are a subset of a complete All set",
+    "deep-focus product comment pages checked",
+    "all saved products have full required metadata"
+  ],
+  "evidence": ["producthunt/raw/2026/08/2026-08-25.browser.json"],
+  "next_action": "Retry only through the logged-in local Chrome after Product Hunt exposes a complete All listing; do not advance last_complete_date."
+}

@@ -3,7 +3,22 @@
   "continuity_started_at_utc": "2026-08-26T12:44:32Z",
   "last_complete_date": null,
   "last_successful_run_at_utc": null,
-  "date_ledger": {},
+  "date_ledger": {
+    "2026-08-25": {
+      "status": "partial",
+      "updated_at_utc": "2026-08-26T13:49:14Z",
+      "featured_visible_ranked": 17,
+      "all_visible_ranked": 17,
+      "missing_gates": [
+        "All pagination exhausted",
+        "unique product identifiers and ranks",
+        "Featured product identifiers are a subset of a complete All set",
+        "deep-focus product comment pages checked",
+        "all saved products have full required metadata"
+      ],
+      "run": "producthunt/run/2026/08/2026-08-25.json"
+    }
+  },
   "intraday_snapshots": {},
   "comment_revisit_queue": [],
   "discovery_snapshots": {},
