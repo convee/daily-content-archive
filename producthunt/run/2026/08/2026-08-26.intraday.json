@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-26",
+  "run_at_utc": "2026-08-26T13:50:55Z",
+  "mode": "intraday_snapshot",
+  "result": "frozen_failure",
+  "official_date_verified": true,
+  "browser": "logged_in_local_chrome_read_only",
+  "counts": {
+    "featured_visible_ranked": 17,
+    "all_visible_ranked": 17,
+    "intraday_snapshot_saved": 0
+  },
+  "failure_ledger": [
+    {
+      "entry": "https://www.producthunt.com/leaderboard/daily/2026/8/26/all",
+      "failure": "All listing is not a verifiable complete superset of Featured: it omits Featured ranks 16 and 17 while displaying ranks 29 and 30, and has no pagination control.",
+      "partial_evidence_saved": true
+    }
+  ],
+  "state": {
+    "intraday_snapshots_advanced": false,
+    "date_ledger_advanced": false,
+    "last_complete_date_advanced": false
+  },
+  "evidence": ["producthunt/raw/2026/08/2026-08-26.browser.json"],
+  "notification": {
+    "channel": "dingtalk_dm_self",
+    "title": "Product Hunt 早期快照异常",
+    "send_status": "SUCCESS"
+  },
+  "next_action": "Retry only through the logged-in local Chrome after Product Hunt exposes a complete, verifiably exhausted All listing. Do not create an intraday snapshot or advance state from this evidence."
+}
