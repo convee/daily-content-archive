@@ -42,6 +42,7 @@
   ],
   "browser": "Chrome logged-in, read-only",
   "github": {
-    "status": "pending_push"
+    "status": "pushed",
+    "commit": "a8b308b"
   }
 }
