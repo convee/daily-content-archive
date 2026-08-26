@@ -166,98 +166,203 @@
     "2092122355103564019",
     "2091916791308313018",
     "2092343001808867639",
-    "2092561180128608672"
+    "2092561180128608672",
+    "2092390101959479713",
+    "2092337107108770116",
+    "2092269109086126575",
+    "2091973784647451096",
+    "2091973786002145503",
+    "2091920680317046847",
+    "2091920682112139685",
+    "2091904062077694153",
+    "2091904064057385424",
+    "2090944279103635481",
+    "2092609286438301739",
+    "2092606770120184167",
+    "2092601735692906796",
+    "2069547676849557725",
+    "2065490793092337691",
+    "2064409694761054332",
+    "2092609869853446426",
+    "2092609828765974852",
+    "2092609818917834810",
+    "2092609761325773136",
+    "2092609759094706599",
+    "2092609737179144616",
+    "2092609685585121765",
+    "2092609673849651232",
+    "2092609608057827526",
+    "2092609530353914198",
+    "2092609509986312521",
+    "2092609499622416707",
+    "2092609495193051184",
+    "2092609429443359142",
+    "2092609418085253305",
+    "2092609414020682035",
+    "2092609386783105138",
+    "2092609381368221906",
+    "2092609506572468284",
+    "2092609506287194593",
+    "2092609052853596569",
+    "2092608998440575019",
+    "2092608758903902519",
+    "2092608153082835377",
+    "2092607809296675055",
+    "2092607749053874552",
+    "2092607538940555312",
+    "2092607502928208264",
+    "2092607190313906276",
+    "2092606817058615417",
+    "2092606811601866968",
+    "2092606755226193976",
+    "2092606736662138906",
+    "2092606684795703801",
+    "2092606613500878858",
+    "2092606542839234612",
+    "2092606460416991673",
+    "2092609807815462960",
+    "2092609710880960770",
+    "2092609441375883725",
+    "2092609433775767871",
+    "2092609294667563144",
+    "2092608911681761488",
+    "2092608808447062396",
+    "2092608785307316448",
+    "2092608602078896554",
+    "2092608583972037111",
+    "2092608579027206579",
+    "2092608339708379632",
+    "2092608296968503336",
+    "2092608013936767179",
+    "2092607933171257688",
+    "2092607896739549342",
+    "2092609985968775625",
+    "2092609515334070622",
+    "2092609422623154178",
+    "2092609376804540646",
+    "2092609312132845626",
+    "2092609103604711474",
+    "2092609025036996687",
+    "2092609005269180627",
+    "2092608941989474577",
+    "2092608732182044854",
+    "2092608655174627686",
+    "2092608632642846948",
+    "2092608613038567442",
+    "2092608560219750477",
+    "2092608453369864583",
+    "2092268362386780270",
+    "2092462042179666416",
+    "2092542395116097965",
+    "2092399533989015780",
+    "2092424319867420771",
+    "2092248418529771630",
+    "2092269861359755402",
+    "2092277350993895906",
+    "2092598548235788549",
+    "2092548379741978899",
+    "2092249109151244787",
+    "2092247886432030808",
+    "2092403841610518952",
+    "2092600786207506466",
+    "2092173486978633968",
+    "2092442137170518256",
+    "2092328524493304051",
+    "2092271567178740169",
+    "2092595541486039326",
+    "2092084637749424430",
+    "2092341573493182800"
   ],
   "source_checkpoints": {
     "account:@OpenAI": {
       "status_id": "2092300846675505602",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@AnthropicAI": {
       "status_id": "2089842387845804246",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@GoogleDeepMind": {
       "status_id": "2090772922818286080",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@xai": {
       "status_id": "2035562571932024842",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@MistralAI": {
       "status_id": "2091964930715013224",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@AIatMeta": {
       "status_id": "2086757844544811485",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@huggingface": {
       "status_id": "2089673018737869242",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@GitHub": {
       "status_id": "2082865587227590712",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@ycombinator": {
       "status_id": "2090114065477865533",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@producthunt": {
       "status_id": "2092251122148798635",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@TechCrunch": {
-      "status_id": "2092599218288431129",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "status_id": "2092609286438301739",
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@arxiv": {
       "status_id": "2087178413689713105",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@karpathy": {
       "status_id": "2083749667410727319",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@AndrewYNg": {
       "status_id": "2088302050706686198",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@ylecun": {
       "status_id": "1862598063275061484",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@simonw": {
       "status_id": "2090299859693695283",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@swyx": {
       "status_id": "1281424520100737025",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "account:@hardmaru": {
       "status_id": "2068884466056225025",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": false
     },
     "query:AI agent OR agentic coding": {
       "status_id": "2092601274739151348",
@@ -276,8 +381,7 @@
     },
     "query:robotics foundation model": {
       "status_id": "2092598948133318934",
-      "captured_at": "2026-08-26T13:15:26.066Z",
-      "initial_baseline": true
+      "captured_at": "2026-08-26T13:49:19.324Z"
     },
     "query:AI security OR prompt injection": {
       "status_id": "2092601167687581765",
@@ -288,10 +392,15 @@
       "status_id": "2092591393424515114",
       "captured_at": "2026-08-26T13:15:26.066Z",
       "initial_baseline": true
+    },
+    "account:@nvidia": {
+      "status_id": "2092390101959479713",
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "initial_baseline": true
     }
   },
   "note": "Test artifacts are not continuity checkpoints; first scheduled run establishes per-source cursors after GitHub push.",
-  "last_run_at_utc": "2026-08-26T13:15:26.066Z",
+  "last_run_at_utc": "2026-08-26T13:49:19.324Z",
   "for_you_snapshots": [
     {
       "captured_at": "2026-08-26T13:15:26.066Z",
@@ -403,16 +512,135 @@
       "complete": false,
       "frozen": true,
       "reason": "No two consecutive batches without new status IDs before bounded snapshot window ended; discovery snapshot retained but not treated as complete coverage."
+    },
+    {
+      "captured_at": "2026-08-26T13:49:19.324Z",
+      "batches": [
+        {
+          "visible_count": 0,
+          "new_status_ids": [],
+          "first_status_id": null,
+          "last_status_id": null
+        },
+        {
+          "visible_count": 3,
+          "new_status_ids": [
+            "2092548379741978899",
+            "2092249109151244787",
+            "2092506603433955657"
+          ],
+          "first_status_id": "2092548379741978899",
+          "last_status_id": "2092506603433955657"
+        },
+        {
+          "visible_count": 5,
+          "new_status_ids": [
+            "2092247886432030808",
+            "2092403841610518952"
+          ],
+          "first_status_id": "2092548379741978899",
+          "last_status_id": "2092403841610518952"
+        },
+        {
+          "visible_count": 5,
+          "new_status_ids": [],
+          "first_status_id": "2092548379741978899",
+          "last_status_id": "2092403841610518952"
+        },
+        {
+          "visible_count": 5,
+          "new_status_ids": [
+            "2092600786207506466"
+          ],
+          "first_status_id": "2092249109151244787",
+          "last_status_id": "2092600786207506466"
+        },
+        {
+          "visible_count": 6,
+          "new_status_ids": [
+            "2092173486978633968"
+          ],
+          "first_status_id": "2092249109151244787",
+          "last_status_id": "2092173486978633968"
+        },
+        {
+          "visible_count": 7,
+          "new_status_ids": [
+            "2092442137170518256",
+            "2092328524493304051"
+          ],
+          "first_status_id": "2092506603433955657",
+          "last_status_id": "2092328524493304051"
+        },
+        {
+          "visible_count": 5,
+          "new_status_ids": [],
+          "first_status_id": "2092403841610518952",
+          "last_status_id": "2092328524493304051"
+        },
+        {
+          "visible_count": 6,
+          "new_status_ids": [
+            "2092271567178740169",
+            "2092595541486039326"
+          ],
+          "first_status_id": "2092600786207506466",
+          "last_status_id": "2092595541486039326"
+        },
+        {
+          "visible_count": 7,
+          "new_status_ids": [
+            "2092084637749424430"
+          ],
+          "first_status_id": "2092600786207506466",
+          "last_status_id": "2092084637749424430"
+        },
+        {
+          "visible_count": 7,
+          "new_status_ids": [
+            "2092341573493182800"
+          ],
+          "first_status_id": "2092173486978633968",
+          "last_status_id": "2092341573493182800"
+        },
+        {
+          "visible_count": 6,
+          "new_status_ids": [
+            "2092343001808867639"
+          ],
+          "first_status_id": "2092328524493304051",
+          "last_status_id": "2092343001808867639"
+        }
+      ],
+      "complete": false,
+      "frozen": true,
+      "reason": "No two consecutive batches without new status IDs before bounded snapshot ended."
     }
   ],
   "frozen_sources": {
-    "account:@nvidia": {
-      "at": "2026-08-26T13:15:26.066Z",
-      "reason": "Profile yielded no visible status IDs in initial baseline."
-    },
     "for_you": {
-      "at": "2026-08-26T13:15:26.066Z",
-      "reason": "Discovery snapshot did not reach two consecutive batches with no new IDs; no completeness claim."
+      "at": "2026-08-26T13:49:19.324Z",
+      "reason": "No two consecutive batches without new status IDs before bounded snapshot ended."
+    },
+    "query:AI agent OR agentic coding": {
+      "at": "2026-08-26T13:49:19.324Z",
+      "reason": "Committed checkpoint not reached within six batches; checkpoint retained."
+    },
+    "query:LLM inference OR AI chips": {
+      "at": "2026-08-26T13:49:19.324Z",
+      "reason": "Committed checkpoint not reached within six batches; checkpoint retained."
+    },
+    "query:open weights OR open source AI": {
+      "at": "2026-08-26T13:49:19.324Z",
+      "reason": "Committed checkpoint not reached within six batches; checkpoint retained."
+    },
+    "query:AI security OR prompt injection": {
+      "at": "2026-08-26T13:49:19.324Z",
+      "reason": "Committed checkpoint not reached within six batches; checkpoint retained."
+    },
+    "following": {
+      "at": "2026-08-26T13:49:19.324Z",
+      "reason": "Committed checkpoint not reached within six batches; checkpoint retained."
     }
   }
 }
