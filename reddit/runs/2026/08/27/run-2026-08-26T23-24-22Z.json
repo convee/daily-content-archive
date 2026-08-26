@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "captured_at_utc": "2026-08-26T23:24:22Z",
+  "captured_at_local": "2026-08-27T07:24:22+08:00",
+  "mode": "logged_in_local_chrome_read_only",
+  "outcome": "incomplete_no_state_advance",
+  "authoritative_state_commit": "f28c7d9",
+  "integrity_gate": {
+    "status": "FAIL",
+    "reason": "The New baseline is not recoverable: state describes a 307-post baseline while the durable raw post archive contains only 8 post records. Incremental deduplication and checkpoint advancement are unsafe."
+  },
+  "verification": {
+    "community": "MachineLearning",
+    "sort": "new",
+    "checkpoint": "t3_1vv2nkh",
+    "status": "interrupted",
+    "finding": "The logged-in Chrome page loaded and exposed New-post content, but the multi-community boundary verification timed out before a durable result could be recorded. No visible data was treated as collected."
+  },
+  "layers": {
+    "new": {"success": 0, "failure": 12, "frozen": 12, "reason": "Integrity gate failed; browser verification also timed out before completion."},
+    "hot": {"success": 0, "failure": 12, "frozen": 12, "reason": "Not collected while New continuity is unsafe."},
+    "rising": {"success": 0, "failure": 12, "frozen": 12, "reason": "Not collected while New continuity is unsafe."},
+    "global": {"success": 0, "failure": 3, "frozen": ["home", "popular", "all"], "reason": "Not collected under integrity gate; All retains the prior redirect-to-Home failure."},
+    "search": {"success": 0, "failure": 8, "frozen": 8, "reason": "All Posts + New query checkpoints remain frozen because results were previously not verifiable."},
+    "comments": {"success": 0, "failure": 3, "overdue_revisits": 3, "reason": "No comment JSONL appended while candidate post archival is incomplete."},
+    "community_discovery": {"success": 0, "failure": 1, "reason": "No discovery inputs were collected."}
+  },
+  "counts": {"posts_written": 0, "raw_comments_written": 0, "selected_comments": 0, "revisit_queue": 3, "community_candidates": 1},
+  "raw_written": false,
+  "state_advanced": false,
+  "pages": {"configured_url": "https://convee.github.io/daily-content-archive/", "updated_by_this_run": false, "daily_reddit_brief_generated": false, "reason": "Before the 09:20 daily-brief window; collection integrity failed."},
+  "failure_ledger": [
+    "New is frozen for all 12 communities: 307 claimed baseline posts versus 8 durable raw post records makes an incremental delta unrecoverable.",
+    "Chrome read-only verification loaded r/MachineLearning/new but the multi-community collection request timed out; no boundary was persisted.",
+    "Hot and Rising are frozen for all 12 communities; Home, Popular and All are frozen, with All retaining the redirect-to-Home failure.",
+    "All eight Posts + New searches remain frozen; three overdue comment revisits remain frozen; no community evidence was added.",
+    "No daily brief or Page update was produced."
+  ]
+}
