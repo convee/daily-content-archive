@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-08-26T19:10:24.000Z",
+  "finished_at_utc": "2026-08-26T19:14:53.000Z",
+  "source_results": [
+    {"type":"account","success":12,"failed":7,"frozen":["@OpenAI","@AIatMeta","@GitHub","@AndrewYNg","@ylecun","@swyx","@hardmaru"],"reason":"existing checkpoint is a pinned post, which is not a chronological boundary"},
+    {"type":"query","success":0,"failed":5,"frozen":["AI agent OR agentic coding","LLM inference OR AI chips","open weights OR open source AI","robotics foundation model","AI security OR prompt injection"],"reason":"existing checkpoint not reached in the bounded visible scroll"},
+    {"type":"following","success":0,"failed":1,"reason":"checkpoint 2092633969380442525 not reached in seven visible batches"},
+    {"type":"for_you","success":0,"failed":1,"reason":"eight batches did not yield two consecutive zero-new batches; snapshot retained"}
+  ],
+  "counts":{"posts":4,"replies":0},
+  "status":"partial_frozen",
+  "notes":"Chrome-only read. Twelve account feeds visibly passed a non-pinned checkpoint. Checkpoints and for-you snapshot were not advanced; archived account discoveries retain captured content."
+}
