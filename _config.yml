@@ -1,0 +1,41 @@
+title: AI & Tech Daily Archive
+description: 连续归档 Hacker News、X / Twitter、Reddit 与 Product Hunt 的 AI 和科技信号。
+url: https://convee.github.io
+baseurl: /daily-content-archive
+lang: zh-CN
+timezone: Asia/Shanghai
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+defaults:
+  - scope:
+      path: hackernews
+    values:
+      layout: default
+      page_kind: article
+      platform: hackernews
+      platform_label: Hacker News
+  - scope:
+      path: twitter
+    values:
+      layout: default
+      page_kind: article
+      platform: twitter
+      platform_label: X / Twitter
+  - scope:
+      path: reddit
+    values:
+      layout: default
+      page_kind: article
+      platform: reddit
+      platform_label: Reddit
+  - scope:
+      path: producthunt
+    values:
+      layout: default
+      page_kind: article
+      platform: producthunt
+      platform_label: Product Hunt
+exclude:
+  - scripts
