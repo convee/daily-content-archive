@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "mode": "logged_in_local_browser",
+  "captured_at_utc": "2026-08-26T13:09:51Z",
+  "routes": {
+    "leaderboard": {"url": "https://www.producthunt.com/leaderboard/daily/2026/8/25", "available": true, "cloudflare_blocked": false},
+    "forums": {"url": "https://www.producthunt.com/forums", "available": true},
+    "stories": {"url": "https://www.producthunt.com/stories", "available": true},
+    "newsletters": {"url": "https://www.producthunt.com/newsletters", "available": true},
+    "news_legacy": {"url": "https://www.producthunt.com/news", "available": false, "failure": "404"},
+    "generic_ai_category": {"url": "https://www.producthunt.com/categories/artificial-intelligence", "available": false, "failure": "404"},
+    "ai_coding_agents": {"url": "https://www.producthunt.com/categories/ai-coding-agents", "discovered_from_live_navigation": true},
+    "ai_infrastructure": {"url": "https://www.producthunt.com/categories/ai-infrastructure", "discovered_from_live_navigation": true}
+  },
+  "production_state_advanced": false,
+  "browser_identity_saved": false
+}

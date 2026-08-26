@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "platform_day_timezone": "PST",
+  "official_timing_source": "https://help.producthunt.com/en/articles/2305333-getting-started",
+  "schedules_asia_shanghai": {
+    "intraday_snapshot": "09:30",
+    "closed_day_finalization": "16:15"
+  },
+  "leaderboards": [
+    {"name": "featured", "path_template": "/leaderboard/daily/{year}/{month}/{day}"},
+    {"name": "all", "path_template": "/leaderboard/daily/{year}/{month}/{day}/all"}
+  ],
+  "deep_focus": ["Artificial Intelligence", "AI Agents", "Developer Tools", "LLMs", "AI Infrastructure", "AI Coding Agents", "Chips and Hardware", "Robotics", "Cybersecurity"],
+  "comment_revisit_hours_after_close": [24, 72],
+  "discovery": [
+    {"name": "forums", "url": "https://www.producthunt.com/forums"},
+    {"name": "stories", "url": "https://www.producthunt.com/stories"},
+    {"name": "newsletters", "url": "https://www.producthunt.com/newsletters"},
+    {"name": "vibe_coding", "url": "https://www.producthunt.com/categories/vibe-coding"},
+    {"name": "ai_coding_agents", "url": "https://www.producthunt.com/categories/ai-coding-agents"},
+    {"name": "ai_infrastructure", "url": "https://www.producthunt.com/categories/ai-infrastructure"},
+    {"name": "prompt_engineering", "url": "https://www.producthunt.com/categories/prompt-engineering-tools"}
+  ],
+  "completeness_gates": [
+    "featured and all pages loaded without challenge or error",
+    "all pagination exhausted",
+    "unique product identifiers and ranks",
+    "featured product identifiers are a subset of all",
+    "every saved product has a Product Hunt URL",
+    "deep-focus product comment pages checked",
+    "raw, run, and state files validate",
+    "GitHub push succeeded"
+  ],
+  "read_only": true
+}

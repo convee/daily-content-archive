@@ -1,7 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "continuity_started_at_utc": "2026-08-26T12:44:32Z",
   "last_complete_date": null,
   "last_successful_run_at_utc": null,
-  "note": "The 2026-08-25 artifact is a fallback-marked test and does not advance production state."
+  "date_ledger": {},
+  "intraday_snapshots": {},
+  "comment_revisit_queue": [],
+  "discovery_snapshots": {},
+  "note": "The 2026-08-25 artifact is a fallback-marked test and does not advance production state. A date becomes complete only after the 16:15 Asia/Shanghai closed-day reconciliation succeeds and GitHub push completes."
 }
