@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "ids_checked": 43,
+  "null_item_ids": [],
+  "range_end_id_inclusive": 49447931,
+  "range_start_id_exclusive": 49447888,
+  "raw_file": "hackernews/raw/2026/08/26/items-49447889-49447931.jsonl",
+  "request_failures": [],
+  "retrieved_at_utc": "2026-08-26T12:36:01Z",
+  "schema_version": 1,
+  "source": "https://hacker-news.firebaseio.com/v0/",
+  "source_documentation": "https://github.com/HackerNews/API",
+  "story_count": 6
+}

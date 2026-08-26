@@ -1,0 +1,10 @@
+{
+  "continuity_started_at_utc": "2026-08-26T12:33:09Z",
+  "last_collected_at_utc": "2026-08-26T12:36:01Z",
+  "last_max_item": 49447931,
+  "last_raw_file": "hackernews/raw/2026/08/26/items-49447889-49447931.jsonl",
+  "last_run_file": "hackernews/runs/2026/08/26/items-49447889-49447931.json",
+  "schema_version": 1,
+  "source": "https://hacker-news.firebaseio.com/v0/",
+  "source_documentation": "https://github.com/HackerNews/API"
+}
