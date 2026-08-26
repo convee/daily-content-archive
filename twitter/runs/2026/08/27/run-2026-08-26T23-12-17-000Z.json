@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-08-26T23:12:17.000Z",
+  "finished_at_utc": "2026-08-26T23:12:17.000Z",
+  "source_results": [
+    {"type":"account","success":12,"failed":7,"frozen":["@OpenAI","@AIatMeta","@GitHub","@AndrewYNg","@ylecun","@swyx","@hardmaru"],"reason":"pinned checkpoints remain non-chronological; OpenAI's newly visible post was retained without checkpoint advancement"},
+    {"type":"query","success":0,"failed":5,"frozen":["AI agent OR agentic coding","LLM inference OR AI chips","open weights OR open source AI","robotics foundation model","AI security OR prompt injection"],"reason":"previous committed checkpoint remains frozen; no trustworthy crossing was established this run"},
+    {"type":"following","success":0,"failed":1,"reason":"checkpoint 2092633969380442525 remains uncrossed in the prior visible batches"},
+    {"type":"for_you","success":0,"failed":1,"reason":"prior snapshot did not reach two consecutive zero-new batches; not accepted as complete coverage"}
+  ],
+  "counts":{"posts":1,"replies":1},
+  "status":"partial_frozen",
+  "notes":"Chrome-only read. OpenAI incident-report thread was opened; one official follow-up and one qualified critical reply retained. No checkpoints or recommendation snapshot accepted before push."
+}
