@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "mode": "logged_in_local_browser",
+  "captured_at_utc": "2026-08-26T13:01:30Z",
+  "routes": {
+    "home": {"url": "https://www.reddit.com/", "posts_detected": 28, "complete_for_smoke_test": true},
+    "popular": {"url": "https://www.reddit.com/r/popular/", "posts_detected": 28, "complete_for_smoke_test": true},
+    "all": {"requested_url": "https://www.reddit.com/r/all/", "resolved_url": "https://www.reddit.com/", "complete_for_smoke_test": false, "failure": "redirected_to_home"},
+    "sitewide_search": {"url": "https://www.reddit.com/search/?q=%22AI%20agent%22&type=posts&sort=new", "result_nodes_detected": 67, "comment_links_detected": 21, "complete_for_smoke_test": true},
+    "community_hot": {"url": "https://www.reddit.com/r/MachineLearning/hot/", "posts_detected": 3, "complete_for_smoke_test": true},
+    "community_rising": {"url": "https://www.reddit.com/r/MachineLearning/rising/", "posts_detected": 24, "complete_for_smoke_test": true}
+  },
+  "state_advanced": false,
+  "browser_identity_saved": false,
+  "notes": "All remains enabled but must fail closed whenever the browser redirects it to Home."
+}

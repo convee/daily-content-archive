@@ -1,7 +1,38 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "communities": ["MachineLearning", "LocalLLaMA", "programming", "technology", "netsec", "opensource", "selfhosted", "science", "OpenAI", "Anthropic", "singularity", "robotics"],
   "primary_focus": ["AI research", "local models", "developer tools", "cybersecurity", "open source", "computing infrastructure", "robotics"],
-  "sort": "new",
+  "community_sorts": {
+    "continuous": ["new"],
+    "discovery_snapshots": ["hot", "rising"]
+  },
+  "global_feeds": [
+    {"name": "home", "url": "https://www.reddit.com/", "role": "personalized_discovery"},
+    {"name": "popular", "url": "https://www.reddit.com/r/popular/", "role": "global_discovery"},
+    {"name": "all", "url": "https://www.reddit.com/r/all/", "role": "global_discovery", "require_distinct_url": true}
+  ],
+  "sitewide_searches": [
+    "AI agent OR agentic coding",
+    "LLM inference OR quantization",
+    "open weights OR open source AI",
+    "AI chip OR GPU OR inference accelerator",
+    "robotics foundation model",
+    "AI security OR prompt injection",
+    "developer tools OR programming language",
+    "data center energy water"
+  ],
+  "search_options": {"type": "posts", "sort": "new"},
+  "candidate_thread_rules": {
+    "focus_match": true,
+    "minimum_score": 25,
+    "minimum_comments": 10,
+    "also_include": ["primary source", "technical novelty", "credible controversy", "cross-community signal"]
+  },
+  "comment_revisit_hours": [6, 24, 72],
+  "community_discovery": {
+    "interval_days": 7,
+    "signals": ["sitewide search results", "crossposts", "home recommendations", "related communities"],
+    "promotion_rule": "two independent relevant hits or one exceptional high-signal thread; record evidence before adding"
+  },
   "read_only": true
 }

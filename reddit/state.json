@@ -1,8 +1,14 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "continuity_started_at_utc": "2026-08-26T12:44:32Z",
   "last_successful_run_at_utc": null,
   "community_checkpoints": {},
+  "community_discovery_snapshots": {},
+  "global_feed_snapshots": {},
+  "search_checkpoints": {},
   "seen_post_ids": [],
-  "seen_comment_ids": []
+  "seen_comment_ids": [],
+  "thread_revisit_queue": [],
+  "discovered_community_candidates": {},
+  "last_community_discovery_at_utc": null
 }
