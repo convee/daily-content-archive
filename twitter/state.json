@@ -370,7 +370,10 @@
     "2092640995401736544",
     "2092639558815060281",
     "2092628869350080692",
-    "2092316934712729894"
+    "2092316934712729894",
+    "2092691861773160673",
+    "2092698376127086953",
+    "2092691318581477585"
   ],
   "source_checkpoints": {
     "account:@OpenAI": {
@@ -500,7 +503,7 @@
     }
   },
   "note": "Test artifacts are not continuity checkpoints; first scheduled run establishes per-source cursors after GitHub push.",
-  "last_run_at_utc": "2026-08-26T19:14:53.000Z",
+  "last_run_at_utc": "2026-08-26T21:14:47.000Z",
   "for_you_snapshots": [
     {
       "captured_at": "2026-08-26T13:15:26.066Z",
@@ -817,8 +820,8 @@
       "at": "2026-08-26T17:16:50.707Z",
       "reason": "checkpoint not reached in 25 batches"
     },
-    "for_you": {"at":"2026-08-26T19:14:53.000Z","reason":"8 visible batches retained; two consecutive zero-new batches not reached"},
-    "following": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint 2092633969380442525 not reached in 7 visible batches"},
+    "for_you": {"at":"2026-08-26T21:14:47.000Z","reason":"4 visible batches retained; two consecutive zero-new batches not reached"},
+    "following": {"at":"2026-08-26T21:14:47.000Z","reason":"checkpoint 2092633969380442525 not reached in 4 visible batches"},
     "account:@OpenAI": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"},
     "account:@AIatMeta": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"},
     "account:@GitHub": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"},

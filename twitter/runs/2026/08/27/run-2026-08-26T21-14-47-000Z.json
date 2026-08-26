@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-08-26T21:12:34.000Z",
+  "finished_at_utc": "2026-08-26T21:14:47.000Z",
+  "source_results": [
+    {"type":"account","success":12,"failed":7,"frozen":["@OpenAI","@AIatMeta","@GitHub","@AndrewYNg","@ylecun","@swyx","@hardmaru"],"reason":"pinned checkpoint remains non-chronological; current visible discovery was retained without checkpoint advancement"},
+    {"type":"query","success":0,"failed":5,"frozen":["AI agent OR agentic coding","LLM inference OR AI chips","open weights OR open source AI","robotics foundation model","AI security OR prompt injection"],"reason":"previous committed checkpoint remains frozen; no trustworthy crossing was established this run"},
+    {"type":"following","success":0,"failed":1,"reason":"checkpoint 2092633969380442525 not reached in four visible batches"},
+    {"type":"for_you","success":0,"failed":1,"reason":"four visible batches retained; two consecutive zero-new batches not reached"}
+  ],
+  "counts":{"posts":3,"replies":0},
+  "status":"partial_frozen",
+  "notes":"Chrome-only read. No checkpoints or recommendation snapshot accepted before push. Following batches: 6,7,9,10 visible IDs; For-you batches: 4,7,8,10 visible IDs."
+}
