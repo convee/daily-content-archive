@@ -1,0 +1,241 @@
+{
+  "started_at_utc": "2026-08-26T15:14:58.033Z",
+  "finished_at_utc": "2026-08-26T15:14:58.033Z",
+  "source_results": [
+    {
+      "source": "account:@OpenAI",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2092300846675505602",
+      "reason": null
+    },
+    {
+      "source": "account:@AnthropicAI",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2089842387845804246",
+      "reason": null
+    },
+    {
+      "source": "account:@GoogleDeepMind",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2090772922818286080",
+      "reason": null
+    },
+    {
+      "source": "account:@xai",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2035562571932024842",
+      "reason": null
+    },
+    {
+      "source": "account:@MistralAI",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2091964930715013224",
+      "reason": null
+    },
+    {
+      "source": "account:@AIatMeta",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2086757844544811485",
+      "reason": null
+    },
+    {
+      "source": "account:@huggingface",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2089673018737869242",
+      "reason": null
+    },
+    {
+      "source": "account:@nvidia",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2092390101959479713",
+      "reason": null
+    },
+    {
+      "source": "account:@GitHub",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2082865587227590712",
+      "reason": null
+    },
+    {
+      "source": "account:@ycombinator",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2090114065477865533",
+      "reason": null
+    },
+    {
+      "source": "account:@producthunt",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2092251122148798635",
+      "reason": null
+    },
+    {
+      "source": "account:@TechCrunch",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2092609286438301739",
+      "reason": null
+    },
+    {
+      "source": "account:@arxiv",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2087178413689713105",
+      "reason": null
+    },
+    {
+      "source": "account:@karpathy",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2083749667410727319",
+      "reason": null
+    },
+    {
+      "source": "account:@AndrewYNg",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2088302050706686198",
+      "reason": null
+    },
+    {
+      "source": "account:@ylecun",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "1862598063275061484",
+      "reason": null
+    },
+    {
+      "source": "account:@simonw",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2090299859693695283",
+      "reason": null
+    },
+    {
+      "source": "account:@swyx",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "1281424520100737025",
+      "reason": null
+    },
+    {
+      "source": "account:@hardmaru",
+      "type": "account",
+      "complete": true,
+      "batches": null,
+      "checkpoint": "2068884466056225025",
+      "reason": null
+    },
+    {
+      "source": "query:AI agent OR agentic coding",
+      "type": "query",
+      "complete": false,
+      "batches": 10,
+      "checkpoint": "2092601274739151348",
+      "reason": "checkpoint not reached in 10 batches"
+    },
+    {
+      "source": "query:LLM inference OR AI chips",
+      "type": "query",
+      "complete": false,
+      "batches": 10,
+      "checkpoint": "2092601294641070211",
+      "reason": "checkpoint not reached in 10 batches"
+    },
+    {
+      "source": "query:open weights OR open source AI",
+      "type": "query",
+      "complete": false,
+      "batches": 10,
+      "checkpoint": "2092601286080274507",
+      "reason": "checkpoint not reached in 10 batches"
+    },
+    {
+      "source": "query:robotics foundation model",
+      "type": "query",
+      "complete": true,
+      "batches": 10,
+      "checkpoint": "2092598948133318934",
+      "reason": null
+    },
+    {
+      "source": "query:AI security OR prompt injection",
+      "type": "query",
+      "complete": false,
+      "batches": 10,
+      "checkpoint": "2092601167687581765",
+      "reason": "checkpoint not reached in 10 batches"
+    },
+    {
+      "source": "following",
+      "type": "following",
+      "complete": false,
+      "batches": 10,
+      "checkpoint": "2092591393424515114",
+      "reason": "checkpoint not reached in 10 batches"
+    },
+    {
+      "source": "for_you",
+      "type": "for_you",
+      "complete": true,
+      "batches": 7,
+      "checkpoint": null,
+      "reason": null
+    }
+  ],
+  "counts": {
+    "posts": 90,
+    "replies": 0
+  },
+  "status": "partial_frozen",
+  "failures": [
+    {
+      "source": "query:AI agent OR agentic coding",
+      "reason": "checkpoint not reached in 10 batches"
+    },
+    {
+      "source": "query:LLM inference OR AI chips",
+      "reason": "checkpoint not reached in 10 batches"
+    },
+    {
+      "source": "query:open weights OR open source AI",
+      "reason": "checkpoint not reached in 10 batches"
+    },
+    {
+      "source": "query:AI security OR prompt injection",
+      "reason": "checkpoint not reached in 10 batches"
+    },
+    {
+      "source": "following",
+      "reason": "checkpoint not reached in 10 batches"
+    }
+  ]
+}
