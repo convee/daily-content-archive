@@ -1,0 +1,47 @@
+{
+  "run_id": "twitter-2026-08-26T13-15-26-066Z",
+  "started_at_utc": "2026-08-26T13:15:26.066Z",
+  "finished_at_utc": "2026-08-26T13:15:26.066Z",
+  "mode": "scheduled_collection",
+  "initial_baseline": true,
+  "source_summary": {
+    "account": {
+      "success": 18,
+      "failed": 1
+    },
+    "query": {
+      "success": 5,
+      "failed": 0
+    },
+    "following": {
+      "success": 1,
+      "failed": 0
+    },
+    "for_you": {
+      "success": 0,
+      "failed": 1
+    }
+  },
+  "posts_archived": 164,
+  "replies_archived": 13,
+  "checkpoints_written": 24,
+  "for_you_snapshot": {
+    "batches": 12,
+    "complete": false,
+    "frozen": true
+  },
+  "failures": [
+    {
+      "source": "account:@nvidia",
+      "reason": "No visible status IDs."
+    },
+    {
+      "source": "for_you",
+      "reason": "Snapshot did not converge to two consecutive no-new-ID batches."
+    }
+  ],
+  "browser": "Chrome logged-in, read-only",
+  "github": {
+    "status": "pending_push"
+  }
+}
