@@ -4,6 +4,22 @@
   "official_accounts": ["OpenAI", "AnthropicAI", "GoogleDeepMind", "xai", "MistralAI", "AIatMeta", "huggingface", "nvidia", "GitHub", "ycombinator", "producthunt", "TechCrunch", "arxiv"],
   "expert_accounts": ["karpathy", "AndrewYNg", "ylecun", "simonw", "swyx", "hardmaru"],
   "topic_queries": ["AI agent OR agentic coding", "LLM inference OR AI chips", "open weights OR open source AI", "robotics foundation model", "AI security OR prompt injection"],
+  "personalized_feeds": [
+    {
+      "name": "following",
+      "url": "https://x.com/home",
+      "tab": "Following",
+      "role": "continuous",
+      "continuity": "scroll_past_committed_checkpoint"
+    },
+    {
+      "name": "for_you",
+      "url": "https://x.com/home",
+      "tab": "For you",
+      "role": "discovery",
+      "continuity": "snapshot_and_deduplicate"
+    }
+  ],
   "language": ["en", "zh"],
   "read_only": true
 }
