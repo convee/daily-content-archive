@@ -167,7 +167,9 @@
     "Three overdue comment revisits remain pending."
   ],
   "notification": {
-    "status": "pending_until_push"
+    "status": "SUCCESS",
+    "target_verified": "fixed archive notification group",
+    "sent_at_local": "2026-08-27T10:04:14+08:00",
+    "message_type": "repair_progress_not_success_daily"
   }
 }
-
