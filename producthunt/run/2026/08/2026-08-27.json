@@ -7,5 +7,21 @@
   "counts": {"2026-08-26":{"featured":17,"all":17,"ai_tech_candidates":13,"raw_comments":0,"selected_comments":0}},
   "frozen_status": {"2026-08-25":"partial","2026-08-26":"partial"},
   "missing_gates": ["2026-08-25: existing partial archive has not been rebuilt from complete Featured/All records","2026-08-26: each product lacks required detail metadata (description, pricing, maker/hunter and external link)","2026-08-26: AI/technology candidate comment pages, maker first comments and all visible comments have not been captured","2026-08-26: discovery sources have not been verified and saved"],
-  "delivery": {"github_push":"pending","dingtalk":"exception notice required after successful push"}
+  "delivery": {
+    "github_push": {
+      "status": "SUCCESS",
+      "commit": "85da77252c6997162c55724dd3846b8b0b07b376",
+      "remote": "origin/main",
+      "page": "https://convee.github.io/daily-content-archive/"
+    },
+    "dingtalk": {
+      "status": "SUCCESS",
+      "kind": "exception_notice",
+      "openTaskId": "PLKH5heg2NvmgNDxHOCt37bidA8/rla6bv+jtPTr43Q=",
+      "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+      "openMessageId": "msg2fhwHsDC2xbfNpePr2oPpg==",
+      "verified": true,
+      "verified_sendStatus": "SUCCESS"
+    }
+  }
 }
