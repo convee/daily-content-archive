@@ -7516,8 +7516,8 @@
     "community_discovery": "not due"
   },
   "last_dingtalk_delivery": {
-    "captured_at": "2026-08-27T17:26:40.300Z",
-    "open_task_id": "Gg7YCpRuTIo2Vnlpx9xdUKJa8rgTsQ7Xfbv33/H5vO8=",
+    "captured_at": "2026-08-27T19:25:49.039Z",
+    "open_task_id": "GrPo1fGJQ0/e2g/Qpa/kvrU8pbpjkvun+gm8XPwKdnM=",
     "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
     "send_status": "SUCCESS",
     "kind": "exception"

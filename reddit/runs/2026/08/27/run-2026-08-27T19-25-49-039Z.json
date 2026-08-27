@@ -166,9 +166,15 @@
     }
   ],
   "github": {
-    "status": "pending"
+    "status": "pushed",
+    "commit": "1824f93",
+    "origin_main_verified": true
   },
   "dingtalk": {
-    "status": "pending"
+    "status": "sent",
+    "kind": "exception",
+    "open_task_id": "GrPo1fGJQ0/e2g/Qpa/kvrU8pbpjkvun+gm8XPwKdnM=",
+    "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "send_status": "SUCCESS"
   }
 }
