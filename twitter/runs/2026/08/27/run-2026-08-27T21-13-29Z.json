@@ -1,0 +1,14 @@
+{
+  "run_id": "twitter-2026-08-27T21-13-29Z",
+  "started_at_utc": "2026-08-27T21:13:29Z",
+  "finished_at_utc": "2026-08-27T21:13:29Z",
+  "status": "partial_frozen",
+  "source_summary": {"accounts":{"attempted":19,"succeeded":0,"failed":19},"queries":{"attempted":5,"succeeded":0,"failed":5},"following":{"attempted":1,"succeeded":0,"failed":1},"for_you":{"attempted":1,"succeeded":0,"failed":1},"replies":{"attempted":0,"succeeded":0,"failed":0}},
+  "failure": "Chrome navigation reached each source, but no article elements rendered within the capture window. No continuity checkpoint or discovery snapshot was advanced.",
+  "raw_files": ["twitter/raw/2026/08/27/2026-08-27T211329Z-render-failure.jsonl"],
+  "source_attempts": {"accounts":{"each_batches":1,"all_empty":true},"queries":{"each_batches":1,"all_empty":true},"following":{"batches":1,"empty":true},"for_you":{"batches":1,"empty":true,"snapshot_frozen":true}},
+  "counts": {"observed_status_ids":0,"archived_replies":0},
+  "checkpoints": {"advanced":0,"frozen":25,"for_you_snapshot_advanced":false},
+  "github": {"status":"pending_commit_and_push","commit":null},
+  "dingtalk": {"status":"pending_send","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw=="}
+}
