@@ -481,16 +481,21 @@
     }
   ],
   "github": {
-    "status": "ready_to_commit"
+    "status": "pushed",
+    "commit": "102079754504de6d51f21b7e89f1acf25ba17ae5",
+    "branch": "main"
   },
   "dingtalk": {
-    "status": "pending_progress_notification"
+    "status": "sent_progress",
+    "open_task_id": "TT1ccltKgiNBQppmsGf7AU40xbYvtufVTmHFOzO9MoM=",
+    "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "send_status": "SUCCESS"
   },
   "raw_record_count": 603,
   "raw_post_count": 600,
   "raw_comment_count": 3,
   "completed_at_utc": "2026-08-27T13:24:47.887Z",
-  "finalized_at_utc": "2026-08-27T13:25:39.707Z",
+  "finalized_at_utc": "2026-08-27T13:35:46.645Z",
   "search_repair": {
     "status": "completed_with_five_query_freezes",
     "attempted_queries": [
@@ -644,10 +649,15 @@
       "data center energy water"
     ],
     "github": {
-      "status": "ready_to_commit"
+      "status": "pushed",
+      "commit": "102079754504de6d51f21b7e89f1acf25ba17ae5",
+      "branch": "main"
     },
     "dingtalk": {
-      "status": "pending_progress_notification"
+      "status": "sent_progress",
+      "open_task_id": "TT1ccltKgiNBQppmsGf7AU40xbYvtufVTmHFOzO9MoM=",
+      "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
+      "send_status": "SUCCESS"
     }
   }
 }

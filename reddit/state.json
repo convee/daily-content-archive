@@ -4255,8 +4255,8 @@
     }
   ],
   "last_dingtalk_delivery": {
-    "status": "sent_exception",
-    "open_task_id": "JQBDg7wDOMLwQwsegECVrpDCfsL8ZpbThEQYrTKcZpo=",
+    "status": "sent_progress",
+    "open_task_id": "TT1ccltKgiNBQppmsGf7AU40xbYvtufVTmHFOzO9MoM=",
     "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
     "send_status": "SUCCESS"
   }
