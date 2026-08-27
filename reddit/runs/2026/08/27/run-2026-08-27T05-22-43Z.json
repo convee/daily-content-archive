@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "captured_at_utc": "2026-08-27T05:22:43Z",
+  "mode": "logged_in_local_chrome_read_only_old_reddit",
+  "outcome": "partial_success",
+  "authoritative_state_before": "origin/main:reddit/state.json",
+  "layers": {
+    "new": {"success": 12, "failed": 0, "observed": 18, "written": 18, "checkpoints_advanced": 7, "evidence_file": "reddit/raw/2026/08/27/posts-2026-08-27T05-22-43Z.jsonl"},
+    "hot": {"success": 0, "failed": 12, "frozen": true},
+    "rising": {"success": 0, "failed": 12, "frozen": true},
+    "global": {"success": 0, "failed": 3, "frozen": true},
+    "search": {"success": 0, "failed": 8, "frozen": true},
+    "comment_revisits": {"success": 0, "failed": 3, "frozen": true}
+  },
+  "new_community_results": [
+    {"name":"MachineLearning","observed":0,"written":0,"previous_checkpoint":"t3_1vz9x9c","previous_checkpoint_reached":true,"new_head":"t3_1vz9x9c"},
+    {"name":"LocalLLaMA","observed":4,"written":4,"previous_checkpoint":"t3_1vzhwxl","previous_checkpoint_reached":true,"new_head":"t3_1vzktbn"},
+    {"name":"programming","observed":0,"written":0,"previous_checkpoint":"t3_1vz921w","previous_checkpoint_reached":true,"new_head":"t3_1vz921w"},
+    {"name":"technology","observed":4,"written":4,"previous_checkpoint":"t3_1vzihzu","previous_checkpoint_reached":true,"new_head":"t3_1vzjwwq"},
+    {"name":"netsec","observed":0,"written":0,"previous_checkpoint":"t3_1vz6179","previous_checkpoint_reached":true,"new_head":"t3_1vz6179"},
+    {"name":"opensource","observed":0,"written":0,"previous_checkpoint":"t3_1vzdko9","previous_checkpoint_reached":true,"new_head":"t3_1vzdko9"},
+    {"name":"selfhosted","observed":3,"written":3,"previous_checkpoint":"t3_1vzgcdi","previous_checkpoint_reached":true,"new_head":"t3_1vzjjbz"},
+    {"name":"science","observed":0,"written":0,"previous_checkpoint":"t3_1vzfzl0","previous_checkpoint_reached":true,"new_head":"t3_1vzfzl0"},
+    {"name":"OpenAI","observed":2,"written":2,"previous_checkpoint":"t3_1vzifrb","previous_checkpoint_reached":true,"new_head":"t3_1vzixin"},
+    {"name":"Anthropic","observed":3,"written":3,"previous_checkpoint":"t3_1vzgf0h","previous_checkpoint_reached":true,"new_head":"t3_1vzjxt7"},
+    {"name":"singularity","observed":1,"written":1,"previous_checkpoint":"t3_1vzijco","previous_checkpoint_reached":true,"new_head":"t3_1vzjjr3"},
+    {"name":"robotics","observed":1,"written":1,"previous_checkpoint":"t3_1vzhfd6","previous_checkpoint_reached":true,"new_head":"t3_1vzj7w5"}
+  ],
+  "failure_ledger": [
+    {"scope":"hot+rising","items":"12 communities","reason":"not run in this execution; snapshots frozen"},
+    {"scope":"global","items":"Home, Popular, All","reason":"not run in this execution; snapshots frozen"},
+    {"scope":"search","items":"8 configured queries","reason":"not run in this execution; query checkpoints frozen"},
+    {"scope":"comment_revisits","items":"3 queued threads","reason":"not run in this execution; queue unchanged"}
+  ],
+  "github": {"status":"pending"},
+  "dingtalk": {"status":"pending"}
+}
