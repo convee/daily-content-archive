@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "captured_at_utc": "2026-08-27T01:25:37Z",
+  "captured_at_local": "2026-08-27T09:25:37+08:00",
+  "mode": "logged_in_local_chrome_read_only",
+  "outcome": "incomplete_no_state_advance",
+  "authoritative_state_commit": "20c3aa3",
+  "integrity_gate": {
+    "status": "FAIL",
+    "reason": "state records a 307-post New baseline, but the durable raw archive has only 8 post records. An incremental delta cannot be safely deduplicated or reconstructed."
+  },
+  "verification": {
+    "new": {"communities_observed": 12, "scroll_batches_per_community": 7, "boundary_verified": 0, "discarded_visible_posts": 301},
+    "hot_rising": {"snapshots_observed": 24, "successful_visible_snapshots": 24, "discarded_visible_posts": 72},
+    "global": {"home": "visible", "popular": "visible", "all": "frozen: redirected to Home"}
+  },
+  "layers": {
+    "new": {"success": 0, "failure": 12, "frozen": 12, "reason": "Integrity gate failed; no checkpoint advanced and observed data was discarded."},
+    "hot": {"success": 0, "failure": 12, "frozen": 12, "reason": "Visible snapshots were not archived because durable post de-duplication is unsafe."},
+    "rising": {"success": 0, "failure": 12, "frozen": 12, "reason": "Visible snapshots were not archived because durable post de-duplication is unsafe."},
+    "global": {"success": 0, "failure": 3, "frozen": ["home", "popular", "all"], "reason": "All redirected to Home; no global snapshots archived under the integrity gate."},
+    "search": {"success": 0, "failure": 8, "frozen": 8, "reason": "Posts + New query checkpoints remain unverifiable."},
+    "comments": {"success": 0, "failure": 3, "overdue_revisits": 3, "reason": "No comment JSONL is appended while candidate-post archival is incomplete."},
+    "community_discovery": {"success": 0, "failure": 1, "reason": "Discovery evidence is not considered from frozen inputs."}
+  },
+  "counts": {"posts_written": 0, "raw_comments_written": 0, "selected_comments": 0, "revisit_queue": 3, "community_candidates": 1},
+  "raw_written": false,
+  "state_advanced": false,
+  "pages": {"configured_url": "https://convee.github.io/daily-content-archive/", "updated_by_this_run": false, "daily_reddit_brief_generated": false, "reason": "09:20 daily brief withheld because collection integrity failed."},
+  "failure_ledger": [
+    "All 12 New checkpoints are frozen: 307 claimed baseline posts versus 8 durable raw post records prevents safe incremental collection.",
+    "Hot and Rising snapshots were visible but discarded; archive write is frozen with New continuity.",
+    "Home and Popular were visible but discarded; r/all redirected to Home and remains frozen.",
+    "All eight Posts + New search checkpoints remain frozen because their result ordering was not verifiable.",
+    "Three overdue comment revisits remain frozen to avoid orphaned comment records.",
+    "No daily brief, index update, or success notification was produced."
+  ]
+}
