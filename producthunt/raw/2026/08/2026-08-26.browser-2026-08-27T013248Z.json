@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-26",
+  "captured_at": "2026-08-27T01:32:48Z",
+  "capture_surface": "logged_in_local_chrome_read_only",
+  "featured": {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/8/26",
+    "title": "Best of Product Hunt: August 26, 2026 | Product Hunt",
+    "visible_ranked_products": 17,
+    "ranks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+    "products": [
+      {"rank": 1, "name": "x1", "url": "https://www.producthunt.com/products/x1-2"},
+      {"rank": 2, "name": "Expertise AI", "url": "https://www.producthunt.com/products/expertise-ai"},
+      {"rank": 3, "name": "PostHog Desktop", "url": "https://www.producthunt.com/products/posthog"},
+      {"rank": 4, "name": "ChatCut Desktop", "url": "https://www.producthunt.com/products/chatcut-ai-video-editor"},
+      {"rank": 5, "name": "MCP-Builder.ai", "url": "https://www.producthunt.com/products/mcp-builder-ai"},
+      {"rank": 6, "name": "Tellie Prompter 1.5", "url": "https://www.producthunt.com/products/tellie-2"},
+      {"rank": 7, "name": "OpenComputer", "url": "https://www.producthunt.com/products/opencomputer"},
+      {"rank": 8, "name": "Termy", "url": "https://www.producthunt.com/products/termy-language-learning"},
+      {"rank": 9, "name": "Evidence Core", "url": "https://www.producthunt.com/products/evidence"},
+      {"rank": 10, "name": "Mac mini", "url": "https://www.producthunt.com/products/apple"},
+      {"rank": 11, "name": "ify", "url": "https://www.producthunt.com/products/ify-2"},
+      {"rank": 12, "name": "Screenify Studio", "url": "https://www.producthunt.com/products/screenify-studio"},
+      {"rank": 13, "name": "HEVN U.S.", "url": "https://www.producthunt.com/products/hevn-u-s-accounts-for-non-us-companies"},
+      {"rank": 14, "name": "Lore Machine", "url": "https://www.producthunt.com/products/lore-machine"},
+      {"rank": 15, "name": "Playcall", "url": "https://www.producthunt.com/products/playcall"},
+      {"rank": 16, "name": "LoupeKit", "url": "https://www.producthunt.com/products/loupekit"},
+      {"rank": 17, "name": "EasySwitch", "url": "https://www.producthunt.com/products/easyswitch"}
+    ]
+  },
+  "all": {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/8/26/all",
+    "title": "Best of Product Hunt: August 26, 2026 | Product Hunt",
+    "visible_ranked_products": 17,
+    "ranks": [1, 4, 2, 11, 3, 5, 8, 10, 6, 13, 7, 14, 9, 17, 12, 15, 29],
+    "pagination_control_visible": false,
+    "featured_missing_from_all": [{"rank": 16, "name": "LoupeKit", "url": "https://www.producthunt.com/products/loupekit"}]
+  },
+  "failure": {
+    "kind": "incomplete_all_listing",
+    "reason": "All is not a verifiable complete superset of Featured: it omits Featured rank 16 (LoupeKit), includes rank 29 (Othor AI 2.0), and exposes no pagination control or exhausted-pagination state.",
+    "frozen": true,
+    "intraday_snapshot_saved": false,
+    "state_advanced": false
+  }
+}
