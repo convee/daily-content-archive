@@ -5,8 +5,8 @@
   "mode": "intraday_partial",
   "browser": "logged_in_chrome_read_only",
   "new_continuity": {
-    "successful": 12,
-    "failed": 0,
+    "successful": 10,
+    "failed": 2,
     "communities": [
       {
         "community": "MachineLearning",
@@ -33,13 +33,13 @@
       {
         "community": "programming",
         "status": "frozen",
-        "observed_count": 0,
-        "written_count": 0,
+        "observed_count": 625,
+        "written_count": 625,
         "previous_checkpoint": "t3_1vzoisw",
         "previous_checkpoint_reached": false,
-        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "raw_file": "reddit/raw/2026/08/27/new-repair-observations-2026-08-27T12-37-09-680Z.jsonl",
         "new_head_id": null,
-        "scroll_batches": 4
+        "scroll_batches": 25
       },
       {
         "community": "technology",
@@ -77,13 +77,13 @@
       {
         "community": "selfhosted",
         "status": "frozen",
-        "observed_count": 0,
-        "written_count": 0,
+        "observed_count": 624,
+        "written_count": 624,
         "previous_checkpoint": "t3_1vzo2w2",
         "previous_checkpoint_reached": false,
-        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "raw_file": "reddit/raw/2026/08/27/new-repair-observations-2026-08-27T12-37-09-680Z.jsonl",
         "new_head_id": null,
-        "scroll_batches": 4
+        "scroll_batches": 25
       },
       {
         "community": "science",
@@ -143,182 +143,105 @@
     ]
   },
   "snapshot_layers": {
-    "successful": 0,
-    "failed": 27
+    "successful": 27,
+    "failed": 0,
+    "archive_file": "reddit/raw/2026/08/27/snapshots-repair-2026-08-27T12-37-09-680Z.jsonl",
+    "posts_written": 380
   },
   "comments": {
-    "successful": 0,
-    "failed": 1
+    "successful": 1,
+    "failed": 0,
+    "archive_file": "reddit/raw/2026/08/27/comments-revisit-2026-08-27T12-37-09-680Z.jsonl",
+    "visible_comments": 20,
+    "new_comments": 1,
+    "raw_comments_written": 20
   },
   "search": {
     "successful": 0,
-    "failed": 8
+    "failed": 8,
+    "archive_file": "reddit/raw/2026/08/27/search-discovery-2026-08-27T12-37-09-680Z.jsonl",
+    "discovery_rows": 155
   },
   "failure_ledger": [
     {
-      "layer": "hot_rising",
-      "scope": "MachineLearning",
-      "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
-    },
-    {
-      "layer": "hot_rising",
-      "scope": "LocalLLaMA",
-      "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
-    },
-    {
-      "layer": "hot_rising",
+      "layer": "new",
       "scope": "programming",
       "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
+      "reason": "old.reddit /new 25 pages did not contain previous checkpoint t3_1vzoisw"
     },
     {
-      "layer": "hot_rising",
-      "scope": "technology",
-      "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
-    },
-    {
-      "layer": "hot_rising",
-      "scope": "netsec",
-      "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
-    },
-    {
-      "layer": "hot_rising",
-      "scope": "opensource",
-      "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
-    },
-    {
-      "layer": "hot_rising",
+      "layer": "new",
       "scope": "selfhosted",
       "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
-    },
-    {
-      "layer": "hot_rising",
-      "scope": "science",
-      "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
-    },
-    {
-      "layer": "hot_rising",
-      "scope": "OpenAI",
-      "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
-    },
-    {
-      "layer": "hot_rising",
-      "scope": "Anthropic",
-      "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
-    },
-    {
-      "layer": "hot_rising",
-      "scope": "singularity",
-      "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
-    },
-    {
-      "layer": "hot_rising",
-      "scope": "robotics",
-      "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
-    },
-    {
-      "layer": "global_feed",
-      "scope": "home",
-      "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
-    },
-    {
-      "layer": "global_feed",
-      "scope": "popular",
-      "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
-    },
-    {
-      "layer": "global_feed",
-      "scope": "all",
-      "status": "frozen",
-      "reason": "not collected this run; no durable snapshot written"
+      "reason": "old.reddit /new 25 pages did not contain previous checkpoint t3_1vzo2w2"
     },
     {
       "layer": "search",
       "scope": "AI agent OR agentic coding",
       "status": "frozen",
-      "reason": "not collected this run; no durable search result JSONL written"
+      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
     },
     {
       "layer": "search",
       "scope": "LLM inference OR quantization",
       "status": "frozen",
-      "reason": "not collected this run; no durable search result JSONL written"
+      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
     },
     {
       "layer": "search",
       "scope": "open weights OR open source AI",
       "status": "frozen",
-      "reason": "not collected this run; no durable search result JSONL written"
+      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
     },
     {
       "layer": "search",
       "scope": "AI chip OR GPU OR inference accelerator",
       "status": "frozen",
-      "reason": "not collected this run; no durable search result JSONL written"
+      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
     },
     {
       "layer": "search",
       "scope": "robotics foundation model",
       "status": "frozen",
-      "reason": "not collected this run; no durable search result JSONL written"
+      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
     },
     {
       "layer": "search",
       "scope": "AI security OR prompt injection",
       "status": "frozen",
-      "reason": "not collected this run; no durable search result JSONL written"
+      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
     },
     {
       "layer": "search",
       "scope": "developer tools OR programming language",
       "status": "frozen",
-      "reason": "not collected this run; no durable search result JSONL written"
+      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
     },
     {
       "layer": "search",
       "scope": "data center energy water",
       "status": "frozen",
-      "reason": "not collected this run; no durable search result JSONL written"
-    },
-    {
-      "layer": "comments",
-      "scope": "revisit_queue",
-      "status": "frozen",
-      "reason": "not collected this run; no durable comment JSONL written"
+      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
     }
   ],
   "raw_files": [
-    "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl"
+    "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+    "reddit/raw/2026/08/27/snapshots-repair-2026-08-27T12-37-09-680Z.jsonl",
+    "reddit/raw/2026/08/27/new-repair-observations-2026-08-27T12-37-09-680Z.jsonl",
+    "reddit/raw/2026/08/27/search-discovery-2026-08-27T12-37-09-680Z.jsonl",
+    "reddit/raw/2026/08/27/comments-revisit-2026-08-27T12-37-09-680Z.jsonl"
   ],
   "post_counts": {
     "new_observed": 33,
     "new_written": 23
   },
   "github": {
-    "status": "pushed",
-    "commit": "b7d2009",
-    "remote": "origin/main"
+    "status": "pending"
   },
   "dingtalk": {
-    "status": "sent",
-    "kind": "exception",
-    "openTaskId": "DTjqZtzwgfpqK1ZznMXSQMwJGSTt66KNm17PN8LnAHA=",
-    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "sendStatus": "SUCCESS",
-    "openMessageId": "msgUNwxBll4InF6SywHNFHfdg=="
+    "status": "pending",
+    "kind": "repair_progress"
   },
-  "run_finalized_at": "2026-08-27T11:24:43.243Z"
+  "run_finalized_at": "2026-08-27T11:24:43.243Z",
+  "repair_finished_at": "2026-08-27T12:37:09.680Z"
 }
