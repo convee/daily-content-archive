@@ -1,0 +1,244 @@
+{
+  "run_id": "twitter-2026-08-27T23-12-47-949Z",
+  "started_at_utc": "2026-08-27T23:12:47Z",
+  "finished_at_utc": "2026-08-27T23:18:30Z",
+  "status": "partial_frozen",
+  "source_summary": {
+    "accounts": {
+      "attempted": 19,
+      "succeeded": 19,
+      "failed": 0
+    },
+    "queries": {
+      "attempted": 5,
+      "succeeded": 1,
+      "failed": 4
+    },
+    "following": {
+      "attempted": 1,
+      "succeeded": 0,
+      "failed": 1
+    },
+    "for_you": {
+      "attempted": 1,
+      "succeeded": 0,
+      "failed": 1
+    },
+    "replies": {
+      "attempted": 3,
+      "succeeded": 3,
+      "failed": 0
+    }
+  },
+  "source_attempts": {
+    "accounts": {
+      "account:@OpenAI": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2092335305366069305",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@AnthropicAI": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2088324824863236248",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@GoogleDeepMind": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2090772922818286080",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@xai": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2090885694407250418",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@MistralAI": {
+        "batches": 1,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2087305196841922782",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@AIatMeta": {
+        "batches": 1,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2090505417512345857",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@huggingface": {
+        "batches": 1,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2089673018737869242",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@nvidia": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2092337107108770116",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@GitHub": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2092283197660987573",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@ycombinator": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2091941108138066197",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@producthunt": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2092717926914916678",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@TechCrunch": {
+        "batches": 8,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2092961608116937086",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@arxiv": {
+        "batches": 1,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2032306238101352842",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@karpathy": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2064409694761054332",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@AndrewYNg": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2085056542341271840",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@ylecun": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2080588168781336630",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@simonw": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2088361426662637714",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@swyx": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2090908959590740033",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "account:@hardmaru": {
+        "batches": 2,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2088672566865272944",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      }
+    },
+    "queries": {
+      "AI agent OR agentic coding": {
+        "batches": 25,
+        "hit_old_checkpoint": false,
+        "deepest_status_id": "2093110316674543761",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "LLM inference OR AI chips": {
+        "batches": 25,
+        "hit_old_checkpoint": false,
+        "deepest_status_id": "2093094637003264435",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "open weights OR open source AI": {
+        "batches": 25,
+        "hit_old_checkpoint": false,
+        "deepest_status_id": "2093100809709846950",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "robotics foundation model": {
+        "batches": 4,
+        "hit_old_checkpoint": true,
+        "deepest_status_id": "2092954163089219783",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      },
+      "AI security OR prompt injection": {
+        "batches": 25,
+        "hit_old_checkpoint": false,
+        "deepest_status_id": "2093102896254681393",
+        "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+      }
+    },
+    "following": {
+      "batches": 25,
+      "hit_old_checkpoint": false,
+      "deepest_status_id": "2093081931441226209",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+    },
+    "for_you": {
+      "batches": 25,
+      "first_status_id": "2093064299778290019",
+      "last_status_id": "2093054691739603042",
+      "new_ids_by_batch": [
+        5,
+        2,
+        3,
+        3,
+        1,
+        3,
+        3,
+        2,
+        2,
+        2,
+        4,
+        2,
+        3,
+        2,
+        1,
+        1,
+        3,
+        3,
+        2,
+        3,
+        2,
+        1,
+        3,
+        3,
+        2
+      ],
+      "terminated_after_two_zero_batches": false,
+      "raw_file": "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl"
+    }
+  },
+  "counts": {
+    "observed_status_ids": 522,
+    "archived_replies": 15
+  },
+  "raw_files": [
+    "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-collection.jsonl",
+    "twitter/raw/2026/08/28/2026-08-27T23-12-47-949Z-replies.jsonl"
+  ],
+  "checkpoints": {
+    "advanced": 8,
+    "frozen": 6,
+    "for_you_snapshot_advanced": false
+  },
+  "github": {
+    "status": "finalization_pending",
+    "branch": "main"
+  },
+  "dingtalk": {
+    "status": "not_sent",
+    "reason": "exception notification required after GitHub finalization"
+  }
+}
