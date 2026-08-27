@@ -27,7 +27,8 @@
     "technology": {
       "status": "frozen",
       "observed_count": 750,
-      "old_checkpoint_hit": false
+      "old_checkpoint_hit": false,
+      "old_checkpoint": "t3_1vwxyi"
     },
     "netsec": {
       "status": "success",
