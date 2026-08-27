@@ -12,6 +12,6 @@
   "raw_files": ["twitter/raw/2026/08/27/posts-2026-08-26T23-12-17-000Z.jsonl", "twitter/raw/2026/08/26/posts-2026-08-26T13-15-26-066Z.jsonl"],
   "raw_validation": "Referenced JSONL files parse. The OpenAI viewport included IDs 2092300846675505602, 2092691861773160673, 2092691863505346634, 2092335305366069305 and 2090885187634905500; each exists in durable raw and state.seen_status_ids.",
   "daily_brief": {"date":"2026-08-26","path":"twitter/2026/08/2026-08-26.md","status":"existing_and_verified","note":"The prior-natural-day brief and homepage link already exist; no successful daily notification is sent during this partial-frozen run."},
-  "github": {"status":"pending_finalization"},
-  "dingtalk": {"status":"pending_finalization","target_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw=="}
+  "github": {"status":"pushed","commit":"624c6f2fabcb79e41f25bf1de76c5af63da8dc77","branch":"main","remote":"origin"},
+  "dingtalk": {"status":"sent","kind":"exception","openTaskId":"ey/1I8cxbcmZMhsd/pJOfPYSC4jgzKzrau8hvu/Fwf0=","target_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","returned_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","openMessageId":"msgOqSHblf6v+WnDOqVKPaneQ==","sendStatus":"SUCCESS","verified":true}
 }
