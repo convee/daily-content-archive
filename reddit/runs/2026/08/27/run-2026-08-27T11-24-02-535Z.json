@@ -1,0 +1,316 @@
+{
+  "schema_version": 2,
+  "run_started_at": "2026-08-27T11:24:02.535Z",
+  "run_finished_at": "2026-08-27T11:24:02.535Z",
+  "mode": "intraday_partial",
+  "browser": "logged_in_chrome_read_only",
+  "new_continuity": {
+    "successful": 12,
+    "failed": 0,
+    "communities": [
+      {
+        "community": "MachineLearning",
+        "status": "success",
+        "observed_count": 1,
+        "written_count": 0,
+        "previous_checkpoint": "t3_1vz9x9c",
+        "previous_checkpoint_reached": true,
+        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "new_head_id": "t3_1vz9x9c",
+        "scroll_batches": 1
+      },
+      {
+        "community": "LocalLLaMA",
+        "status": "success",
+        "observed_count": 10,
+        "written_count": 9,
+        "previous_checkpoint": "t3_1vzowwo",
+        "previous_checkpoint_reached": true,
+        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "new_head_id": "t3_1vzqubc",
+        "scroll_batches": 1
+      },
+      {
+        "community": "programming",
+        "status": "frozen",
+        "observed_count": 0,
+        "written_count": 0,
+        "previous_checkpoint": "t3_1vzoisw",
+        "previous_checkpoint_reached": false,
+        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "new_head_id": null,
+        "scroll_batches": 4
+      },
+      {
+        "community": "technology",
+        "status": "success",
+        "observed_count": 5,
+        "written_count": 4,
+        "previous_checkpoint": "t3_1vzni25",
+        "previous_checkpoint_reached": true,
+        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "new_head_id": "t3_1vzqxyz",
+        "scroll_batches": 1
+      },
+      {
+        "community": "netsec",
+        "status": "success",
+        "observed_count": 1,
+        "written_count": 0,
+        "previous_checkpoint": "t3_1vz6179",
+        "previous_checkpoint_reached": true,
+        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "new_head_id": "t3_1vz6179",
+        "scroll_batches": 1
+      },
+      {
+        "community": "opensource",
+        "status": "success",
+        "observed_count": 1,
+        "written_count": 0,
+        "previous_checkpoint": "t3_1vzdko9",
+        "previous_checkpoint_reached": true,
+        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "new_head_id": "t3_1vzdko9",
+        "scroll_batches": 1
+      },
+      {
+        "community": "selfhosted",
+        "status": "frozen",
+        "observed_count": 0,
+        "written_count": 0,
+        "previous_checkpoint": "t3_1vzo2w2",
+        "previous_checkpoint_reached": false,
+        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "new_head_id": null,
+        "scroll_batches": 4
+      },
+      {
+        "community": "science",
+        "status": "success",
+        "observed_count": 6,
+        "written_count": 5,
+        "previous_checkpoint": "t3_1vzfzl0",
+        "previous_checkpoint_reached": true,
+        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "new_head_id": "t3_1vzqzy1",
+        "scroll_batches": 1
+      },
+      {
+        "community": "OpenAI",
+        "status": "success",
+        "observed_count": 3,
+        "written_count": 2,
+        "previous_checkpoint": "t3_1vzmeq5",
+        "previous_checkpoint_reached": true,
+        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "new_head_id": "t3_1vzpzzm",
+        "scroll_batches": 1
+      },
+      {
+        "community": "Anthropic",
+        "status": "success",
+        "observed_count": 2,
+        "written_count": 1,
+        "previous_checkpoint": "t3_1vznu5c",
+        "previous_checkpoint_reached": true,
+        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "new_head_id": "t3_1vzp3uc",
+        "scroll_batches": 1
+      },
+      {
+        "community": "singularity",
+        "status": "success",
+        "observed_count": 1,
+        "written_count": 0,
+        "previous_checkpoint": "t3_1vznzly",
+        "previous_checkpoint_reached": true,
+        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "new_head_id": "t3_1vznzly",
+        "scroll_batches": 1
+      },
+      {
+        "community": "robotics",
+        "status": "success",
+        "observed_count": 3,
+        "written_count": 2,
+        "previous_checkpoint": "t3_1vzo8at",
+        "previous_checkpoint_reached": true,
+        "raw_file": "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl",
+        "new_head_id": "t3_1vzqdwr",
+        "scroll_batches": 1
+      }
+    ]
+  },
+  "snapshot_layers": {
+    "successful": 0,
+    "failed": 27
+  },
+  "comments": {
+    "successful": 0,
+    "failed": 1
+  },
+  "search": {
+    "successful": 0,
+    "failed": 8
+  },
+  "failure_ledger": [
+    {
+      "layer": "hot_rising",
+      "scope": "MachineLearning",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "hot_rising",
+      "scope": "LocalLLaMA",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "hot_rising",
+      "scope": "programming",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "hot_rising",
+      "scope": "technology",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "hot_rising",
+      "scope": "netsec",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "hot_rising",
+      "scope": "opensource",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "hot_rising",
+      "scope": "selfhosted",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "hot_rising",
+      "scope": "science",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "hot_rising",
+      "scope": "OpenAI",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "hot_rising",
+      "scope": "Anthropic",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "hot_rising",
+      "scope": "singularity",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "hot_rising",
+      "scope": "robotics",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "global_feed",
+      "scope": "home",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "global_feed",
+      "scope": "popular",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "global_feed",
+      "scope": "all",
+      "status": "frozen",
+      "reason": "not collected this run; no durable snapshot written"
+    },
+    {
+      "layer": "search",
+      "scope": "AI agent OR agentic coding",
+      "status": "frozen",
+      "reason": "not collected this run; no durable search result JSONL written"
+    },
+    {
+      "layer": "search",
+      "scope": "LLM inference OR quantization",
+      "status": "frozen",
+      "reason": "not collected this run; no durable search result JSONL written"
+    },
+    {
+      "layer": "search",
+      "scope": "open weights OR open source AI",
+      "status": "frozen",
+      "reason": "not collected this run; no durable search result JSONL written"
+    },
+    {
+      "layer": "search",
+      "scope": "AI chip OR GPU OR inference accelerator",
+      "status": "frozen",
+      "reason": "not collected this run; no durable search result JSONL written"
+    },
+    {
+      "layer": "search",
+      "scope": "robotics foundation model",
+      "status": "frozen",
+      "reason": "not collected this run; no durable search result JSONL written"
+    },
+    {
+      "layer": "search",
+      "scope": "AI security OR prompt injection",
+      "status": "frozen",
+      "reason": "not collected this run; no durable search result JSONL written"
+    },
+    {
+      "layer": "search",
+      "scope": "developer tools OR programming language",
+      "status": "frozen",
+      "reason": "not collected this run; no durable search result JSONL written"
+    },
+    {
+      "layer": "search",
+      "scope": "data center energy water",
+      "status": "frozen",
+      "reason": "not collected this run; no durable search result JSONL written"
+    },
+    {
+      "layer": "comments",
+      "scope": "revisit_queue",
+      "status": "frozen",
+      "reason": "not collected this run; no durable comment JSONL written"
+    }
+  ],
+  "raw_files": [
+    "reddit/raw/2026/08/27/posts-2026-08-27T11-24-02-535Z.jsonl"
+  ],
+  "post_counts": {
+    "new_observed": 33,
+    "new_written": 23
+  },
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "pending"
+  }
+}
