@@ -234,11 +234,16 @@
     "for_you_snapshot_advanced": false
   },
   "github": {
-    "status": "finalization_pending",
-    "branch": "main"
+    "status": "pushed",
+    "commit": "466b12f8cce5e01c3c5ec05086326fc7b99b1645",
+    "branch": "main",
+    "url": "https://github.com/convee/daily-content-archive/commit/466b12f8cce5e01c3c5ec05086326fc7b99b1645"
   },
   "dingtalk": {
-    "status": "not_sent",
-    "reason": "exception notification required after GitHub finalization"
+    "status": "SUCCESS",
+    "openTaskId": "+c/8mvoIyrO5+2J/gTAD4+c9Py+vu5MMbdb9O0cT4yI=",
+    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "openMessageId": "msgigQ1BNadM31zTZKtEVpupw==",
+    "sendStatus": "SUCCESS"
   }
 }
