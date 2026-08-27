@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-26",
+  "captured_at": "2026-08-27T12:32:54Z",
+  "capture_surface": "logged_in_local_chrome_read_only",
+  "product": {
+    "id": "x1-2",
+    "name": "x1",
+    "product_url": "https://www.producthunt.com/products/x1-2",
+    "external_url": "https://x1.new/?ref=producthunt",
+    "description": "X1 is an AI app builder that guides an idea through focused questions, screen review, staged building and iPhone testing, then prepares App Store listing, screenshots and submission.",
+    "pricing_visible": "Free Options",
+    "company_info": ["x1.new", "Y Combinator", "Launched in 2026"],
+    "day_rank_visible": 1,
+    "current_points_visible": 486,
+    "maker_first_comment": {
+      "author": "Manil Lakabi",
+      "role": "Maker",
+      "text": "X1 positions itself against one-shot app generation: it asks focused questions, maintains a connected plan and prepares App Store submission; a working prototype is free with no card required.",
+      "time_visible": "2d ago",
+      "page": 1
+    }
+  },
+  "selected_comments": [
+    {"author":"Gabe Moronta","role":"community","time_visible":"19h ago","page":1,"topic":"competitive differentiation","text":"Asked how X1 differs from Lovable's iPhone app, Replit and Claude/Codex."},
+    {"author":"Manil Lakabi","role":"Maker","time_visible":"19h ago","page":1,"topic":"competitive differentiation","text":"Said the differentiation is the process around code generation: questions, blueprint, scoped jobs, design, testing and a living plan rather than claiming a better model."},
+    {"author":"Muhammad Inamullah","role":"Maker","time_visible":"1d ago","page":1,"topic":"integration boundary","text":"Said X1 supports third-party services, with Supabase auth/database and OpenAI managed by X1, and described an agent that can discover and wire providers."},
+    {"author":"Rivendell Chorro","role":"community","time_visible":"1d ago","page":2,"topic":"real-world limits","text":"Asked about the hardest application types built with X1."},
+    {"author":"Muhammad Inamullah","role":"Maker","time_visible":"1d ago","page":2,"topic":"real-world limits","text":"Named on-device vision and live fleet/GPS routing as difficult cases because processing pipelines, live data and integrations must remain synchronized."},
+    {"author":"Boyuan Deng","role":"community","time_visible":"1d ago","page":2,"topic":"competitive differentiation","text":"Asked how X1 differs from Rork in practice."},
+    {"author":"Manil Lakabi","role":"Maker","time_visible":"1d ago","page":2,"topic":"competitive differentiation","text":"Described a product-team workflow: decide, design, build and test each piece while retaining linked product context."},
+    {"author":"Barnaby Lloyd","role":"community","time_visible":"1d ago","page":2,"topic":"risk and requirements","text":"Asked how contradictory or unclear requirements are handled."},
+    {"author":"Manil Lakabi","role":"Maker","time_visible":"10h ago","page":2,"topic":"risk and requirements","text":"Said X1 asks narrower questions for ambiguity and surfaces conflicts, assuming only cheap/reversible choices."},
+    {"author":"Muhammad Inamullah","role":"Maker","time_visible":"1d ago","page":3,"topic":"authentication","text":"Said X1 supports Apple Sign In and persistent per-user backend data, framing them as explicit product decisions rather than demo placeholders."}
+  ],
+  "comment_pagination": {
+    "checked_pages": [1, 2, 3, 4],
+    "page_4_comments_visible": 0,
+    "next_pages_visible_from_page_4": [5, 6],
+    "complete": false,
+    "reason": "Comment pagination was not exhausted; do not treat this as a full raw-comment snapshot."
+  }
+}
