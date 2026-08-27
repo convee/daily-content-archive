@@ -2,7 +2,7 @@
   "schema_version": 2,
   "run_stamp": "2026-08-27T23-22-45-300Z",
   "started_at": "2026-08-27T23:23:08.586Z",
-  "completed_at": "2026-08-27T23:26:28.027Z",
+  "completed_at": "2026-08-27T23:27:32.828Z",
   "durable_raw_files": [
     "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl"
   ],
@@ -40,10 +40,17 @@
     "new_durable": 87
   },
   "github": {
-    "status": "pending"
+    "status": "success",
+    "commit": "8d2d5d6",
+    "branch": "main",
+    "pushed_at": "2026-08-27T23:27:32.828Z"
   },
   "dingtalk": {
-    "status": "pending"
+    "status": "success",
+    "open_task_id": "ZRIwFxP45inibgHMvvwy16lkJcFweZFo62hEUU/Fibk=",
+    "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "send_status": "SUCCESS",
+    "message_id": "msgxavJJV2ExZUuFK8oX7FOhg=="
   },
   "failure_ledger": [
     {

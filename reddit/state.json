@@ -8310,10 +8310,11 @@
     }
   ],
   "last_dingtalk_delivery": {
+    "at": "2026-08-27T23:27:32.828Z",
     "kind": "exception",
-    "sent_at": "2026-08-27T21:27:31.060Z",
-    "open_task_id": "vd/Km5p4y8wRs9E4c6f6gf4u2rDOZt6rkDe8WPf2Fn4=",
+    "open_task_id": "ZRIwFxP45inibgHMvvwy16lkJcFweZFo62hEUU/Fibk=",
     "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "send_status": "SUCCESS"
+    "send_status": "SUCCESS",
+    "message_id": "msgxavJJV2ExZUuFK8oX7FOhg=="
   }
 }
