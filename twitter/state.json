@@ -381,7 +381,20 @@
     "2092507058230927713",
     "2092809815148154910",
     "2092799556346085600",
-    "2092768032502489149"
+    "2092768032502489149",
+    "2092778734726021402",
+    "2092764159700287802",
+    "2092779184846172616",
+    "2092808234352706040",
+    "2092722479240290776",
+    "2092774093263098071",
+    "2092827738755170676",
+    "2092849904452596149",
+    "2092782871002185971",
+    "2092623803197079884",
+    "2092614661573128683",
+    "2092859213001420819",
+    "2092806593675133426"
   ],
   "source_checkpoints": {
     "account:@OpenAI": {
@@ -519,7 +532,7 @@
     }
   },
   "note": "Test artifacts are not continuity checkpoints; first scheduled run establishes per-source cursors after GitHub push.",
-  "last_run_at_utc": "2026-08-27T05:12:26Z",
+  "last_run_at_utc": "2026-08-27T07:11:59Z",
   "for_you_snapshots": [
     {
       "captured_at": "2026-08-26T13:15:26.066Z",
@@ -826,6 +839,22 @@
       "complete": false,
       "frozen": true,
       "reason": "One visible top batch retained; no two-consecutive-zero-new termination was established. Discovery snapshot only."
+    },
+    {
+      "captured_at": "2026-08-27T07:11:59Z",
+      "batches": [
+        {"visible_count":0,"new_status_ids":[],"first_status_id":null,"last_status_id":null},
+        {"visible_count":4,"new_status_ids":["2092722479240290776","2092774093263098071","2092827738755170676","2092849904452596149"],"first_status_id":"2092722479240290776","last_status_id":"2092849904452596149"},
+        {"visible_count":5,"new_status_ids":["2092782871002185971"],"first_status_id":"2092722479240290776","last_status_id":"2092782871002185971"},
+        {"visible_count":6,"new_status_ids":["2092623803197079884"],"first_status_id":"2092722479240290776","last_status_id":"2092623803197079884"},
+        {"visible_count":6,"new_status_ids":[],"first_status_id":"2092722479240290776","last_status_id":"2092623803197079884"},
+        {"visible_count":6,"new_status_ids":["2092614661573128683"],"first_status_id":"2092774093263098071","last_status_id":"2092614661573128683"},
+        {"visible_count":7,"new_status_ids":["2092859213001420819"],"first_status_id":"2092774093263098071","last_status_id":"2092859213001420819"},
+        {"visible_count":7,"new_status_ids":["2092806593675133426"],"first_status_id":"2092827738755170676","last_status_id":"2092806593675133426"}
+      ],
+      "complete": false,
+      "frozen": true,
+      "reason": "Eight batches collected; new IDs continued after the eighth batch, so the required two consecutive zero-new batches were not established. Discovery snapshot only."
     }
   ],
   "frozen_sources": {
@@ -857,8 +886,8 @@
       "at": "2026-08-26T17:16:50.707Z",
       "reason": "checkpoint not reached in 25 batches"
     },
-    "for_you": {"at":"2026-08-27T01:11:30Z","reason":"one visible top batch retained; two consecutive zero-new batches not reached"},
-    "following": {"at":"2026-08-27T01:11:30Z","reason":"checkpoint 2092633969380442525 not reached in the visible top batch"},
+    "for_you": {"at":"2026-08-27T07:11:59Z","reason":"eight-batch discovery snapshot retained; two consecutive zero-new batches were not reached because new IDs continued in batches 6–8"},
+    "following": {"at":"2026-08-27T07:11:59Z","reason":"top observation retained in durable raw; checkpoint 2092633969380442525 was not reached, so continuous source remains frozen"},
     "account:@AIatMeta": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"},
     "account:@GitHub": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"},
     "account:@ylecun": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"},

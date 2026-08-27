@@ -1,0 +1,17 @@
+{
+  "started_at_utc": "2026-08-27T07:11:59Z",
+  "finished_at_utc": "2026-08-27T07:11:59Z",
+  "status": "partial_frozen",
+  "counts": {"posts": 13, "replies": 0},
+  "source_results": [
+    {"type":"account","success":0,"failed":19,"frozen_sources":["@OpenAI","@AnthropicAI","@GoogleDeepMind","@xai","@MistralAI","@AIatMeta","@huggingface","@nvidia","@GitHub","@ycombinator","@producthunt","@TechCrunch","@arxiv","@karpathy","@AndrewYNg","@ylecun","@simonw","@swyx","@hardmaru"],"reason":"No account Posts timeline was swept through its committed checkpoint this run; no account cursor advanced. Existing pinned-checkpoint migrations remain frozen until chronological reconciliation is completed."},
+    {"type":"query","success":0,"failed":5,"frozen_sources":["AI agent OR agentic coding","LLM inference OR AI chips","open weights OR open source AI","robotics foundation model","AI security OR prompt injection"],"reason":"No topic result stream was swept through its committed checkpoint; all query cursors remain frozen."},
+    {"type":"following","success":0,"failed":1,"checkpoint":"2092633969380442525","observed_status_ids":["2092778734726021402","2092764159700287802","2092779184846172616","2092808234352706040","2092722479240290776"],"reason":"Visible top observation archived, but the old checkpoint was not reached; continuous source frozen."},
+    {"type":"for_you","success":0,"failed":1,"snapshot":{"captured_at":"2026-08-27T07:11:59Z","batches":8,"first_status_id":"2092722479240290776","last_status_id":"2092806593675133426","new_status_ids":["2092722479240290776","2092774093263098071","2092827738755170676","2092849904452596149","2092782871002185971","2092623803197079884","2092614661573128683","2092859213001420819","2092806593675133426"]},"reason":"Discovery feed continued yielding new IDs through batch 8; required two consecutive zero-new batches were not reached, so snapshot is frozen."}
+  ],
+  "raw_files": ["twitter/raw/2026/08/27/posts-2026-08-27T07-11-59Z.jsonl"],
+  "raw_validation": "All 13 observed status IDs are present in the referenced durable JSONL, also recorded in state.seen_status_ids, and JSONL parses successfully.",
+  "daily_brief": {"status":"not_due","reason":"This is not the 09:10 Asia/Shanghai daily-brief execution window."},
+  "github": {"status":"pending_commit_and_push","branch":"main","remote":"origin"},
+  "dingtalk": {"status":"pending_exception_notification","kind":"exception","target_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw=="}
+}
