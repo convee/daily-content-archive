@@ -336,19 +336,29 @@
   "searches": {
     "AI agent OR agentic coding": {
       "status": "frozen",
-      "count": 22,
-      "first_id": "t3_1vzttj5",
-      "last_id": "t3_1vztd4a",
-      "next_page_available": false,
-      "reason": "no next-page evidence; discovery snapshot only"
+      "observed_count": 243,
+      "scroll_batches": 77,
+      "first_id": "t3_1vzty1k",
+      "last_id": "t3_1vzoh6k",
+      "previous_continuation_id": "t3_1vznty2",
+      "previous_continuation_seen": false,
+      "time_boundary_crossed": false,
+      "actual_url": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
+      "method": "modern_posts_new_dynamic_extended",
+      "reason": "dynamic_feed_stalled_before_time_boundary"
     },
     "LLM inference OR quantization": {
       "status": "frozen",
-      "count": 22,
-      "first_id": "t3_1vztty4",
-      "last_id": "t3_1vzsyj7",
-      "next_page_available": false,
-      "reason": "no next-page evidence; discovery snapshot only"
+      "observed_count": 243,
+      "scroll_batches": 83,
+      "first_id": "t3_1vzty5e",
+      "last_id": "t3_1vzj57i",
+      "previous_continuation_id": "t3_1vzhi4a",
+      "previous_continuation_seen": false,
+      "time_boundary_crossed": false,
+      "actual_url": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
+      "method": "modern_posts_new_dynamic_extended",
+      "reason": "dynamic_feed_stalled_before_time_boundary"
     },
     "open weights OR open source AI": {
       "status": "frozen",
@@ -360,19 +370,29 @@
     },
     "AI chip OR GPU OR inference accelerator": {
       "status": "frozen",
-      "count": 22,
+      "observed_count": 104,
+      "scroll_batches": 40,
       "first_id": "t3_1vztoi2",
-      "last_id": "t3_1vzr7zv",
-      "next_page_available": false,
-      "reason": "no next-page evidence; discovery snapshot only"
+      "last_id": "t3_1vzhug8",
+      "previous_continuation_id": "t3_1vyvtox",
+      "previous_continuation_seen": false,
+      "time_boundary_crossed": false,
+      "actual_url": "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new",
+      "method": "modern_posts_new_dynamic_extended",
+      "reason": "dynamic_feed_stalled_before_time_boundary"
     },
     "robotics foundation model": {
       "status": "frozen",
-      "count": 22,
-      "first_id": "t3_1vzto5t",
-      "last_id": "t3_1vzr5j6",
-      "next_page_available": false,
-      "reason": "no next-page evidence; discovery snapshot only"
+      "observed_count": 252,
+      "scroll_batches": 86,
+      "first_id": "t3_1vztvav",
+      "last_id": "t3_1vz2aoi",
+      "previous_continuation_id": "t3_1vz2tld",
+      "previous_continuation_seen": true,
+      "time_boundary_crossed": false,
+      "actual_url": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
+      "method": "modern_posts_new_dynamic_extended",
+      "reason": "dynamic_feed_stalled_before_time_boundary"
     },
     "AI security OR prompt injection": {
       "status": "frozen",
@@ -384,11 +404,16 @@
     },
     "developer tools OR programming language": {
       "status": "frozen",
-      "count": 22,
-      "first_id": "t3_1vztutt",
-      "last_id": "t3_1vzsx2v",
-      "next_page_available": false,
-      "reason": "no next-page evidence; discovery snapshot only"
+      "observed_count": 251,
+      "scroll_batches": 80,
+      "first_id": "t3_1vztyao",
+      "last_id": "t3_1vzgubq",
+      "previous_continuation_id": "t3_1vzgwfc",
+      "previous_continuation_seen": true,
+      "time_boundary_crossed": false,
+      "actual_url": "https://www.reddit.com/search/?q=developer%20tools%20OR%20programming%20language&type=posts&sort=new",
+      "method": "modern_posts_new_dynamic_extended",
+      "reason": "dynamic_feed_stalled_before_time_boundary"
     },
     "data center energy water": {
       "status": "frozen",
@@ -456,19 +481,173 @@
     }
   ],
   "github": {
-    "status": "pushed",
-    "commit": "7cfc89982fb58585bdf43bdc8a8f50f0dd14ff4c",
-    "branch": "main"
+    "status": "ready_to_commit"
   },
   "dingtalk": {
-    "status": "sent_exception",
-    "open_task_id": "JQBDg7wDOMLwQwsegECVrpDCfsL8ZpbThEQYrTKcZpo=",
-    "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "send_status": "SUCCESS"
+    "status": "pending_progress_notification"
   },
   "raw_record_count": 603,
   "raw_post_count": 600,
   "raw_comment_count": 3,
   "completed_at_utc": "2026-08-27T13:24:47.887Z",
-  "finalized_at_utc": "2026-08-27T13:25:39.707Z"
+  "finalized_at_utc": "2026-08-27T13:25:39.707Z",
+  "search_repair": {
+    "status": "completed_with_five_query_freezes",
+    "attempted_queries": [
+      "AI agent OR agentic coding",
+      "LLM inference OR quantization",
+      "AI chip OR GPU OR inference accelerator",
+      "robotics foundation model",
+      "developer tools OR programming language"
+    ],
+    "modern_dynamic_raw_files": [
+      "reddit/raw/2026/08/27/search-repair-2026-08-27T13-27-27-868Z.jsonl",
+      "reddit/raw/2026/08/27/search-repair-extended-2026-08-27T13-27-27-868Z.jsonl"
+    ],
+    "first_attempt": {
+      "AI agent OR agentic coding": {
+        "status": "frozen",
+        "observed_count": 220,
+        "scroll_batches": 37,
+        "first_id": "t3_1vzty1k",
+        "last_id": "t3_1vzozt8",
+        "previous_continuation_id": "t3_1vznty2",
+        "previous_continuation_seen": false,
+        "time_boundary_crossed": false,
+        "actual_url": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
+        "method": "modern_posts_new_dynamic",
+        "reason": "max 36 batches before time boundary"
+      },
+      "LLM inference OR quantization": {
+        "status": "frozen",
+        "observed_count": 191,
+        "scroll_batches": 37,
+        "first_id": "t3_1vzty5e",
+        "last_id": "t3_1vzm0tn",
+        "previous_continuation_id": "t3_1vzhi4a",
+        "previous_continuation_seen": false,
+        "time_boundary_crossed": false,
+        "actual_url": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
+        "method": "modern_posts_new_dynamic",
+        "reason": "max 36 batches before time boundary"
+      },
+      "AI chip OR GPU OR inference accelerator": {
+        "status": "frozen",
+        "observed_count": 146,
+        "scroll_batches": 37,
+        "first_id": "t3_1vztoi2",
+        "last_id": "t3_1vza8ra",
+        "previous_continuation_id": "t3_1vyvtox",
+        "previous_continuation_seen": false,
+        "time_boundary_crossed": false,
+        "actual_url": "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new",
+        "method": "modern_posts_new_dynamic",
+        "reason": "max 36 batches before time boundary"
+      },
+      "robotics foundation model": {
+        "status": "frozen",
+        "observed_count": 189,
+        "scroll_batches": 37,
+        "first_id": "t3_1vztvav",
+        "last_id": "t3_1vz7b78",
+        "previous_continuation_id": "t3_1vz2tld",
+        "previous_continuation_seen": false,
+        "time_boundary_crossed": false,
+        "actual_url": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
+        "method": "modern_posts_new_dynamic",
+        "reason": "max 36 batches before time boundary"
+      },
+      "developer tools OR programming language": {
+        "status": "frozen",
+        "observed_count": 182,
+        "scroll_batches": 37,
+        "first_id": "t3_1vztyao",
+        "last_id": "t3_1vzln41",
+        "previous_continuation_id": "t3_1vzgwfc",
+        "previous_continuation_seen": false,
+        "time_boundary_crossed": false,
+        "actual_url": "https://www.reddit.com/search/?q=developer%20tools%20OR%20programming%20language&type=posts&sort=new",
+        "method": "modern_posts_new_dynamic",
+        "reason": "max 36 batches before time boundary"
+      }
+    },
+    "extended_attempt": {
+      "AI agent OR agentic coding": {
+        "status": "frozen",
+        "observed_count": 243,
+        "scroll_batches": 77,
+        "first_id": "t3_1vzty1k",
+        "last_id": "t3_1vzoh6k",
+        "previous_continuation_id": "t3_1vznty2",
+        "previous_continuation_seen": false,
+        "time_boundary_crossed": false,
+        "actual_url": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
+        "method": "modern_posts_new_dynamic_extended",
+        "reason": "dynamic_feed_stalled_before_time_boundary"
+      },
+      "LLM inference OR quantization": {
+        "status": "frozen",
+        "observed_count": 243,
+        "scroll_batches": 83,
+        "first_id": "t3_1vzty5e",
+        "last_id": "t3_1vzj57i",
+        "previous_continuation_id": "t3_1vzhi4a",
+        "previous_continuation_seen": false,
+        "time_boundary_crossed": false,
+        "actual_url": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
+        "method": "modern_posts_new_dynamic_extended",
+        "reason": "dynamic_feed_stalled_before_time_boundary"
+      },
+      "AI chip OR GPU OR inference accelerator": {
+        "status": "frozen",
+        "observed_count": 104,
+        "scroll_batches": 40,
+        "first_id": "t3_1vztoi2",
+        "last_id": "t3_1vzhug8",
+        "previous_continuation_id": "t3_1vyvtox",
+        "previous_continuation_seen": false,
+        "time_boundary_crossed": false,
+        "actual_url": "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new",
+        "method": "modern_posts_new_dynamic_extended",
+        "reason": "dynamic_feed_stalled_before_time_boundary"
+      },
+      "robotics foundation model": {
+        "status": "frozen",
+        "observed_count": 252,
+        "scroll_batches": 86,
+        "first_id": "t3_1vztvav",
+        "last_id": "t3_1vz2aoi",
+        "previous_continuation_id": "t3_1vz2tld",
+        "previous_continuation_seen": true,
+        "time_boundary_crossed": false,
+        "actual_url": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
+        "method": "modern_posts_new_dynamic_extended",
+        "reason": "dynamic_feed_stalled_before_time_boundary"
+      },
+      "developer tools OR programming language": {
+        "status": "frozen",
+        "observed_count": 251,
+        "scroll_batches": 80,
+        "first_id": "t3_1vztyao",
+        "last_id": "t3_1vzgubq",
+        "previous_continuation_id": "t3_1vzgwfc",
+        "previous_continuation_seen": true,
+        "time_boundary_crossed": false,
+        "actual_url": "https://www.reddit.com/search/?q=developer%20tools%20OR%20programming%20language&type=posts&sort=new",
+        "method": "modern_posts_new_dynamic_extended",
+        "reason": "dynamic_feed_stalled_before_time_boundary"
+      }
+    },
+    "preserved_success_queries": [
+      "open weights OR open source AI",
+      "AI security OR prompt injection",
+      "data center energy water"
+    ],
+    "github": {
+      "status": "ready_to_commit"
+    },
+    "dingtalk": {
+      "status": "pending_progress_notification"
+    }
+  }
 }

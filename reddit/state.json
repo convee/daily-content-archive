@@ -458,33 +458,59 @@
     },
     "AI agent OR agentic coding": {
       "status": "frozen",
-      "captured_at": "2026-08-27T13:06:18.327Z",
+      "captured_at": "2026-08-27T13:35:14.937Z",
       "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
-      "observed_count": 255,
-      "scroll_batches": 14,
-      "first_id": "t3_1vzt9qx",
-      "last_id": "t3_1vznty2",
+      "observed_count": 243,
+      "scroll_batches": 77,
+      "first_id": "t3_1vzty1k",
+      "last_id": "t3_1vzoh6k",
       "first_relative_time": "2m ago",
       "last_relative_time": "5h ago",
       "termination_reason": "max_batches",
       "actual_url": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
-      "method": "modern_posts_new_scroll",
-      "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
+      "method": "modern_posts_new_dynamic_extended",
+      "reason": "dynamic_feed_stalled_before_time_boundary",
+      "previous_continuation_id": "t3_1vznty2",
+      "previous_continuation_seen": false,
+      "time_boundary_crossed": false,
+      "archive_files": [
+        "reddit/raw/2026/08/27/search-repair-2026-08-27T13-27-27-868Z.jsonl",
+        "reddit/raw/2026/08/27/search-repair-extended-2026-08-27T13-27-27-868Z.jsonl"
+      ],
+      "continuation_evidence": {
+        "previous_last_id": "t3_1vznty2",
+        "previous_last_id_seen": false,
+        "extended_scroll_batches": 77,
+        "termination": "dynamic_feed_stalled_before_time_boundary"
+      }
     },
     "LLM inference OR quantization": {
       "status": "frozen",
-      "captured_at": "2026-08-27T13:06:18.327Z",
+      "captured_at": "2026-08-27T13:35:14.937Z",
       "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
-      "observed_count": 252,
-      "scroll_batches": 14,
-      "first_id": "t3_1vzt9yu",
-      "last_id": "t3_1vzhi4a",
+      "observed_count": 243,
+      "scroll_batches": 83,
+      "first_id": "t3_1vzty5e",
+      "last_id": "t3_1vzj57i",
       "first_relative_time": "2m ago",
       "last_relative_time": "11h ago",
       "termination_reason": "max_batches",
       "actual_url": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
-      "method": "modern_posts_new_scroll",
-      "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
+      "method": "modern_posts_new_dynamic_extended",
+      "reason": "dynamic_feed_stalled_before_time_boundary",
+      "previous_continuation_id": "t3_1vzhi4a",
+      "previous_continuation_seen": false,
+      "time_boundary_crossed": false,
+      "archive_files": [
+        "reddit/raw/2026/08/27/search-repair-2026-08-27T13-27-27-868Z.jsonl",
+        "reddit/raw/2026/08/27/search-repair-extended-2026-08-27T13-27-27-868Z.jsonl"
+      ],
+      "continuation_evidence": {
+        "previous_last_id": "t3_1vzhi4a",
+        "previous_last_id_seen": false,
+        "extended_scroll_batches": 83,
+        "termination": "dynamic_feed_stalled_before_time_boundary"
+      }
     },
     "open weights OR open source AI": {
       "status": "success",
@@ -504,33 +530,59 @@
     },
     "AI chip OR GPU OR inference accelerator": {
       "status": "frozen",
-      "captured_at": "2026-08-27T13:06:18.327Z",
+      "captured_at": "2026-08-27T13:35:14.937Z",
       "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
-      "observed_count": 242,
-      "scroll_batches": 14,
-      "first_id": "t3_1vzt9id",
-      "last_id": "t3_1vyvtox",
+      "observed_count": 104,
+      "scroll_batches": 40,
+      "first_id": "t3_1vztoi2",
+      "last_id": "t3_1vzhug8",
       "first_relative_time": "4m ago",
       "last_relative_time": "1d ago",
       "termination_reason": "max_batches",
       "actual_url": "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new",
-      "method": "modern_posts_new_scroll",
-      "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
+      "method": "modern_posts_new_dynamic_extended",
+      "reason": "dynamic_feed_stalled_before_time_boundary",
+      "previous_continuation_id": "t3_1vyvtox",
+      "previous_continuation_seen": false,
+      "time_boundary_crossed": false,
+      "archive_files": [
+        "reddit/raw/2026/08/27/search-repair-2026-08-27T13-27-27-868Z.jsonl",
+        "reddit/raw/2026/08/27/search-repair-extended-2026-08-27T13-27-27-868Z.jsonl"
+      ],
+      "continuation_evidence": {
+        "previous_last_id": "t3_1vyvtox",
+        "previous_last_id_seen": false,
+        "extended_scroll_batches": 40,
+        "termination": "dynamic_feed_stalled_before_time_boundary"
+      }
     },
     "robotics foundation model": {
       "status": "frozen",
-      "captured_at": "2026-08-27T13:06:18.327Z",
+      "captured_at": "2026-08-27T13:35:14.937Z",
       "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
-      "observed_count": 231,
-      "scroll_batches": 14,
-      "first_id": "t3_1vzt8xg",
-      "last_id": "t3_1vz2tld",
+      "observed_count": 252,
+      "scroll_batches": 86,
+      "first_id": "t3_1vztvav",
+      "last_id": "t3_1vz2aoi",
       "first_relative_time": "5m ago",
       "last_relative_time": "20h ago",
       "termination_reason": "max_batches",
       "actual_url": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
-      "method": "modern_posts_new_scroll",
-      "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
+      "method": "modern_posts_new_dynamic_extended",
+      "reason": "dynamic_feed_stalled_before_time_boundary",
+      "previous_continuation_id": "t3_1vz2tld",
+      "previous_continuation_seen": true,
+      "time_boundary_crossed": false,
+      "archive_files": [
+        "reddit/raw/2026/08/27/search-repair-2026-08-27T13-27-27-868Z.jsonl",
+        "reddit/raw/2026/08/27/search-repair-extended-2026-08-27T13-27-27-868Z.jsonl"
+      ],
+      "continuation_evidence": {
+        "previous_last_id": "t3_1vz2tld",
+        "previous_last_id_seen": true,
+        "extended_scroll_batches": 86,
+        "termination": "dynamic_feed_stalled_before_time_boundary"
+      }
     },
     "AI security OR prompt injection": {
       "status": "success",
@@ -550,18 +602,31 @@
     },
     "developer tools OR programming language": {
       "status": "frozen",
-      "captured_at": "2026-08-27T13:06:18.327Z",
+      "captured_at": "2026-08-27T13:35:14.937Z",
       "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
-      "observed_count": 238,
-      "scroll_batches": 14,
-      "first_id": "t3_1vztaiz",
-      "last_id": "t3_1vzgwfc",
+      "observed_count": 251,
+      "scroll_batches": 80,
+      "first_id": "t3_1vztyao",
+      "last_id": "t3_1vzgubq",
       "first_relative_time": "4m ago",
       "last_relative_time": "11h ago",
       "termination_reason": "max_batches",
       "actual_url": "https://www.reddit.com/search/?q=developer%20tools%20OR%20programming%20language&type=posts&sort=new",
-      "method": "modern_posts_new_scroll",
-      "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
+      "method": "modern_posts_new_dynamic_extended",
+      "reason": "dynamic_feed_stalled_before_time_boundary",
+      "previous_continuation_id": "t3_1vzgwfc",
+      "previous_continuation_seen": true,
+      "time_boundary_crossed": false,
+      "archive_files": [
+        "reddit/raw/2026/08/27/search-repair-2026-08-27T13-27-27-868Z.jsonl",
+        "reddit/raw/2026/08/27/search-repair-extended-2026-08-27T13-27-27-868Z.jsonl"
+      ],
+      "continuation_evidence": {
+        "previous_last_id": "t3_1vzgwfc",
+        "previous_last_id_seen": true,
+        "extended_scroll_batches": 80,
+        "termination": "dynamic_feed_stalled_before_time_boundary"
+      }
     },
     "data center energy water": {
       "status": "success",
@@ -3973,7 +4038,31 @@
     "t3_1vztkkv",
     "t3_1vztjvf",
     "t3_1vztjd8",
-    "t3_1vztgrn"
+    "t3_1vztgrn",
+    "t3_1vzty1k",
+    "t3_1vztxw4",
+    "t3_1vztxvi",
+    "t3_1vztw19",
+    "t3_1vztc20",
+    "t3_1vzqu7a",
+    "t3_1vzty5e",
+    "t3_1vzs97h",
+    "t3_1vztvav",
+    "t3_1vzo70e",
+    "t3_1vztyao",
+    "t3_1vzon06",
+    "t3_1vz2rul",
+    "t3_1vz2p5l",
+    "t3_1vz2osv",
+    "t3_1vz2ny5",
+    "t3_1vz2l8n",
+    "t3_1vz2j7b",
+    "t3_1vz2g6y",
+    "t3_1vz2eym",
+    "t3_1vz2chl",
+    "t3_1vz2c3c",
+    "t3_1vz2aoi",
+    "t3_1vzgubq"
   ],
   "seen_comment_ids": [
     "t1_p5l1soy",
