@@ -1,7 +1,7 @@
 {
   "run_id": "twitter-2026-08-27T13-18-45Z",
   "started_at_utc": "2026-08-27T13:05:00Z",
-  "finished_at_utc": "2026-08-27T13:18:45Z",
+  "finished_at_utc": "2026-08-27T13:31:07Z",
   "status": "partial_frozen",
   "source_summary": {
     "accounts": {
@@ -11,57 +11,85 @@
     },
     "queries": {
       "attempted": 5,
-      "succeeded": 0,
-      "failed": 5
+      "succeeded": 1,
+      "failed": 4
     },
     "following": {
       "attempted": 1,
-      "succeeded": 0,
-      "failed": 1
+      "succeeded": 1,
+      "failed": 0
     },
     "for_you": {
       "attempted": 1,
-      "succeeded": 0,
-      "failed": 1
+      "succeeded": 1,
+      "failed": 0
     },
     "replies": {
-      "attempted": 0,
-      "succeeded": 0,
-      "failed": 1
+      "attempted": 2,
+      "succeeded": 2,
+      "failed": 0
     }
   },
   "raw_files": [
     "twitter/raw/2026/08/27/2026-08-27T131431Z-partial-observation.json",
-    "twitter/raw/2026/08/27/2026-08-27T131600Z-checkpoint-scan.json"
+    "twitter/raw/2026/08/27/2026-08-27T131600Z-checkpoint-scan.json",
+    "twitter/raw/2026/08/27/2026-08-27T132900Z-query-1.jsonl",
+    "twitter/raw/2026/08/27/2026-08-27T132900Z-query-2.jsonl",
+    "twitter/raw/2026/08/27/2026-08-27T132900Z-query-3.jsonl",
+    "twitter/raw/2026/08/27/2026-08-27T132900Z-query-4.jsonl",
+    "twitter/raw/2026/08/27/2026-08-27T132900Z-query-5.jsonl",
+    "twitter/raw/2026/08/27/2026-08-27T132900Z-following.jsonl",
+    "twitter/raw/2026/08/27/2026-08-27T132900Z-for-you.jsonl",
+    "twitter/raw/2026/08/27/2026-08-27T132900Z-replies.jsonl"
   ],
   "account_scan": {
     "batches": "1 initial plus 25 for sources needing continued scan",
     "checkpoint_rule": "all 19 account checkpoints observed; account checkpoint advancements are non-pinned Posts timeline items"
   },
   "frozen_sources": {
-    "query:AI agent OR agentic coding": "no visible results in initial batch; 25-batch continuation was not completed",
-    "query:LLM inference OR AI chips": "old checkpoint not reached; only initial plus one scroll persisted",
-    "query:open weights OR open source AI": "old checkpoint not reached; only initial plus one scroll persisted",
-    "query:robotics foundation model": "old checkpoint not reached; only initial plus one scroll persisted",
-    "query:AI security OR prompt injection": "old checkpoint not reached; only initial plus one scroll persisted",
-    "following": "no statuses appeared before batch budget was exhausted",
-    "for_you": "only two snapshot batches completed; did not reach the required eight batches or two consecutive zero-new batches",
-    "replies": "no high-signal reply-page review completed; no reply archive or completeness determination"
+    "query:AI agent OR agentic coding": "25 batches; old checkpoint not reached; continuation saved",
+    "query:LLM inference OR AI chips": "25 batches; old checkpoint not reached; continuation saved",
+    "query:open weights OR open source AI": "25 batches; old checkpoint not reached; continuation saved",
+    "query:AI security OR prompt injection": "25 batches; old checkpoint not reached; continuation saved"
   },
   "counts": {
     "observed_status_ids": 698,
     "archived_replies": 0
   },
   "github": {
-    "status": "pushed",
-    "commit": "22e79c7e36c91692348b2420ded4b92f1e27d3e4",
-    "branch": "main",
-    "url": "https://github.com/convee/daily-content-archive/commit/22e79c7e36c91692348b2420ded4b92f1e27d3e4"
+    "status": "pending_commit_and_push"
   },
   "dingtalk": {
-    "status": "SUCCESS",
-    "openTaskId": "ywmKJneynkXySKJM2Yhng5hS+zeoco4ClsHVbopwFAE=",
-    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "openMessageId": "msgctIZvsUXDmWNAGAD4xHLWg=="
+    "status": "not_sent"
+  },
+  "remaining_layer_repair": {
+    "completed_at_utc": "2026-08-27T13:31:07Z",
+    "queries": {
+      "completed": [
+        "robotics foundation model"
+      ],
+      "frozen_25_batches": [
+        "AI agent OR agentic coding",
+        "LLM inference OR AI chips",
+        "open weights OR open source AI",
+        "AI security OR prompt injection"
+      ]
+    },
+    "following": {
+      "result": "completed by observed posts older than committed checkpoint time",
+      "batches": 25
+    },
+    "for_you": {
+      "result": "completed",
+      "batches": 14,
+      "terminal_zero_new_batches": 2
+    },
+    "replies": {
+      "targets": [
+        "2092947387572728304",
+        "2092667990273663311"
+      ],
+      "result": "both pages inspected across five batches; 0 qualifying replies retained; raw evidence includes two non-qualifying replies for first target and none for second"
+    }
   }
 }
