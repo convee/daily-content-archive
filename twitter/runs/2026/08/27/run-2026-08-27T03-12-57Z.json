@@ -1,0 +1,14 @@
+{
+  "started_at_utc": "2026-08-27T03:12:57Z",
+  "finished_at_utc": "2026-08-27T03:12:57Z",
+  "status": "partial_frozen",
+  "counts": {"posts": 3, "replies": 0},
+  "source_results": [
+    {"type":"account","success":14,"failed":5,"migrated":["@OpenAI","@AndrewYNg"],"frozen":["@AIatMeta","@GitHub","@ylecun","@swyx","@hardmaru"],"reason":"Pinned-checkpoint migration was completed only where the visible Posts timeline scrolled past the old pinned post time; remaining migrations were retained as frozen."},
+    {"type":"query","success":0,"failed":5,"frozen":["robotics foundation model","AI agent OR agentic coding","LLM inference OR AI chips","open weights OR open source AI","AI security OR prompt injection"],"reason":"Robotics Live search was persisted through six batches but had not reached its old checkpoint; the other frozen queries were not advanced without a 25-batch reconciliation."},
+    {"type":"following","success":0,"failed":1,"reason":"Not advanced: prior checkpoint remains frozen."},
+    {"type":"for_you","success":0,"failed":1,"reason":"Not advanced: no eight-batch snapshot or two consecutive zero-new batches was collected."}
+  ],
+  "raw_validation": "New raw JSONL parses; observed migration IDs were already present in durable raw before checkpoint changes.",
+  "daily_brief": null
+}
