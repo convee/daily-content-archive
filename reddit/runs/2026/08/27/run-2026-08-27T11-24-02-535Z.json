@@ -308,9 +308,17 @@
     "new_written": 23
   },
   "github": {
-    "status": "pending"
+    "status": "pushed",
+    "commit": "b7d2009",
+    "remote": "origin/main"
   },
   "dingtalk": {
-    "status": "pending"
-  }
+    "status": "sent",
+    "kind": "exception",
+    "openTaskId": "DTjqZtzwgfpqK1ZznMXSQMwJGSTt66KNm17PN8LnAHA=",
+    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "sendStatus": "SUCCESS",
+    "openMessageId": "msgUNwxBll4InF6SywHNFHfdg=="
+  },
+  "run_finalized_at": "2026-08-27T11:24:43.243Z"
 }
