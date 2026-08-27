@@ -1,0 +1,113 @@
+{
+  "started_at_utc": "2026-08-27T12:38:00Z",
+  "finished_at_utc": "2026-08-27T12:38:00Z",
+  "status": "partial_frozen",
+  "counts": {
+    "posts": 341,
+    "replies": 0
+  },
+  "source_results": [
+    {
+      "type": "account",
+      "success": 2,
+      "failed": 17,
+      "success_sources": [
+        "@OpenAI",
+        "@AndrewYNg"
+      ],
+      "frozen_sources": [
+        "@AnthropicAI",
+        "@GoogleDeepMind",
+        "@xai",
+        "@MistralAI",
+        "@huggingface",
+        "@nvidia",
+        "@ycombinator",
+        "@producthunt",
+        "@TechCrunch",
+        "@arxiv",
+        "@karpathy",
+        "@simonw",
+        "@AIatMeta",
+        "@GitHub",
+        "@ylecun",
+        "@swyx",
+        "@hardmaru"
+      ],
+      "reason": "OpenAI and AndrewYNg Posts timelines reached their committed checkpoints with pinned posts excluded; remaining account timelines were not swept this repair run and stay frozen."
+    },
+    {
+      "type": "query",
+      "success": 1,
+      "failed": 4,
+      "success_sources": [
+        "robotics foundation model"
+      ],
+      "frozen_sources": [
+        "AI agent OR agentic coding",
+        "LLM inference OR AI chips",
+        "open weights OR open source AI",
+        "AI security OR prompt injection"
+      ],
+      "reason": "robotics foundation model reached its committed checkpoint in batch 19; four Latest query streams reached 25 batches without their checkpoints and remain frozen."
+    },
+    {
+      "type": "following",
+      "success": 0,
+      "failed": 1,
+      "checkpoint": "2092633969380442525",
+      "batches": 25,
+      "deepest_seen_status_id": "2092418825983758484",
+      "reason": "Additional 25 batches did not reach checkpoint; cursor frozen."
+    },
+    {
+      "type": "for_you",
+      "success": 0,
+      "failed": 1,
+      "snapshot": {
+        "captured_at": "2026-08-27T12:38:00Z",
+        "batches": 10,
+        "first_status_id": "2092935181338321392",
+        "last_status_id": "2092939371670536624",
+        "new_status_ids": [
+          "2092935181338321392",
+          "2092618523331658203",
+          "2092912015107088495",
+          "2092808829356433878",
+          "2092929121428893945",
+          "2092613204518056095",
+          "2092858047152668962",
+          "2092440177658765563",
+          "2092852659476894204",
+          "2092484685662413306",
+          "2092945031447339325",
+          "2092822007843061823",
+          "2092605652086493578",
+          "2092939371670536624"
+        ]
+      },
+      "reason": "New IDs continued through batch 10; required two consecutive zero-new batches were not established."
+    }
+  ],
+  "raw_files": [
+    "twitter/raw/2026/08/27/posts-2026-08-27T12-38-00Z-repair.jsonl"
+  ],
+  "raw_validation": "All 341 observed status IDs are present in referenced durable JSONL; JSONL parses successfully; all IDs merged into state.seen_status_ids.",
+  "daily_brief": {
+    "status": "not_due",
+    "reason": "Repair run occurred outside the 09:10 Asia/Shanghai daily-brief window."
+  },
+  "github": {
+    "status": "pending_finalization",
+    "commit": null,
+    "branch": "main",
+    "remote": "origin"
+  },
+  "dingtalk": {
+    "status": "pending_finalization",
+    "kind": "repair_progress",
+    "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "sendStatus": null,
+    "verified": false
+  }
+}
