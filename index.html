@@ -87,7 +87,7 @@ page_kind: home
           {% when 'reddit' %}{% assign platform_name = 'Reddit' %}
           {% when 'producthunt' %}{% assign platform_name = 'Product Hunt' %}
         {% endcase %}
-        {% assign platform_pages = site.pages | where: 'platform', platform_key | sort: 'date' | reverse %}
+        {% assign platform_pages = site.pages | where: 'platform', platform_key | where_exp: 'archive_page', 'archive_page.date' | sort: 'date' | reverse %}
         <details class="history-group" data-history-group{% if forloop.first %} open{% endif %}>
           <summary><span><span class="platform-dot" aria-hidden="true"></span>{{ platform_name }}</span><strong data-history-count>{{ platform_pages.size }} 篇</strong></summary>
           <ul class="history-list">

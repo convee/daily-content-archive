@@ -4,6 +4,7 @@ url: https://convee.cn
 baseurl: /daily-content-archive
 lang: zh-CN
 timezone: Asia/Shanghai
+asset_version: 20260828-1
 markdown: kramdown
 kramdown:
   input: GFM
