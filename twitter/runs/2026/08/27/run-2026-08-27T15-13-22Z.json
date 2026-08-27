@@ -12,6 +12,6 @@
     "replies": {"attempted": 0, "succeeded": 0, "failed": 1, "reason":"No source achieved a valid continuous boundary, so no newly eligible high-signal post was promoted to reply review."}
   },
   "raw_files": ["twitter/raw/2026/08/27/2026-08-27T151322Z-browser-evidence.json"],
-  "github": {"status":"pending_commit_and_push"},
-  "dingtalk": {"status":"pending"}
+  "github": {"status":"pushed", "commit":"279dcaf83263916014f7aaf7553289dd83fa54b4", "branch":"main", "remote":"origin"},
+  "dingtalk": {"status":"SUCCESS", "kind":"exception", "openTaskId":"tXs7YEc0wrQF7BkNYdpzigF7NBwjJGj3c9tE5+bRIUY=", "openMessageId":"msgR9WnucSEZzTbJkbS9Jg0Iw==", "target_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==", "returned_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==", "verified":true}
 }
