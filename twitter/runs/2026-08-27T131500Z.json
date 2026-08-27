@@ -1,0 +1,61 @@
+{
+  "run_id": "twitter-2026-08-27T13-18-45Z",
+  "started_at_utc": "2026-08-27T13:05:00Z",
+  "finished_at_utc": "2026-08-27T13:18:45Z",
+  "status": "partial_frozen",
+  "source_summary": {
+    "accounts": {
+      "attempted": 19,
+      "succeeded": 19,
+      "failed": 0
+    },
+    "queries": {
+      "attempted": 5,
+      "succeeded": 0,
+      "failed": 5
+    },
+    "following": {
+      "attempted": 1,
+      "succeeded": 0,
+      "failed": 1
+    },
+    "for_you": {
+      "attempted": 1,
+      "succeeded": 0,
+      "failed": 1
+    },
+    "replies": {
+      "attempted": 0,
+      "succeeded": 0,
+      "failed": 1
+    }
+  },
+  "raw_files": [
+    "twitter/raw/2026/08/27/2026-08-27T131431Z-partial-observation.json",
+    "twitter/raw/2026/08/27/2026-08-27T131600Z-checkpoint-scan.json"
+  ],
+  "account_scan": {
+    "batches": "1 initial plus 25 for sources needing continued scan",
+    "checkpoint_rule": "all 19 account checkpoints observed; account checkpoint advancements are non-pinned Posts timeline items"
+  },
+  "frozen_sources": {
+    "query:AI agent OR agentic coding": "no visible results in initial batch; 25-batch continuation was not completed",
+    "query:LLM inference OR AI chips": "old checkpoint not reached; only initial plus one scroll persisted",
+    "query:open weights OR open source AI": "old checkpoint not reached; only initial plus one scroll persisted",
+    "query:robotics foundation model": "old checkpoint not reached; only initial plus one scroll persisted",
+    "query:AI security OR prompt injection": "old checkpoint not reached; only initial plus one scroll persisted",
+    "following": "no statuses appeared before batch budget was exhausted",
+    "for_you": "only two snapshot batches completed; did not reach the required eight batches or two consecutive zero-new batches",
+    "replies": "no high-signal reply-page review completed; no reply archive or completeness determination"
+  },
+  "counts": {
+    "observed_status_ids": 698,
+    "archived_replies": 0
+  },
+  "github": {
+    "status": "pending_commit_and_push"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  }
+}
