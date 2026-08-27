@@ -1,0 +1,206 @@
+{
+  "schema_version": 2,
+  "started_at": "2026-08-27T15:23:55.838Z",
+  "finished_at": "2026-08-27T15:27:23.746Z",
+  "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
+  "new": {
+    "attempted": 12,
+    "success": 12,
+    "details": {
+      "MachineLearning": {
+        "observed_count": 25,
+        "written_count": 2,
+        "previous_checkpoint": "t3_1vz9x9c",
+        "previous_checkpoint_reached": true,
+        "new_head_id": "t3_1vzw4fg",
+        "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "LocalLLaMA": {
+        "observed_count": 25,
+        "written_count": 16,
+        "previous_checkpoint": "t3_1vztty7",
+        "previous_checkpoint_reached": true,
+        "new_head_id": "t3_1vzwkn4",
+        "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "programming": {
+        "observed_count": 25,
+        "written_count": 1,
+        "previous_checkpoint": "t3_1vztl74",
+        "previous_checkpoint_reached": true,
+        "new_head_id": "t3_1vzw7as",
+        "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "technology": {
+        "observed_count": 25,
+        "written_count": 9,
+        "previous_checkpoint": "t3_1vztmsx",
+        "previous_checkpoint_reached": true,
+        "new_head_id": "t3_1vzwxyi",
+        "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "netsec": {
+        "observed_count": 25,
+        "written_count": 1,
+        "previous_checkpoint": "t3_1vz6179",
+        "previous_checkpoint_reached": true,
+        "new_head_id": "t3_1vzx029",
+        "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "opensource": {
+        "observed_count": 25,
+        "written_count": 1,
+        "previous_checkpoint": "t3_1vzsjnm",
+        "previous_checkpoint_reached": true,
+        "new_head_id": "t3_1vzwv8l",
+        "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "selfhosted": {
+        "observed_count": 25,
+        "written_count": 6,
+        "previous_checkpoint": "t3_1vzswfw",
+        "previous_checkpoint_reached": true,
+        "new_head_id": "t3_1vzx0oq",
+        "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "science": {
+        "observed_count": 25,
+        "written_count": 5,
+        "previous_checkpoint": "t3_1vzsj8w",
+        "previous_checkpoint_reached": true,
+        "new_head_id": "t3_1vzwlqn",
+        "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "OpenAI": {
+        "observed_count": 25,
+        "written_count": 1,
+        "previous_checkpoint": "t3_1vzswi3",
+        "previous_checkpoint_reached": true,
+        "new_head_id": "t3_1vzvb6v",
+        "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "Anthropic": {
+        "observed_count": 25,
+        "written_count": 6,
+        "previous_checkpoint": "t3_1vzrr0y",
+        "previous_checkpoint_reached": true,
+        "new_head_id": "t3_1vzvwem",
+        "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "singularity": {
+        "observed_count": 25,
+        "written_count": 8,
+        "previous_checkpoint": "t3_1vzttlz",
+        "previous_checkpoint_reached": true,
+        "new_head_id": "t3_1vzwgmp",
+        "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "robotics": {
+        "observed_count": 25,
+        "written_count": 0,
+        "previous_checkpoint": "t3_1vzss9c",
+        "previous_checkpoint_reached": true,
+        "new_head_id": "t3_1vzss9c",
+        "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      }
+    }
+  },
+  "snapshots": {
+    "attempted": 24,
+    "success": 24,
+    "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+  },
+  "global": {
+    "attempted": 3,
+    "success": 3,
+    "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
+    "all_distinct": true
+  },
+  "search": {
+    "attempted": 8,
+    "success": 0,
+    "frozen": 8,
+    "details": {
+      "AI agent OR agentic coding": {
+        "observed_count": 21,
+        "scroll_batches": 4,
+        "method": "modern_posts_new_dynamic",
+        "status": "frozen",
+        "reason": "discovery snapshot; boundary not verified",
+        "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "LLM inference OR quantization": {
+        "observed_count": 21,
+        "scroll_batches": 4,
+        "method": "modern_posts_new_dynamic",
+        "status": "frozen",
+        "reason": "discovery snapshot; boundary not verified",
+        "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "open weights OR open source AI": {
+        "observed_count": 28,
+        "scroll_batches": 4,
+        "method": "modern_posts_new_dynamic",
+        "status": "frozen",
+        "reason": "discovery snapshot; boundary not verified",
+        "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "AI chip OR GPU OR inference accelerator": {
+        "observed_count": 21,
+        "scroll_batches": 4,
+        "method": "modern_posts_new_dynamic",
+        "status": "frozen",
+        "reason": "discovery snapshot; boundary not verified",
+        "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "robotics foundation model": {
+        "observed_count": 35,
+        "scroll_batches": 4,
+        "method": "modern_posts_new_dynamic",
+        "status": "frozen",
+        "reason": "discovery snapshot; boundary not verified",
+        "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "AI security OR prompt injection": {
+        "observed_count": 28,
+        "scroll_batches": 4,
+        "method": "modern_posts_new_dynamic",
+        "status": "frozen",
+        "reason": "discovery snapshot; boundary not verified",
+        "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "developer tools OR programming language": {
+        "observed_count": 28,
+        "scroll_batches": 4,
+        "method": "modern_posts_new_dynamic",
+        "status": "frozen",
+        "reason": "discovery snapshot; boundary not verified",
+        "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      },
+      "data center energy water": {
+        "observed_count": 28,
+        "scroll_batches": 4,
+        "method": "modern_posts_new_dynamic",
+        "status": "frozen",
+        "reason": "discovery snapshot; boundary not verified",
+        "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl"
+      }
+    }
+  },
+  "comments": {
+    "due": 0,
+    "attempted": 0,
+    "success": 0
+  },
+  "community_discovery": {
+    "due": false,
+    "candidates_added": 0
+  },
+  "failures": [],
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  }
+}
