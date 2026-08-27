@@ -1,0 +1,100 @@
+{
+  "captured_at": "2026-08-27T13:00:00Z",
+  "stable_anchor": "Product Hunt comment id",
+  "fallback_key": "product_id + author + visible_time + body",
+  "products": {
+    "x1-2": {
+      "pages_checked": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "comments_extracted": 74
+    },
+    "expertise-ai": {
+      "pages_checked": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "comments_extracted": 102
+    },
+    "posthog": {
+      "pages_checked": [
+        1
+      ],
+      "comments_extracted": 3
+    },
+    "chatcut-ai-video-editor": {
+      "pages_checked": [
+        1,
+        2
+      ],
+      "comments_extracted": 23
+    },
+    "mcp-builder-ai": {
+      "pages_checked": [
+        1
+      ],
+      "comments_extracted": 8
+    },
+    "tellie-2": {
+      "pages_checked": [
+        1,
+        2
+      ],
+      "comments_extracted": 21
+    },
+    "opencomputer": {
+      "pages_checked": [
+        1
+      ],
+      "comments_extracted": 3
+    },
+    "ify-2": {
+      "pages_checked": [
+        1,
+        2
+      ],
+      "comments_extracted": 29
+    },
+    "lore-machine": {
+      "pages_checked": [
+        1
+      ],
+      "comments_extracted": 5
+    },
+    "screenify-studio": {
+      "pages_checked": [
+        1
+      ],
+      "comments_extracted": 11
+    },
+    "playcall": {
+      "pages_checked": [
+        1
+      ],
+      "comments_extracted": 2
+    },
+    "easyswitch": {
+      "pages_checked": [
+        1
+      ],
+      "comments_extracted": 6
+    },
+    "loupekit": {
+      "pages_checked": [
+        1
+      ],
+      "comments_extracted": 12
+    }
+  },
+  "total_unique_comments": 299,
+  "selected_comments": 122,
+  "role_extraction_note": "Roles are based on visible Maker/Hunter labels in the rendered comment text. Parent comment IDs are not exposed by the rendered DOM; each record notes this limitation.",
+  "failures": []
+}
