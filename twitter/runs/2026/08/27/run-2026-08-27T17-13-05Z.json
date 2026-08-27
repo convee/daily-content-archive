@@ -13,6 +13,6 @@
   "counts": {"observed_status_ids": 100, "archived_replies": 0},
   "raw_files": ["twitter/raw/2026/08/27/2026-08-27T171305Z-attempt-ledger.json"],
   "frozen_sources": {"accounts": "all 19", "queries": "all 5", "following": "checkpoint not reached", "for_you": "discovery snapshot incomplete", "replies": "no eligible continuous boundary"},
-  "github": {"status": "pending_commit_and_push"},
-  "dingtalk": {"status": "pending_exception_notification"}
+  "github": {"status": "pushed", "commit": "11e844a3645551cf048f8bfadb7966989949a7d5", "branch": "main", "url": "https://github.com/convee/daily-content-archive/commit/11e844a3645551cf048f8bfadb7966989949a7d5"},
+  "dingtalk": {"status": "SUCCESS", "kind": "exception", "openTaskId": "h4dm2tUHCTgv5HM3yt3V09NrBF1jkywgCidagKYiZHQ=", "openMessageId": "msgD3LFw/ePDfbm1GBm/PAI5A==", "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "returned_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "verified": true}
 }
