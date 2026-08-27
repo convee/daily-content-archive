@@ -1,0 +1,100 @@
+{
+  "schema_version": 2,
+  "started_at": "2026-08-27T17:23:15.460Z",
+  "finished_at": "2026-08-27T17:25:22.130Z",
+  "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T17-25-22-130Z.jsonl",
+  "raw_jsonl_valid": true,
+  "records_observed": 2475,
+  "unique_posts_written": 2475,
+  "new": {
+    "MachineLearning": {
+      "status": "success",
+      "new_checkpoint": "t3_1vzzw38",
+      "observed_count": 25,
+      "old_checkpoint_hit": true
+    },
+    "LocalLLaMA": {
+      "status": "success",
+      "new_checkpoint": "t3_1vzztdg",
+      "observed_count": 25,
+      "old_checkpoint_hit": true
+    },
+    "programming": {
+      "status": "frozen",
+      "observed_count": 750,
+      "old_checkpoint_hit": false
+    },
+    "technology": {
+      "status": "frozen",
+      "observed_count": 750,
+      "old_checkpoint_hit": false
+    },
+    "netsec": {
+      "status": "success",
+      "new_checkpoint": "t3_1vzxkxm",
+      "observed_count": 25,
+      "old_checkpoint_hit": true
+    },
+    "opensource": {
+      "status": "success",
+      "new_checkpoint": "t3_1vzwv8l",
+      "observed_count": 25,
+      "old_checkpoint_hit": true
+    },
+    "selfhosted": {
+      "status": "success",
+      "new_checkpoint": "t3_1vzzukr",
+      "observed_count": 25,
+      "old_checkpoint_hit": true
+    },
+    "science": {
+      "status": "frozen",
+      "observed_count": 750,
+      "old_checkpoint_hit": false
+    },
+    "OpenAI": {
+      "status": "success",
+      "new_checkpoint": "t3_1vzzsex",
+      "observed_count": 25,
+      "old_checkpoint_hit": true
+    },
+    "Anthropic": {
+      "status": "success",
+      "new_checkpoint": "t3_1w006g0",
+      "observed_count": 25,
+      "old_checkpoint_hit": true
+    },
+    "singularity": {
+      "status": "success",
+      "new_checkpoint": "t3_1vzzcgo",
+      "observed_count": 25,
+      "old_checkpoint_hit": true
+    },
+    "robotics": {
+      "status": "success",
+      "new_checkpoint": "t3_1vzzr4r",
+      "observed_count": 25,
+      "old_checkpoint_hit": true
+    }
+  },
+  "snapshots": {
+    "status": "failed_unrun",
+    "reason": "net::ERR_BLOCKED_BY_CLIENT at first snapshot"
+  },
+  "global": {
+    "status": "unrun_due_to_snapshot_browser_failure"
+  },
+  "search": {
+    "status": "unrun_due_to_snapshot_browser_failure",
+    "queries": 8
+  },
+  "comments": {
+    "status": "no_due_revisits"
+  },
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "pending"
+  }
+}
