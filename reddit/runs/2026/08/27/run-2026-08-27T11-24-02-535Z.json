@@ -386,13 +386,19 @@
     "new_written": 23
   },
   "github": {
-    "status": "pending"
+    "status": "pushed",
+    "commit": "735f1b7",
+    "remote": "origin/main"
   },
   "dingtalk": {
-    "status": "pending",
-    "kind": "search_repair_final"
+    "status": "sent",
+    "kind": "search_repair_final",
+    "openTaskId": "XQCSZVbyXqfH6x3AzzGtredyNoahbdWWBdie9wgY38o=",
+    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "sendStatus": "SUCCESS",
+    "openMessageId": "msgALaZUB8F5Cqfvum3o/GQLw=="
   },
-  "run_finalized_at": "2026-08-27T12:49:54.648Z",
+  "run_finalized_at": "2026-08-27T13:06:51.548Z",
   "repair_finished_at": "2026-08-27T12:49:27.247Z",
   "time_boundary_repairs": {
     "programming": {
