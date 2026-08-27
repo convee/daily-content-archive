@@ -4164,5 +4164,11 @@
       "error": "no next-page evidence; discovery snapshot only",
       "frozen_scope": "data center energy water"
     }
-  ]
+  ],
+  "last_dingtalk_delivery": {
+    "status": "sent_exception",
+    "open_task_id": "JQBDg7wDOMLwQwsegECVrpDCfsL8ZpbThEQYrTKcZpo=",
+    "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "send_status": "SUCCESS"
+  }
 }

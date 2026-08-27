@@ -456,13 +456,19 @@
     }
   ],
   "github": {
-    "status": "ready_to_commit"
+    "status": "pushed",
+    "commit": "7cfc89982fb58585bdf43bdc8a8f50f0dd14ff4c",
+    "branch": "main"
   },
   "dingtalk": {
-    "status": "pending_exception_notification"
+    "status": "sent_exception",
+    "open_task_id": "JQBDg7wDOMLwQwsegECVrpDCfsL8ZpbThEQYrTKcZpo=",
+    "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "send_status": "SUCCESS"
   },
   "raw_record_count": 603,
   "raw_post_count": 600,
   "raw_comment_count": 3,
-  "completed_at_utc": "2026-08-27T13:24:47.887Z"
+  "completed_at_utc": "2026-08-27T13:24:47.887Z",
+  "finalized_at_utc": "2026-08-27T13:25:39.707Z"
 }
