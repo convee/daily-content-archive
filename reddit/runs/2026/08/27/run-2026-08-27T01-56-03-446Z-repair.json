@@ -1,0 +1,173 @@
+{
+  "schema_version": 2,
+  "captured_at_utc": "2026-08-27T01:56:03.446Z",
+  "captured_at_local": "2026-08-27T09:56:03.446+08:00",
+  "mode": "logged_in_local_chrome_read_only_old_reddit_paginated_repair",
+  "outcome": "new_continuity_repaired_other_layers_still_frozen",
+  "repair_complete": true,
+  "collection_complete": false,
+  "authoritative_state_before": "origin/main:reddit/state.json",
+  "source": "logged-in local Chrome / old.reddit.com paginated New listings",
+  "community_results": [
+    {
+      "name": "MachineLearning",
+      "checkpoint": "t3_1vv2nkh",
+      "found": true,
+      "pages": 2,
+      "records": 29,
+      "observed": 29,
+      "failure": null
+    },
+    {
+      "name": "LocalLLaMA",
+      "checkpoint": "t3_1vyj7j3",
+      "found": true,
+      "pages": 3,
+      "records": 72,
+      "observed": 72,
+      "failure": null
+    },
+    {
+      "name": "programming",
+      "checkpoint": "t3_1vv3lus",
+      "found": true,
+      "pages": 2,
+      "records": 33,
+      "observed": 33,
+      "failure": null
+    },
+    {
+      "name": "technology",
+      "checkpoint": "t3_1vyn0gz",
+      "found": true,
+      "pages": 4,
+      "records": 94,
+      "observed": 94,
+      "failure": null
+    },
+    {
+      "name": "netsec",
+      "checkpoint": "t3_1vn94sg",
+      "found": true,
+      "pages": 2,
+      "records": 31,
+      "observed": 31,
+      "failure": null
+    },
+    {
+      "name": "opensource",
+      "checkpoint": "t3_1vu9y00",
+      "found": true,
+      "pages": 2,
+      "records": 32,
+      "observed": 32,
+      "failure": null
+    },
+    {
+      "name": "selfhosted",
+      "checkpoint": "t3_1vybxbq",
+      "found": true,
+      "pages": 3,
+      "records": 56,
+      "observed": 56,
+      "failure": null
+    },
+    {
+      "name": "science",
+      "checkpoint": "t3_1vxysf9",
+      "found": true,
+      "pages": 2,
+      "records": 43,
+      "observed": 43,
+      "failure": null
+    },
+    {
+      "name": "OpenAI",
+      "checkpoint": "t3_1vye81s",
+      "found": true,
+      "pages": 2,
+      "records": 46,
+      "observed": 46,
+      "failure": null
+    },
+    {
+      "name": "Anthropic",
+      "checkpoint": "t3_1vxmip4",
+      "found": true,
+      "pages": 2,
+      "records": 44,
+      "observed": 44,
+      "failure": null
+    },
+    {
+      "name": "singularity",
+      "checkpoint": "t3_1vxj42t",
+      "found": true,
+      "pages": 2,
+      "records": 50,
+      "observed": 50,
+      "failure": null
+    },
+    {
+      "name": "robotics",
+      "checkpoint": "t3_1vx1kcv",
+      "found": true,
+      "pages": 2,
+      "records": 35,
+      "observed": 35,
+      "failure": null
+    }
+  ],
+  "counts": {
+    "communities_repaired": 12,
+    "posts_observed": 565,
+    "posts_written_after_global_dedup": 558,
+    "prior_checkpoints_reached": 12
+  },
+  "raw_file": "reddit/raw/2026/08/27/posts-backfill-2026-08-27T01-56-03-446Z.jsonl",
+  "state_advanced": {
+    "community_new_checkpoints": true,
+    "hot_rising": false,
+    "global_feeds": false,
+    "search": false,
+    "comments": false
+  },
+  "previous_checkpoints": {
+    "MachineLearning": "t3_1vv2nkh",
+    "LocalLLaMA": "t3_1vyj7j3",
+    "programming": "t3_1vv3lus",
+    "technology": "t3_1vyn0gz",
+    "netsec": "t3_1vn94sg",
+    "opensource": "t3_1vu9y00",
+    "selfhosted": "t3_1vybxbq",
+    "science": "t3_1vxysf9",
+    "OpenAI": "t3_1vye81s",
+    "Anthropic": "t3_1vxmip4",
+    "singularity": "t3_1vxj42t",
+    "robotics": "t3_1vx1kcv"
+  },
+  "new_checkpoints": {
+    "MachineLearning": "t3_1vz9x9c",
+    "LocalLLaMA": "t3_1vzg84e",
+    "programming": "t3_1vz921w",
+    "technology": "t3_1vzgjr0",
+    "netsec": "t3_1vz6179",
+    "opensource": "t3_1vzdko9",
+    "selfhosted": "t3_1vzgcdi",
+    "science": "t3_1vzfzl0",
+    "OpenAI": "t3_1vzghfk",
+    "Anthropic": "t3_1vzgf0h",
+    "singularity": "t3_1vzgkfa",
+    "robotics": "t3_1vzefmt"
+  },
+  "remaining_failures": [
+    "Hot/Rising snapshots were not rebuilt by this repair run.",
+    "r/all redirect behavior remains unresolved.",
+    "Search checkpoints remain frozen.",
+    "Three overdue comment revisits remain pending."
+  ],
+  "notification": {
+    "status": "pending_until_push"
+  }
+}
+
