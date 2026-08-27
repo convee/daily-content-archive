@@ -6,34 +6,165 @@
   "outcome": "partial_success",
   "authoritative_state_before": "origin/main:reddit/state.json",
   "layers": {
-    "new": {"success": 12, "failed": 0, "observed": 13, "written": 13, "checkpoints_advanced": 5},
-    "hot": {"success": 12, "failed": 0, "posts_per_snapshot": 25},
-    "rising": {"success": 12, "failed": 0, "posts_per_snapshot": 25},
-    "global": {"success": 3, "failed": 0, "posts_per_snapshot": 25},
-    "search": {"success": 0, "failed": 8},
-    "comment_revisits": {"success": 0, "failed": 3}
+    "new": {
+      "success": 12,
+      "failed": 0,
+      "observed": 13,
+      "written": 13,
+      "checkpoints_advanced": 5
+    },
+    "hot": {
+      "success": 12,
+      "failed": 0,
+      "posts_per_snapshot": 25,
+      "evidence_file": "reddit/raw/2026/08/27/snapshots-2026-08-27T03-39-08-660Z.jsonl",
+      "evidence_status": "durable_raw"
+    },
+    "rising": {
+      "success": 12,
+      "failed": 0,
+      "posts_per_snapshot": 25,
+      "evidence_file": "reddit/raw/2026/08/27/snapshots-2026-08-27T03-39-08-660Z.jsonl",
+      "evidence_status": "durable_raw"
+    },
+    "global": {
+      "success": 3,
+      "failed": 0,
+      "posts_per_snapshot": 25,
+      "evidence_file": "reddit/raw/2026/08/27/snapshots-2026-08-27T03-39-08-660Z.jsonl",
+      "evidence_status": "durable_raw"
+    },
+    "search": {
+      "success": 0,
+      "failed": 8
+    },
+    "comment_revisits": {
+      "success": 3,
+      "failed": 0,
+      "raw_comments_written": 65,
+      "evidence_file": "reddit/raw/2026/08/27/comments-revisit-2026-08-27T03-40-01-637Z.jsonl",
+      "next_rounds_scheduled": 3
+    }
   },
   "new_community_results": [
-    {"name":"MachineLearning","observed":0,"written":0,"previous_checkpoint":"t3_1vz9x9c","previous_checkpoint_reached":true,"new_head":"t3_1vz9x9c"},
-    {"name":"LocalLLaMA","observed":4,"written":4,"previous_checkpoint":"t3_1vzg84e","previous_checkpoint_reached":true,"new_head":"t3_1vzhwxl"},
-    {"name":"programming","observed":0,"written":0,"previous_checkpoint":"t3_1vz921w","previous_checkpoint_reached":true,"new_head":"t3_1vz921w"},
-    {"name":"technology","observed":3,"written":3,"previous_checkpoint":"t3_1vzgjr0","previous_checkpoint_reached":true,"new_head":"t3_1vzihzu"},
-    {"name":"netsec","observed":0,"written":0,"previous_checkpoint":"t3_1vz6179","previous_checkpoint_reached":true,"new_head":"t3_1vz6179"},
-    {"name":"opensource","observed":0,"written":0,"previous_checkpoint":"t3_1vzdko9","previous_checkpoint_reached":true,"new_head":"t3_1vzdko9"},
-    {"name":"selfhosted","observed":0,"written":0,"previous_checkpoint":"t3_1vzgcdi","previous_checkpoint_reached":true,"new_head":"t3_1vzgcdi"},
-    {"name":"science","observed":0,"written":0,"previous_checkpoint":"t3_1vzfzl0","previous_checkpoint_reached":true,"new_head":"t3_1vzfzl0"},
-    {"name":"OpenAI","observed":2,"written":2,"previous_checkpoint":"t3_1vzghfk","previous_checkpoint_reached":true,"new_head":"t3_1vzifrb"},
-    {"name":"Anthropic","observed":0,"written":0,"previous_checkpoint":"t3_1vzgf0h","previous_checkpoint_reached":true,"new_head":"t3_1vzgf0h"},
-    {"name":"singularity","observed":3,"written":3,"previous_checkpoint":"t3_1vzgkfa","previous_checkpoint_reached":true,"new_head":"t3_1vzijco"},
-    {"name":"robotics","observed":1,"written":1,"previous_checkpoint":"t3_1vzefmt","previous_checkpoint_reached":true,"new_head":"t3_1vzhfd6"}
+    {
+      "name": "MachineLearning",
+      "observed": 0,
+      "written": 0,
+      "previous_checkpoint": "t3_1vz9x9c",
+      "previous_checkpoint_reached": true,
+      "new_head": "t3_1vz9x9c"
+    },
+    {
+      "name": "LocalLLaMA",
+      "observed": 4,
+      "written": 4,
+      "previous_checkpoint": "t3_1vzg84e",
+      "previous_checkpoint_reached": true,
+      "new_head": "t3_1vzhwxl"
+    },
+    {
+      "name": "programming",
+      "observed": 0,
+      "written": 0,
+      "previous_checkpoint": "t3_1vz921w",
+      "previous_checkpoint_reached": true,
+      "new_head": "t3_1vz921w"
+    },
+    {
+      "name": "technology",
+      "observed": 3,
+      "written": 3,
+      "previous_checkpoint": "t3_1vzgjr0",
+      "previous_checkpoint_reached": true,
+      "new_head": "t3_1vzihzu"
+    },
+    {
+      "name": "netsec",
+      "observed": 0,
+      "written": 0,
+      "previous_checkpoint": "t3_1vz6179",
+      "previous_checkpoint_reached": true,
+      "new_head": "t3_1vz6179"
+    },
+    {
+      "name": "opensource",
+      "observed": 0,
+      "written": 0,
+      "previous_checkpoint": "t3_1vzdko9",
+      "previous_checkpoint_reached": true,
+      "new_head": "t3_1vzdko9"
+    },
+    {
+      "name": "selfhosted",
+      "observed": 0,
+      "written": 0,
+      "previous_checkpoint": "t3_1vzgcdi",
+      "previous_checkpoint_reached": true,
+      "new_head": "t3_1vzgcdi"
+    },
+    {
+      "name": "science",
+      "observed": 0,
+      "written": 0,
+      "previous_checkpoint": "t3_1vzfzl0",
+      "previous_checkpoint_reached": true,
+      "new_head": "t3_1vzfzl0"
+    },
+    {
+      "name": "OpenAI",
+      "observed": 2,
+      "written": 2,
+      "previous_checkpoint": "t3_1vzghfk",
+      "previous_checkpoint_reached": true,
+      "new_head": "t3_1vzifrb"
+    },
+    {
+      "name": "Anthropic",
+      "observed": 0,
+      "written": 0,
+      "previous_checkpoint": "t3_1vzgf0h",
+      "previous_checkpoint_reached": true,
+      "new_head": "t3_1vzgf0h"
+    },
+    {
+      "name": "singularity",
+      "observed": 3,
+      "written": 3,
+      "previous_checkpoint": "t3_1vzgkfa",
+      "previous_checkpoint_reached": true,
+      "new_head": "t3_1vzijco"
+    },
+    {
+      "name": "robotics",
+      "observed": 1,
+      "written": 1,
+      "previous_checkpoint": "t3_1vzefmt",
+      "previous_checkpoint_reached": true,
+      "new_head": "t3_1vzhfd6"
+    }
   ],
-  "raw_files": ["reddit/raw/2026/08/27/posts-2026-08-27T03-24-47Z.jsonl"],
+  "raw_files": [
+    "reddit/raw/2026/08/27/posts-2026-08-27T03-24-47Z.jsonl",
+    "reddit/raw/2026/08/27/snapshots-2026-08-27T03-39-08-660Z.jsonl",
+    "reddit/raw/2026/08/27/comments-revisit-2026-08-27T03-40-01-637Z.jsonl"
+  ],
   "failure_ledger": [
-    {"scope":"search:all eight configured queries","last_checkpoint":"frozen_all_queries","failure":"Old Reddit search results exposed no parseable post containers; Posts + New could not be verified. Query checkpoints remain frozen."},
-    {"scope":"comment revisit:t3_1vxyp7x","last_checkpoint":"round 1","failure":"43 visible comments with no More replies were read, but this run did not persist the required raw comment JSONL; queue remains unchanged."},
-    {"scope":"comment revisit:t3_1vx0q5i","last_checkpoint":"round 1","failure":"3 visible comments with no More replies were read, but this run did not persist the required raw comment JSONL; queue remains unchanged."},
-    {"scope":"comment revisit:t3_1vynfd8","last_checkpoint":"round 1","failure":"19 visible comments with no More replies were read, but this run did not persist the required raw comment JSONL; queue remains unchanged."}
+    {
+      "scope": "search:all eight configured queries",
+      "last_checkpoint": "frozen_all_queries",
+      "failure": "Old Reddit search results exposed no parseable post containers; Posts + New could not be verified. Query checkpoints remain frozen."
+    }
   ],
-  "github": {"status":"pending_commit_and_push"},
-  "dingtalk": {"status":"not_sent","reason":"not the daily 09:20 delivery and run has failures"}
+  "github": {
+    "status": "SUCCESS",
+    "commit": "f03bbd8c1b3cbc4aa58b32928846700b7fdc791a",
+    "evidence_repair_run": "reddit/runs/2026/08/27/run-2026-08-27T03-39-08-660Z-evidence-repair.json"
+  },
+  "dingtalk": {
+    "status": "SUCCESS",
+    "message_type": "partial_run_anomaly",
+    "sent_at_local": "2026-08-27T11:27:30+08:00",
+    "target_verified": "fixed archive notification group"
+  }
 }

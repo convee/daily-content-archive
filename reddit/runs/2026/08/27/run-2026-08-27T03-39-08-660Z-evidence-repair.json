@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "captured_at_utc": "2026-08-27T03:39:08.660Z",
+  "captured_at_local": "2026-08-27T11:39:08.660+08:00",
+  "mode": "logged_in_local_chrome_read_only_old_reddit_evidence_repair",
+  "outcome": "evidence_repaired_search_still_frozen",
+  "repair_complete": true,
+  "collection_complete": false,
+  "repaired_run": "reddit/runs/2026/08/27/run-2026-08-27T03-24-47Z.json",
+  "counts": {
+    "listing_sources": 27,
+    "listing_rows_observed": 675,
+    "unique_snapshot_posts": 384,
+    "comment_threads": 3,
+    "raw_comments": 65
+  },
+  "gates": {
+    "all_listing_sources_have_25_posts": true,
+    "all_three_comment_threads_complete": true,
+    "snapshot_raw_file": "reddit/raw/2026/08/27/snapshots-2026-08-27T03-39-08-660Z.jsonl",
+    "comment_raw_file": "reddit/raw/2026/08/27/comments-revisit-2026-08-27T03-40-01-637Z.jsonl"
+  },
+  "state_updates": {
+    "seen_post_ids": 669,
+    "seen_comment_ids": 66,
+    "last_successful_new_run_at_utc": "2026-08-27T03:24:47Z",
+    "comment_revisit_queue": [
+      {
+        "post_id": "t3_1vxyp7x",
+        "next_revisit_at": "2026-08-28T12:39:31.000Z",
+        "round": 3,
+        "last_revisit_at": "2026-08-27T03:40:01.637Z",
+        "last_visible_comment_count": 43,
+        "last_raw_file": "reddit/raw/2026/08/27/comments-revisit-2026-08-27T03-40-01-637Z.jsonl"
+      },
+      {
+        "post_id": "t3_1vx0q5i",
+        "next_revisit_at": "2026-08-27T11:57:15.000Z",
+        "round": 3,
+        "last_revisit_at": "2026-08-27T03:40:01.637Z",
+        "last_visible_comment_count": 3,
+        "last_raw_file": "reddit/raw/2026/08/27/comments-revisit-2026-08-27T03-40-01-637Z.jsonl"
+      },
+      {
+        "post_id": "t3_1vynfd8",
+        "next_revisit_at": "2026-08-27T05:00:29.000Z",
+        "round": 2,
+        "last_revisit_at": "2026-08-27T03:40:01.637Z",
+        "last_visible_comment_count": 19,
+        "last_raw_file": "reddit/raw/2026/08/27/comments-revisit-2026-08-27T03-40-01-637Z.jsonl"
+      }
+    ]
+  },
+  "remaining_failures": [
+    "All eight configured Posts + New searches remain frozen because no complete, parseable result container has been verified."
+  ],
+  "github": {
+    "status": "pending_commit_and_push"
+  },
+  "dingtalk": {
+    "status": "pending_after_push"
+  }
+}
+
