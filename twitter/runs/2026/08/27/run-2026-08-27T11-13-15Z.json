@@ -107,16 +107,19 @@
     "reason": "This run occurred outside the 09:10 Asia/Shanghai daily-brief window."
   },
   "github": {
-    "status": "pending_finalization",
-    "commit": null,
+    "status": "pushed",
+    "commit": "2f20b60ecc1ac7284e37e3c2334006fbffe51231",
     "branch": "main",
     "remote": "origin"
   },
   "dingtalk": {
-    "status": "pending_finalization",
+    "status": "sent",
     "kind": "exception",
     "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "sendStatus": null,
-    "verified": false
+    "returned_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "openTaskId": "/iTY8sVDkY780dz0kzEZJDy57+Xmi/xRHDuCGPTrOKc=",
+    "openMessageId": "msgS6F40mQ2yLUke7b+Xfzy+w==",
+    "sendStatus": "SUCCESS",
+    "verified": true
   }
 }
