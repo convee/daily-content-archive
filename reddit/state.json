@@ -7895,10 +7895,10 @@
     ]
   },
   "last_dingtalk_delivery": {
-    "captured_at": "2026-08-27T19:25:49.039Z",
-    "open_task_id": "GrPo1fGJQ0/e2g/Qpa/kvrU8pbpjkvun+gm8XPwKdnM=",
+    "kind": "exception",
+    "sent_at": "2026-08-27T21:27:31.060Z",
+    "open_task_id": "vd/Km5p4y8wRs9E4c6f6gf4u2rDOZt6rkDe8WPf2Fn4=",
     "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "send_status": "SUCCESS",
-    "kind": "exception"
+    "send_status": "SUCCESS"
   }
 }

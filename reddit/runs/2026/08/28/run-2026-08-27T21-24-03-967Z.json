@@ -40,10 +40,17 @@
     "canonical_unique": 75
   },
   "github": {
-    "status": "pending"
+    "status": "success",
+    "commit": "6f1cf050f705c7ef84f0fecf05d161de9316b868",
+    "branch": "main",
+    "pushed_at": "2026-08-27T21:27:31.059Z"
   },
   "dingtalk": {
-    "status": "pending_exception_notification"
+    "status": "success",
+    "open_task_id": "vd/Km5p4y8wRs9E4c6f6gf4u2rDOZt6rkDe8WPf2Fn4=",
+    "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "send_status": "SUCCESS",
+    "message_id": "msg7Y6avoLmXtQlhACrbMo3yA=="
   },
   "failure_ledger": [
     {
