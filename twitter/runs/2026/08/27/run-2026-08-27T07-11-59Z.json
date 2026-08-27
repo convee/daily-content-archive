@@ -12,6 +12,6 @@
   "raw_files": ["twitter/raw/2026/08/27/posts-2026-08-27T07-11-59Z.jsonl"],
   "raw_validation": "All 13 observed status IDs are present in the referenced durable JSONL, also recorded in state.seen_status_ids, and JSONL parses successfully.",
   "daily_brief": {"status":"not_due","reason":"This is not the 09:10 Asia/Shanghai daily-brief execution window."},
-  "github": {"status":"pending_commit_and_push","branch":"main","remote":"origin"},
-  "dingtalk": {"status":"pending_exception_notification","kind":"exception","target_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw=="}
+  "github": {"status":"pushed","commit":"4622128a342b9fdf9fa04c6db86b929b79cff96d","branch":"main","remote":"origin"},
+  "dingtalk": {"status":"sent","kind":"exception","openTaskId":"mpplc7nnIMLZNXNepxwWeecOjq95qdHvkpSlsGqLFi4=","target_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","returned_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","openMessageId":"msgW6qw5KnbuZmBJtfriHWLWw==","sendStatus":"SUCCESS","verified":true}
 }
