@@ -1,0 +1,160 @@
+{
+  "schema_version": 2,
+  "run_stamp": "2026-08-27T21-24-03-967Z",
+  "started_at": "2026-08-27T21:24:06.040Z",
+  "completed_at": "2026-08-27T21:26:42.309Z",
+  "durable_raw_files": [
+    "reddit/raw/2026/08/28/browser-run-2026-08-27T21-24-03-967Z.jsonl",
+    "reddit/raw/2026/08/28/posts-2026-08-27T21-24-03-967Z.jsonl"
+  ],
+  "layers": {
+    "new": {
+      "attempted": 12,
+      "success": 4,
+      "frozen": 8
+    },
+    "snapshots": {
+      "attempted": 24,
+      "success": 24,
+      "failure": 0
+    },
+    "global": {
+      "attempted": 3,
+      "success": 2,
+      "failure": 1
+    },
+    "search": {
+      "attempted": 8,
+      "success": 0,
+      "frozen": 5,
+      "failure": 3
+    },
+    "comments": {
+      "due": 0,
+      "success": 0,
+      "failure": 0
+    }
+  },
+  "posts": {
+    "raw_observations": 115,
+    "canonical_unique": 75
+  },
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "pending_exception_notification"
+  },
+  "failure_ledger": [
+    {
+      "layer": "new",
+      "target": "LocalLLaMA",
+      "reason": "checkpoint not reached in rendered window",
+      "last_checkpoint": "t3_1w03j0i",
+      "frozen_scope": "LocalLLaMA"
+    },
+    {
+      "layer": "new",
+      "target": "programming",
+      "reason": "checkpoint not reached in rendered window",
+      "last_checkpoint": "t3_1vzw7as",
+      "frozen_scope": "programming"
+    },
+    {
+      "layer": "new",
+      "target": "technology",
+      "reason": "checkpoint not reached in rendered window",
+      "last_checkpoint": "t3_1vzwxyi",
+      "frozen_scope": "technology"
+    },
+    {
+      "layer": "new",
+      "target": "opensource",
+      "reason": "checkpoint not reached in rendered window",
+      "last_checkpoint": "t3_1vzwv8l",
+      "frozen_scope": "opensource"
+    },
+    {
+      "layer": "new",
+      "target": "selfhosted",
+      "reason": "checkpoint not reached in rendered window",
+      "last_checkpoint": "t3_1w034ru",
+      "frozen_scope": "selfhosted"
+    },
+    {
+      "layer": "new",
+      "target": "science",
+      "reason": "checkpoint not reached in rendered window",
+      "last_checkpoint": "t3_1vzwlqn",
+      "frozen_scope": "science"
+    },
+    {
+      "layer": "new",
+      "target": "singularity",
+      "reason": "checkpoint not reached in rendered window",
+      "last_checkpoint": "t3_1w03kmp",
+      "frozen_scope": "singularity"
+    },
+    {
+      "layer": "new",
+      "target": "robotics",
+      "reason": "checkpoint not reached in rendered window",
+      "last_checkpoint": "t3_1w02wgb",
+      "frozen_scope": "robotics"
+    },
+    {
+      "layer": "global",
+      "target": "all",
+      "reason": "all indistinguishable from home",
+      "frozen_scope": "all"
+    },
+    {
+      "layer": "search",
+      "target": "AI agent OR agentic coding",
+      "reason": "first viewport discovery only; modern time/ID continuity boundary not crossed",
+      "frozen_scope": "AI agent OR agentic coding"
+    },
+    {
+      "layer": "search",
+      "target": "LLM inference OR quantization",
+      "reason": "first viewport discovery only; modern time/ID continuity boundary not crossed",
+      "frozen_scope": "LLM inference OR quantization"
+    },
+    {
+      "layer": "search",
+      "target": "open weights OR open source AI",
+      "reason": "first viewport discovery only; modern time/ID continuity boundary not crossed",
+      "frozen_scope": "open weights OR open source AI"
+    },
+    {
+      "layer": "search",
+      "target": "AI chip OR GPU OR inference accelerator",
+      "reason": "first viewport discovery only; modern time/ID continuity boundary not crossed",
+      "frozen_scope": "AI chip OR GPU OR inference accelerator"
+    },
+    {
+      "layer": "search",
+      "target": "robotics foundation model",
+      "reason": "first viewport discovery only; modern time/ID continuity boundary not crossed",
+      "frozen_scope": "robotics foundation model"
+    },
+    {
+      "layer": "search",
+      "target": "AI security OR prompt injection",
+      "reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491314. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "frozen_scope": "AI security OR prompt injection"
+    },
+    {
+      "layer": "search",
+      "target": "developer tools OR programming language",
+      "reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491314. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "frozen_scope": "developer tools OR programming language"
+    },
+    {
+      "layer": "search",
+      "target": "data center energy water",
+      "reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491314. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "frozen_scope": "data center energy water"
+    }
+  ]
+}

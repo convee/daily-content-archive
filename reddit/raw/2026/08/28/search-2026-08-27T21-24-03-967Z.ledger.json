@@ -1,0 +1,89 @@
+{
+  "run_stamp": "2026-08-27T21-24-03-967Z",
+  "created_at": "2026-08-27T21:25:50.623Z",
+  "items": [
+    {
+      "layer": "search",
+      "query": "AI agent OR agentic coding",
+      "url": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
+      "page_title": "AI agent OR agentic coding - Reddit Search!",
+      "observed_count": 0,
+      "first_id": null,
+      "last_id": null,
+      "post_ids": [],
+      "captured_at": "2026-08-27T21:25:42.133Z",
+      "status": "frozen",
+      "failure_reason": "first viewport discovery only; modern time/ID continuity boundary not crossed"
+    },
+    {
+      "layer": "search",
+      "query": "LLM inference OR quantization",
+      "url": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
+      "page_title": "LLM inference OR quantization - Reddit Search!",
+      "observed_count": 0,
+      "first_id": null,
+      "last_id": null,
+      "post_ids": [],
+      "captured_at": "2026-08-27T21:25:44.042Z",
+      "status": "frozen",
+      "failure_reason": "first viewport discovery only; modern time/ID continuity boundary not crossed"
+    },
+    {
+      "layer": "search",
+      "query": "open weights OR open source AI",
+      "url": "https://www.reddit.com/search/?q=open%20weights%20OR%20open%20source%20AI&type=posts&sort=new",
+      "page_title": "open weights OR open source AI - Reddit Search!",
+      "observed_count": 0,
+      "first_id": null,
+      "last_id": null,
+      "post_ids": [],
+      "captured_at": "2026-08-27T21:25:46.011Z",
+      "status": "frozen",
+      "failure_reason": "first viewport discovery only; modern time/ID continuity boundary not crossed"
+    },
+    {
+      "layer": "search",
+      "query": "AI chip OR GPU OR inference accelerator",
+      "url": "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new",
+      "page_title": "AI chip OR GPU OR inference accelerator - Reddit Search!",
+      "observed_count": 0,
+      "first_id": null,
+      "last_id": null,
+      "post_ids": [],
+      "captured_at": "2026-08-27T21:25:47.880Z",
+      "status": "frozen",
+      "failure_reason": "first viewport discovery only; modern time/ID continuity boundary not crossed"
+    },
+    {
+      "layer": "search",
+      "query": "robotics foundation model",
+      "url": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
+      "page_title": "robotics foundation model - Reddit Search!",
+      "observed_count": 0,
+      "first_id": null,
+      "last_id": null,
+      "post_ids": [],
+      "captured_at": "2026-08-27T21:25:49.790Z",
+      "status": "frozen",
+      "failure_reason": "first viewport discovery only; modern time/ID continuity boundary not crossed"
+    },
+    {
+      "layer": "search",
+      "query": "AI security OR prompt injection",
+      "status": "failure",
+      "error": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491314. Browser reported: net::ERR_BLOCKED_BY_CLIENT"
+    },
+    {
+      "layer": "search",
+      "query": "developer tools OR programming language",
+      "status": "failure",
+      "error": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491314. Browser reported: net::ERR_BLOCKED_BY_CLIENT"
+    },
+    {
+      "layer": "search",
+      "query": "data center energy water",
+      "status": "failure",
+      "error": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491314. Browser reported: net::ERR_BLOCKED_BY_CLIENT"
+    }
+  ]
+}
