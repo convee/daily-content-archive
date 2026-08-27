@@ -1,6 +1,6 @@
 title: AI & Tech Daily Archive
 description: 连续归档 Hacker News、X / Twitter、Reddit 与 Product Hunt 的 AI 和科技信号。
-url: https://convee.github.io
+url: https://convee.cn
 baseurl: /daily-content-archive
 lang: zh-CN
 timezone: Asia/Shanghai
@@ -39,3 +39,4 @@ defaults:
       platform_label: Product Hunt
 exclude:
   - scripts
+  - tests

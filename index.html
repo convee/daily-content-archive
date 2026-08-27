@@ -1,13 +1,13 @@
 ---
 layout: default
 title: AI 与科技每日归档
-description: 连续收集 Hacker News、X / Twitter、Reddit 与 Product Hunt 的帖子和高价值评论，并保留可追溯来源。
+description: 每日聚合 Hacker News、X / Twitter、Reddit 与 Product Hunt 的 AI 和科技热点、深度评论与新产品，所有内容保留可追溯来源。
 page_kind: home
 ---
 <section class="hero" aria-labelledby="page-title">
   <p class="eyebrow">Daily Content Archive</p>
   <h1 id="page-title">AI 与科技信号，<br>每天连续归档。</h1>
-  <p class="lead">从 Hacker News、X / Twitter、Reddit 和 Product Hunt 收集帖子与高价值评论。每条结论都能回到公开来源，采集缺口不会被静默掩盖。</p>
+  <p class="lead">从 Hacker News、X / Twitter、Reddit 和 Product Hunt 提炼 AI 与科技热点、深度评论和新产品。每条结论都能回到公开来源，采集缺口不会被静默掩盖。</p>
   <div class="hero-meta" aria-label="归档特征">
     <span class="meta-pill">连续检查点</span>
     <span class="meta-pill">原帖与评论溯源</span>
@@ -17,7 +17,7 @@ page_kind: home
 </section>
 
 <section aria-labelledby="archive-title">
-  <h2 id="archive-title" class="eyebrow archive-controls-title">浏览最新简报</h2>
+  <h2 id="archive-title" class="eyebrow archive-controls-title">浏览全部简报</h2>
   <div class="archive-controls" role="search">
     <div class="search-wrap">
       <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
@@ -35,6 +35,10 @@ page_kind: home
     <p class="results-summary" aria-live="polite"></p>
   </div>
 
+  <div class="section-heading">
+    <div><p class="section-kicker">Latest</p><h2>最新一期</h2></div>
+    <p>快速进入每个平台最近一次成功归档的简报。</p>
+  </div>
   <div class="archive-grid">
     <article id="hackernews" class="archive-card" data-platform="hackernews" data-search="Hacker News HN AI 芯片 安全 RAG Python 评论">
       <div class="card-top"><span class="platform-label"><span class="platform-dot" aria-hidden="true"></span>Hacker News</span><time class="card-date" datetime="2026-08-27">2026-08-27</time></div>
@@ -68,6 +72,36 @@ page_kind: home
       <a class="card-link" href="{{ '/producthunt/2026/08/2026-08-25.html' | relative_url }}">阅读最新简报<span class="visually-hidden">：Product Hunt</span></a>
     </article>
   </div>
+
+  <section class="history-section" aria-labelledby="history-title">
+    <div class="section-heading">
+      <div><p class="section-kicker">Archive</p><h2 id="history-title">历史归档</h2></div>
+      <p>按平台查看全部已发布简报；日期与来源路径完整保留。</p>
+    </div>
+    <div class="history-groups">
+      {% assign platform_keys = 'hackernews,twitter,reddit,producthunt' | split: ',' %}
+      {% for platform_key in platform_keys %}
+        {% case platform_key %}
+          {% when 'hackernews' %}{% assign platform_name = 'Hacker News' %}
+          {% when 'twitter' %}{% assign platform_name = 'X / Twitter' %}
+          {% when 'reddit' %}{% assign platform_name = 'Reddit' %}
+          {% when 'producthunt' %}{% assign platform_name = 'Product Hunt' %}
+        {% endcase %}
+        {% assign platform_pages = site.pages | where: 'platform', platform_key | sort: 'date' | reverse %}
+        <details class="history-group" data-history-group{% if forloop.first %} open{% endif %}>
+          <summary><span><span class="platform-dot" aria-hidden="true"></span>{{ platform_name }}</span><strong data-history-count>{{ platform_pages.size }} 篇</strong></summary>
+          <ul class="history-list">
+            {% for archive_page in platform_pages %}
+              <li data-archive-entry data-platform="{{ platform_key }}" data-search="{{ platform_name }} {{ archive_page.title | escape }} {{ archive_page.date | date: '%Y-%m-%d' }}">
+                <a href="{{ archive_page.url | relative_url }}"><span>{{ archive_page.title | escape }}</span><time datetime="{{ archive_page.date | date: '%Y-%m-%d' }}">{{ archive_page.date | date: '%Y-%m-%d' }}</time></a>
+              </li>
+            {% endfor %}
+          </ul>
+        </details>
+      {% endfor %}
+    </div>
+  </section>
+
   <div class="empty-state" role="status">没有匹配的简报。请换一个关键词或选择“全部”。</div>
 
 </section>

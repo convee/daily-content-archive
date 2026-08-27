@@ -25,6 +25,8 @@
   });
 
   const cards = [...document.querySelectorAll('.archive-card')];
+  const historyEntries = [...document.querySelectorAll('[data-archive-entry]')];
+  const historyGroups = [...document.querySelectorAll('[data-history-group]')];
   const search = document.querySelector('.archive-search');
   const clearSearch = document.querySelector('.clear-search');
   const filterButtons = [...document.querySelectorAll('.filter-button')];
@@ -36,15 +38,29 @@
   const filterCards = () => {
     if (!cards.length) return;
     const query = normalize(search?.value || '');
-    let visible = 0;
+    let visibleCards = 0;
     cards.forEach(card => {
       const platformMatch = activePlatform === 'all' || card.dataset.platform === activePlatform;
       const searchMatch = !query || normalize(card.dataset.search || card.textContent).includes(query);
       card.hidden = !(platformMatch && searchMatch);
-      if (!card.hidden) visible += 1;
+      if (!card.hidden) visibleCards += 1;
     });
-    if (resultsSummary) resultsSummary.textContent = `显示 ${visible} / ${cards.length} 个平台简报`;
-    if (emptyState) emptyState.dataset.visible = String(visible === 0);
+    let visibleHistory = 0;
+    historyEntries.forEach(entry => {
+      const platformMatch = activePlatform === 'all' || entry.dataset.platform === activePlatform;
+      const searchMatch = !query || normalize(entry.dataset.search || entry.textContent).includes(query);
+      entry.hidden = !(platformMatch && searchMatch);
+      if (!entry.hidden) visibleHistory += 1;
+    });
+    historyGroups.forEach(group => {
+      const matchingEntries = [...group.querySelectorAll('[data-archive-entry]:not([hidden])')];
+      group.hidden = matchingEntries.length === 0;
+      const count = group.querySelector('[data-history-count]');
+      if (count) count.textContent = `${matchingEntries.length} 篇`;
+      if (query && matchingEntries.length) group.open = true;
+    });
+    if (resultsSummary) resultsSummary.textContent = `显示 ${visibleCards} 个最新入口 · ${visibleHistory} 篇历史简报`;
+    if (emptyState) emptyState.dataset.visible = String(visibleCards + visibleHistory === 0);
     if (clearSearch) clearSearch.dataset.visible = String(Boolean(query));
   };
 
