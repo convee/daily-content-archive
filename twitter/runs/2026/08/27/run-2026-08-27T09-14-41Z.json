@@ -1,0 +1,166 @@
+{
+  "started_at_utc": "2026-08-27T09:14:41Z",
+  "finished_at_utc": "2026-08-27T09:14:41Z",
+  "status": "partial_frozen",
+  "counts": {
+    "posts": 71,
+    "replies": 0
+  },
+  "source_results": [
+    {
+      "type": "account",
+      "success": 0,
+      "failed": 19,
+      "frozen_sources": [
+        "@OpenAI",
+        "@AnthropicAI",
+        "@GoogleDeepMind",
+        "@xai",
+        "@MistralAI",
+        "@AIatMeta",
+        "@huggingface",
+        "@nvidia",
+        "@GitHub",
+        "@ycombinator",
+        "@producthunt",
+        "@TechCrunch",
+        "@arxiv",
+        "@karpathy",
+        "@AndrewYNg",
+        "@ylecun",
+        "@simonw",
+        "@swyx",
+        "@hardmaru"
+      ],
+      "reason": "No account Posts timeline was swept through its committed checkpoint this run; all account cursors remain frozen."
+    },
+    {
+      "type": "query",
+      "success": 0,
+      "failed": 5,
+      "frozen_sources": [
+        "AI agent OR agentic coding",
+        "LLM inference OR AI chips",
+        "open weights OR open source AI",
+        "robotics foundation model",
+        "AI security OR prompt injection"
+      ],
+      "reason": "No topic query stream was swept through its committed checkpoint this run; all query cursors remain frozen."
+    },
+    {
+      "type": "following",
+      "success": 0,
+      "failed": 1,
+      "checkpoint": "2092633969380442525",
+      "batches": 25,
+      "observed_status_ids": [
+        "2092694330947346707",
+        "2092881547829662104",
+        "2092737872692412487",
+        "2092808234352706040",
+        "2092659139814015418",
+        "2092812560919929221",
+        "2092788466488680880",
+        "2092700866067186069",
+        "2092652911805284745",
+        "2092876554795733006",
+        "2092885084101640611",
+        "2092674608331653363",
+        "2092692848093102438",
+        "2092644336823332873",
+        "2092859347437244663",
+        "2092898029493952675",
+        "2092881650153816457",
+        "2092900130924183607",
+        "2092793726317809777",
+        "2092882636377370839",
+        "2092820068182921525",
+        "2092843229796246004",
+        "2092260905597780043",
+        "2092881863542993103",
+        "2092660089509314735",
+        "2092416744568836417",
+        "2092703183575605431",
+        "2092752538991055311",
+        "2092545327211450474",
+        "2092877025849876629",
+        "2092219694597931268",
+        "2092751815880167935",
+        "2092665926785052809",
+        "2092733018838290817",
+        "2092739053531664649",
+        "2092823944931713029",
+        "2092891650347397584",
+        "2092653300558491747",
+        "2092731385609875461",
+        "2092806366692053069",
+        "2092860435523355082",
+        "2092718233275048394",
+        "2092699140803211682",
+        "2092826965010964986",
+        "2092800604854718482",
+        "2092363578884129076",
+        "2092349885492470197",
+        "2092350127931293753",
+        "2092852113575424426",
+        "2092880636420010021",
+        "2092608621066760666",
+        "2092857675466019303",
+        "2092303979787227592",
+        "2092344627139330502"
+      ],
+      "reason": "25 batches did not reach the committed checkpoint. Continuous source frozen."
+    },
+    {
+      "type": "for_you",
+      "success": 0,
+      "failed": 1,
+      "snapshot": {
+        "captured_at": "2026-08-27T09:14:41Z",
+        "batches": 10,
+        "first_status_id": "2092806593675133426",
+        "last_status_id": "2092495029004894483",
+        "new_status_ids": [
+          "2092806593675133426",
+          "2092863717239074869",
+          "2092891650347397584",
+          "2092782826752180292",
+          "2092563932955517405",
+          "2092853769004552440",
+          "2092881547829662104",
+          "2092812560919929221",
+          "2092844605565706590",
+          "2092864376290291765",
+          "2092770575383175386",
+          "2092664332509388814",
+          "2092814382270931388",
+          "2092672524660457781",
+          "2092885394337444233",
+          "2092841473540788657",
+          "2092763380335738990",
+          "2092755995558867158",
+          "2092836542096257123",
+          "2092495029004894483"
+        ]
+      },
+      "reason": "New IDs continued through batch 10; two-consecutive-zero-new termination was not established. Discovery snapshot frozen."
+    }
+  ],
+  "raw_files": [
+    "twitter/raw/2026/08/27/posts-2026-08-27T09-14-41Z.jsonl"
+  ],
+  "raw_validation": "All 71 observed status IDs are present in referenced durable JSONL; JSONL parses successfully; all IDs merged into state.seen_status_ids.",
+  "daily_brief": {
+    "status": "not_due",
+    "reason": "This run occurred outside the 09:10 Asia/Shanghai daily-brief window."
+  },
+  "github": {
+    "status": "pending_commit_and_push"
+  },
+  "dingtalk": {
+    "status": "not_sent",
+    "kind": "exception",
+    "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "reason": "Will be sent after GitHub push and recorded in finalization."
+  }
+}

@@ -394,7 +394,76 @@
     "2092623803197079884",
     "2092614661573128683",
     "2092859213001420819",
-    "2092806593675133426"
+    "2092806593675133426",
+    "2092863717239074869",
+    "2092891650347397584",
+    "2092782826752180292",
+    "2092563932955517405",
+    "2092853769004552440",
+    "2092881547829662104",
+    "2092812560919929221",
+    "2092844605565706590",
+    "2092864376290291765",
+    "2092770575383175386",
+    "2092664332509388814",
+    "2092814382270931388",
+    "2092672524660457781",
+    "2092885394337444233",
+    "2092841473540788657",
+    "2092763380335738990",
+    "2092755995558867158",
+    "2092836542096257123",
+    "2092495029004894483",
+    "2092694330947346707",
+    "2092737872692412487",
+    "2092659139814015418",
+    "2092788466488680880",
+    "2092700866067186069",
+    "2092652911805284745",
+    "2092876554795733006",
+    "2092885084101640611",
+    "2092674608331653363",
+    "2092692848093102438",
+    "2092644336823332873",
+    "2092859347437244663",
+    "2092898029493952675",
+    "2092881650153816457",
+    "2092900130924183607",
+    "2092793726317809777",
+    "2092882636377370839",
+    "2092820068182921525",
+    "2092843229796246004",
+    "2092260905597780043",
+    "2092881863542993103",
+    "2092660089509314735",
+    "2092416744568836417",
+    "2092703183575605431",
+    "2092752538991055311",
+    "2092545327211450474",
+    "2092877025849876629",
+    "2092219694597931268",
+    "2092751815880167935",
+    "2092665926785052809",
+    "2092733018838290817",
+    "2092739053531664649",
+    "2092823944931713029",
+    "2092653300558491747",
+    "2092731385609875461",
+    "2092806366692053069",
+    "2092860435523355082",
+    "2092718233275048394",
+    "2092699140803211682",
+    "2092826965010964986",
+    "2092800604854718482",
+    "2092363578884129076",
+    "2092349885492470197",
+    "2092350127931293753",
+    "2092852113575424426",
+    "2092880636420010021",
+    "2092608621066760666",
+    "2092857675466019303",
+    "2092303979787227592",
+    "2092344627139330502"
   ],
   "source_checkpoints": {
     "account:@OpenAI": {
@@ -402,8 +471,14 @@
       "latest_non_pinned_status_id": "2092691861773160673",
       "captured_at": "2026-08-27T03:12:57Z",
       "permalink": "https://x.com/OpenAI/status/2092691861773160673",
-      "pinned_status_ids": ["2092300846675505602"],
-      "migration": {"old_pinned_status_id":"2092300846675505602","observed_through_utc":"2026-08-21T19:34:10.000Z","evidence":"visible Posts timeline contained the pinned item plus non-pinned posts through 2026-08-21; all observed IDs were already in durable raw"},
+      "pinned_status_ids": [
+        "2092300846675505602"
+      ],
+      "migration": {
+        "old_pinned_status_id": "2092300846675505602",
+        "observed_through_utc": "2026-08-21T19:34:10.000Z",
+        "evidence": "visible Posts timeline contained the pinned item plus non-pinned posts through 2026-08-21; all observed IDs were already in durable raw"
+      },
       "initial_baseline": false
     },
     "account:@AnthropicAI": {
@@ -471,8 +546,14 @@
       "latest_non_pinned_status_id": "2092315079576555806",
       "captured_at": "2026-08-27T03:12:57Z",
       "permalink": "https://x.com/AndrewYNg/status/2092315079576555806",
-      "pinned_status_ids": ["2088302050706686198"],
-      "migration": {"old_pinned_status_id":"2088302050706686198","observed_through_utc":"2026-08-10T16:01:57.000Z","evidence":"visible Posts timeline contained the pinned item plus non-pinned posts through 2026-08-10; all observed IDs were already in durable raw"},
+      "pinned_status_ids": [
+        "2088302050706686198"
+      ],
+      "migration": {
+        "old_pinned_status_id": "2088302050706686198",
+        "observed_through_utc": "2026-08-10T16:01:57.000Z",
+        "evidence": "visible Posts timeline contained the pinned item plus non-pinned posts through 2026-08-10; all observed IDs were already in durable raw"
+      },
       "initial_baseline": false
     },
     "account:@ylecun": {
@@ -532,7 +613,7 @@
     }
   },
   "note": "Test artifacts are not continuity checkpoints; first scheduled run establishes per-source cursors after GitHub push.",
-  "last_run_at_utc": "2026-08-27T07:11:59Z",
+  "last_run_at_utc": "2026-08-27T09:14:41Z",
   "for_you_snapshots": [
     {
       "captured_at": "2026-08-26T13:15:26.066Z",
@@ -814,18 +895,103 @@
     {
       "captured_at": "2026-08-26T17:16:50.707Z",
       "batches": [
-        {"visible_count":5,"new_status_ids":["2092649564767400363","2090111249980002594","2092628869350080692","2092316934712729894"],"first_status_id":"2092649564767400363","last_status_id":"2092316934712729894"},
-        {"visible_count":6,"new_status_ids":["2092315859377172644"],"first_status_id":"2092649564767400363","last_status_id":"2092315859377172644"},
-        {"visible_count":7,"new_status_ids":["2046847265495494955"],"first_status_id":"2092649564767400363","last_status_id":"2046847265495494955"},
-        {"visible_count":8,"new_status_ids":["2092529266726445087"],"first_status_id":"2092649564767400363","last_status_id":"2092529266726445087"},
-        {"visible_count":8,"new_status_ids":[],"first_status_id":"2090111249980002594","last_status_id":"2092609286434169226"},
-        {"visible_count":9,"new_status_ids":["2092406704491102459"],"first_status_id":"2092628869350080692","last_status_id":"2092406704491102459"},
-        {"visible_count":9,"new_status_ids":["2088603203688349812"],"first_status_id":"2092613342300942342","last_status_id":"2088603203688349812"},
-        {"visible_count":9,"new_status_ids":["2092623661135991274"],"first_status_id":"2092316934712729894","last_status_id":"2092623661135991274"},
-        {"visible_count":10,"new_status_ids":["2092336453070254320","2092633561119482037"],"first_status_id":"2092315859377172644","last_status_id":"2092633561119482037"},
-        {"visible_count":10,"new_status_ids":["2092353823809339721"],"first_status_id":"2046847265495494955","last_status_id":"2092353823809339721"},
-        {"visible_count":10,"new_status_ids":["2087867649799995755","2092226822457250301"],"first_status_id":"2092609286434169226","last_status_id":"2092226822457250301"},
-        {"visible_count":9,"new_status_ids":[],"first_status_id":"2092446438756134939","last_status_id":"2092226822457250301"}
+        {
+          "visible_count": 5,
+          "new_status_ids": [
+            "2092649564767400363",
+            "2090111249980002594",
+            "2092628869350080692",
+            "2092316934712729894"
+          ],
+          "first_status_id": "2092649564767400363",
+          "last_status_id": "2092316934712729894"
+        },
+        {
+          "visible_count": 6,
+          "new_status_ids": [
+            "2092315859377172644"
+          ],
+          "first_status_id": "2092649564767400363",
+          "last_status_id": "2092315859377172644"
+        },
+        {
+          "visible_count": 7,
+          "new_status_ids": [
+            "2046847265495494955"
+          ],
+          "first_status_id": "2092649564767400363",
+          "last_status_id": "2046847265495494955"
+        },
+        {
+          "visible_count": 8,
+          "new_status_ids": [
+            "2092529266726445087"
+          ],
+          "first_status_id": "2092649564767400363",
+          "last_status_id": "2092529266726445087"
+        },
+        {
+          "visible_count": 8,
+          "new_status_ids": [],
+          "first_status_id": "2090111249980002594",
+          "last_status_id": "2092609286434169226"
+        },
+        {
+          "visible_count": 9,
+          "new_status_ids": [
+            "2092406704491102459"
+          ],
+          "first_status_id": "2092628869350080692",
+          "last_status_id": "2092406704491102459"
+        },
+        {
+          "visible_count": 9,
+          "new_status_ids": [
+            "2088603203688349812"
+          ],
+          "first_status_id": "2092613342300942342",
+          "last_status_id": "2088603203688349812"
+        },
+        {
+          "visible_count": 9,
+          "new_status_ids": [
+            "2092623661135991274"
+          ],
+          "first_status_id": "2092316934712729894",
+          "last_status_id": "2092623661135991274"
+        },
+        {
+          "visible_count": 10,
+          "new_status_ids": [
+            "2092336453070254320",
+            "2092633561119482037"
+          ],
+          "first_status_id": "2092315859377172644",
+          "last_status_id": "2092633561119482037"
+        },
+        {
+          "visible_count": 10,
+          "new_status_ids": [
+            "2092353823809339721"
+          ],
+          "first_status_id": "2046847265495494955",
+          "last_status_id": "2092353823809339721"
+        },
+        {
+          "visible_count": 10,
+          "new_status_ids": [
+            "2087867649799995755",
+            "2092226822457250301"
+          ],
+          "first_status_id": "2092609286434169226",
+          "last_status_id": "2092226822457250301"
+        },
+        {
+          "visible_count": 9,
+          "new_status_ids": [],
+          "first_status_id": "2092446438756134939",
+          "last_status_id": "2092226822457250301"
+        }
       ],
       "complete": false,
       "frozen": true,
@@ -834,7 +1000,16 @@
     {
       "captured_at": "2026-08-27T01:11:30Z",
       "batches": [
-        {"visible_count":4,"new_status_ids":["2092769097243074710","2092734439365230937","2092507058230927713"],"first_status_id":"2092769097243074710","last_status_id":"2092507058230927713"}
+        {
+          "visible_count": 4,
+          "new_status_ids": [
+            "2092769097243074710",
+            "2092734439365230937",
+            "2092507058230927713"
+          ],
+          "first_status_id": "2092769097243074710",
+          "last_status_id": "2092507058230927713"
+        }
       ],
       "complete": false,
       "frozen": true,
@@ -843,55 +1018,277 @@
     {
       "captured_at": "2026-08-27T07:11:59Z",
       "batches": [
-        {"visible_count":0,"new_status_ids":[],"first_status_id":null,"last_status_id":null},
-        {"visible_count":4,"new_status_ids":["2092722479240290776","2092774093263098071","2092827738755170676","2092849904452596149"],"first_status_id":"2092722479240290776","last_status_id":"2092849904452596149"},
-        {"visible_count":5,"new_status_ids":["2092782871002185971"],"first_status_id":"2092722479240290776","last_status_id":"2092782871002185971"},
-        {"visible_count":6,"new_status_ids":["2092623803197079884"],"first_status_id":"2092722479240290776","last_status_id":"2092623803197079884"},
-        {"visible_count":6,"new_status_ids":[],"first_status_id":"2092722479240290776","last_status_id":"2092623803197079884"},
-        {"visible_count":6,"new_status_ids":["2092614661573128683"],"first_status_id":"2092774093263098071","last_status_id":"2092614661573128683"},
-        {"visible_count":7,"new_status_ids":["2092859213001420819"],"first_status_id":"2092774093263098071","last_status_id":"2092859213001420819"},
-        {"visible_count":7,"new_status_ids":["2092806593675133426"],"first_status_id":"2092827738755170676","last_status_id":"2092806593675133426"}
+        {
+          "visible_count": 0,
+          "new_status_ids": [],
+          "first_status_id": null,
+          "last_status_id": null
+        },
+        {
+          "visible_count": 4,
+          "new_status_ids": [
+            "2092722479240290776",
+            "2092774093263098071",
+            "2092827738755170676",
+            "2092849904452596149"
+          ],
+          "first_status_id": "2092722479240290776",
+          "last_status_id": "2092849904452596149"
+        },
+        {
+          "visible_count": 5,
+          "new_status_ids": [
+            "2092782871002185971"
+          ],
+          "first_status_id": "2092722479240290776",
+          "last_status_id": "2092782871002185971"
+        },
+        {
+          "visible_count": 6,
+          "new_status_ids": [
+            "2092623803197079884"
+          ],
+          "first_status_id": "2092722479240290776",
+          "last_status_id": "2092623803197079884"
+        },
+        {
+          "visible_count": 6,
+          "new_status_ids": [],
+          "first_status_id": "2092722479240290776",
+          "last_status_id": "2092623803197079884"
+        },
+        {
+          "visible_count": 6,
+          "new_status_ids": [
+            "2092614661573128683"
+          ],
+          "first_status_id": "2092774093263098071",
+          "last_status_id": "2092614661573128683"
+        },
+        {
+          "visible_count": 7,
+          "new_status_ids": [
+            "2092859213001420819"
+          ],
+          "first_status_id": "2092774093263098071",
+          "last_status_id": "2092859213001420819"
+        },
+        {
+          "visible_count": 7,
+          "new_status_ids": [
+            "2092806593675133426"
+          ],
+          "first_status_id": "2092827738755170676",
+          "last_status_id": "2092806593675133426"
+        }
       ],
       "complete": false,
       "frozen": true,
       "reason": "Eight batches collected; new IDs continued after the eighth batch, so the required two consecutive zero-new batches were not established. Discovery snapshot only."
+    },
+    {
+      "captured_at": "2026-08-27T09:14:41Z",
+      "batches": [
+        {
+          "visible_count": 4,
+          "new_status_ids": [
+            "2092806593675133426",
+            "2092863717239074869",
+            "2092891650347397584",
+            "2092782826752180292"
+          ],
+          "first_status_id": "2092806593675133426",
+          "last_status_id": "2092782826752180292"
+        },
+        {
+          "visible_count": 6,
+          "new_status_ids": [
+            "2092563932955517405",
+            "2092853769004552440"
+          ],
+          "first_status_id": "2092806593675133426",
+          "last_status_id": "2092853769004552440"
+        },
+        {
+          "visible_count": 9,
+          "new_status_ids": [
+            "2092881547829662104",
+            "2092812560919929221",
+            "2092844605565706590"
+          ],
+          "first_status_id": "2092806593675133426",
+          "last_status_id": "2092844605565706590"
+        },
+        {
+          "visible_count": 9,
+          "new_status_ids": [
+            "2092864376290291765"
+          ],
+          "first_status_id": "2092863717239074869",
+          "last_status_id": "2092864376290291765"
+        },
+        {
+          "visible_count": 10,
+          "new_status_ids": [
+            "2092770575383175386",
+            "2092664332509388814",
+            "2092814382270931388"
+          ],
+          "first_status_id": "2092782826752180292",
+          "last_status_id": "2092814382270931388"
+        },
+        {
+          "visible_count": 9,
+          "new_status_ids": [
+            "2092672524660457781"
+          ],
+          "first_status_id": "2092853769004552440",
+          "last_status_id": "2092672524660457781"
+        },
+        {
+          "visible_count": 7,
+          "new_status_ids": [
+            "2092885394337444233"
+          ],
+          "first_status_id": "2092844605565706590",
+          "last_status_id": "2092885394337444233"
+        },
+        {
+          "visible_count": 8,
+          "new_status_ids": [
+            "2092841473540788657",
+            "2092763380335738990"
+          ],
+          "first_status_id": "2092864376290291765",
+          "last_status_id": "2092763380335738990"
+        },
+        {
+          "visible_count": 7,
+          "new_status_ids": [
+            "2092755995558867158"
+          ],
+          "first_status_id": "2092664332509388814",
+          "last_status_id": "2092755995558867158"
+        },
+        {
+          "visible_count": 7,
+          "new_status_ids": [
+            "2092836542096257123",
+            "2092495029004894483"
+          ],
+          "first_status_id": "2092672524660457781",
+          "last_status_id": "2092495029004894483"
+        }
+      ],
+      "complete": false,
+      "frozen": true,
+      "reason": "Ten batches were captured; new status IDs continued through batch 10, so two consecutive zero-new batches were not established. Discovery snapshot only."
     }
   ],
   "frozen_sources": {
-    "account:@AnthropicAI": {"at":"2026-08-27T05:12:26Z","reason":"not advanced this run: continuity sweep was not completed through the committed checkpoint"},
-    "account:@GoogleDeepMind": {"at":"2026-08-27T05:12:26Z","reason":"not advanced this run: continuity sweep was not completed through the committed checkpoint"},
-    "account:@xai": {"at":"2026-08-27T05:12:26Z","reason":"not advanced this run: continuity sweep was not completed through the committed checkpoint"},
-    "account:@MistralAI": {"at":"2026-08-27T05:12:26Z","reason":"not advanced this run: continuity sweep was not completed through the committed checkpoint"},
-    "account:@huggingface": {"at":"2026-08-27T05:12:26Z","reason":"not advanced this run: continuity sweep was not completed through the committed checkpoint"},
-    "account:@nvidia": {"at":"2026-08-27T05:12:26Z","reason":"not advanced this run: continuity sweep was not completed through the committed checkpoint"},
-    "account:@ycombinator": {"at":"2026-08-27T05:12:26Z","reason":"not advanced this run: continuity sweep was not completed through the committed checkpoint"},
-    "account:@producthunt": {"at":"2026-08-27T05:12:26Z","reason":"not advanced this run: continuity sweep was not completed through the committed checkpoint"},
-    "account:@TechCrunch": {"at":"2026-08-27T05:12:26Z","reason":"not advanced this run: continuity sweep was not completed through the committed checkpoint"},
-    "account:@arxiv": {"at":"2026-08-27T05:12:26Z","reason":"not advanced this run: continuity sweep was not completed through the committed checkpoint"},
-    "account:@karpathy": {"at":"2026-08-27T05:12:26Z","reason":"not advanced this run: continuity sweep was not completed through the committed checkpoint"},
-    "account:@simonw": {"at":"2026-08-27T05:12:26Z","reason":"not advanced this run: continuity sweep was not completed through the committed checkpoint"},
+    "account:@AnthropicAI": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@GoogleDeepMind": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@xai": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@MistralAI": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@huggingface": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@nvidia": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@ycombinator": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@producthunt": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@TechCrunch": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@arxiv": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@karpathy": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@simonw": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
     "query:AI agent OR agentic coding": {
-      "at": "2026-08-26T17:16:50.707Z",
-      "reason": "checkpoint not reached in 25 batches"
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
     },
     "query:LLM inference OR AI chips": {
-      "at": "2026-08-26T17:16:50.707Z",
-      "reason": "checkpoint not reached in 25 batches"
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
     },
     "query:open weights OR open source AI": {
-      "at": "2026-08-26T17:16:50.707Z",
-      "reason": "checkpoint not reached in 25 batches"
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
     },
     "query:AI security OR prompt injection": {
-      "at": "2026-08-26T17:16:50.707Z",
-      "reason": "checkpoint not reached in 25 batches"
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
     },
-    "for_you": {"at":"2026-08-27T07:11:59Z","reason":"eight-batch discovery snapshot retained; two consecutive zero-new batches were not reached because new IDs continued in batches 6–8"},
-    "following": {"at":"2026-08-27T07:11:59Z","reason":"top observation retained in durable raw; checkpoint 2092633969380442525 was not reached, so continuous source remains frozen"},
-    "account:@AIatMeta": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"},
-    "account:@GitHub": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"},
-    "account:@ylecun": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"},
-    "account:@swyx": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"},
-    "account:@hardmaru": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"}
+    "for_you": {
+      "at": "2026-08-27T07:11:59Z",
+      "reason": "eight-batch discovery snapshot retained; two consecutive zero-new batches were not reached because new IDs continued in batches 6–8"
+    },
+    "following": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "25 batches swept without reaching committed checkpoint 2092633969380442525; all observed statuses were persisted and source cursor remains frozen."
+    },
+    "account:@AIatMeta": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@GitHub": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@ylecun": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@swyx": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@hardmaru": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@OpenAI": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "account:@AndrewYNg": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    },
+    "query:robotics foundation model": {
+      "at": "2026-08-27T09:14:41Z",
+      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+    }
   }
 }
