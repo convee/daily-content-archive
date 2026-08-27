@@ -9,6 +9,6 @@
   "source_attempts": {"accounts":{"each_batches":1,"all_empty":true},"queries":{"each_batches":1,"all_empty":true},"following":{"batches":1,"empty":true},"for_you":{"batches":1,"empty":true,"snapshot_frozen":true}},
   "counts": {"observed_status_ids":0,"archived_replies":0},
   "checkpoints": {"advanced":0,"frozen":25,"for_you_snapshot_advanced":false},
-  "github": {"status":"pending_commit_and_push","commit":null},
-  "dingtalk": {"status":"pending_send","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw=="}
+  "github": {"status":"pushed","commit":"4ab77bf5a25c13ad66503544e9ea6aa2b416d85a","branch":"main","url":"https://github.com/convee/daily-content-archive/commit/4ab77bf5a25c13ad66503544e9ea6aa2b416d85a"},
+  "dingtalk": {"status":"SUCCESS","openTaskId":"WfuKmS19E8VKDuLjVI++KT6YC5/hBp6p0FxkMtr/CgY=","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","openMessageId":"msgsmYNYi3evMn0m7w0s7J7Gw==","sendStatus":"SUCCESS"}
 }
