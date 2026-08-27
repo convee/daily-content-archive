@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "captured_at_utc": "2026-08-27T07:25:00Z",
+  "mode": "logged_in_local_chrome_read_only_old_reddit",
+  "outcome": "partial_success",
+  "authoritative_state_before": "origin/main:reddit/state.json",
+  "layers": {"new":{"success":12,"failed":0,"observed":14,"written":14,"checkpoints_advanced":7,"evidence_file":"reddit/raw/2026/08/27/posts-2026-08-27T07-25-00Z.jsonl"},"hot":{"success":0,"failed":12,"frozen":true},"rising":{"success":0,"failed":12,"frozen":true},"global":{"success":0,"failed":3,"frozen":true},"search":{"success":0,"failed":8,"frozen":true},"comment_revisits":{"success":0,"failed":3,"frozen":true}},
+  "failure_ledger": [
+    {"scope":"hot+rising","items":"12 communities","reason":"not run; prior durable snapshot remains authoritative and this layer is frozen"},
+    {"scope":"global","items":"Home, Popular, All","reason":"not run; prior durable snapshot remains authoritative and this layer is frozen"},
+    {"scope":"search","items":"8 configured queries","reason":"not run; query checkpoints remain frozen"},
+    {"scope":"comment_revisits","items":"3 queued threads","reason":"not run; queue unchanged"}
+  ],
+  "github": {"status":"pending"},
+  "dingtalk": {"status":"not_sent","reason":"intraday partial run; exception notification required after push"}
+}
