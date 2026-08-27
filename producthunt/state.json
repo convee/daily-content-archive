@@ -20,16 +20,20 @@
     },
     "2026-08-26": {
       "status": "partial",
-      "updated_at_utc": "2026-08-27T08:18:18Z",
+      "updated_at_utc": "2026-08-27T12:40:00Z",
       "featured_visible_ranked": 17,
       "all_visible_ranked": 17,
       "ai_tech_candidates": 13,
-      "raw_comments": 0,
-      "selected_comments": 0,
+      "candidate_detail_pages_checked": 13,
+      "candidate_comment_surfaces_checked": 13,
+      "candidates_with_unexhausted_comment_pagination": 5,
+      "full_raw_comment_snapshots": 0,
+      "selected_comments": 10,
+      "discovery_sources_verified": 7,
       "missing_gates": [
-        "all saved products have full required metadata",
-        "deep-focus product comment pages checked",
-        "discovery sources validated and saved"
+        "four non-candidate products lack required detail metadata",
+        "candidate full raw-comment snapshots and comment pagination exhaustion",
+        "maker/hunter identities incomplete for several candidates"
       ],
       "run": "producthunt/run/2026/08/2026-08-27.json"
     }

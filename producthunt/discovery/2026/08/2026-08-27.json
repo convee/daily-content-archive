@@ -1,0 +1,14 @@
+{
+  "captured_at":"2026-08-27T12:40:00Z",
+  "capture_surface":"logged_in_local_chrome_read_only",
+  "sources":[
+    {"name":"forums","url":"https://www.producthunt.com/forums","title":"Forums - Product Hunt","status":"verified"},
+    {"name":"stories","url":"https://www.producthunt.com/stories","title":"Stories | Product Hunt","status":"verified"},
+    {"name":"newsletters","url":"https://www.producthunt.com/newsletters","title":"The best products in your inbox","status":"verified"},
+    {"name":"vibe_coding","url":"https://www.producthunt.com/categories/vibe-coding","title":"The best vibe coding tools in 2026 | Product Hunt","status":"verified","products_considered":113},
+    {"name":"ai_coding_agents","url":"https://www.producthunt.com/categories/ai-coding-agents","title":"The best AI coding agents in 2026 | Product Hunt","status":"verified","products_considered":639},
+    {"name":"ai_infrastructure","url":"https://www.producthunt.com/categories/ai-infrastructure","title":"Top-rated AI infrastructure & platform tools | 2026 | Product Hunt","status":"verified","products_considered":666},
+    {"name":"prompt_engineering","url":"https://www.producthunt.com/categories/prompt-engineering-tools","title":"The best prompt engineering tools in 2026 | Product Hunt","status":"verified","products_considered":419}
+  ],
+  "failures":[]
+}

@@ -3,10 +3,10 @@
   "surface": "logged_in_local_chrome_read_only",
   "outcome": "exception",
   "dates_processed": ["2026-08-25", "2026-08-26"],
-  "evidence": {"2026-08-26":["producthunt/raw/2026/08/2026-08-26.closed-2026-08-27T081818Z.json","producthunt/raw/2026/08/2026-08-26.x1-detail-comments-2026-08-27T123254Z.json"]},
-  "counts": {"2026-08-26":{"featured":17,"all":17,"ai_tech_candidates":13,"raw_comments":0,"selected_comments":0}},
+  "evidence": {"2026-08-26":["producthunt/raw/2026/08/2026-08-26.closed-2026-08-27T081818Z.json","producthunt/raw/2026/08/2026-08-26.x1-detail-comments-2026-08-27T123254Z.json","producthunt/raw/2026/08/2026-08-26.candidate-details-2026-08-27T124000Z.json"],"discovery":"producthunt/discovery/2026/08/2026-08-27.json"},
+  "counts": {"2026-08-26":{"featured":17,"all":17,"ai_tech_candidates":13,"candidate_detail_pages_checked":13,"candidate_comment_surfaces_checked":13,"candidates_with_unexhausted_comment_pagination":5,"full_raw_comment_snapshots":0,"selected_comments":10},"discovery_sources_verified":7},
   "frozen_status": {"2026-08-25":"partial","2026-08-26":"partial"},
-  "missing_gates": ["2026-08-25: existing partial archive has not been rebuilt from complete Featured/All records","2026-08-26: each product lacks required detail metadata (description, pricing, maker/hunter and external link)","2026-08-26: AI/technology candidate comment pages, maker first comments and all visible comments have not been captured","2026-08-26: discovery sources have not been verified and saved"],
+  "missing_gates": ["2026-08-25: existing partial archive has not been rebuilt from complete Featured/All records","2026-08-26: four non-candidate daily products still lack required detail metadata","2026-08-26: AI/technology candidates have no full verbatim raw-comment snapshots; five candidate comment paginations are explicitly unexhausted","2026-08-26: maker/hunter identity fields are incomplete for several candidates"],
   "delivery": {
     "github_push": {
       "status": "SUCCESS",
