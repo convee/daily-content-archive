@@ -1,0 +1,37 @@
+{
+  "captured_at_utc": "2026-08-27T09:24:00Z",
+  "mode": "incremental_new_only",
+  "browser": "logged-in local Chrome; read-only old.reddit.com listings",
+  "new": {
+    "success": 12,
+    "failed": 0,
+    "observed": 300,
+    "written": 16,
+    "archive_file": "reddit/raw/2026/08/27/posts-2026-08-27T09-24-00Z.jsonl",
+    "communities": {
+      "MachineLearning": {"observed":25,"written":0,"previous_checkpoint_reached":true,"head":"t3_1vz9x9c"},
+      "LocalLLaMA": {"observed":25,"written":6,"previous_checkpoint_reached":true,"head":"t3_1vzowwo"},
+      "programming": {"observed":25,"written":1,"previous_checkpoint_reached":true,"head":"t3_1vzoisw"},
+      "technology": {"observed":25,"written":4,"previous_checkpoint_reached":true,"head":"t3_1vzni25"},
+      "netsec": {"observed":25,"written":0,"previous_checkpoint_reached":true,"head":"t3_1vz6179"},
+      "opensource": {"observed":25,"written":0,"previous_checkpoint_reached":true,"head":"t3_1vzdko9"},
+      "selfhosted": {"observed":25,"written":1,"previous_checkpoint_reached":true,"head":"t3_1vzo2w2"},
+      "science": {"observed":25,"written":0,"previous_checkpoint_reached":true,"head":"t3_1vzfzl0"},
+      "OpenAI": {"observed":25,"written":0,"previous_checkpoint_reached":true,"head":"t3_1vzmeq5"},
+      "Anthropic": {"observed":25,"written":1,"previous_checkpoint_reached":true,"head":"t3_1vznu5c"},
+      "singularity": {"observed":25,"written":2,"previous_checkpoint_reached":true,"head":"t3_1vznzly"},
+      "robotics": {"observed":25,"written":1,"previous_checkpoint_reached":true,"head":"t3_1vzo8at"}
+    }
+  },
+  "snapshot": {"status":"not_run","reason":"run time budget reserved for continuous /new"},
+  "global": {"status":"not_run","reason":"run time budget reserved for continuous /new"},
+  "search": {"status":"frozen","reason":"existing unverified search continuity baseline"},
+  "comments": {"status":"not_run","reason":"no due queue timestamp before 2026-08-27T09:24:00Z"},
+  "failure_ledger": [
+    {"layer":"hot_rising","scope":"all communities","status":"not_run"},
+    {"layer":"global","scope":"home,popular,all","status":"not_run"},
+    {"layer":"search","scope":"all queries","status":"frozen_existing"}
+  ],
+  "github": "pending",
+  "dingtalk": "not_sent"
+}
