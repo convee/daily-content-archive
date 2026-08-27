@@ -32,6 +32,6 @@
     {"layer":"global","scope":"home,popular,all","status":"not_run"},
     {"layer":"search","scope":"all queries","status":"frozen_existing"}
   ],
-  "github": "pending",
-  "dingtalk": "not_sent"
+  "github": {"status":"pushed","commit":"b2572f6ec85376c42b2dee8280b52764c47a3e34","branch":"origin/main"},
+  "dingtalk": {"status":"SUCCESS","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","openTaskId":"uLlomeoCwKLNwN9Qfg+eyk1A9AazJ5TABrZqJnkjyCY="}
 }
