@@ -1,0 +1,17 @@
+{
+  "run_id": "twitter-2026-08-27T15-13-22Z",
+  "started_at_utc": "2026-08-27T15:13:22Z",
+  "finished_at_utc": "2026-08-27T15:16:00Z",
+  "status": "partial_frozen",
+  "counts": {"posts": 0, "replies": 0},
+  "source_summary": {
+    "accounts": {"attempted": 19, "succeeded": 0, "failed": 19, "reason":"No account checkpoint was advanced: seven visible timelines included historical checkpoint evidence but no full current-to-checkpoint durable scan was completed; the other twelve yielded empty/incomplete article windows."},
+    "queries": {"attempted": 5, "succeeded": 0, "failed": 5, "reason":"Each Latest query was opened and scrolled twice, but none reached its committed checkpoint; four had already frozen continuation debt."},
+    "following": {"attempted": 1, "succeeded": 0, "failed": 1, "batches": 8, "reason":"Observed posts crossed an earlier timestamp but the exact prior checkpoint was not located in this scan; frozen rather than advanced."},
+    "for_you": {"attempted": 1, "succeeded": 0, "failed": 1, "batches": 8, "reason":"Eight discovery batches were captured, but new status IDs continued and two terminal zero-new batches were not observed."},
+    "replies": {"attempted": 0, "succeeded": 0, "failed": 1, "reason":"No source achieved a valid continuous boundary, so no newly eligible high-signal post was promoted to reply review."}
+  },
+  "raw_files": ["twitter/raw/2026/08/27/2026-08-27T151322Z-browser-evidence.json"],
+  "github": {"status":"pending_commit_and_push"},
+  "dingtalk": {"status":"pending"}
+}

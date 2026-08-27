@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-08-27T15:13:22Z",
+  "method": "logged-in Chrome, read-only visible X timelines and Latest search results",
+  "limitations": [
+    "Several account profile timelines returned no article nodes during the read window.",
+    "Continuous sources below did not reach their committed checkpoints in this bounded attempt and are not advanced."
+  ],
+  "high_signal_visible_posts": [
+    {"status_id":"2092990294174146979","url":"https://x.com/TechCrunch/status/2092990294174146979","source_types":["account:@TechCrunch"],"observed_at_utc":"2026-08-27T14:59:06Z","text":"Hugging Face is taking orders for Microduck, a $399 open-source duck robot."},
+    {"status_id":"2092986464196002094","url":"https://x.com/UnslothAI/status/2092986464196002094","source_types":["following"],"observed_at_utc":"2026-08-27T14:43:53Z","text":"Unsloth says GLM-5.3-Flash can run locally as 3-bit GGUF on 128GB RAM."},
+    {"status_id":"2092993439071875256","url":"https://x.com/Blackicelabs/status/2092993439071875256","source_types":["query:AI security OR prompt injection"],"observed_at_utc":"2026-08-27T15:11:36Z","text":"Claim about a poisoned LiteLLM PyPI release; unverified third-party report retained as a lead only."},
+    {"status_id":"2092974952769048876","url":"https://x.com/TheHumanoidHub/status/2092974952769048876","source_types":["for_you"],"observed_at_utc":"2026-08-27T13:58:08Z","text":"Claim that Perceptron Isaac 0.5 is a 36B open embodied foundation model; retained as a discovery lead."},
+    {"status_id":"2092983071884591463","url":"https://x.com/nfttehraan/status/2092983071884591463","source_types":["query:robotics foundation model"],"observed_at_utc":"2026-08-27T14:30:24Z","text":"Third-party discussion of simulation trajectories improving dual-arm robot contact results; retained as a lead."}
+  ],
+  "attempt_ledger": {
+    "accounts_attempted": ["OpenAI","AnthropicAI","GoogleDeepMind","xai","MistralAI","AIatMeta","huggingface","nvidia","GitHub","ycombinator","producthunt","TechCrunch","arxiv","karpathy","AndrewYNg","ylecun","simonw","swyx","hardmaru"],
+    "queries_attempted": ["AI agent OR agentic coding","LLM inference OR AI chips","open weights OR open source AI","robotics foundation model","AI security OR prompt injection"],
+    "following_batches": 8,
+    "for_you_batches": 8,
+    "for_you_terminal_zero_new_batches": 0
+  }
+}
