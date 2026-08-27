@@ -92,9 +92,15 @@
     "status": "no_due_revisits"
   },
   "github": {
-    "status": "pending"
+    "status": "pushed",
+    "commit": "3921ebc986f343f30309208ac38af7af8ca14b84",
+    "branch": "main"
   },
   "dingtalk": {
-    "status": "pending"
-  }
+    "status": "SUCCESS",
+    "open_task_id": "Gg7YCpRuTIo2Vnlpx9xdUKJa8rgTsQ7Xfbv33/H5vO8=",
+    "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "verified": true
+  },
+  "finalized_at": "2026-08-27T17:26:40.300Z"
 }

@@ -6403,12 +6403,10 @@
     "comments": "no revisit due"
   },
   "last_dingtalk_delivery": {
-    "status": "success",
-    "kind": "exception",
-    "openTaskId": "/V6TIOVbs9uhoYmEXBcUca6XPSCznI4raKt7HIIKLso=",
-    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "openMessageId": "msgIDzJ1mGjjn7wN3xIZ0G2yw==",
-    "sendStatus": "SUCCESS",
-    "delivered_at": "2026-08-27T15:28:25.038Z"
+    "captured_at": "2026-08-27T17:26:40.300Z",
+    "open_task_id": "Gg7YCpRuTIo2Vnlpx9xdUKJa8rgTsQ7Xfbv33/H5vO8=",
+    "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "send_status": "SUCCESS",
+    "kind": "exception"
   }
 }
