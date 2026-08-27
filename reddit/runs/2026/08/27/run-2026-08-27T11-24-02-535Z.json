@@ -203,59 +203,174 @@
     "raw_comments_written": 20
   },
   "search": {
-    "successful": 0,
-    "failed": 8,
-    "archive_file": "reddit/raw/2026/08/27/search-discovery-2026-08-27T12-37-09-680Z.jsonl",
-    "discovery_rows": 155
+    "successful": 3,
+    "failed": 5,
+    "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
+    "modern_posts_new": true,
+    "queries": [
+      {
+        "query": "AI agent OR agentic coding",
+        "status": "frozen",
+        "captured_at": "2026-08-27T13:06:18.327Z",
+        "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
+        "observed_count": 255,
+        "scroll_batches": 14,
+        "first_id": "t3_1vzt9qx",
+        "last_id": "t3_1vznty2",
+        "first_relative_time": "2m ago",
+        "last_relative_time": "5h ago",
+        "termination_reason": "max_batches",
+        "actual_url": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
+        "method": "modern_posts_new_scroll",
+        "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
+      },
+      {
+        "query": "LLM inference OR quantization",
+        "status": "frozen",
+        "captured_at": "2026-08-27T13:06:18.327Z",
+        "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
+        "observed_count": 252,
+        "scroll_batches": 14,
+        "first_id": "t3_1vzt9yu",
+        "last_id": "t3_1vzhi4a",
+        "first_relative_time": "2m ago",
+        "last_relative_time": "11h ago",
+        "termination_reason": "max_batches",
+        "actual_url": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
+        "method": "modern_posts_new_scroll",
+        "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
+      },
+      {
+        "query": "open weights OR open source AI",
+        "status": "success",
+        "captured_at": "2026-08-27T13:06:18.327Z",
+        "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
+        "observed_count": 92,
+        "scroll_batches": 5,
+        "first_id": "t3_1vzt8ca",
+        "last_id": "t3_1vzt8ca",
+        "first_relative_time": null,
+        "last_relative_time": null,
+        "termination_reason": "time_boundary_crossed_relative_2d",
+        "actual_url": "https://www.reddit.com/search/?q=open%20weights%20OR%20open%20source%20AI&type=posts&sort=new",
+        "method": "modern_posts_new_scroll",
+        "checkpoint_id": "t3_1vzt8ca",
+        "continuity_boundary": "crossed continuity_started_at via observed 2d result"
+      },
+      {
+        "query": "AI chip OR GPU OR inference accelerator",
+        "status": "frozen",
+        "captured_at": "2026-08-27T13:06:18.327Z",
+        "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
+        "observed_count": 242,
+        "scroll_batches": 14,
+        "first_id": "t3_1vzt9id",
+        "last_id": "t3_1vyvtox",
+        "first_relative_time": "4m ago",
+        "last_relative_time": "1d ago",
+        "termination_reason": "max_batches",
+        "actual_url": "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new",
+        "method": "modern_posts_new_scroll",
+        "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
+      },
+      {
+        "query": "robotics foundation model",
+        "status": "frozen",
+        "captured_at": "2026-08-27T13:06:18.327Z",
+        "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
+        "observed_count": 231,
+        "scroll_batches": 14,
+        "first_id": "t3_1vzt8xg",
+        "last_id": "t3_1vz2tld",
+        "first_relative_time": "5m ago",
+        "last_relative_time": "20h ago",
+        "termination_reason": "max_batches",
+        "actual_url": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
+        "method": "modern_posts_new_scroll",
+        "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
+      },
+      {
+        "query": "AI security OR prompt injection",
+        "status": "success",
+        "captured_at": "2026-08-27T13:06:18.327Z",
+        "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
+        "observed_count": 105,
+        "scroll_batches": 6,
+        "first_id": "t3_1vztcj6",
+        "last_id": "t3_1vztcj6",
+        "first_relative_time": null,
+        "last_relative_time": null,
+        "termination_reason": "time_boundary_crossed_relative_2d",
+        "actual_url": "https://www.reddit.com/search/?q=AI%20security%20OR%20prompt%20injection&type=posts&sort=new",
+        "method": "modern_posts_new_scroll",
+        "checkpoint_id": "t3_1vztcj6",
+        "continuity_boundary": "crossed continuity_started_at via observed 2d result"
+      },
+      {
+        "query": "developer tools OR programming language",
+        "status": "frozen",
+        "captured_at": "2026-08-27T13:06:18.327Z",
+        "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
+        "observed_count": 238,
+        "scroll_batches": 14,
+        "first_id": "t3_1vztaiz",
+        "last_id": "t3_1vzgwfc",
+        "first_relative_time": "4m ago",
+        "last_relative_time": "11h ago",
+        "termination_reason": "max_batches",
+        "actual_url": "https://www.reddit.com/search/?q=developer%20tools%20OR%20programming%20language&type=posts&sort=new",
+        "method": "modern_posts_new_scroll",
+        "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
+      },
+      {
+        "query": "data center energy water",
+        "status": "success",
+        "captured_at": "2026-08-27T13:06:18.327Z",
+        "archive_file": "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl",
+        "observed_count": 134,
+        "scroll_batches": 7,
+        "first_id": "t3_1vztc7q",
+        "last_id": "t3_1vztc7q",
+        "first_relative_time": null,
+        "last_relative_time": null,
+        "termination_reason": "time_boundary_crossed_relative_2d",
+        "actual_url": "https://www.reddit.com/search/?q=data%20center%20energy%20water&type=posts&sort=new",
+        "method": "modern_posts_new_scroll",
+        "checkpoint_id": "t3_1vztc7q",
+        "continuity_boundary": "crossed continuity_started_at via observed 2d result"
+      }
+    ]
   },
   "failure_ledger": [
     {
       "layer": "search",
       "scope": "AI agent OR agentic coding",
       "status": "frozen",
-      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
+      "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
     },
     {
       "layer": "search",
       "scope": "LLM inference OR quantization",
       "status": "frozen",
-      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
-    },
-    {
-      "layer": "search",
-      "scope": "open weights OR open source AI",
-      "status": "frozen",
-      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
+      "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
     },
     {
       "layer": "search",
       "scope": "AI chip OR GPU OR inference accelerator",
       "status": "frozen",
-      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
+      "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
     },
     {
       "layer": "search",
       "scope": "robotics foundation model",
       "status": "frozen",
-      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
-    },
-    {
-      "layer": "search",
-      "scope": "AI security OR prompt injection",
-      "status": "frozen",
-      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
+      "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
     },
     {
       "layer": "search",
       "scope": "developer tools OR programming language",
       "status": "frozen",
-      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
-    },
-    {
-      "layer": "search",
-      "scope": "data center energy water",
-      "status": "frozen",
-      "reason": "22 old.reddit results with no next page; saved discovery evidence only"
+      "reason": "modern Posts+New did not cross continuity_started_at within 14 scroll batches"
     }
   ],
   "raw_files": [
@@ -263,24 +378,19 @@
     "reddit/raw/2026/08/27/snapshots-repair-2026-08-27T12-37-09-680Z.jsonl",
     "reddit/raw/2026/08/27/new-repair-observations-2026-08-27T12-37-09-680Z.jsonl",
     "reddit/raw/2026/08/27/search-discovery-2026-08-27T12-37-09-680Z.jsonl",
-    "reddit/raw/2026/08/27/comments-revisit-2026-08-27T12-37-09-680Z.jsonl"
+    "reddit/raw/2026/08/27/comments-revisit-2026-08-27T12-37-09-680Z.jsonl",
+    "reddit/raw/2026/08/27/search-modern-2026-08-27T13-06-18-327Z.jsonl"
   ],
   "post_counts": {
     "new_observed": 33,
     "new_written": 23
   },
   "github": {
-    "status": "pushed",
-    "commit": "62be119",
-    "remote": "origin/main"
+    "status": "pending"
   },
   "dingtalk": {
-    "status": "sent",
-    "kind": "repair_progress",
-    "openTaskId": "VFTsUaodZbKfTQoKrooT+RmdpLekx5NZ0b3faTwT0C8=",
-    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "sendStatus": "SUCCESS",
-    "openMessageId": "msg09GZEzcgfj11s+0pj7UcqA=="
+    "status": "pending",
+    "kind": "search_repair_final"
   },
   "run_finalized_at": "2026-08-27T12:49:54.648Z",
   "repair_finished_at": "2026-08-27T12:49:27.247Z",
@@ -329,5 +439,6 @@
       "archive_file": "reddit/raw/2026/08/27/new-repair-observations-2026-08-27T12-37-09-680Z.jsonl",
       "method": "time_boundary_crossed_exact_id_absent"
     }
-  }
+  },
+  "search_repair_finished_at": "2026-08-27T13:06:18.327Z"
 }
