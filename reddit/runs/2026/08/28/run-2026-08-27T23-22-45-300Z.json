@@ -1,0 +1,167 @@
+{
+  "schema_version": 2,
+  "run_stamp": "2026-08-27T23-22-45-300Z",
+  "started_at": "2026-08-27T23:23:08.586Z",
+  "completed_at": "2026-08-27T23:26:28.027Z",
+  "durable_raw_files": [
+    "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl"
+  ],
+  "layers": {
+    "new": {
+      "attempted": 12,
+      "success": 3,
+      "frozen": 9
+    },
+    "snapshots": {
+      "attempted": 24,
+      "success": 24,
+      "failure": 0
+    },
+    "global": {
+      "attempted": 3,
+      "success": 2,
+      "failure": 1
+    },
+    "search": {
+      "attempted": 8,
+      "success": 0,
+      "frozen": 8,
+      "failure": 0
+    },
+    "comments": {
+      "due": 0,
+      "success": 0,
+      "failure": 0
+    }
+  },
+  "posts": {
+    "raw_observations": 508,
+    "canonical_unique": 410,
+    "new_durable": 87
+  },
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "pending"
+  },
+  "failure_ledger": [
+    {
+      "layer": "new",
+      "target": "MachineLearning",
+      "reason": "rendered incremental window did not include prior checkpoint; continuation retained",
+      "last_checkpoint": "t3_1w052xg",
+      "frozen_scope": "MachineLearning"
+    },
+    {
+      "layer": "new",
+      "target": "programming",
+      "reason": "rendered incremental window did not include prior checkpoint; continuation retained",
+      "last_checkpoint": "t3_1vzw7as",
+      "frozen_scope": "programming"
+    },
+    {
+      "layer": "new",
+      "target": "technology",
+      "reason": "rendered incremental window did not include prior checkpoint; continuation retained",
+      "last_checkpoint": "t3_1vzwxyi",
+      "frozen_scope": "technology"
+    },
+    {
+      "layer": "new",
+      "target": "opensource",
+      "reason": "rendered incremental window did not include prior checkpoint; continuation retained",
+      "last_checkpoint": "t3_1vzwv8l",
+      "frozen_scope": "opensource"
+    },
+    {
+      "layer": "new",
+      "target": "science",
+      "reason": "rendered incremental window did not include prior checkpoint; continuation retained",
+      "last_checkpoint": "t3_1vzwlqn",
+      "frozen_scope": "science"
+    },
+    {
+      "layer": "new",
+      "target": "OpenAI",
+      "reason": "rendered incremental window did not include prior checkpoint; continuation retained",
+      "last_checkpoint": "t3_1w06v7v",
+      "frozen_scope": "OpenAI"
+    },
+    {
+      "layer": "new",
+      "target": "Anthropic",
+      "reason": "rendered incremental window did not include prior checkpoint; continuation retained",
+      "last_checkpoint": "t3_1w06znx",
+      "frozen_scope": "Anthropic"
+    },
+    {
+      "layer": "new",
+      "target": "singularity",
+      "reason": "rendered incremental window did not include prior checkpoint; continuation retained",
+      "last_checkpoint": "t3_1w03kmp",
+      "frozen_scope": "singularity"
+    },
+    {
+      "layer": "new",
+      "target": "robotics",
+      "reason": "rendered incremental window did not include prior checkpoint; continuation retained",
+      "last_checkpoint": "t3_1w02wgb",
+      "frozen_scope": "robotics"
+    },
+    {
+      "layer": "global",
+      "target": "all",
+      "reason": "all indistinguishable from home",
+      "frozen_scope": "all"
+    },
+    {
+      "layer": "search",
+      "target": "AI agent OR agentic coding",
+      "reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491322. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "frozen_scope": "AI agent OR agentic coding"
+    },
+    {
+      "layer": "search",
+      "target": "LLM inference OR quantization",
+      "reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491322. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "frozen_scope": "LLM inference OR quantization"
+    },
+    {
+      "layer": "search",
+      "target": "open weights OR open source AI",
+      "reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491322. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "frozen_scope": "open weights OR open source AI"
+    },
+    {
+      "layer": "search",
+      "target": "AI chip OR GPU OR inference accelerator",
+      "reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491322. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "frozen_scope": "AI chip OR GPU OR inference accelerator"
+    },
+    {
+      "layer": "search",
+      "target": "robotics foundation model",
+      "reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491322. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "frozen_scope": "robotics foundation model"
+    },
+    {
+      "layer": "search",
+      "target": "AI security OR prompt injection",
+      "reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491322. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "frozen_scope": "AI security OR prompt injection"
+    },
+    {
+      "layer": "search",
+      "target": "developer tools OR programming language",
+      "reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491322. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "frozen_scope": "developer tools OR programming language"
+    },
+    {
+      "layer": "search",
+      "target": "data center energy water",
+      "reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491322. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "frozen_scope": "data center energy water"
+    }
+  ]
+}
