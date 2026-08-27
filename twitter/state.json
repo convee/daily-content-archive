@@ -463,7 +463,54 @@
     "2092608621066760666",
     "2092857675466019303",
     "2092303979787227592",
-    "2092344627139330502"
+    "2092344627139330502",
+    "2092910833160294712",
+    "2092680920289648692",
+    "2092904788367130984",
+    "2092650847641469057",
+    "2092919575050367468",
+    "2092641943201185897",
+    "2092596942790705487",
+    "2092881809520402836",
+    "2092643768390574433",
+    "2092431838593814615",
+    "2092426875012599907",
+    "2092530635135176902",
+    "2092876686392189147",
+    "2092618171161166289",
+    "2092297276685480372",
+    "2092526312204239263",
+    "2092709996513407081",
+    "2092644889762599281",
+    "2092518542176563279",
+    "2092518871945314684",
+    "2092674170337550687",
+    "2092274710650535950",
+    "2092232459718926349",
+    "2092331226828828693",
+    "2092546984175370290",
+    "2092288140816068901",
+    "2092930447160287596",
+    "2092932902291988487",
+    "2092723788987191638",
+    "2092322945893031949",
+    "2092678245518844235",
+    "2092896160113369376",
+    "2092666020750110845",
+    "2092595111259767005",
+    "2092800310313882006",
+    "2092650275534213479",
+    "2092888704146620918",
+    "2092845527503126576",
+    "2092850309123002417",
+    "2092656582374862880",
+    "2092821544959447522",
+    "2092708452019650711",
+    "2092674714435240265",
+    "2092415860111741081",
+    "2092380989796274675",
+    "2092667990273663311",
+    "2092828954126172660"
   ],
   "source_checkpoints": {
     "account:@OpenAI": {
@@ -613,7 +660,7 @@
     }
   },
   "note": "Test artifacts are not continuity checkpoints; first scheduled run establishes per-source cursors after GitHub push.",
-  "last_run_at_utc": "2026-08-27T09:14:41Z",
+  "last_run_at_utc": "2026-08-27T11:13:15Z",
   "for_you_snapshots": [
     {
       "captured_at": "2026-08-26T13:15:26.066Z",
@@ -1183,6 +1230,109 @@
       "complete": false,
       "frozen": true,
       "reason": "Ten batches were captured; new status IDs continued through batch 10, so two consecutive zero-new batches were not established. Discovery snapshot only."
+    },
+    {
+      "captured_at": "2026-08-27T11:13:15Z",
+      "batches": [
+        {
+          "batch": 1,
+          "visible_count": 4,
+          "new_status_ids": [
+            "2092755995558867158",
+            "2092800310313882006",
+            "2092650275534213479",
+            "2092860435523355082"
+          ],
+          "first_status_id": "2092755995558867158",
+          "last_status_id": "2092860435523355082"
+        },
+        {
+          "batch": 2,
+          "visible_count": 5,
+          "new_status_ids": [
+            "2092888704146620918"
+          ],
+          "first_status_id": "2092755995558867158",
+          "last_status_id": "2092888704146620918"
+        },
+        {
+          "batch": 3,
+          "visible_count": 5,
+          "new_status_ids": [],
+          "first_status_id": "2092755995558867158",
+          "last_status_id": "2092888704146620918"
+        },
+        {
+          "batch": 4,
+          "visible_count": 6,
+          "new_status_ids": [
+            "2092845527503126576",
+            "2092852113575424426"
+          ],
+          "first_status_id": "2092800310313882006",
+          "last_status_id": "2092852113575424426"
+        },
+        {
+          "batch": 5,
+          "visible_count": 7,
+          "new_status_ids": [
+            "2092850309123002417"
+          ],
+          "first_status_id": "2092800310313882006",
+          "last_status_id": "2092850309123002417"
+        },
+        {
+          "batch": 6,
+          "visible_count": 6,
+          "new_status_ids": [
+            "2092656582374862880"
+          ],
+          "first_status_id": "2092860435523355082",
+          "last_status_id": "2092656582374862880"
+        },
+        {
+          "batch": 7,
+          "visible_count": 7,
+          "new_status_ids": [
+            "2092821544959447522",
+            "2092708452019650711"
+          ],
+          "first_status_id": "2092888704146620918",
+          "last_status_id": "2092708452019650711"
+        },
+        {
+          "batch": 8,
+          "visible_count": 8,
+          "new_status_ids": [
+            "2092674714435240265",
+            "2092415860111741081"
+          ],
+          "first_status_id": "2092845527503126576",
+          "last_status_id": "2092415860111741081"
+        },
+        {
+          "batch": 9,
+          "visible_count": 9,
+          "new_status_ids": [
+            "2092380989796274675",
+            "2092667990273663311"
+          ],
+          "first_status_id": "2092852113575424426",
+          "last_status_id": "2092667990273663311"
+        },
+        {
+          "batch": 10,
+          "visible_count": 9,
+          "new_status_ids": [
+            "2092828954126172660"
+          ],
+          "first_status_id": "2092850309123002417",
+          "last_status_id": "2092828954126172660"
+        }
+      ],
+      "complete": false,
+      "frozen": true,
+      "reason": "Ten batches collected; new IDs continued through batch 10, so two consecutive zero-new batches were not established. Discovery snapshot only."
     }
   ],
   "frozen_sources": {
@@ -1251,12 +1401,13 @@
       "reason": "not swept through committed checkpoint in this run; cursor frozen."
     },
     "for_you": {
-      "at": "2026-08-27T07:11:59Z",
-      "reason": "eight-batch discovery snapshot retained; two consecutive zero-new batches were not reached because new IDs continued in batches 6–8"
+      "at": "2026-08-27T11:13:15Z",
+      "reason": "10-batch discovery snapshot retained; two consecutive zero-new batches were not reached because new IDs continued through batch 10."
     },
     "following": {
-      "at": "2026-08-27T09:14:41Z",
-      "reason": "25 batches swept without reaching committed checkpoint 2092633969380442525; all observed statuses were persisted and source cursor remains frozen."
+      "at": "2026-08-27T11:13:15Z",
+      "reason": "25 batches swept without reaching committed checkpoint 2092633969380442525; all observed statuses persisted and cursor remains frozen.",
+      "deepest_seen_status_id": "2092595111259767005"
     },
     "account:@AIatMeta": {
       "at": "2026-08-27T09:14:41Z",
