@@ -55,10 +55,13 @@
     "All eight configured Posts + New searches remain frozen because no complete, parseable result container has been verified."
   ],
   "github": {
-    "status": "pending_commit_and_push"
+    "status": "SUCCESS",
+    "commit": "50af8193069ea1ce735989468366c33b1e90a6f2"
   },
   "dingtalk": {
-    "status": "pending_after_push"
+    "status": "SUCCESS",
+    "sent_at_local": "2026-08-27T11:42:41+08:00",
+    "target_verified": "fixed archive notification group",
+    "message_type": "evidence_repair_progress_not_full_success"
   }
 }
-
