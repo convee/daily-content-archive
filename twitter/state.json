@@ -375,7 +375,10 @@
     "2092698376127086953",
     "2092691318581477585",
     "2092691863505346634",
-    "2092692932126191780"
+    "2092692932126191780",
+    "2092769097243074710",
+    "2092734439365230937",
+    "2092507058230927713"
   ],
   "source_checkpoints": {
     "account:@OpenAI": {
@@ -803,6 +806,15 @@
       "complete": false,
       "frozen": true,
       "reason": "No two consecutive batches without new status IDs before bounded snapshot window ended."
+    },
+    {
+      "captured_at": "2026-08-27T01:11:30Z",
+      "batches": [
+        {"visible_count":4,"new_status_ids":["2092769097243074710","2092734439365230937","2092507058230927713"],"first_status_id":"2092769097243074710","last_status_id":"2092507058230927713"}
+      ],
+      "complete": false,
+      "frozen": true,
+      "reason": "One visible top batch retained; no two-consecutive-zero-new termination was established. Discovery snapshot only."
     }
   ],
   "frozen_sources": {
@@ -822,8 +834,8 @@
       "at": "2026-08-26T17:16:50.707Z",
       "reason": "checkpoint not reached in 25 batches"
     },
-    "for_you": {"at":"2026-08-26T21:14:47.000Z","reason":"4 visible batches retained; two consecutive zero-new batches not reached"},
-    "following": {"at":"2026-08-26T21:14:47.000Z","reason":"checkpoint 2092633969380442525 not reached in 4 visible batches"},
+    "for_you": {"at":"2026-08-27T01:11:30Z","reason":"one visible top batch retained; two consecutive zero-new batches not reached"},
+    "following": {"at":"2026-08-27T01:11:30Z","reason":"checkpoint 2092633969380442525 not reached in the visible top batch"},
     "account:@OpenAI": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"},
     "account:@AIatMeta": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"},
     "account:@GitHub": {"at":"2026-08-26T19:14:53.000Z","reason":"checkpoint is pinned; not a chronological boundary"},

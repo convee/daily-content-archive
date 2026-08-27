@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-08-27T01:11:30Z",
+  "finished_at_utc": "2026-08-27T01:11:30Z",
+  "status": "partial_frozen",
+  "counts": {"posts": 3, "replies": 0},
+  "source_results": [
+    {"type":"account","success":12,"failed":7,"frozen":["@OpenAI","@AIatMeta","@GitHub","@AndrewYNg","@ylecun","@swyx","@hardmaru"],"reason":"Pinned checkpoints remain non-chronological; other account sources retain their prior state."},
+    {"type":"query","success":0,"failed":5,"reason":"Prior frozen query checkpoints were not re-crossed in this bounded run."},
+    {"type":"following","success":0,"failed":1,"reason":"Visible top batch retained; checkpoint 2092633969380442525 was not crossed."},
+    {"type":"for_you","success":0,"failed":1,"reason":"One visible top batch retained; two consecutive zero-new batches were not established, so this is a discovery snapshot only."}
+  ],
+  "daily_brief": "twitter/2026/08/2026-08-26.md updated; coverage caveat retained."
+}
