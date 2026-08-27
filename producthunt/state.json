@@ -17,6 +17,21 @@
         "all saved products have full required metadata"
       ],
       "run": "producthunt/run/2026/08/2026-08-25.json"
+    },
+    "2026-08-26": {
+      "status": "partial",
+      "updated_at_utc": "2026-08-27T08:18:18Z",
+      "featured_visible_ranked": 17,
+      "all_visible_ranked": 17,
+      "ai_tech_candidates": 13,
+      "raw_comments": 0,
+      "selected_comments": 0,
+      "missing_gates": [
+        "all saved products have full required metadata",
+        "deep-focus product comment pages checked",
+        "discovery sources validated and saved"
+      ],
+      "run": "producthunt/run/2026/08/2026-08-27.json"
     }
   },
   "intraday_snapshots": {},

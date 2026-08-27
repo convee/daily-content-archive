@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-26",
+  "captured_at": "2026-08-27T08:18:18Z",
+  "capture_surface": "logged_in_local_chrome_read_only",
+  "official_pages": {
+    "featured": "https://www.producthunt.com/leaderboard/daily/2026/8/26",
+    "all": "https://www.producthunt.com/leaderboard/daily/2026/8/26/all"
+  },
+  "page_title": "Best of Product Hunt: August 26, 2026 | Product Hunt",
+  "page_date": "August 26, 2026",
+  "featured_visible_ranked": 17,
+  "all_visible_ranked": 17,
+  "all_pagination_control_visible": false,
+  "featured_ids_equal_all_ids": true,
+  "products": [
+    {"rank":1,"id":"x1-2","name":"x1","tagline":"Lovable for iPhone apps go from idea to App Store","categories":["iOS","No-Code","Vibe coding"],"comments":73,"points":463,"product_url":"https://www.producthunt.com/products/x1-2"},
+    {"rank":2,"id":"expertise-ai","name":"Expertise AI","tagline":"Turn your GTM skills into recurring revenue","categories":["Marketing","SaaS","Artificial Intelligence"],"comments":103,"points":353,"product_url":"https://www.producthunt.com/products/expertise-ai"},
+    {"rank":3,"id":"posthog","name":"PostHog Desktop","tagline":"The product editor for product builders","categories":["Open Source","Developer Tools","Artificial Intelligence"],"comments":3,"points":331,"product_url":"https://www.producthunt.com/products/posthog"},
+    {"rank":4,"id":"chatcut-ai-video-editor","name":"ChatCut Desktop","tagline":"Video editor built for humans & AI. Edit with GPT & Claude.","categories":["Marketing","Artificial Intelligence","Video"],"comments":22,"points":282,"product_url":"https://www.producthunt.com/products/chatcut-ai-video-editor"},
+    {"rank":5,"id":"mcp-builder-ai","name":"MCP-Builder.ai","tagline":"The fastest way to connect your data with your AI Tools.","categories":["Developer Tools","Artificial Intelligence","Data"],"comments":8,"points":169,"product_url":"https://www.producthunt.com/products/mcp-builder-ai"},
+    {"rank":6,"id":"tellie-2","name":"Tellie Prompter 1.5","tagline":"The teleprompter that knows what you haven't said","categories":["Productivity","Video Streaming","Artificial Intelligence"],"comments":20,"points":136,"product_url":"https://www.producthunt.com/products/tellie-2"},
+    {"rank":7,"id":"opencomputer","name":"OpenComputer","tagline":"Firebase for Agents","categories":["Software Engineering","Artificial Intelligence"],"comments":3,"points":135,"product_url":"https://www.producthunt.com/products/opencomputer"},
+    {"rank":8,"id":"termy-language-learning","name":"Termy","tagline":"Learn languages from games, videos, and websites","categories":["Education","Languages","Games"],"comments":7,"points":118,"product_url":"https://www.producthunt.com/products/termy-language-learning"},
+    {"rank":9,"id":"apple","name":"Mac mini","tagline":"Now with M6 and M5 Pro chips","categories":["Productivity","Developer Tools","Apple"],"comments":3,"points":114,"product_url":"https://www.producthunt.com/products/apple"},
+    {"rank":10,"id":"ify-2","name":"ify","tagline":"Resolution AI that works on top of your existing helpdesk","categories":["Email","Customer Communication","Artificial Intelligence"],"comments":29,"points":114,"product_url":"https://www.producthunt.com/products/ify-2"},
+    {"rank":11,"id":"evidence","name":"Evidence Core","tagline":"Build live analytics with coding agents","categories":["Open Source","GitHub","Data Science"],"comments":7,"points":111,"product_url":"https://www.producthunt.com/products/evidence"},
+    {"rank":12,"id":"lore-machine","name":"Lore Machine","tagline":"Substack For World Builders","categories":["Comics & Graphic Novels","Artificial Intelligence","Games"],"comments":5,"points":109,"product_url":"https://www.producthunt.com/products/lore-machine"},
+    {"rank":13,"id":"screenify-studio","name":"Screenify Studio","tagline":"Polished product demos on Mac recorded by an AI agent","categories":["Design Tools","Productivity","Artificial Intelligence"],"comments":11,"points":107,"product_url":"https://www.producthunt.com/products/screenify-studio"},
+    {"rank":14,"id":"hevn-u-s-accounts-for-non-us-companies","name":"HEVN U.S.","tagline":"Hold USD and pay globally through U.S. sponsor banks","categories":["Fintech","Payments","SaaS"],"comments":11,"points":104,"product_url":"https://www.producthunt.com/products/hevn-u-s-accounts-for-non-us-companies"},
+    {"rank":15,"id":"playcall","name":"Playcall","tagline":"The open-source AI alternative to Gong","categories":["Sales","Open Source","Artificial Intelligence"],"comments":2,"points":98,"product_url":"https://www.producthunt.com/products/playcall"},
+    {"rank":16,"id":"easyswitch","name":"EasySwitch","tagline":"One mouse, keyboard and second screen for all your computers","categories":["Mac","Productivity","Developer Tools"],"comments":6,"points":99,"product_url":"https://www.producthunt.com/products/easyswitch"},
+    {"rank":17,"id":"loupekit","name":"LoupeKit","tagline":"See what any page is built with and how much of it is AI","categories":["Browser Extensions","Developer Tools","Vibe coding"],"comments":12,"points":97,"product_url":"https://www.producthunt.com/products/loupekit"}
+  ],
+  "notes": ["The All page exposed no pagination control; its 17 unique ranked products exactly matched Featured.","Product detail pages, makers/hunters, pricing, external URLs, and comment snapshots were not collected in this run; this snapshot cannot pass completeness gates."]
+}
