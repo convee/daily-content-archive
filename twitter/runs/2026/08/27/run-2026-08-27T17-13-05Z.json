@@ -1,0 +1,18 @@
+{
+  "run_id": "twitter-2026-08-27T17-13-05Z",
+  "started_at_utc": "2026-08-27T17:11:00Z",
+  "finished_at_utc": "2026-08-27T17:13:05Z",
+  "status": "partial_frozen",
+  "source_summary": {
+    "accounts": {"attempted": 19, "succeeded": 0, "failed": 19, "batches_each": 1, "reason": "Visible Posts windows did not establish a full latest-to-committed-checkpoint scan; empty windows were also observed for six accounts."},
+    "queries": {"attempted": 5, "succeeded": 0, "failed": 5, "batches_each": 1, "reason": "Latest results did not reach committed checkpoints."},
+    "following": {"attempted": 1, "succeeded": 0, "failed": 1, "batches": 8, "reason": "Exact committed checkpoint was not reached."},
+    "for_you": {"attempted": 1, "succeeded": 0, "failed": 1, "batches": 8, "reason": "New status IDs continued; two consecutive zero-new batches were not observed."},
+    "replies": {"attempted": 0, "succeeded": 0, "failed": 1, "reason": "No source qualified for checkpoint advancement; reply review is frozen."}
+  },
+  "counts": {"observed_status_ids": 100, "archived_replies": 0},
+  "raw_files": ["twitter/raw/2026/08/27/2026-08-27T171305Z-attempt-ledger.json"],
+  "frozen_sources": {"accounts": "all 19", "queries": "all 5", "following": "checkpoint not reached", "for_you": "discovery snapshot incomplete", "replies": "no eligible continuous boundary"},
+  "github": {"status": "pending_commit_and_push"},
+  "dingtalk": {"status": "pending_exception_notification"}
+}
