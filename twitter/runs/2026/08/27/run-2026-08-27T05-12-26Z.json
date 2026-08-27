@@ -1,0 +1,17 @@
+{
+  "started_at_utc": "2026-08-27T05:12:26Z",
+  "finished_at_utc": "2026-08-27T05:12:26Z",
+  "status": "partial_frozen",
+  "counts": {"posts": 0, "replies": 0},
+  "source_results": [
+    {"type":"account","success":1,"failed":18,"success_sources":["@OpenAI"],"frozen_sources":["@AnthropicAI","@GoogleDeepMind","@xai","@MistralAI","@AIatMeta","@huggingface","@nvidia","@GitHub","@ycombinator","@producthunt","@TechCrunch","@arxiv","@karpathy","@AndrewYNg","@ylecun","@simonw","@swyx","@hardmaru"],"reason":"@OpenAI's latest non-pinned checkpoint 2092691861773160673 was visibly reached; all observed IDs are already durable. Other account timelines were not fully reconciled to their committed checkpoints, so their cursors were not advanced."},
+    {"type":"query","success":0,"failed":5,"frozen_sources":["AI agent OR agentic coding","LLM inference OR AI chips","open weights OR open source AI","robotics foundation model","AI security OR prompt injection"],"reason":"No query was advanced without a complete scroll to its old checkpoint (or an explicit 25-batch freeze record)."},
+    {"type":"following","success":0,"failed":1,"reason":"Committed checkpoint 2092633969380442525 was not reconciled this run; frozen."},
+    {"type":"for_you","success":0,"failed":1,"reason":"No compliant eight-batch discovery snapshot with two consecutive zero-new batches was collected; frozen."}
+  ],
+  "raw_files": ["twitter/raw/2026/08/27/posts-2026-08-26T23-12-17-000Z.jsonl", "twitter/raw/2026/08/26/posts-2026-08-26T13-15-26-066Z.jsonl"],
+  "raw_validation": "Referenced JSONL files parse. The OpenAI viewport included IDs 2092300846675505602, 2092691861773160673, 2092691863505346634, 2092335305366069305 and 2090885187634905500; each exists in durable raw and state.seen_status_ids.",
+  "daily_brief": {"date":"2026-08-26","path":"twitter/2026/08/2026-08-26.md","status":"existing_and_verified","note":"The prior-natural-day brief and homepage link already exist; no successful daily notification is sent during this partial-frozen run."},
+  "github": {"status":"pending_finalization"},
+  "dingtalk": {"status":"pending_finalization","target_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw=="}
+}
