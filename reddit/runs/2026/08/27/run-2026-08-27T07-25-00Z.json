@@ -11,6 +11,6 @@
     {"scope":"search","items":"8 configured queries","reason":"not run; query checkpoints remain frozen"},
     {"scope":"comment_revisits","items":"3 queued threads","reason":"not run; queue unchanged"}
   ],
-  "github": {"status":"pending"},
-  "dingtalk": {"status":"not_sent","reason":"intraday partial run; exception notification required after push"}
+  "github": {"status":"pushed","commit":"d948ab8"},
+  "dingtalk": {"status":"sent","sendStatus":"SUCCESS","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","openTaskId":"njZmxDVPQqaWuhDohRomJRYiWpJzLKKEHHbFqMEpiW0="}
 }
