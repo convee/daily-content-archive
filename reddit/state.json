@@ -24,14 +24,37 @@
       "previous_checkpoint_reached": true
     },
     "programming": {
-      "last_id": "t3_1vzoisw",
-      "first_id": "t3_1vzoisw",
-      "captured_at": "2026-08-27T09:24:00Z",
-      "scroll_batches": 2,
-      "visible_posts": 33,
-      "archive_file": "reddit/raw/2026/08/27/posts-2026-08-27T09-24-00Z.jsonl",
-      "previous_checkpoint": "t3_1vv3lus",
-      "previous_checkpoint_reached": true
+      "last_id": "t3_1vzp58g",
+      "first_id": "t3_1vzp58g",
+      "captured_at": "2026-08-27T12:49:27.246Z",
+      "scroll_batches": 25,
+      "visible_posts": 625,
+      "archive_file": "reddit/raw/2026/08/27/new-repair-observations-2026-08-27T12-37-09-680Z.jsonl",
+      "previous_checkpoint": "t3_1vzoisw",
+      "previous_checkpoint_reached": true,
+      "previous_checkpoint_time_utc": "2026-08-27T08:54:03Z",
+      "continuity_verification": {
+        "old_checkpoint_id": "t3_1vzoisw",
+        "old_checkpoint_time_utc": "2026-08-27T08:54:03Z",
+        "new_head_id": "t3_1vzp58g",
+        "new_head_time_utc": "2026-08-27T09:30:30.000Z",
+        "oldest_observed_id": "t3_1tuqgwt",
+        "oldest_observed_time_utc": "2026-06-02T13:08:30.000Z",
+        "observed_count": 625,
+        "unique_observed_count": 625,
+        "time_order_nonincreasing": true,
+        "pagination_gap_detected": false,
+        "permalink_verification": {
+          "url": "https://old.reddit.com/r/programming/comments/1vzoisw/pythonize_%D8%AA%D8%B7%D8%A8%D9%8A%D9%82_%D8%B9%D8%B1%D8%A8%D9%8A_%D9%84%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1_%D9%88%D8%AA%D9%82%D9%8A%D9%8A%D9%85_%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%D9%83_%D9%81%D9%8A/",
+          "title": "[ Removed by moderator ] : programming",
+          "post_id": "t3_1vzoisw",
+          "visible": true,
+          "removed": true,
+          "deleted": false
+        },
+        "archive_file": "reddit/raw/2026/08/27/new-repair-observations-2026-08-27T12-37-09-680Z.jsonl",
+        "method": "time_boundary_crossed_exact_id_absent"
+      }
     },
     "technology": {
       "last_id": "t3_1vzqxyz",
@@ -64,14 +87,37 @@
       "previous_checkpoint_reached": true
     },
     "selfhosted": {
-      "last_id": "t3_1vzo2w2",
-      "first_id": "t3_1vzo2w2",
-      "captured_at": "2026-08-27T09:24:00Z",
-      "scroll_batches": 3,
-      "visible_posts": 56,
-      "archive_file": "reddit/raw/2026/08/27/posts-2026-08-27T09-24-00Z.jsonl",
-      "previous_checkpoint": "t3_1vzjjbz",
-      "previous_checkpoint_reached": true
+      "last_id": "t3_1vzscbe",
+      "first_id": "t3_1vzscbe",
+      "captured_at": "2026-08-27T12:49:27.247Z",
+      "scroll_batches": 25,
+      "visible_posts": 624,
+      "archive_file": "reddit/raw/2026/08/27/new-repair-observations-2026-08-27T12-37-09-680Z.jsonl",
+      "previous_checkpoint": "t3_1vzo2w2",
+      "previous_checkpoint_reached": true,
+      "previous_checkpoint_time_utc": "2026-08-27T08:27:00Z",
+      "continuity_verification": {
+        "old_checkpoint_id": "t3_1vzo2w2",
+        "old_checkpoint_time_utc": "2026-08-27T08:27:00Z",
+        "new_head_id": "t3_1vzscbe",
+        "new_head_time_utc": "2026-08-27T12:17:36.000Z",
+        "oldest_observed_id": "t3_1vjn5uz",
+        "oldest_observed_time_utc": "2026-08-09T11:10:50.000Z",
+        "observed_count": 624,
+        "unique_observed_count": 624,
+        "time_order_nonincreasing": true,
+        "pagination_gap_detected": false,
+        "permalink_verification": {
+          "url": "https://old.reddit.com/r/selfhosted/comments/1vzo2w2/for_those_of_you_building_and_maintaining/",
+          "title": "For those of you building and maintaining open-source self-hosted projects, what are your recurring costs? : selfhosted",
+          "post_id": "t3_1vzo2w2",
+          "visible": true,
+          "removed": true,
+          "deleted": false
+        },
+        "archive_file": "reddit/raw/2026/08/27/new-repair-observations-2026-08-27T12-37-09-680Z.jsonl",
+        "method": "time_boundary_crossed_exact_id_absent"
+      }
     },
     "science": {
       "last_id": "t3_1vzqzy1",
