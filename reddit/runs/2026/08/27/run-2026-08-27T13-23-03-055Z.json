@@ -1,0 +1,468 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-08-27T13-23-03-055Z",
+  "started_at_utc": "2026-08-27T13-23-03-055Z",
+  "captured_at_utc": "2026-08-27T13:24:17.603Z",
+  "mode": "logged_in_local_chrome_read_only",
+  "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T13-23-03-055Z.jsonl",
+  "new": {
+    "MachineLearning": {
+      "previous_checkpoint": "t3_1vz9x9c",
+      "new_head_id": "t3_1vz9x9c",
+      "observed_count": 25,
+      "pages": 1,
+      "previous_checkpoint_reached": true,
+      "status": "success",
+      "failure": null
+    },
+    "LocalLLaMA": {
+      "previous_checkpoint": "t3_1vzqubc",
+      "new_head_id": "t3_1vztty7",
+      "observed_count": 25,
+      "pages": 1,
+      "previous_checkpoint_reached": true,
+      "status": "success",
+      "failure": null
+    },
+    "programming": {
+      "previous_checkpoint": "t3_1vzp58g",
+      "new_head_id": "t3_1vztl74",
+      "observed_count": 25,
+      "pages": 1,
+      "previous_checkpoint_reached": true,
+      "status": "success",
+      "failure": null
+    },
+    "technology": {
+      "previous_checkpoint": "t3_1vzqxyz",
+      "new_head_id": "t3_1vztmsx",
+      "observed_count": 25,
+      "pages": 1,
+      "previous_checkpoint_reached": true,
+      "status": "success",
+      "failure": null
+    },
+    "netsec": {
+      "previous_checkpoint": "t3_1vz6179",
+      "new_head_id": "t3_1vz6179",
+      "observed_count": 25,
+      "pages": 1,
+      "previous_checkpoint_reached": true,
+      "status": "success",
+      "failure": null
+    },
+    "opensource": {
+      "previous_checkpoint": "t3_1vzdko9",
+      "new_head_id": "t3_1vzsjnm",
+      "observed_count": 25,
+      "pages": 1,
+      "previous_checkpoint_reached": true,
+      "status": "success",
+      "failure": null
+    },
+    "selfhosted": {
+      "previous_checkpoint": "t3_1vzscbe",
+      "new_head_id": "t3_1vzswfw",
+      "observed_count": 25,
+      "pages": 1,
+      "previous_checkpoint_reached": true,
+      "status": "success",
+      "failure": null
+    },
+    "science": {
+      "previous_checkpoint": "t3_1vzqzy1",
+      "new_head_id": "t3_1vzsj8w",
+      "observed_count": 25,
+      "pages": 1,
+      "previous_checkpoint_reached": true,
+      "status": "success",
+      "failure": null
+    },
+    "OpenAI": {
+      "previous_checkpoint": "t3_1vzpzzm",
+      "new_head_id": "t3_1vzswi3",
+      "observed_count": 25,
+      "pages": 1,
+      "previous_checkpoint_reached": true,
+      "status": "success",
+      "failure": null
+    },
+    "Anthropic": {
+      "previous_checkpoint": "t3_1vzp3uc",
+      "new_head_id": "t3_1vzrr0y",
+      "observed_count": 25,
+      "pages": 1,
+      "previous_checkpoint_reached": true,
+      "status": "success",
+      "failure": null
+    },
+    "singularity": {
+      "previous_checkpoint": "t3_1vznzly",
+      "new_head_id": "t3_1vzttlz",
+      "observed_count": 25,
+      "pages": 1,
+      "previous_checkpoint_reached": true,
+      "status": "success",
+      "failure": null
+    },
+    "robotics": {
+      "previous_checkpoint": "t3_1vzqdwr",
+      "new_head_id": "t3_1vzss9c",
+      "observed_count": 25,
+      "pages": 1,
+      "previous_checkpoint_reached": true,
+      "status": "success",
+      "failure": null
+    }
+  },
+  "snapshots": {
+    "MachineLearning:hot": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vd5kqk",
+      "last_id": "t3_1vw5ysj",
+      "actual_url": "https://old.reddit.com/r/MachineLearning/hot/",
+      "all_distinct_verified": true
+    },
+    "MachineLearning:rising": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vz2ojw",
+      "last_id": "t3_1vv2nkh",
+      "actual_url": "https://old.reddit.com/r/MachineLearning/rising/",
+      "all_distinct_verified": true
+    },
+    "LocalLLaMA:hot": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzdfw9",
+      "last_id": "t3_1vzg84e",
+      "actual_url": "https://old.reddit.com/r/LocalLLaMA/hot/",
+      "all_distinct_verified": true
+    },
+    "LocalLLaMA:rising": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzowwo",
+      "last_id": "t3_1vzo1m5",
+      "actual_url": "https://old.reddit.com/r/LocalLLaMA/rising/",
+      "all_distinct_verified": true
+    },
+    "programming:hot": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1tlh5aj",
+      "last_id": "t3_1vy1csq",
+      "actual_url": "https://old.reddit.com/r/programming/hot/",
+      "all_distinct_verified": true
+    },
+    "programming:rising": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vz0z6b",
+      "last_id": "t3_1vx3ygt",
+      "actual_url": "https://old.reddit.com/r/programming/rising/",
+      "all_distinct_verified": true
+    },
+    "technology:hot": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzd3x8",
+      "last_id": "t3_1vyt73b",
+      "actual_url": "https://old.reddit.com/r/technology/hot/",
+      "all_distinct_verified": true
+    },
+    "technology:rising": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzpaxi",
+      "last_id": "t3_1vyt73b",
+      "actual_url": "https://old.reddit.com/r/technology/rising/",
+      "all_distinct_verified": true
+    },
+    "netsec:hot": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1ulbf96",
+      "last_id": "t3_1vpx6ku",
+      "actual_url": "https://old.reddit.com/r/netsec/hot/",
+      "all_distinct_verified": true
+    },
+    "netsec:rising": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vz4fym",
+      "last_id": "t3_1vp35wv",
+      "actual_url": "https://old.reddit.com/r/netsec/rising/",
+      "all_distinct_verified": true
+    },
+    "opensource:hot": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1rffhog",
+      "last_id": "t3_1vw0eg3",
+      "actual_url": "https://old.reddit.com/r/opensource/hot/",
+      "all_distinct_verified": true
+    },
+    "opensource:rising": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzsjnm",
+      "last_id": "t3_1vw4gbx",
+      "actual_url": "https://old.reddit.com/r/opensource/rising/",
+      "all_distinct_verified": true
+    },
+    "selfhosted:hot": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1sey9ch",
+      "last_id": "t3_1vz5waf",
+      "actual_url": "https://old.reddit.com/r/selfhosted/hot/",
+      "all_distinct_verified": true
+    },
+    "selfhosted:rising": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzr8y7",
+      "last_id": "t3_1vz6rxg",
+      "actual_url": "https://old.reddit.com/r/selfhosted/rising/",
+      "all_distinct_verified": true
+    },
+    "science:hot": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzqzy1",
+      "last_id": "t3_1vza2nj",
+      "actual_url": "https://old.reddit.com/r/science/hot/",
+      "all_distinct_verified": true
+    },
+    "science:rising": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzrgbt",
+      "last_id": "t3_1vza2nj",
+      "actual_url": "https://old.reddit.com/r/science/rising/",
+      "all_distinct_verified": true
+    },
+    "OpenAI:hot": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1ugljgh",
+      "last_id": "t3_1vzghfk",
+      "actual_url": "https://old.reddit.com/r/OpenAI/hot/",
+      "all_distinct_verified": true
+    },
+    "OpenAI:rising": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzpfac",
+      "last_id": "t3_1vzixin",
+      "actual_url": "https://old.reddit.com/r/OpenAI/rising/",
+      "all_distinct_verified": true
+    },
+    "Anthropic:hot": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vrlpux",
+      "last_id": "t3_1vyqm57",
+      "actual_url": "https://old.reddit.com/r/Anthropic/hot/",
+      "all_distinct_verified": true
+    },
+    "Anthropic:rising": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzkxh3",
+      "last_id": "t3_1vxvk95",
+      "actual_url": "https://old.reddit.com/r/Anthropic/rising/",
+      "all_distinct_verified": true
+    },
+    "singularity:hot": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vso1mh",
+      "last_id": "t3_1vz9pdh",
+      "actual_url": "https://old.reddit.com/r/singularity/hot/",
+      "all_distinct_verified": true
+    },
+    "singularity:rising": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzijco",
+      "last_id": "t3_1vyykbm",
+      "actual_url": "https://old.reddit.com/r/singularity/rising/",
+      "all_distinct_verified": true
+    },
+    "robotics:hot": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzqdwr",
+      "last_id": "t3_1vynfd8",
+      "actual_url": "https://old.reddit.com/r/robotics/hot/",
+      "all_distinct_verified": true
+    },
+    "robotics:rising": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzqdwr",
+      "last_id": "t3_1vynfd8",
+      "actual_url": "https://old.reddit.com/r/robotics/rising/",
+      "all_distinct_verified": true
+    },
+    "home": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzilez",
+      "last_id": "t3_1vzrttk",
+      "actual_url": "https://old.reddit.com/",
+      "all_distinct_verified": true
+    },
+    "popular": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vz9tcq",
+      "last_id": "t3_1vzjwvn",
+      "actual_url": "https://old.reddit.com/r/popular/",
+      "all_distinct_verified": true
+    },
+    "all": {
+      "status": "success",
+      "count": 25,
+      "first_id": "t3_1vzpta2",
+      "last_id": "t3_1vznx9r",
+      "actual_url": "https://old.reddit.com/r/all/",
+      "all_distinct_verified": true
+    }
+  },
+  "searches": {
+    "AI agent OR agentic coding": {
+      "status": "frozen",
+      "count": 22,
+      "first_id": "t3_1vzttj5",
+      "last_id": "t3_1vztd4a",
+      "next_page_available": false,
+      "reason": "no next-page evidence; discovery snapshot only"
+    },
+    "LLM inference OR quantization": {
+      "status": "frozen",
+      "count": 22,
+      "first_id": "t3_1vztty4",
+      "last_id": "t3_1vzsyj7",
+      "next_page_available": false,
+      "reason": "no next-page evidence; discovery snapshot only"
+    },
+    "open weights OR open source AI": {
+      "status": "frozen",
+      "count": 22,
+      "first_id": "t3_1vzttxn",
+      "last_id": "t3_1vzsoem",
+      "next_page_available": false,
+      "reason": "no next-page evidence; discovery snapshot only"
+    },
+    "AI chip OR GPU OR inference accelerator": {
+      "status": "frozen",
+      "count": 22,
+      "first_id": "t3_1vztoi2",
+      "last_id": "t3_1vzr7zv",
+      "next_page_available": false,
+      "reason": "no next-page evidence; discovery snapshot only"
+    },
+    "robotics foundation model": {
+      "status": "frozen",
+      "count": 22,
+      "first_id": "t3_1vzto5t",
+      "last_id": "t3_1vzr5j6",
+      "next_page_available": false,
+      "reason": "no next-page evidence; discovery snapshot only"
+    },
+    "AI security OR prompt injection": {
+      "status": "frozen",
+      "count": 22,
+      "first_id": "t3_1vztu73",
+      "last_id": "t3_1vzmaxl",
+      "next_page_available": false,
+      "reason": "no next-page evidence; discovery snapshot only"
+    },
+    "developer tools OR programming language": {
+      "status": "frozen",
+      "count": 22,
+      "first_id": "t3_1vztutt",
+      "last_id": "t3_1vzsx2v",
+      "next_page_available": false,
+      "reason": "no next-page evidence; discovery snapshot only"
+    },
+    "data center energy water": {
+      "status": "frozen",
+      "count": 22,
+      "first_id": "t3_1vzttxn",
+      "last_id": "t3_1vztgrn",
+      "next_page_available": false,
+      "reason": "no next-page evidence; discovery snapshot only"
+    }
+  },
+  "comment_revisit": {
+    "post_id": "t3_1vx0q5i",
+    "status": "success",
+    "visible_comments": 3,
+    "more_replies": 0
+  },
+  "failure_ledger": [
+    {
+      "layer": "search",
+      "target": "AI agent OR agentic coding",
+      "error": "no next-page evidence; discovery snapshot only",
+      "frozen_scope": "AI agent OR agentic coding"
+    },
+    {
+      "layer": "search",
+      "target": "LLM inference OR quantization",
+      "error": "no next-page evidence; discovery snapshot only",
+      "frozen_scope": "LLM inference OR quantization"
+    },
+    {
+      "layer": "search",
+      "target": "open weights OR open source AI",
+      "error": "no next-page evidence; discovery snapshot only",
+      "frozen_scope": "open weights OR open source AI"
+    },
+    {
+      "layer": "search",
+      "target": "AI chip OR GPU OR inference accelerator",
+      "error": "no next-page evidence; discovery snapshot only",
+      "frozen_scope": "AI chip OR GPU OR inference accelerator"
+    },
+    {
+      "layer": "search",
+      "target": "robotics foundation model",
+      "error": "no next-page evidence; discovery snapshot only",
+      "frozen_scope": "robotics foundation model"
+    },
+    {
+      "layer": "search",
+      "target": "AI security OR prompt injection",
+      "error": "no next-page evidence; discovery snapshot only",
+      "frozen_scope": "AI security OR prompt injection"
+    },
+    {
+      "layer": "search",
+      "target": "developer tools OR programming language",
+      "error": "no next-page evidence; discovery snapshot only",
+      "frozen_scope": "developer tools OR programming language"
+    },
+    {
+      "layer": "search",
+      "target": "data center energy water",
+      "error": "no next-page evidence; discovery snapshot only",
+      "frozen_scope": "data center energy water"
+    }
+  ],
+  "github": {
+    "status": "ready_to_commit"
+  },
+  "dingtalk": {
+    "status": "pending_exception_notification"
+  },
+  "raw_record_count": 603,
+  "raw_post_count": 600,
+  "raw_comment_count": 3,
+  "completed_at_utc": "2026-08-27T13:24:47.887Z"
+}
