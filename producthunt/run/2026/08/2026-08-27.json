@@ -11,7 +11,7 @@
     "github_push": {
       "status": "SUCCESS",
       "commit": "85da77252c6997162c55724dd3846b8b0b07b376",
-      "latest_evidence_commit": "f5d541b1a69d9816e70134be47752c8f09332609",
+      "latest_evidence_commit": "c9af8cf4c1adbbd3f2d3f81824e32450386bcd61",
       "remote": "origin/main",
       "page": "https://convee.github.io/daily-content-archive/"
     },
@@ -29,6 +29,14 @@
       "openTaskId": "TCfT70Kw3RhA0U3+YNHfDspuCu2/2EwlJaeRMxl+0RQ=",
       "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
       "openMessageId": "msgoXZ7HqJOKuBcTn0vimu1ew==",
+      "verified": true,
+      "verified_sendStatus": "SUCCESS"
+    },
+    "dingtalk_final_progress": {
+      "status": "SUCCESS",
+      "openTaskId": "P+WhCtyjfpRcZRp/9XSwDwLCUhYqfVND0GZrScKtzAg=",
+      "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+      "openMessageId": "msgJkNeQzOxmu5Qg3nSaL1lpA==",
       "verified": true,
       "verified_sendStatus": "SUCCESS"
     }
