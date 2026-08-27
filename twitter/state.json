@@ -1809,7 +1809,86 @@
     "2092809173583167818",
     "2092957933328072816",
     "2092957820312555799",
-    "2092952908199510271"
+    "2092952908199510271",
+    "2093038426140651791",
+    "2093038427642134590",
+    "2093008357644779643",
+    "2093009115895243031",
+    "2093009416643825786",
+    "2092979206607270048",
+    "2093035858127397072",
+    "2093034587827945553",
+    "2093032068888379708",
+    "2093028043199496210",
+    "2093023513372180537",
+    "2093019489365328087",
+    "2093005898251743279",
+    "2092991805356716158",
+    "2093054109884789242",
+    "2093053845316223370",
+    "2093053761648316900",
+    "2093053719197737014",
+    "2093053605519437917",
+    "2093053169110839403",
+    "2093052873881829620",
+    "2093052541978189986",
+    "2093053946071810524",
+    "2093053548200390972",
+    "2093053485906383305",
+    "2093053090278568404",
+    "2093052571162202250",
+    "2093052496683864383",
+    "2093052438391509241",
+    "2093052345584382203",
+    "2093052222733185200",
+    "2093049212116066493",
+    "2093039148169154615",
+    "2093024858443841851",
+    "2093023588890853871",
+    "2093054221918867501",
+    "2093053673127678324",
+    "2093053422329352301",
+    "2093053398228906030",
+    "2093053197237821475",
+    "2093053184113574304",
+    "2093052775701917897",
+    "2093052594306638106",
+    "2093052321445925268",
+    "2093052242064441396",
+    "2092640392303067562",
+    "2092998071412203971",
+    "2093049939848806635",
+    "2093017938295156834",
+    "2092979856124391760",
+    "2092736940093087897",
+    "2093002962406883825",
+    "2093037143639851121",
+    "2092665881566544341",
+    "2092993759700992415",
+    "2093011174619000981",
+    "2092671079999262872",
+    "2092642872944136613",
+    "2092858398102745457",
+    "2093039708947513571",
+    "2093007922246950970",
+    "2093018111352139857",
+    "2092786675906679121",
+    "2093050953721053557",
+    "2092907465629135100",
+    "2093051792007250033",
+    "2092438306172580147",
+    "2093002104327786544",
+    "2092979019524313544",
+    "2093019823815168135",
+    "2093013213038469205",
+    "2092573737354695079",
+    "2092439159072059459",
+    "2093038428757918070",
+    "2093038429936529897",
+    "2093038431190548803",
+    "2093038432302080019",
+    "2093038433782624261",
+    "2093053886278074402"
   ],
   "source_checkpoints": {
     "account:@OpenAI": {
@@ -1829,13 +1908,13 @@
       "last_reverified_at": "2026-08-27T13:18:21.902Z"
     },
     "account:@AnthropicAI": {
-      "status_id": "2092661573223657834",
-      "captured_at": "2026-08-27T13:18:21.902Z",
+      "status_id": "2093038426140651791",
+      "captured_at": "2026-08-27T19:15:11.786Z",
       "initial_baseline": false,
-      "latest_non_pinned_status_id": "2092661573223657834",
-      "permalink": "https://x.com/AnthropicAI/status/2092661573223657834",
+      "latest_non_pinned_status_id": "2093038426140651791",
+      "permalink": "https://x.com/AnthropicAI/status/2093038426140651791",
       "pinned_status_ids": [],
-      "last_reverified_at": "2026-08-27T13:18:21.902Z"
+      "last_reverified_at": "2026-08-27T19:15:11.786Z"
     },
     "account:@GoogleDeepMind": {
       "status_id": "2092961763553677387",
@@ -1857,12 +1936,12 @@
     },
     "account:@MistralAI": {
       "status_id": "2091964930715013224",
-      "captured_at": "2026-08-27T13:18:21.902Z",
+      "captured_at": "2026-08-27T19:15:11.786Z",
       "initial_baseline": false,
       "latest_non_pinned_status_id": "2091964930715013224",
       "permalink": "https://x.com/MistralAI/status/2091964930715013224",
       "pinned_status_ids": [],
-      "last_reverified_at": "2026-08-27T13:18:21.902Z"
+      "last_reverified_at": "2026-08-27T19:15:11.786Z"
     },
     "account:@AIatMeta": {
       "status_id": "2090505413817246050",
@@ -1890,15 +1969,15 @@
       "last_reverified_at": "2026-08-27T13:18:21.902Z"
     },
     "account:@GitHub": {
-      "status_id": "2092584970812367077",
-      "captured_at": "2026-08-27T13:18:21.902Z",
+      "status_id": "2093008357644779643",
+      "captured_at": "2026-08-27T19:15:11.786Z",
       "initial_baseline": false,
-      "latest_non_pinned_status_id": "2092584970812367077",
-      "permalink": "https://x.com/github/status/2092584970812367077",
+      "latest_non_pinned_status_id": "2093008357644779643",
+      "permalink": "https://x.com/GitHub/status/2093008357644779643",
       "pinned_status_ids": [
         "2082865587227590712"
       ],
-      "last_reverified_at": "2026-08-27T13:18:21.902Z",
+      "last_reverified_at": "2026-08-27T19:15:11.786Z",
       "migration": {
         "old_pinned_status_id": "2082865587227590712",
         "observed_through_utc": "2026-08-26T12:08:30.000Z",
@@ -1915,13 +1994,13 @@
       "last_reverified_at": "2026-08-27T13:18:21.902Z"
     },
     "account:@producthunt": {
-      "status_id": "2092717926914916678",
-      "captured_at": "2026-08-27T13:18:21.902Z",
+      "status_id": "2093009416643825786",
+      "captured_at": "2026-08-27T19:15:11.786Z",
       "initial_baseline": false,
-      "latest_non_pinned_status_id": "2092717926914916678",
-      "permalink": "https://x.com/ProductHunt/status/2092717926914916678",
+      "latest_non_pinned_status_id": "2093009416643825786",
+      "permalink": "https://x.com/producthunt/status/2093009416643825786",
       "pinned_status_ids": [],
-      "last_reverified_at": "2026-08-27T13:18:21.902Z"
+      "last_reverified_at": "2026-08-27T19:15:11.786Z"
     },
     "account:@TechCrunch": {
       "status_id": "2092961608116937086",
@@ -1984,12 +2063,12 @@
     },
     "account:@simonw": {
       "status_id": "2090299859693695283",
-      "captured_at": "2026-08-27T13:18:21.902Z",
+      "captured_at": "2026-08-27T19:15:11.786Z",
       "initial_baseline": false,
       "latest_non_pinned_status_id": "2090299859693695283",
       "permalink": "https://x.com/simonw/status/2090299859693695283",
       "pinned_status_ids": [],
-      "last_reverified_at": "2026-08-27T13:18:21.902Z"
+      "last_reverified_at": "2026-08-27T19:15:11.786Z"
     },
     "account:@swyx": {
       "status_id": "2092492963435946494",
@@ -2066,7 +2145,7 @@
     }
   },
   "note": "Test artifacts are not continuity checkpoints; first scheduled run establishes per-source cursors after GitHub push.",
-  "last_run_at_utc": "2026-08-27T13:30:50.153Z",
+  "last_run_at_utc": "2026-08-27T19:15:11.786Z",
   "for_you_snapshots": [
     {
       "captured_at": "2026-08-26T13:15:26.066Z",
@@ -2885,6 +2964,34 @@
         "2092809173583167818",
         "2092957933328072816"
       ]
+    },
+    {
+      "captured_at": "2026-08-27T19:15:11.786Z",
+      "batches": 8,
+      "first_status_id": "2093039708947513571",
+      "last_status_id": "2092439159072059459",
+      "new_status_ids": [
+        "2093039708947513571",
+        "2092864923831587215",
+        "2093007922246950970",
+        "2093018111352139857",
+        "2092786675906679121",
+        "2093050953721053557",
+        "2084912626392543637",
+        "2092907465629135100",
+        "2093051792007250033",
+        "2092438306172580147",
+        "2093002104327786544",
+        "2092661911120978024",
+        "2092979019524313544",
+        "2093019823815168135",
+        "2093013213038469205",
+        "2092573737354695079",
+        "2091961256043581828",
+        "2092439159072059459"
+      ],
+      "raw_file": "twitter/raw/2026/08/27/2026-08-27T191500Z-observations.jsonl",
+      "termination": "minimum 8 batches reached; no two consecutive zero-new batches observed; snapshot frozen"
     }
   ],
   "frozen_sources": {
@@ -2893,104 +3000,200 @@
       "reason": "not swept through committed checkpoint in this run; cursor frozen."
     },
     "account:@GoogleDeepMind": {
-      "at": "2026-08-27T09:14:41Z",
-      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "page returned no visible posts; frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
     },
     "account:@xai": {
-      "at": "2026-08-27T09:14:41Z",
-      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "page returned no visible posts; frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
     },
     "account:@MistralAI": {
       "at": "2026-08-27T09:14:41Z",
       "reason": "not swept through committed checkpoint in this run; cursor frozen."
     },
     "account:@huggingface": {
-      "at": "2026-08-27T09:14:41Z",
-      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "page returned no visible posts; frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
     },
     "account:@nvidia": {
-      "at": "2026-08-27T09:14:41Z",
-      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "page returned no visible posts; frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
     },
     "account:@ycombinator": {
-      "at": "2026-08-27T09:14:41Z",
-      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "page returned no visible posts; frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
     },
     "account:@producthunt": {
       "at": "2026-08-27T09:14:41Z",
       "reason": "not swept through committed checkpoint in this run; cursor frozen."
     },
     "account:@TechCrunch": {
-      "at": "2026-08-27T09:14:41Z",
-      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "visible batch did not reach committed checkpoint; continuation frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": "2092991805356716158",
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
     },
     "account:@arxiv": {
-      "at": "2026-08-27T09:14:41Z",
-      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "page returned no visible posts; frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
     },
     "account:@karpathy": {
-      "at": "2026-08-27T09:14:41Z",
-      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "page returned no visible posts; frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
     },
     "account:@simonw": {
       "at": "2026-08-27T09:14:41Z",
       "reason": "not swept through committed checkpoint in this run; cursor frozen."
     },
     "query:AI agent OR agentic coding": {
-      "frozen_at_utc": "2026-08-27T13:30:50.153Z",
-      "reason": "25-batch continuation did not reach old checkpoint",
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "Latest page returned no visible posts; frozen",
       "continuation": {
-        "batches": 25,
-        "deepest_status_id": "2092963813595484565",
-        "captured_at": "2026-08-27T13:30:50.153Z"
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
       }
     },
     "query:LLM inference OR AI chips": {
-      "frozen_at_utc": "2026-08-27T13:30:50.153Z",
-      "reason": "25-batch continuation did not reach old checkpoint",
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "one visible Latest batch did not reach committed checkpoint; continuation frozen",
       "continuation": {
-        "batches": 25,
-        "deepest_status_id": "2092957840218493217",
-        "captured_at": "2026-08-27T13:30:50.153Z"
+        "batches": 1,
+        "deepest_status_id": "2093052541978189986",
+        "captured_at": "2026-08-27T19:15:11.786Z"
       }
     },
     "query:open weights OR open source AI": {
-      "frozen_at_utc": "2026-08-27T13:30:50.153Z",
-      "reason": "25-batch continuation did not reach old checkpoint",
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "one visible Latest batch did not reach committed checkpoint; continuation frozen",
       "continuation": {
-        "batches": 25,
-        "deepest_status_id": "2092958042648162371",
-        "captured_at": "2026-08-27T13:30:50.153Z"
+        "batches": 1,
+        "deepest_status_id": "2093052345584382203",
+        "captured_at": "2026-08-27T19:15:11.786Z"
       }
     },
     "query:AI security OR prompt injection": {
-      "frozen_at_utc": "2026-08-27T13:30:50.153Z",
-      "reason": "25-batch continuation did not reach old checkpoint",
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "one visible Latest batch did not reach committed checkpoint; continuation frozen",
       "continuation": {
-        "batches": 25,
-        "deepest_status_id": "2092961201663967400",
-        "captured_at": "2026-08-27T13:30:50.153Z"
+        "batches": 1,
+        "deepest_status_id": "2093052242064441396",
+        "captured_at": "2026-08-27T19:15:11.786Z"
       }
     },
     "account:@AIatMeta": {
-      "at": "2026-08-27T09:14:41Z",
-      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "page returned no visible posts; frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
     },
     "account:@GitHub": {
       "at": "2026-08-27T09:14:41Z",
       "reason": "not swept through committed checkpoint in this run; cursor frozen."
     },
     "account:@ylecun": {
-      "at": "2026-08-27T09:14:41Z",
-      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "page returned no visible posts; frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
     },
     "account:@swyx": {
-      "at": "2026-08-27T09:14:41Z",
-      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "page returned no visible posts; frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
     },
     "account:@hardmaru": {
-      "at": "2026-08-27T09:14:41Z",
-      "reason": "not swept through committed checkpoint in this run; cursor frozen."
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "page returned no visible posts; frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
+    },
+    "account:@OpenAI": {
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "page returned no visible posts; frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
+    },
+    "account:@AndrewYNg": {
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "page returned no visible posts; frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": null,
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
+    },
+    "query:robotics foundation model": {
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "one visible Latest batch did not reach committed checkpoint; continuation frozen",
+      "continuation": {
+        "batches": 1,
+        "deepest_status_id": "2093023588890853871",
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
+    },
+    "following": {
+      "frozen_at_utc": "2026-08-27T19:15:11.786Z",
+      "reason": "9-batch sweep did not reach committed checkpoint; continuation frozen",
+      "continuation": {
+        "batches": 9,
+        "deepest_status_id": "2092858398102745457",
+        "captured_at": "2026-08-27T19:15:11.786Z"
+      }
     }
   }
 }
