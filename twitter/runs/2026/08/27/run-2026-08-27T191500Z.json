@@ -311,10 +311,18 @@
     "twitter/raw/2026/08/27/2026-08-27T191500Z-observations.jsonl"
   ],
   "github": {
-    "status": "pending_commit_and_push"
+    "status": "pushed",
+    "commit": "741a565cf3a3a935c4181b6e7eba96b9e53952c9",
+    "branch": "main",
+    "url": "https://github.com/convee/daily-content-archive/commit/741a565cf3a3a935c4181b6e7eba96b9e53952c9"
   },
   "dingtalk": {
-    "status": "pending_exception_alert",
-    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw=="
-  }
+    "status": "SUCCESS",
+    "openTaskId": "Nw1MN3Xcu6liiET/uaV57zZCtJpQkikxz2P6ikqXcao=",
+    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "openMessageId": "msg6Y3WKvyjKq7M2U4cjSCsGg==",
+    "sendStatus": "SUCCESS",
+    "kind": "exception_alert"
+  },
+  "finalized_at_utc": "2026-08-27T19:16:11.837Z"
 }
