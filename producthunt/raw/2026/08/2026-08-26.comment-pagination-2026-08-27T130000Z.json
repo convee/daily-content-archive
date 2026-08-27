@@ -1,0 +1,15 @@
+{
+  "date":"2026-08-26",
+  "captured_at":"2026-08-27T13:00:00Z",
+  "capture_surface":"logged_in_local_chrome_read_only",
+  "stable_comment_anchor_available":false,
+  "fallback_identity_key":"product_id + page + author display name + visible relative time + normalized comment body",
+  "products":[
+    {"id":"x1-2","pages_checked":[1,2,3,4,5,6],"comment_markers_by_page":{"1":24,"2":12,"3":0,"4":12,"5":0,"6":0},"pagination_exhausted":true,"maker_first_comment":{"author":"Manil Lakabi","role":"Maker","visible_time":"2d ago","body":"X1 is an AI app builder that takes you from an idea to an iPhone app ready for the App Store."},"limitation":"All pages were visited but their complete verbatim comment bodies are not yet stored as JSONL records."},
+    {"id":"expertise-ai","pages_checked":[1,2,3,4],"comment_markers_by_page":{"1":26,"2":24,"3":32,"4":20},"pagination_exhausted":true,"maker_first_comment":{"author":"Haozhe Sheng","role":"Maker","visible_time":"4d ago","body":"Human expertise is the most valuable asset in the world, and it's the only one with no infrastructure."},"limitation":"All pages were visited but their complete verbatim comment bodies are not yet stored as JSONL records."},
+    {"id":"chatcut-ai-video-editor","pages_checked":[1,2],"comment_markers_by_page":{"1":11,"2":12},"pagination_exhausted":true,"maker_first_comment":{"author":"Alima Strickland","role":"Maker","visible_time":"1d ago","body":"One of the most consistent pieces of feedback was that you loved being able to connect your own agent, but wanted to work with larger files and have a faster, more reliable editing experience."},"hunter_visible":{"author":"KP","role":"Hunter","visible_time":"1d ago"},"limitation":"All pages were visited but their complete verbatim comment bodies are not yet stored as JSONL records."},
+    {"id":"tellie-2","pages_checked":[1,2],"comment_markers_by_page":{"1":1,"2":0},"pagination_exhausted":true,"maker_first_comment":null,"limitation":"No maker first comment appeared on the checked pages; complete raw-comment persistence remains outstanding."},
+    {"id":"ify-2","pages_checked":[1,2],"comment_markers_by_page":{"1":19,"2":10},"pagination_exhausted":true,"maker_first_comment":{"author":"karthik veluswamy","role":"Maker","visible_time":"not shown in captured excerpt","body":"We built Ify because every AI support tool we looked at asked for the same trade: rip out your helpdesk, spend weeks migrating."},"limitation":"All pages were visited but their complete verbatim comment bodies are not yet stored as JSONL records."}
+  ],
+  "result":"Pagination is exhausted for all five previously open candidate products. This artifact is an auditable pagination and maker-first-comment record, not a substitute for the required per-comment raw snapshot."
+}

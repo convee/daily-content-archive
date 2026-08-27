@@ -1,0 +1,12 @@
+{
+  "date":"2026-08-26",
+  "captured_at":"2026-08-27T13:00:00Z",
+  "capture_surface":"logged_in_local_chrome_read_only",
+  "products":[
+    {"id":"termy-language-learning","name":"Termy","product_url":"https://www.producthunt.com/products/termy-language-learning","external_url":"https://termy.ai/?ref=producthunt","pricing":"Free Options","maker":"Mikhail Motyzhenkov","hunter":null,"description":"Desktop language practice from games, video and websites with contextual explanations, on-device OCR, adaptive exercises and FSRS scheduling; Windows/macOS, 30 languages."},
+    {"id":"apple","name":"Mac mini","product_url":"https://www.producthunt.com/products/apple","external_url":"https://apple.com/?ref=producthunt","pricing":"Payment Required","maker":null,"hunter":null,"description":"Mac mini refresh with M6/M5 Pro, Apple Intelligence, Wi-Fi 7 and faster storage."},
+    {"id":"evidence","name":"Evidence Core","product_url":"https://www.producthunt.com/products/evidence","external_url":"https://evidence.dev/?ref=producthunt","pricing":"Free","maker":null,"hunter":null,"description":"Open-source, code-based business intelligence framework for dashboards/reports deployed from a repository and validated through the Evidence CLI."},
+    {"id":"hevn-u-s-accounts-for-non-us-companies","name":"HEVN U.S.","product_url":"https://www.producthunt.com/products/hevn-u-s-accounts-for-non-us-companies","external_url":"https://gethevn.com/apply?ref=producthunt","pricing":"Payment Required; up to $5K fee credits","maker":null,"hunter":null,"description":"USD banking access through U.S. sponsor banks for eligible companies in 100+ countries, supporting Fedwire, local US payments and supported SWIFT settlements."}
+  ],
+  "missing_identity_reason":"Apple, Evidence and HEVN showed no visible maker/hunter comment on their checked product surfaces; names are not inferred."
+}
