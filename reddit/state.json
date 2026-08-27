@@ -4906,9 +4906,12 @@
     }
   ],
   "last_dingtalk_delivery": {
-    "status": "sent_progress",
-    "open_task_id": "TT1ccltKgiNBQppmsGf7AU40xbYvtufVTmHFOzO9MoM=",
-    "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "send_status": "SUCCESS"
+    "status": "success",
+    "kind": "exception",
+    "openTaskId": "/V6TIOVbs9uhoYmEXBcUca6XPSCznI4raKt7HIIKLso=",
+    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "openMessageId": "msgIDzJ1mGjjn7wN3xIZ0G2yw==",
+    "sendStatus": "SUCCESS",
+    "delivered_at": "2026-08-27T15:28:25.038Z"
   }
 }

@@ -198,9 +198,18 @@
   },
   "failures": [],
   "github": {
-    "status": "pending"
+    "status": "success",
+    "commit": "c279163",
+    "branch": "main",
+    "pushed_at": "2026-08-27T15:28:25.038Z"
   },
   "dingtalk": {
-    "status": "not_sent"
+    "status": "success",
+    "kind": "exception",
+    "openTaskId": "/V6TIOVbs9uhoYmEXBcUca6XPSCznI4raKt7HIIKLso=",
+    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "openMessageId": "msgIDzJ1mGjjn7wN3xIZ0G2yw==",
+    "sendStatus": "SUCCESS",
+    "delivered_at": "2026-08-27T15:28:25.038Z"
   }
 }
