@@ -69,8 +69,8 @@
   "git": {
     "collection_commit": "3fce0f0958a2481d65f98827080c7e125c05be9d",
     "collection_pushed": true,
-    "remote_verified": "origin/main contains state, raw and run at collection commit",
-    "finalization_commit": "3fce0f0958a2481d65f98827080c7e125c05be9d",
+    "remote_verified": "origin/main contains state, raw and run through a5cfbf4f8aca327f90db0c71ef2312e835087b7f",
+    "finalization_commit": "a5cfbf4f8aca327f90db0c71ef2312e835087b7f",
     "pushed": true
   },
   "dingtalk": {
