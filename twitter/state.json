@@ -3819,7 +3819,7 @@
     "query:AI agent OR agentic coding": {
       "captured_at": "2026-08-28T07:15:15Z",
       "batches": 25,
-      "deepest_status_id": "209320?",
+      "deepest_status_id": "2093231678726488512",
       "reason": "old checkpoint not reached",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T074000Z-observations.jsonl"
     },
@@ -3827,13 +3827,15 @@
       "captured_at": "2026-08-28T07:15:15Z",
       "batches": 25,
       "reason": "old checkpoint not reached",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T074000Z-observations.jsonl"
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T074000Z-observations.jsonl",
+      "deepest_status_id": "2093204041937395817"
     },
     "query:open weights OR open source AI": {
       "captured_at": "2026-08-28T07:15:15Z",
       "batches": 25,
       "reason": "old checkpoint not reached",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T074000Z-observations.jsonl"
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T074000Z-observations.jsonl",
+      "deepest_status_id": "2093224605238342028"
     },
     "query:AI security OR prompt injection": {
       "captured_at": "2026-08-28T07:15:15Z",
