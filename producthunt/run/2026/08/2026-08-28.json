@@ -14,7 +14,26 @@
     "2026-08-26: maker/hunter identities incomplete; rendered DOM lacks stable parent-comment identifiers",
     "2026-08-27: All pagination terminal state and Featured/All stable ID reconciliation unavailable; candidates not yet checked"
   ],
-  "delivery": {"github_push": {"status": "PENDING"}, "dingtalk": {"status": "PENDING", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw=="}},
+  "delivery": {
+    "github_push": {
+      "status": "SUCCESS",
+      "evidence_commit": "c47b5a197c6df49bda5803d09cd81d2e13cd23ef",
+      "remote": "origin/main",
+      "remote_verified": true,
+      "page": "https://convee.github.io/daily-content-archive/"
+    },
+    "dingtalk": {
+      "status": "SUCCESS",
+      "kind": "exception_notice",
+      "openTaskId": "1+0efibv8M6gJxkDCn0UhxUPGQHx9O9biXRMJ4qebAg=",
+      "openMessageId": "msgcsSNEgzb0pgRWFMZIxwpLw==",
+      "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+      "target_group_matches_fixed_group": true,
+      "verified": true,
+      "verified_sendStatus": "SUCCESS"
+    }
+  },
+  "finalization": {"at_utc": "2026-08-28T08:20:00Z", "health_after_evidence": "degraded warnings only; no error", "remote_finalization_required": true},
   "published": false,
   "archive_page": false
 }
