@@ -1,0 +1,20 @@
+{
+  "run_id": "twitter-2026-08-28T091110Z",
+  "started_at_utc": "2026-08-28T09:11:10Z",
+  "finished_at_utc": "2026-08-28T09:19:08Z",
+  "status": "partial_frozen",
+  "lock": {"owner": "twitter-20260828T091110Z-9d4d25", "acquired": true, "retries": 0},
+  "health": {"status": "degraded", "issues": ["latest_run_degraded"], "publish_allowed": false},
+  "source_summary": {"accounts":{"attempted":19,"succeeded":0,"failed":19},"queries":{"attempted":5,"succeeded":0,"failed":5},"following":{"attempted":1,"succeeded":0,"failed":1},"for_you":{"attempted":0,"succeeded":0,"failed":1},"replies":{"attempted":1,"succeeded":0,"failed":1}},
+  "source_attempts": {
+    "accounts": {"batches": 0, "hit_old_checkpoint": false, "continuation_input": "frozen continuation evidence from 2026-08-28T074000Z", "failure": "browser-control continuation call timed out after 300 seconds; no recoverable batch output", "raw_file": "twitter/raw/2026/08/28/2026-08-28T091110Z-attempt-ledger.jsonl"},
+    "queries": {"batches": 0, "hit_old_checkpoint": false, "continuation_input": "frozen continuation evidence from 2026-08-28T074000Z", "failure": "browser-control continuation call timed out after 300 seconds; no recoverable batch output", "raw_file": "twitter/raw/2026/08/28/2026-08-28T091110Z-attempt-ledger.jsonl"},
+    "following": {"batches": 0, "hit_old_checkpoint": false, "failure": "browser-control continuation call timed out after 300 seconds; checkpoint unchanged", "raw_file": "twitter/raw/2026/08/28/2026-08-28T091110Z-attempt-ledger.jsonl"},
+    "for_you": {"batches": 0, "failure": "not run because the preceding mandatory continuous-source scan timed out", "frozen": true},
+    "replies": {"archived": 0, "failure": "not completed after browser-control session reset"}
+  },
+  "raw_files": ["twitter/raw/2026/08/28/2026-08-28T091110Z-attempt-ledger.jsonl"],
+  "counts": {"observed_status_ids":0,"archived_replies":0},
+  "github": {"status":"pending_finalization"},
+  "dingtalk": {"status":"pending_finalization","target_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw=="}
+}
