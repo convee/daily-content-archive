@@ -32,6 +32,6 @@
     {"layer": "search", "scope": "8 queries", "reason": "ERR_BLOCKED_BY_CLIENT"},
     {"layer": "comments", "scope": "t3_1vxyp7x", "reason": "ERR_BLOCKED_BY_CLIENT; revisit queue frozen"}
   ],
-  "github": {"status": "pending_finalization"},
-  "dingtalk": {"status": "pending_exception_delivery"}
+  "github": {"status": "pushed", "commit": "39acca06750f5a3bb38a9645499f0b5ee5af5bd2"},
+  "dingtalk": {"status": "SUCCESS", "open_task_id": "5uzs0S26shpVfvkMGU0tM0jR9JSH2BqZF76oSDvfVc8=", "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==", "message_id": "msgvXA8A+kRBfWFhpF4mZNyTw=="}
 }
