@@ -1,0 +1,12 @@
+{
+  "run_id":"twitter-2026-08-28T051359Z",
+  "started_at_utc":"2026-08-28T05:10:10Z",
+  "finished_at_utc":"2026-08-28T05:13:59Z",
+  "status":"partial_frozen",
+  "source_summary":{"accounts":{"attempted":19,"succeeded":0,"failed":19},"queries":{"attempted":5,"succeeded":0,"failed":5},"following":{"attempted":1,"succeeded":0,"failed":1},"for_you":{"attempted":1,"succeeded":0,"failed":1},"replies":{"attempted":1,"succeeded":0,"failed":1}},
+  "source_attempts":{"accounts":{"per_source":"OpenAI, AnthropicAI, GoogleDeepMind, xai, MistralAI, AIatMeta, huggingface, nvidia, GitHub, ycombinator, producthunt, TechCrunch, arxiv, karpathy, AndrewYNg, ylecun, simonw, swyx, hardmaru: each 1 batch, no article DOM, no old checkpoint hit, deepest_status_id=null","raw_file":"twitter/raw/2026/08/28/2026-08-28T051359Z-observations.jsonl"},"queries":{"per_source":"all five Latest queries: 1 batch each; no old checkpoint hit; two returned no article DOM","raw_file":"twitter/raw/2026/08/28/2026-08-28T051359Z-observations.jsonl"},"following":{"batches":1,"hit_old_checkpoint":false,"deepest_status_id":"2093059407018094947","raw_file":"twitter/raw/2026/08/28/2026-08-28T051359Z-observations.jsonl"},"for_you":{"batches":8,"zero_new_streak":0,"first_status_id":"2093186338514174242","last_status_id":"2093084387667542290","raw_file":"twitter/raw/2026/08/28/2026-08-28T051359Z-observations.jsonl"},"replies":{"parent_status_id":"2093204976600293865","result":"page loaded incompletely; no qualifying reply archived","raw_file":"twitter/raw/2026/08/28/2026-08-28T051359Z-observations.jsonl"}},
+  "raw_files":["twitter/raw/2026/08/28/2026-08-28T051359Z-observations.jsonl"],
+  "counts":{"observed_status_ids":38,"archived_replies":0},
+  "github":{"status":"pending_commit_and_push"},
+  "dingtalk":{"status":"not_sent"}
+}
