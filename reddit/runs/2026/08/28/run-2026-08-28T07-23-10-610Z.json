@@ -1612,9 +1612,18 @@
     }
   ],
   "github": {
-    "status": "pending"
+    "status": "pushed",
+    "commit": "10d70df51d5d8d78bd9323d2b1061b564aab8514",
+    "branch": "main",
+    "verified_at": "2026-08-28T07:26:10.818Z"
   },
   "dingtalk": {
-    "status": "pending"
+    "status": "sent",
+    "kind": "exception",
+    "openTaskId": "UqnnH7z/tMBRHWPTLjTwRJACT9rXxoEdLFt7MznfmrE=",
+    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "openMessageId": "msgy0XspNg9aEmKf9/aAA5AfA==",
+    "sendStatus": "SUCCESS",
+    "verified_at": "2026-08-28T07:26:10.818Z"
   }
 }

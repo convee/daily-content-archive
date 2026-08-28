@@ -9506,11 +9506,12 @@
     }
   },
   "last_dingtalk_delivery": {
-    "at": "2026-08-28T05:28:18Z",
+    "status": "sent",
     "kind": "exception",
-    "open_task_id": "5uzs0S26shpVfvkMGU0tM0jR9JSH2BqZF76oSDvfVc8=",
-    "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "send_status": "SUCCESS",
-    "message_id": "msgvXA8A+kRBfWFhpF4mZNyTw=="
+    "openTaskId": "UqnnH7z/tMBRHWPTLjTwRJACT9rXxoEdLFt7MznfmrE=",
+    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "openMessageId": "msgy0XspNg9aEmKf9/aAA5AfA==",
+    "sendStatus": "SUCCESS",
+    "verified_at": "2026-08-28T07:26:10.818Z"
   }
 }
