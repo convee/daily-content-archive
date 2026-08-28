@@ -17,7 +17,12 @@
     {"layer": "global", "target": "home/popular/all", "reason": "no durable snapshot JSONL; r/all redirected to Home", "frozen_scope": "global"},
     {"layer": "search", "target": "8 queries", "reason": "five pages rendered zero posts and three returned ERR_BLOCKED_BY_CLIENT; no continuous boundary verified", "frozen_scope": "search"}
   ],
-  "github": {"status": "pending_finalization"},
+  "github": {
+    "status": "success",
+    "commit": "9c67f52",
+    "branch": "main",
+    "pushed_at": "2026-08-28T01:28:31Z"
+  },
   "dingtalk": {
     "status": "success",
     "kind": "exception",
