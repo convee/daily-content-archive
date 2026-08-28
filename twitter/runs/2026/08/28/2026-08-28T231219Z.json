@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "platform": "twitter",
+  "run_id": "2026-08-28T231219Z",
+  "started_at_utc": "2026-08-28T23:12:19Z",
+  "finished_at_utc": "2026-08-28T23:14:50Z",
+  "status": "partial_frozen",
+  "lock": {
+    "owner": "twitter-20260828T231219Z-8c0777",
+    "acquire_retries": 0,
+    "ttl_seconds": 5400
+  },
+  "health_before": {
+    "status": "degraded",
+    "errors": 0,
+    "warning": "latest_run_degraded"
+  },
+  "raw_files": [
+    "twitter/raw/2026/08/28/2026-08-28T231219Z-attempt-ledger.jsonl"
+  ],
+  "sources": {
+    "accounts": {
+      "attempted": 19,
+      "succeeded": 0,
+      "frozen": 19,
+      "batches_per_source": 1,
+      "reason": "each Posts timeline was independently sampled 3x at >=650ms; initial render reflowed, so no source was scrolled to its old checkpoint"
+    },
+    "queries": {
+      "attempted": 5,
+      "succeeded": 0,
+      "frozen": 5,
+      "batches_per_source": 1,
+      "reason": "each Latest query was independently sampled 3x at >=650ms; initial render reflowed, so no source was scrolled to its old checkpoint"
+    },
+    "following": {
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "batches": 1,
+      "hit_old_checkpoint": false,
+      "deepest_status_id": "2093455983687217567",
+      "reason": "Following tab stable at first batch but old checkpoint 2092961084932030698 was not reached"
+    },
+    "for_you": {
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "batches": 8,
+      "zero_new_streak": 0,
+      "first_status_id": "2093448597417148607",
+      "last_status_id": "2093388908192993573",
+      "reason": "discovery snapshot only; eight batches showed continuing new IDs, without two zero-new batches"
+    },
+    "replies": {
+      "attempted": 1,
+      "succeeded": 1,
+      "frozen": 0,
+      "parent_status_id": "2093386528668172373",
+      "selected_reply_ids": [
+        "2093406372905803831",
+        "2093386955967152488"
+      ],
+      "reason": "reply page stable after load; selected a practitioner interpretation and a methodological question"
+    }
+  },
+  "continuation": {
+    "input": "frozen origin/main checkpoints retained",
+    "output": "152 observed status IDs added to seen ledger after durable JSONL write; all continuous checkpoints unchanged"
+  },
+  "stability_sampling": "Each account/query used a separately named new Chrome tab; URL, title, article count and status anchor count sampled three times at >=650ms. Following sampled three times after tab selection; For You captured eight scroll batches.",
+  "counts": {
+    "observed_status_ids": 152,
+    "archived_posts": 0,
+    "archived_replies": 2
+  },
+  "git": {
+    "collection_commit": null,
+    "collection_pushed": false,
+    "remote_verified": null,
+    "finalization_commit": null,
+    "pushed": false
+  },
+  "dingtalk": {
+    "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "sendStatus": "not_sent",
+    "message_type": "exception_alert"
+  }
+}
