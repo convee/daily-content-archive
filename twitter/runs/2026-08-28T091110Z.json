@@ -15,6 +15,6 @@
   },
   "raw_files": ["twitter/raw/2026/08/28/2026-08-28T091110Z-attempt-ledger.jsonl"],
   "counts": {"observed_status_ids":0,"archived_replies":0},
-  "github": {"status":"pending_finalization"},
-  "dingtalk": {"status":"pending_finalization","target_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw=="}
+  "github": {"status":"pushed","commit":"4ed8438e9cc394bd96c4380915e64602806d2e63","branch":"main","url":"https://github.com/convee/daily-content-archive/commit/4ed8438e9cc394bd96c4380915e64602806d2e63"},
+  "dingtalk": {"status":"SUCCESS","openTaskId":"YnKHWz6KiDl2p+B5YQIGZQ4PPbTzoNcVg+HUAFUMawE=","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","openMessageId":"msgTK5LBgeejHQ7F+yko6Ywkw==","verified":true}
 }
