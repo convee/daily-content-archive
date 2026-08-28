@@ -76,10 +76,13 @@
     }
   ],
   "github": {
-    "status": "pending"
+    "status": "pushed",
+    "commit": "324ffff217ed13a69e04f36ec8709e44b3cacd5e",
+    "remote_verified": true
   },
   "dingtalk": {
     "status": "pending",
     "kind": "exception"
-  }
+  },
+  "raw_file": "reddit/raw/2026/08/28/new-2026-08-28T17-23-46-480Z.jsonl"
 }
