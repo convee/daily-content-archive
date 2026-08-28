@@ -1,0 +1,24 @@
+{
+  "run_id": "twitter-2026-08-28T011400Z",
+  "started_at_utc": "2026-08-28T01:11:25Z",
+  "finished_at_utc": "2026-08-28T01:14:00Z",
+  "status": "partial_frozen",
+  "source_summary": {
+    "accounts": {"attempted": 19, "succeeded": 0, "failed": 19},
+    "queries": {"attempted": 5, "succeeded": 0, "failed": 5},
+    "following": {"attempted": 1, "succeeded": 0, "failed": 1},
+    "for_you": {"attempted": 1, "succeeded": 0, "failed": 1},
+    "replies": {"attempted": 0, "succeeded": 0, "failed": 0}
+  },
+  "source_attempts": {
+    "accounts": {"batches": 0, "hit_old_checkpoint": false, "deepest_status_id": null, "raw_file": "twitter/raw/2026/08/28/2026-08-28T011400Z-attempt-ledger.jsonl", "failure": "Posts timelines visited, but structured article extraction was empty after rapid Chrome navigation; checkpoints frozen."},
+    "queries": {"batches": 0, "hit_old_checkpoint": false, "deepest_status_id": null, "raw_file": "twitter/raw/2026/08/28/2026-08-28T011400Z-attempt-ledger.jsonl", "failure": "Five Live pages were actually opened; visible article markers could not be converted into a stable extraction/scroll continuation."},
+    "following": {"batches": 0, "hit_old_checkpoint": false, "deepest_status_id": null, "raw_file": "twitter/raw/2026/08/28/2026-08-28T011400Z-attempt-ledger.jsonl", "failure": "Home tabs visible but timeline did not render."},
+    "for_you": {"batches": 0, "zero_new_streak": 0, "first_status_id": null, "last_status_id": null, "raw_file": "twitter/raw/2026/08/28/2026-08-28T011400Z-attempt-ledger.jsonl", "failure": "No discovery snapshot claimed because timeline did not render."}
+  },
+  "raw_files": ["twitter/raw/2026/08/28/2026-08-28T011400Z-attempt-ledger.jsonl"],
+  "counts": {"observed_status_ids": 0, "new_status_ids": 0, "archived_replies": 0},
+  "daily_brief": {"date": "2026-08-27", "path": "twitter/2026/08/2026-08-27.md", "status": "published_with_coverage_caveat"},
+  "github": {"status": "pending_finalization"},
+  "dingtalk": {"status": "pending_finalization"}
+}
