@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-27",
+  "run_at_utc": "2026-08-28T01:33:41Z",
+  "mode": "intraday_snapshot",
+  "result": "frozen_failure",
+  "official_date_verified": true,
+  "browser": "logged_in_local_chrome_read_only",
+  "counts": {
+    "featured_visible_ranked": 17,
+    "all_visible_ranked": 17,
+    "intraday_snapshot_saved": 0
+  },
+  "failure_ledger": [
+    {
+      "entry": "https://www.producthunt.com/leaderboard/daily/2026/8/27/all",
+      "failure": "All listing omits Featured ranks 11 (Kraa 2.0) and 17 (Sendra), displays ranks 18 and 20 instead, and exposes no pagination control or verifiable exhausted-pagination state.",
+      "partial_evidence_saved": true
+    }
+  ],
+  "state": {
+    "intraday_snapshots_advanced": false,
+    "date_ledger_advanced": false,
+    "last_complete_date_advanced": false
+  },
+  "evidence": ["producthunt/raw/2026/08/2026-08-27.browser-2026-08-28T013341Z.json"],
+  "notification": {
+    "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "open_task_id": "rGj/LM0mqOk3RGbbpkxziLZfEZiLXLlte4MCmA6oBJA=",
+    "send_status": "SUCCESS"
+  },
+  "next_action": "Retry only through logged-in local Chrome after Product Hunt exposes a complete, verifiably exhausted All listing. Do not create an intraday snapshot or advance state from this evidence."
+}

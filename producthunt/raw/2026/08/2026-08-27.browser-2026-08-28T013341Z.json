@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-08-28T01:33:41.588Z",
+  "browser": "logged_in_local_chrome_read_only",
+  "platform_date": "2026-08-27",
+  "featured_url": "https://www.producthunt.com/leaderboard/daily/2026/8/27",
+  "all_url": "https://www.producthunt.com/leaderboard/daily/2026/8/27/all",
+  "featured": [
+    [1,"skydive","Skydive",66,317], [2,"enter-pro","Enter Pro",54,315], [3,"lenz-2","Lenz",34,206], [4,"gemini-3-5-transcribe","Gemini 3.5 Transcribe",3,203], [5,"speko","Speko",12,189], [6,"traccia","Traccia",11,177], [7,"yomi-3","Yomi",24,139], [8,"gitnexus-akon-labs","GitNexus (Akon Labs)",8,134], [9,"spacebarx","SpacebarX",2,116], [10,"kira-art","Kira Community",11,110], [11,"kraa","Kraa 2.0",4,108], [12,"wondering-2","Wondering Canvas",11,107], [13,"pluto-11","Pluto",26,107], [14,"savvy-12","Savvy",1,105], [15,"qwen3","Qwen3.8-Flash-Next",1,103], [16,"ojin","Ojin",16,101], [17,"sendra","Sendra",5,100]
+  ],
+  "all": [
+    [2,"enter-pro","Enter Pro",54,315], [1,"skydive","Skydive",66,317], [5,"speko","Speko",12,189], [6,"traccia","Traccia",11,177], [4,"gemini-3-5-transcribe","Gemini 3.5 Transcribe",3,203], [3,"lenz-2","Lenz",34,206], [8,"gitnexus-akon-labs","GitNexus (Akon Labs)",8,134], [16,"ojin","Ojin",16,101], [7,"yomi-3","Yomi",24,139], [13,"pluto-11","Pluto",26,107], [9,"spacebarx","SpacebarX",2,116], [15,"qwen3","Qwen3.8-Flash-Next",2,103], [14,"savvy-12","Savvy",1,105], [10,"kira-art","Kira Community",11,110], [12,"wondering-2","Wondering Canvas",11,107], [20,"z-ai","GLM-5.3-Flash",3,94], [18,"the-million-sad-ducks","The Million Sad Ducks",9,99]
+  ],
+  "field_order": ["rank","product_id_slug","name","comment_count","points"],
+  "observations": {
+    "featured_visible_ranked": 17,
+    "all_visible_ranked": 17,
+    "featured_missing_from_all": ["kraa","sendra"],
+    "all_not_in_featured": ["z-ai","the-million-sad-ducks"],
+    "all_pagination_control_visible": false,
+    "all_pagination_exhaustion_verifiable": false
+  }
+}
