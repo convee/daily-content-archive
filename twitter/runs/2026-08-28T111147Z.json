@@ -12,6 +12,6 @@
   "continuation": {"input": "frozen source checkpoints retained from origin/main", "output": "no checkpoints advanced; durable raw ledger records visible IDs and deepest observations"},
   "stability_sampling": "account/query/following pages sampled three times at >=500ms; query and reply DOMs reflowed asynchronously",
   "counts": {"observed_status_ids": 66, "archived_posts": 0, "archived_replies": 0},
-  "git": {"commit": "pending_finalization", "pushed": false},
-  "dingtalk": {"target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "sendStatus": "pending_finalization"}
+  "git": {"collection_commit": "240f7370630d300c370ef74d312780effca771a3", "pushed": true},
+  "dingtalk": {"target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "openTaskId": "PtOD/YnjWyJfhu3PhhDXz0y00MbwEi3TV3vLDAxREss=", "openMessageId": "msgjMge/y6DZ3VaKv1bQTUR5w==", "sendStatus": "SUCCESS", "target_verified": true}
 }
