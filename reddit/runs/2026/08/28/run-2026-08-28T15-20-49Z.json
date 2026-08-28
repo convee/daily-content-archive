@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "run_at": "2026-08-28T15:20:49Z",
+  "owner": "Reddit-20260828T152049Z-9647ae",
+  "browser": {"surface": "logged-in local Chrome", "mode": "read-only", "stable_samples": 3, "sample_interval_ms": 550, "machinelearning_reload_retry": "failed", "machinelearning_new_tab_retry": "failed"},
+  "raw_file": "reddit/raw/2026/08/28/browser-stability-2026-08-28T15-20-49Z.jsonl",
+  "health_before": "healthy",
+  "collection_summary": {"new": {"required": 12, "attempted": 12, "success": 0, "frozen": 12, "posts_written": 0}, "hot_rising": {"required": 24, "attempted": 24, "success": 0, "frozen": 24, "posts_written": 0}, "global": {"required": 3, "attempted": 3, "success": 0, "frozen": 3, "posts_written": 0}, "search": {"required": 8, "attempted": 8, "success": 0, "frozen": 8, "posts_written": 0}, "comments": {"due": 0, "attempted": 0, "success": 0, "raw_comments_written": 0}, "community_discovery": {"attempted": false, "reason": "dependent discovery inputs were frozen"}},
+  "continuation": {"checkpoints_advanced": false, "seen_sets_changed": false, "revisit_queue_changed": false, "reason": "complete durable observation windows were not obtained"},
+  "failure_ledger": [
+    {"layer": "new", "target": "12 configured communities", "reason": "3-sample page stability either changed during lazy loading or showed only an incomplete initial viewport; no scroll-to-boundary or raw post archive was possible"},
+    {"layer": "hot_rising", "target": "24 configured snapshots", "reason": "3-sample page stability either changed during lazy loading or showed only an incomplete initial viewport; no durable snapshot archive was created"},
+    {"layer": "global", "target": "Home, Popular, All", "reason": "Home and Popular were initial-viewport-only; requested All redirected to Home and is explicitly frozen as All failure"},
+    {"layer": "search", "target": "8 configured Posts + New queries", "reason": "all navigations failed with net::ERR_BLOCKED_BY_CLIENT after direct attempts; query checkpoints remain frozen"},
+    {"layer": "comments", "target": "revisit queue", "reason": "no review was due"}
+  ],
+  "github": {"status": "pending"},
+  "dingtalk": {"status": "pending", "kind": "exception", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw=="}
+}
