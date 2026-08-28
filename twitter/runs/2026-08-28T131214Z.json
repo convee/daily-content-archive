@@ -66,13 +66,15 @@
     "archived_replies": 0
   },
   "git": {
-    "collection_commit": "pending_commit_and_push",
-    "pushed": false
+    "collection_commit": "7be605d146dabf1bc1dfaf5e59a1f9fb67cdd2e6",
+    "pushed": true,
+    "remote_verified": "origin/main"
   },
   "dingtalk": {
     "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "openTaskId": null,
-    "sendStatus": "not_sent",
-    "target_verified": false
+    "openTaskId": "IiW8H4SYRvKxKgZVouWxYxH2syUDlEmyQDZNWGXB2oI=",
+    "openMessageId": "msgKqhWAIEbWzEHyoqnFId0lQ==",
+    "sendStatus": "SUCCESS",
+    "target_verified": true
   }
 }
