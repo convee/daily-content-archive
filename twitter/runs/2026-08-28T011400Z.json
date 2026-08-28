@@ -19,6 +19,16 @@
   "raw_files": ["twitter/raw/2026/08/28/2026-08-28T011400Z-attempt-ledger.jsonl"],
   "counts": {"observed_status_ids": 0, "new_status_ids": 0, "archived_replies": 0},
   "daily_brief": {"date": "2026-08-27", "path": "twitter/2026/08/2026-08-27.md", "status": "published_with_coverage_caveat"},
-  "github": {"status": "pending_finalization"},
-  "dingtalk": {"status": "pending_finalization"}
+  "github": {
+    "status": "pushed",
+    "commit": "d6b0447b75d383db8294374f0e454f49d58c495a",
+    "branch": "main",
+    "url": "https://github.com/convee/daily-content-archive/commit/d6b0447b75d383db8294374f0e454f49d58c495a"
+  },
+  "dingtalk": {
+    "status": "SUCCESS",
+    "openTaskId": "25S7oDqPcF3962t0ZyECvuz65w0Y6GQlSy2JV6LNu7M=",
+    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "openMessageId": "msgZVX9MUk3TWJDQSwNfOVQEw=="
+  }
 }
