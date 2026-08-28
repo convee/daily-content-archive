@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "platform": "twitter",
+  "run_id": "2026-08-28T151151Z",
+  "started_at_utc": "2026-08-28T15:11:51Z",
+  "finished_at_utc": "2026-08-28T15:15:20Z",
+  "status": "partial_frozen",
+  "lock": {
+    "owner": "twitter-20260828T151151Z-f4a92d",
+    "acquire_retries": 0,
+    "ttl_seconds": 5400
+  },
+  "health_before": {
+    "status": "degraded",
+    "errors": 0,
+    "warning": "latest_run_degraded"
+  },
+  "raw_files": [
+    "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl"
+  ],
+  "sources": {
+    "accounts": {
+      "attempted": 19,
+      "succeeded": 0,
+      "frozen": 19,
+      "batches_per_source": 1,
+      "reason": "all Posts timelines attempted; three-sample stability did not complete before checkpoint traversal"
+    },
+    "queries": {
+      "attempted": 5,
+      "succeeded": 0,
+      "frozen": 5,
+      "batches_per_source": 1,
+      "reason": "all Latest query pages attempted; three-sample stability did not complete before checkpoint traversal"
+    },
+    "following": {
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "batches": 1,
+      "reason": "Following time line remained reflowing; committed checkpoint not reached"
+    },
+    "for_you": {
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "batches": 1,
+      "zero_new_streak": 0,
+      "reason": "For You remained a partial discovery view; required eight batches and two-zero-new termination not established"
+    },
+    "replies": {
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "parent_status_id": "2093038426140651791",
+      "reason": "MHS reply page inspected; visible content was parent thread posts, but page reflow prevented reliable independent-reply selection"
+    }
+  },
+  "continuation": {
+    "input": "origin/main checkpoints and frozen evidence retained; no cursor advanced",
+    "output": "136 visible status IDs persisted in durable raw; every stable-source cursor remains frozen for continuation"
+  },
+  "stability_sampling": "each source used a separately named new Chrome tab; URL, title, article count and status anchors sampled three times at >=600ms; no source passed a fully stable window",
+  "counts": {
+    "observed_status_ids": 136,
+    "archived_posts": 0,
+    "archived_replies": 0
+  },
+  "git": {
+    "collection_commit": "2b27215078c7d9ebab9e1b1899dd3ed9b83803e9",
+    "collection_pushed": true,
+    "remote_verified": "origin/main"
+  },
+  "dingtalk": {
+    "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "openTaskId": "bBMZZzYztT7ij+bVHyKxUWhIELdPwij6dmjEZ/7LN2I=",
+    "openMessageId": "msgWsqgBHQZ/GGI4v/488EXLg==",
+    "sendStatus": "SUCCESS",
+    "target_verified": true,
+    "message_type": "exception_alert"
+  }
+}
