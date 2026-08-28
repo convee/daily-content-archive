@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "platform": "twitter",
+  "run_id": "2026-08-28T171216Z",
+  "started_at_utc": "2026-08-28T17:12:16Z",
+  "finished_at_utc": "2026-08-28T17:14:53.878Z",
+  "status": "partial_frozen",
+  "lock": {
+    "owner": "twitter-20260828T171216Z-4dc6c0",
+    "acquire_retries": 0,
+    "ttl_seconds": 5400
+  },
+  "health_before": {
+    "status": "degraded",
+    "errors": 0,
+    "warning": "latest_run_degraded"
+  },
+  "raw_files": [
+    "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl"
+  ],
+  "sources": {
+    "accounts": {
+      "attempted": 19,
+      "succeeded": 0,
+      "frozen": 19,
+      "batches_per_source": 1,
+      "reason": "all Posts/replies timeline entry points sampled three times; no stable window or checkpoint traversal"
+    },
+    "queries": {
+      "attempted": 5,
+      "succeeded": 0,
+      "frozen": 5,
+      "batches_per_source": 1,
+      "reason": "all Latest query pages sampled three times; no stable window or checkpoint traversal"
+    },
+    "following": {
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "batches": 1,
+      "reason": "Following tab visible but feed remained empty/reflowing; no checkpoint traversal"
+    },
+    "for_you": {
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "batches": 1,
+      "zero_new_streak": 0,
+      "reason": "only one partial visible discovery batch; required 8 batches and two zero-new batches not established"
+    },
+    "replies": {
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "parent_status_id": "2093380324730323165",
+      "reason": "reply page sampled; parent thread rendered after reflow, but independent replies were not reliably distinguishable"
+    }
+  },
+  "continuation": {
+    "input": "origin/main checkpoints retained; all source cursors frozen",
+    "output": "98 visible status IDs preserved in durable raw; next run must resume continuity rather than advance current cursors"
+  },
+  "stability_sampling": "26 separately named source tabs; URL/title/article/status-anchor counts sampled three times at >=650ms; no source completed a stable window",
+  "counts": {
+    "observed_status_ids": 98,
+    "archived_posts": 0,
+    "archived_replies": 0
+  },
+  "git": {
+    "collection_commit": null,
+    "collection_pushed": false,
+    "remote_verified": null,
+    "finalization_commit": null,
+    "pushed": false
+  },
+  "dingtalk": {
+    "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "openTaskId": null,
+    "openMessageId": null,
+    "sendStatus": null,
+    "target_verified": false,
+    "message_type": "exception_alert"
+  }
+}

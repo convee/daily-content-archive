@@ -2,10 +2,25 @@
   "schema_version": 1,
   "continuity_started_at_utc": "2026-08-26T12:44:32Z",
   "last_successful_run_at_utc": "2026-08-27T13:30:50.153Z",
-  "last_run_at_utc": "2026-08-28T15:11:51Z",
+  "last_run_at_utc": "2026-08-28T17:14:16.595Z",
   "seen_status_ids": [
     "1281424520100737025",
     "1862598063275061484",
+    "1927718512719515863",
+    "1933257262912385067",
+    "1933267864909123721",
+    "1933272242181337553",
+    "1933279440261243297",
+    "1933280238588264683",
+    "1933293262829130134",
+    "1933349089925632291",
+    "1955699018530521097",
+    "1956063537681322052",
+    "1956065281773535588",
+    "1973803513101590960",
+    "1973804398682751249",
+    "1973808086143127682",
+    "1973808498938155219",
     "1991640180185317644",
     "1991901746579509542",
     "1991942484633821553",
@@ -151,6 +166,8 @@
     "2062347121068765249",
     "2062450123121262624",
     "2062504718459662511",
+    "2062616536238768403",
+    "2062618601711108100",
     "2062920724944507095",
     "2062927632597971240",
     "2062948594597208557",
@@ -579,6 +596,7 @@
     "2090498250168058080",
     "2090505413817246050",
     "2090505417512345857",
+    "2090505420817494500",
     "2090550020496040266",
     "2090577677916807429",
     "2090577927905874389",
@@ -701,6 +719,8 @@
     "2092289695610704215",
     "2092297276685480372",
     "2092300846675505602",
+    "2092300848483143735",
+    "2092300851482108064",
     "2092302589513892316",
     "2092303511031894338",
     "2092303979787227592",
@@ -750,6 +770,7 @@
     "2092360976406568978",
     "2092361212503949546",
     "2092363578884129076",
+    "2092364282629640512",
     "2092364350438674860",
     "2092365474038255823",
     "2092366554965107164",
@@ -826,6 +847,7 @@
     "2092569761175712033",
     "2092570180010328406",
     "2092573737354695079",
+    "2092573788055445661",
     "2092576702761455719",
     "2092577143310164395",
     "2092577544583471397",
@@ -839,6 +861,7 @@
     "2092593917543780735",
     "2092595111259767005",
     "2092595170675974334",
+    "2092595458526920891",
     "2092595541486039326",
     "2092596942790705487",
     "2092597709098176519",
@@ -1102,6 +1125,7 @@
     "2092678508329988480",
     "2092679752188391890",
     "2092680754790891676",
+    "2092680759438152183",
     "2092680920289648692",
     "2092683274669744637",
     "2092683371767910746",
@@ -2005,6 +2029,7 @@
     "2093049212116066493",
     "2093049411265798550",
     "2093049939848806635",
+    "2093049979367718950",
     "2093050916953903451",
     "2093050953721053557",
     "2093051792007250033",
@@ -2406,6 +2431,7 @@
     "2093173546847789488",
     "2093174592730792216",
     "2093174727745618280",
+    "2093180825403793661",
     "2093184998006309282",
     "2093185224599286013",
     "2093185614686326846",
@@ -2413,6 +2439,7 @@
     "2093186231085515139",
     "2093186338514174242",
     "2093187570054181240",
+    "2093187702271213596",
     "2093187993523634599",
     "2093189596976734626",
     "2093189665545507258",
@@ -2689,6 +2716,7 @@
     "2093235266488078527",
     "2093258552156533195",
     "2093271150734278709",
+    "2093281977117921680",
     "2093310159892472260",
     "2093312173455864275",
     "2093313927522263338",
@@ -2700,12 +2728,16 @@
     "2093329041361190995",
     "2093334697120285035",
     "2093334829001568303",
+    "2093335136217473041",
     "2093338200580256172",
+    "2093338701233541493",
     "2093339618649260172",
     "2093342242417017300",
     "2093343627015594092",
+    "2093348109820502093",
     "2093348150501048535",
     "2093352497431654862",
+    "2093354097122455713",
     "2093354711605014721",
     "2093354800369037656",
     "2093355277600850324",
@@ -2733,7 +2765,45 @@
     "2093356075672064297",
     "2093356094319988751",
     "2093356123789156826",
-    "2093356198959403366"
+    "2093356198959403366",
+    "2093358730737827952",
+    "2093375334351520215",
+    "2093380324730323165",
+    "2093380326533816372",
+    "2093380330325409923",
+    "2093380332821111030",
+    "2093380335241253106",
+    "2093380338059727002",
+    "2093380339917857233",
+    "2093384157229617624",
+    "2093384615754965444",
+    "2093384681945518562",
+    "2093384945943351542",
+    "2093385055636975751",
+    "2093385075404779970",
+    "2093385099018662076",
+    "2093385138172469396",
+    "2093385400584720554",
+    "2093385874121855277",
+    "2093385925263032607",
+    "2093386177059398102",
+    "2093386178859081792",
+    "2093386205090218437",
+    "2093386208915382756",
+    "2093386221104009680",
+    "2093386222613709045",
+    "2093386233879970211",
+    "2093386249608561062",
+    "2093386259016143127",
+    "2093386275331993845",
+    "2093386289127268749",
+    "2093386295175205354",
+    "2093386299902214471",
+    "2093386309356142671",
+    "2093386385650520450",
+    "2093386419435954621",
+    "2093386503422464032",
+    "806464279302049792"
   ],
   "source_checkpoints": {
     "account:@OpenAI": {
@@ -3840,48 +3910,28 @@
   ],
   "frozen_sources": {
     "query:AI agent OR agentic coding": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
-      "batches": 1,
-      "deepest_status_id": "2093355916737270061",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
-      "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
-      }
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093386205090218437"
     },
     "query:LLM inference OR AI chips": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
-      "batches": 1,
-      "deepest_status_id": "2093354711605014721",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
-      "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
-      }
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093384157229617624"
     },
     "query:open weights OR open source AI": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
-      "batches": 1,
-      "deepest_status_id": "2093355277600850324",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
-      "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
-      }
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093385055636975751"
     },
     "query:AI security OR prompt injection": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
-      "batches": 1,
-      "deepest_status_id": "2093355293845709168",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
-      "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
-      }
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093386178859081792"
     },
     "following": {
       "captured_at": "2026-08-28T15:14:14.654Z",
@@ -3994,15 +4044,10 @@
       }
     },
     "query:robotics foundation model": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
-      "batches": 1,
-      "deepest_status_id": "2093310159892472260",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
-      "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
-      }
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": null
     },
     "account:@huggingface": {
       "captured_at": "2026-08-28T15:14:14.654Z",
@@ -4131,6 +4176,132 @@
       "deepest_status_id": "2093038432302080019",
       "reason": "reply page reflowing; no qualifying independent replies extracted",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl"
+    },
+    "account:OpenAI": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2087996496088297746"
+    },
+    "account:AnthropicAI": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2092661573223657834"
+    },
+    "account:GoogleDeepMind": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2092659221477077101"
+    },
+    "account:xai": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": null
+    },
+    "account:MistralAI": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2087305196841922782"
+    },
+    "account:AIatMeta": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2090505420817494500"
+    },
+    "account:huggingface": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": null
+    },
+    "account:nvidia": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2091973784647451096"
+    },
+    "account:GitHub": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093380339917857233"
+    },
+    "account:ycombinator": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2092364282629640512"
+    },
+    "account:producthunt": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2092717926914916678"
+    },
+    "account:TechCrunch": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "1927718512719515863"
+    },
+    "account:arxiv": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "1933257262912385067"
+    },
+    "account:karpathy": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": null
+    },
+    "account:AndrewYNg": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": null
+    },
+    "account:ylecun": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2092459016643297728"
+    },
+    "account:simonw": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093338701233541493"
+    },
+    "account:swyx": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": null
+    },
+    "account:hardmaru": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "806464279302049792"
+    },
+    "following:following": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": null
+    },
+    "for_you:for_you": {
+      "frozen_at": "2026-08-28T17:14:16.595Z",
+      "reason": "three stability samples reflowed; no safe checkpoint traversal",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093187702271213596"
     }
   }
 }
