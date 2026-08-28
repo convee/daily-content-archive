@@ -1,0 +1,24 @@
+{
+  "run_id": "twitter-2026-08-28T074000Z",
+  "started_at_utc": "2026-08-28T07:10:00Z",
+  "finished_at_utc": "2026-08-28T07:15:15Z",
+  "status": "partial_frozen",
+  "source_summary": {
+    "accounts": {"attempted": 19, "succeeded": 11, "failed": 8},
+    "queries": {"attempted": 5, "succeeded": 0, "failed": 5},
+    "following": {"attempted": 1, "succeeded": 0, "failed": 1},
+    "for_you": {"attempted": 1, "succeeded": 0, "failed": 1},
+    "replies": {"attempted": 3, "succeeded": 3, "failed": 0}
+  },
+  "source_attempts": {
+    "accounts": {"per_source": "OpenAI, AnthropicAI, GoogleDeepMind, xai, MistralAI, AIatMeta and ycombinator: 1 batch, article DOM unavailable, frozen; huggingface, GitHub, producthunt, TechCrunch, arxiv, karpathy, AndrewYNg, ylecun, simonw, swyx and hardmaru: 2 batches and committed checkpoint observed; nvidia: 25 batches, 61 observed, old checkpoint 2093111984011006341 not observed, frozen.", "raw_file": "twitter/raw/2026/08/28/2026-08-28T074000Z-observations.jsonl"},
+    "queries": {"per_source": "AI agent OR agentic coding: 25 batches/80 posts; LLM inference OR AI chips: 25/80; open weights OR open source AI: 25/77; robotics foundation model and AI security OR prompt injection: 1 batch each with no article DOM. No committed checkpoint was observed; all five frozen with raw continuation evidence.", "raw_file": "twitter/raw/2026/08/28/2026-08-28T074000Z-observations.jsonl"},
+    "following": {"batches": 25, "hit_old_checkpoint": false, "deepest_status_id": "2073088338916168040", "raw_file": "twitter/raw/2026/08/28/2026-08-28T074000Z-observations.jsonl"},
+    "for_you": {"batches": 8, "zero_new_streak": 0, "first_status_id": "2093187570054181240", "last_status_id": "2093098170423431604", "raw_file": "twitter/raw/2026/08/28/2026-08-28T074000Z-observations.jsonl", "termination": "minimum eight batches reached but no consecutive two zero-new batches; snapshot frozen"},
+    "replies": {"parent_status_ids": ["2093235131230134736", "2093235060937982018", "2093235022413078607"], "result": "all three reply pages checked; zero, zero and one visible replies respectively; none met technical-detail inclusion threshold", "raw_file": "twitter/raw/2026/08/28/2026-08-28T074000Z-observations.jsonl"}
+  },
+  "raw_files": ["twitter/raw/2026/08/28/2026-08-28T074000Z-observations.jsonl"],
+  "counts": {"observed_status_ids": 398, "archived_replies": 0},
+  "github": {"status": "pending_commit_and_push", "commit": null, "branch": "main"},
+  "dingtalk": {"status": "not_sent", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw=="}
+}
