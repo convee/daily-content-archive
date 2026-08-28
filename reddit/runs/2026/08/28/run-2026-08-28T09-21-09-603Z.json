@@ -32,6 +32,6 @@
   ],
   "continuation": "No post or comment IDs were returned, written, deduplicated, or used to advance any checkpoint. Existing per-source frozen state and continuation evidence remain authoritative.",
   "health_before": "degraded: prior run has 13 independently frozen sources",
-  "github": {"status":"pending"},
-  "dingtalk": {"status":"pending","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw=="}
+  "github": {"status":"pushed","commit":"a1bbecbbaac06e9bd126bb1612a9f4b49526cef2","remote_verified":true},
+  "dingtalk": {"status":"sent","kind":"exception","openTaskId":"PjwBS2/Yf88b/78tVdndYIx8d6O8SYeiNXYwDiRe3ac=","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","openMessageId":"msg9ya38JpITo7EwIZxanYgEA==","sendStatus":"SUCCESS","verified_at":"2026-08-28T09:26:31Z"}
 }
