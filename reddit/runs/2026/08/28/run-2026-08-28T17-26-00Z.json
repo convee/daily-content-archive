@@ -81,8 +81,12 @@
     "remote_verified": true
   },
   "dingtalk": {
-    "status": "pending",
-    "kind": "exception"
+    "status": "sent",
+    "kind": "exception",
+    "notified_at_utc": "2026-08-28T19:23:48Z",
+    "openTaskId": "9e+bzhhUv/8txRmm+8AGgQWGcE/fncB9BfQi53xhGOI=",
+    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "sendStatus": "SUCCESS"
   },
   "raw_file": "reddit/raw/2026/08/28/new-2026-08-28T17-23-46-480Z.jsonl"
 }
