@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "platform": "twitter",
+  "run_id": "2026-08-28T131214Z",
+  "started_at_utc": "2026-08-28T13:12:14Z",
+  "finished_at_utc": "2026-08-28T13:14:08Z",
+  "status": "partial_frozen",
+  "lock": {
+    "owner": "twitter-20260828T131214Z-2ee880",
+    "acquire_retries": 0,
+    "ttl_seconds": 5400
+  },
+  "health_before": {
+    "status": "degraded",
+    "errors": 0,
+    "warning": "latest_run_degraded"
+  },
+  "raw_files": [
+    "twitter/raw/2026/08/28/2026-08-28T131214Z-attempt-ledger.jsonl"
+  ],
+  "sources": {
+    "accounts": {
+      "attempted": 19,
+      "succeeded": 0,
+      "frozen": 19,
+      "batches_per_source": 1,
+      "reason": "all Posts timelines attempted in separately named Chrome tabs; each failed three-sample stability before any committed boundary could be reached"
+    },
+    "queries": {
+      "attempted": 5,
+      "succeeded": 0,
+      "frozen": 5,
+      "batches_per_source": 1,
+      "reason": "all Latest query URLs attempted; three-sample stability or a committed checkpoint was not reached"
+    },
+    "following": {
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "batches": 1,
+      "reason": "Following label visible but the time line was still loading/reflowing; committed checkpoint not reached"
+    },
+    "for_you": {
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "batches": 1,
+      "zero_new_streak": 0,
+      "reason": "For You was only a partially loaded discovery view; required eight batches and two-zero-new termination not established"
+    },
+    "replies": {
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "reason": "high-signal Anthropic MHS thread loaded only parent post after three samples; no qualifying replies could be extracted"
+    }
+  },
+  "continuation": {
+    "input": "origin/main frozen checkpoints retained; no continuation cursor was advanced",
+    "output": "all current observations are in durable raw ledger; deepest IDs retained per source; next run must continue from existing frozen evidence"
+  },
+  "stability_sampling": "new named Chrome tab per source; URL/title/status-anchor count sampled three times at >=600ms; every source remained empty or changed anchor count between samples",
+  "counts": {
+    "observed_status_ids": 107,
+    "archived_posts": 0,
+    "archived_replies": 0
+  },
+  "git": {
+    "collection_commit": "pending_commit_and_push",
+    "pushed": false
+  },
+  "dingtalk": {
+    "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "openTaskId": null,
+    "sendStatus": "not_sent",
+    "target_verified": false
+  }
+}
