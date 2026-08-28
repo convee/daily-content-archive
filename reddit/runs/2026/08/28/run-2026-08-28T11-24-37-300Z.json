@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "run_at": "2026-08-28T11:24:37.300Z",
+  "owner": "Reddit-20260828T112140Z-29557",
+  "raw_file": "reddit/raw/2026/08/28/browser-stability-2026-08-28T11-24-37-300Z.jsonl",
+  "collection_summary": {
+    "posts": 0,
+    "raw_comments": 0,
+    "selected_comments": 0,
+    "new_attempted": 12,
+    "new_success": 0,
+    "snapshots_attempted": 24,
+    "snapshots_success": 0,
+    "global_attempted": 3,
+    "global_success": 0,
+    "search_attempted": 8,
+    "search_success": 0,
+    "comments_due": 0,
+    "comments_completed": 0,
+    "community_candidates_added": 0
+  },
+  "browser": {
+    "surface": "logged-in Chrome, read-only",
+    "stability_sampling": "Every configured target was navigated and sampled three times after >=600ms initial load and >=550ms between samples.",
+    "result": "Modern Reddit's lazy feed changed post/anchor counts during the sampling window for 10/12 New, 16/24 Hot/Rising and all three global feeds. The two stable New and eight stable snapshot first viewports exposed only three posts, so no complete page/window was parsed."
+  },
+  "failure_ledger": [
+    {"layer":"new","target":"MachineLearning, LocalLLaMA, programming, technology, netsec, opensource, selfhosted, science, OpenAI, Anthropic","reason":"unstable_lazy_loaded_page_no_complete_continuity_window"},
+    {"layer":"new","target":"singularity, robotics","reason":"only_three_visible_posts_after_stable_samples_no_complete_continuity_window"},
+    {"layer":"hot_rising","target":"24 configured snapshots","reason":"unstable_lazy_loaded_page_or_only_three_visible_posts_no_durable_complete_snapshot"},
+    {"layer":"global","target":"Home, Popular","reason":"unstable_lazy_loaded_page_no_durable_complete_snapshot"},
+    {"layer":"global","target":"All","reason":"actual_url_redirected_to_home; entry frozen"},
+    {"layer":"search","target":"AI agent OR agentic coding; LLM inference OR quantization","reason":"stable_permalink_anchors_but_no_shreddit_post_container_or_scrolled_complete_result_flow"},
+    {"layer":"search","target":"remaining six configured queries","reason":"navigation_blocked_by_client"}
+  ],
+  "continuation": "No post or comment body was persisted; all existing New checkpoints, snapshot ledgers, query checkpoints and revisit queue entries remain unchanged. Resume from each saved continuation only after a complete stable page can be obtained.",
+  "health_before": "healthy",
+  "github": {"status":"pending","commit":null,"remote_verified":false},
+  "dingtalk": {"status":"pending","kind":"exception","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","sendStatus":"pending"}
+}
