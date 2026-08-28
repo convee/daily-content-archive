@@ -69,7 +69,9 @@
   "git": {
     "collection_commit": "2b27215078c7d9ebab9e1b1899dd3ed9b83803e9",
     "collection_pushed": true,
-    "remote_verified": "origin/main"
+    "remote_verified": "origin/main contains state, raw and run through d34cb091c403eaad958ed234150929dbf485aa05",
+    "finalization_commit": "d34cb091c403eaad958ed234150929dbf485aa05",
+    "pushed": true
   },
   "dingtalk": {
     "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
