@@ -581,9 +581,17 @@
     }
   ],
   "github": {
-    "status": "pending"
+    "status": "success",
+    "commit": "f4d9a31",
+    "branch": "main",
+    "pushed_at": "2026-08-28T03:26:00Z"
   },
   "dingtalk": {
-    "status": "pending"
+    "status": "success",
+    "kind": "exception",
+    "open_task_id": "AosKmcKfnObosjVpy9ti07weV5t7CrxAgx6ZlYUm6NU=",
+    "open_conversation_id": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "send_status": "SUCCESS",
+    "message_id": "msgJbO/hBHN5NcoXljreSRdJw=="
   }
 }
