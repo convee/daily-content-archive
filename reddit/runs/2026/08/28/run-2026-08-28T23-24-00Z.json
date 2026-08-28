@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "run_at": "2026-08-28T23:24:00Z",
+  "owner": "Reddit-20260828T232152Z-8bde51",
+  "browser": {"surface": "logged-in local Chrome", "mode": "read-only", "stable_samples": 3, "sample_interval_ms": 550},
+  "lock": {"name": "repo-write", "owner": "Reddit-20260828T232152Z-8bde51", "status": "acquired"},
+  "health_before": "healthy",
+  "raw_file": "reddit/raw/2026/08/28/stability-2026-08-28T23-24-00Z.jsonl",
+  "collection_summary": {
+    "new": {"required": 12, "attempted": 12, "success": 0, "frozen": 12, "posts_written": 0},
+    "hot_rising": {"required": 24, "attempted": 24, "success": 0, "frozen": 24, "posts_written": 0},
+    "global": {"required": 3, "attempted": 3, "success": 0, "frozen": 3, "posts_written": 0},
+    "search": {"required": 8, "attempted": 8, "success": 0, "frozen": 8, "posts_written": 0},
+    "comments": {"due": 2, "attempted": 2, "success": 0, "raw_comments_written": 0},
+    "community_discovery": {"attempted": false, "reason": "all discovery sources frozen"}
+  },
+  "failure_ledger": [
+    {"layer": "new", "target": "12 communities", "reason": "stable 25-item first pages observed, but no complete durable JSONL windows or checkpoint-boundary continuation; checkpoints frozen"},
+    {"layer": "hot_rising", "target": "24 snapshots", "reason": "stable 25-item old Reddit lists observed, but full records were not durably written; snapshots frozen"},
+    {"layer": "global", "target": "home,popular,all", "reason": "Home changed 3→27 cards during hydration; All redirected to Home; all three frozen"},
+    {"layer": "search", "target": "8 queries", "reason": "16–19 stable permanent-link anchors per query but zero parseable post containers; checkpoints frozen"},
+    {"layer": "comments", "target": "t3_1vxyp7x,t3_1vynfd8", "reason": "50 and 21 visible comments, no More replies, but required raw comment fields were not serialized; revisit queue frozen"}
+  ],
+  "state_effect": "No seen IDs or checkpoints advanced.",
+  "github": {"status": "pending"},
+  "dingtalk": {"status": "pending", "kind": "exception"}
+}
