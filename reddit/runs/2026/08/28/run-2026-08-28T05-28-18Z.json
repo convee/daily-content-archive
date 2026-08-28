@@ -1,0 +1,37 @@
+{
+  "schema_version": 3,
+  "run_at_utc": "2026-08-28T05:28:18Z",
+  "status": "partial_failure",
+  "browser": "logged-in local Chrome read-only",
+  "coverage": {
+    "new": {"attempted": 12, "success": 0, "frozen": 12, "reason": "All 12 New pages were scrolled seven batches. Browser extraction observed the windows, but the extension blocked before the windows could be durably written and reconciled; no checkpoint advanced."},
+    "hot_rising": {"attempted": 24, "read_before_block": 13, "success": 0, "frozen": 24, "reason": "13 listing pages rendered; the remaining 11 were blocked by ERR_BLOCKED_BY_CLIENT. No complete snapshot JSONL was committed."},
+    "global": {"attempted": 3, "success": 0, "frozen": 3, "reason": "Chrome blocking began before Home, Popular, and All could be verified and persisted."},
+    "search": {"attempted": 8, "success": 0, "frozen": 8, "reason": "All modern Posts + New requests were attempted after the block; each was ERR_BLOCKED_BY_CLIENT."},
+    "comments": {"due": 1, "completed": 0, "frozen": 1, "reason": "t3_1vxyp7x was due and attempted; its comment page was ERR_BLOCKED_BY_CLIENT. No comment JSONL or queue advance."},
+    "discovery": {"due": false, "completed": 0}
+  },
+  "new_observation_ledger": {
+    "MachineLearning": {"observed": 5, "old_checkpoint_reached": true},
+    "LocalLLaMA": {"observed": 23, "old_checkpoint_reached": true},
+    "programming": {"observed": 55, "old_checkpoint_reached": false},
+    "technology": {"observed": 52, "old_checkpoint_reached": false},
+    "netsec": {"observed": 3, "old_checkpoint_reached": true},
+    "opensource": {"observed": 34, "old_checkpoint_reached": false},
+    "selfhosted": {"observed": 15, "old_checkpoint_reached": true},
+    "science": {"observed": 52, "old_checkpoint_reached": false},
+    "OpenAI": {"observed": 17, "old_checkpoint_reached": true},
+    "Anthropic": {"observed": 11, "old_checkpoint_reached": true},
+    "singularity": {"observed": 33, "old_checkpoint_reached": false},
+    "robotics": {"observed": 10, "old_checkpoint_reached": true}
+  },
+  "failure_ledger": [
+    {"layer": "new", "scope": "12 communities", "last_checkpoints_preserved": true, "reason": "durable raw JSONL prerequisite could not be completed"},
+    {"layer": "hot_rising", "scope": "24 entries", "reason": "11 ERR_BLOCKED_BY_CLIENT; none marked successful without durable snapshots"},
+    {"layer": "global", "scope": "Home, Popular, All", "reason": "not persisted after browser block"},
+    {"layer": "search", "scope": "8 queries", "reason": "ERR_BLOCKED_BY_CLIENT"},
+    {"layer": "comments", "scope": "t3_1vxyp7x", "reason": "ERR_BLOCKED_BY_CLIENT; revisit queue frozen"}
+  ],
+  "github": {"status": "pending_finalization"},
+  "dingtalk": {"status": "pending_exception_delivery"}
+}

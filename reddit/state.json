@@ -8222,34 +8222,14 @@
     "note": "All twelve prior committed /new checkpoints were reached through logged-in paginated listings; every observed post from the new head through the prior checkpoint was durably archived before advancing only the /new checkpoints."
   },
   "last_run_failure_ledger": {
-    "run_at_utc": "2026-08-28T03:22:22Z",
-    "raw_file": "reddit/raw/2026/08/28/browser-run-2026-08-28T03-22-22Z.jsonl",
+    "run_at_utc": "2026-08-28T05:28:18Z",
+    "run_file": "reddit/runs/2026/08/28/run-2026-08-28T05-28-18Z.json",
     "failures": [
-      {
-        "layer": "new",
-        "scope": "12 communities",
-        "reason": "initial viewport only; prior checkpoints not reached"
-      },
-      {
-        "layer": "hot_rising",
-        "scope": "24 entries",
-        "reason": "initial viewport only; complete snapshot not asserted"
-      },
-      {
-        "layer": "global",
-        "scope": "all",
-        "reason": "redirected to Home"
-      },
-      {
-        "layer": "search",
-        "scope": "8 queries",
-        "reason": "zero containers or ERR_BLOCKED_BY_CLIENT"
-      },
-      {
-        "layer": "comments",
-        "scope": "2 due revisits",
-        "reason": "not completed; queue frozen"
-      }
+      {"layer": "new", "scope": "12 communities", "reason": "observed but not durably archived before Chrome blocking; checkpoints frozen"},
+      {"layer": "hot_rising", "scope": "24 entries", "reason": "13 read, then 11 ERR_BLOCKED_BY_CLIENT; snapshot states frozen"},
+      {"layer": "global", "scope": "Home, Popular, All", "reason": "ERR_BLOCKED_BY_CLIENT; all frozen"},
+      {"layer": "search", "scope": "8 queries", "reason": "ERR_BLOCKED_BY_CLIENT; all frozen"},
+      {"layer": "comments", "scope": "t3_1vxyp7x", "reason": "ERR_BLOCKED_BY_CLIENT; revisit queue frozen"}
     ]
   },
   "last_dingtalk_delivery": {
