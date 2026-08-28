@@ -19,6 +19,6 @@
   },
   "raw_files": ["twitter/raw/2026/08/28/2026-08-28T074000Z-observations.jsonl"],
   "counts": {"observed_status_ids": 398, "archived_replies": 0},
-  "github": {"status": "pending_commit_and_push", "commit": null, "branch": "main"},
-  "dingtalk": {"status": "not_sent", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw=="}
+  "github": {"status": "pushed", "commit": "469bb6d6a73e3f9cd8a8d50c8733a54a51897b54", "branch": "main", "url": "https://github.com/convee/daily-content-archive/commit/469bb6d6a73e3f9cd8a8d50c8733a54a51897b54"},
+  "dingtalk": {"status": "SUCCESS", "openTaskId": "ah62MQoTt1Zj/Uq8ECCwBdyHblZvplHIa/JbtbopgbM=", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "openMessageId": "msgVcB7bhTqij2mq09GNW0mGg=="}
 }
