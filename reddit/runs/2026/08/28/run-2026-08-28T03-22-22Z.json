@@ -1,0 +1,589 @@
+{
+  "schema_version": 3,
+  "run_at_utc": "2026-08-28T03:22:22Z",
+  "status": "partial_failure",
+  "browser": "logged-in local Chrome read-only",
+  "coverage": {
+    "new": {
+      "attempted": 12,
+      "captured": 12,
+      "success": 0,
+      "frozen": 12,
+      "reason": "Only initial viewport was rendered; no stable pagination/scroll to each prior checkpoint, so continuous checkpoints were not advanced."
+    },
+    "hot_rising": {
+      "attempted": 24,
+      "captured": 24,
+      "success": 0,
+      "frozen": 24,
+      "reason": "Initial viewport (3 posts/entry) was archived, but complete discovery snapshots cannot be asserted without scrolling."
+    },
+    "global": {
+      "attempted": 3,
+      "captured": 2,
+      "failed": 1,
+      "all_failure": "r/all redirected to Home and was frozen."
+    },
+    "search": {
+      "attempted": 8,
+      "failed": 8,
+      "reason": "Modern Posts+New rendered zero result articles for six queries; two navigations were blocked by the browser extension."
+    },
+    "comments": {
+      "due": 2,
+      "completed": 0,
+      "frozen": 2,
+      "reason": "Not attempted after browser-level search failures; no raw comment JSONL was written."
+    },
+    "discovery": {
+      "due": false,
+      "completed": 0
+    }
+  },
+  "raw_file": "reddit/raw/2026/08/28/browser-run-2026-08-28T03-22-22Z.jsonl",
+  "unique_posts_archived": 75,
+  "page_ledger": [
+    {
+      "layer": "new",
+      "name": "MachineLearning",
+      "requested_url": "https://www.reddit.com/r/MachineLearning/new/",
+      "actual_url": "https://www.reddit.com/r/MachineLearning/new/",
+      "page_title": "Machine Learning",
+      "observed_count": 3,
+      "first_id": "t3_1w0788j",
+      "last_id": "t3_1w052xg",
+      "status": "captured"
+    },
+    {
+      "layer": "new",
+      "name": "LocalLLaMA",
+      "requested_url": "https://www.reddit.com/r/LocalLLaMA/new/",
+      "actual_url": "https://www.reddit.com/r/LocalLLaMA/new/",
+      "page_title": "LocalLlama",
+      "observed_count": 3,
+      "first_id": "t3_1w0f658",
+      "last_id": "t3_1w0dl38",
+      "status": "captured"
+    },
+    {
+      "layer": "new",
+      "name": "programming",
+      "requested_url": "https://www.reddit.com/r/programming/new/",
+      "actual_url": "https://www.reddit.com/r/programming/new/",
+      "page_title": "programming",
+      "observed_count": 3,
+      "first_id": "t3_1w0euux",
+      "last_id": "t3_1vztl74",
+      "status": "captured"
+    },
+    {
+      "layer": "new",
+      "name": "technology",
+      "requested_url": "https://www.reddit.com/r/technology/new/",
+      "actual_url": "https://www.reddit.com/r/technology/new/",
+      "page_title": "/r/Technology",
+      "observed_count": 3,
+      "first_id": "t3_1w0elei",
+      "last_id": "t3_1w0ca89",
+      "status": "captured"
+    },
+    {
+      "layer": "new",
+      "name": "netsec",
+      "requested_url": "https://www.reddit.com/r/netsec/new/",
+      "actual_url": "https://www.reddit.com/r/netsec/new/",
+      "page_title": "Technical Information Security Content & Discussion",
+      "observed_count": 3,
+      "first_id": "t3_1w05xwz",
+      "last_id": "t3_1vzx029",
+      "status": "captured"
+    },
+    {
+      "layer": "new",
+      "name": "opensource",
+      "requested_url": "https://www.reddit.com/r/opensource/new/",
+      "actual_url": "https://www.reddit.com/r/opensource/new/",
+      "page_title": "Open Source on Reddit",
+      "observed_count": 3,
+      "first_id": "t3_1w0crvn",
+      "last_id": "t3_1w05typ",
+      "status": "captured"
+    },
+    {
+      "layer": "new",
+      "name": "selfhosted",
+      "requested_url": "https://www.reddit.com/r/selfhosted/new/",
+      "actual_url": "https://www.reddit.com/r/selfhosted/new/",
+      "page_title": "Self-Hosted Alternatives to Popular Services",
+      "observed_count": 3,
+      "first_id": "t3_1w0f2r9",
+      "last_id": "t3_1w0e87c",
+      "status": "captured"
+    },
+    {
+      "layer": "new",
+      "name": "science",
+      "requested_url": "https://www.reddit.com/r/science/new/",
+      "actual_url": "https://www.reddit.com/r/science/new/",
+      "page_title": "Reddit Science",
+      "observed_count": 3,
+      "first_id": "t3_1w09pxu",
+      "last_id": "t3_1w0419f",
+      "status": "captured"
+    },
+    {
+      "layer": "new",
+      "name": "OpenAI",
+      "requested_url": "https://www.reddit.com/r/OpenAI/new/",
+      "actual_url": "https://www.reddit.com/r/OpenAI/new/",
+      "page_title": "OpenAI",
+      "observed_count": 3,
+      "first_id": "t3_1w0f664",
+      "last_id": "t3_1w0b98m",
+      "status": "captured"
+    },
+    {
+      "layer": "new",
+      "name": "Anthropic",
+      "requested_url": "https://www.reddit.com/r/Anthropic/new/",
+      "actual_url": "https://www.reddit.com/r/Anthropic/new/",
+      "page_title": "Anthropic",
+      "observed_count": 3,
+      "first_id": "t3_1w0eusj",
+      "last_id": "t3_1w0dfdn",
+      "status": "captured"
+    },
+    {
+      "layer": "new",
+      "name": "singularity",
+      "requested_url": "https://www.reddit.com/r/singularity/new/",
+      "actual_url": "https://www.reddit.com/r/singularity/new/",
+      "page_title": "Singularity",
+      "observed_count": 3,
+      "first_id": "t3_1w0ek6o",
+      "last_id": "t3_1w0caml",
+      "status": "captured"
+    },
+    {
+      "layer": "new",
+      "name": "robotics",
+      "requested_url": "https://www.reddit.com/r/robotics/new/",
+      "actual_url": "https://www.reddit.com/r/robotics/new/",
+      "page_title": "Robotics",
+      "observed_count": 3,
+      "first_id": "t3_1w0ccw8",
+      "last_id": "t3_1w0ao7x",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "MachineLearning/hot",
+      "requested_url": "https://www.reddit.com/r/MachineLearning/hot/",
+      "actual_url": "https://www.reddit.com/r/MachineLearning/hot/",
+      "page_title": "Machine Learning",
+      "observed_count": 3,
+      "first_id": "t3_1vzzw38",
+      "last_id": "t3_1w0788j",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "MachineLearning/rising",
+      "requested_url": "https://www.reddit.com/r/MachineLearning/rising/",
+      "actual_url": "https://www.reddit.com/r/MachineLearning/rising/",
+      "page_title": "Machine Learning",
+      "observed_count": 3,
+      "first_id": "t3_1vzzw38",
+      "last_id": "t3_1w0788j",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "LocalLLaMA/hot",
+      "requested_url": "https://www.reddit.com/r/LocalLLaMA/hot/",
+      "actual_url": "https://www.reddit.com/r/LocalLLaMA/hot/",
+      "page_title": "LocalLlama",
+      "observed_count": 3,
+      "first_id": "t3_1w05kbt",
+      "last_id": "t3_1w0198r",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "LocalLLaMA/rising",
+      "requested_url": "https://www.reddit.com/r/LocalLLaMA/rising/",
+      "actual_url": "https://www.reddit.com/r/LocalLLaMA/rising/",
+      "page_title": "LocalLlama",
+      "observed_count": 3,
+      "first_id": "t3_1w05clp",
+      "last_id": "t3_1w03zdo",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "programming/hot",
+      "requested_url": "https://www.reddit.com/r/programming/hot/",
+      "actual_url": "https://www.reddit.com/r/programming/hot/",
+      "page_title": "programming",
+      "observed_count": 3,
+      "first_id": "t3_1w06vn1",
+      "last_id": "t3_1w0euux",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "programming/rising",
+      "requested_url": "https://www.reddit.com/r/programming/rising/",
+      "actual_url": "https://www.reddit.com/r/programming/rising/",
+      "page_title": "programming",
+      "observed_count": 3,
+      "first_id": "t3_1w06vn1",
+      "last_id": "t3_1w0euux",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "technology/hot",
+      "requested_url": "https://www.reddit.com/r/technology/hot/",
+      "actual_url": "https://www.reddit.com/r/technology/hot/",
+      "page_title": "/r/Technology",
+      "observed_count": 3,
+      "first_id": "t3_1vzzfk5",
+      "last_id": "t3_1vzuv6r",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "technology/rising",
+      "requested_url": "https://www.reddit.com/r/technology/rising/",
+      "actual_url": "https://www.reddit.com/r/technology/rising/",
+      "page_title": "/r/Technology",
+      "observed_count": 3,
+      "first_id": "t3_1w0b71p",
+      "last_id": "t3_1w032v4",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "netsec/hot",
+      "requested_url": "https://www.reddit.com/r/netsec/hot/",
+      "actual_url": "https://www.reddit.com/r/netsec/hot/",
+      "page_title": "Technical Information Security Content & Discussion",
+      "observed_count": 3,
+      "first_id": "t3_1w05xwz",
+      "last_id": "t3_1vzxkxm",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "netsec/rising",
+      "requested_url": "https://www.reddit.com/r/netsec/rising/",
+      "actual_url": "https://www.reddit.com/r/netsec/rising/",
+      "page_title": "Technical Information Security Content & Discussion",
+      "observed_count": 3,
+      "first_id": "t3_1w05xwz",
+      "last_id": "t3_1vzxkxm",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "opensource/hot",
+      "requested_url": "https://www.reddit.com/r/opensource/hot/",
+      "actual_url": "https://www.reddit.com/r/opensource/hot/",
+      "page_title": "Open Source on Reddit",
+      "observed_count": 3,
+      "first_id": "t3_1w0crvn",
+      "last_id": "t3_1w05typ",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "opensource/rising",
+      "requested_url": "https://www.reddit.com/r/opensource/rising/",
+      "actual_url": "https://www.reddit.com/r/opensource/rising/",
+      "page_title": "Open Source on Reddit",
+      "observed_count": 3,
+      "first_id": "t3_1w0crvn",
+      "last_id": "t3_1w05typ",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "selfhosted/hot",
+      "requested_url": "https://www.reddit.com/r/selfhosted/hot/",
+      "actual_url": "https://www.reddit.com/r/selfhosted/hot/",
+      "page_title": "Self-Hosted Alternatives to Popular Services",
+      "observed_count": 3,
+      "first_id": "t3_1vzw5tq",
+      "last_id": "t3_1w02zpy",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "selfhosted/rising",
+      "requested_url": "https://www.reddit.com/r/selfhosted/rising/",
+      "actual_url": "https://www.reddit.com/r/selfhosted/rising/",
+      "page_title": "Self-Hosted Alternatives to Popular Services",
+      "observed_count": 3,
+      "first_id": "t3_1vzw5tq",
+      "last_id": "t3_1w02zpy",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "science/hot",
+      "requested_url": "https://www.reddit.com/r/science/hot/",
+      "actual_url": "https://www.reddit.com/r/science/hot/",
+      "page_title": "Reddit Science",
+      "observed_count": 3,
+      "first_id": "t3_1vzqzy1",
+      "last_id": "t3_1vzrgbt",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "science/rising",
+      "requested_url": "https://www.reddit.com/r/science/rising/",
+      "actual_url": "https://www.reddit.com/r/science/rising/",
+      "page_title": "Reddit Science",
+      "observed_count": 3,
+      "first_id": "t3_1w04wqz",
+      "last_id": "t3_1w0419f",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "OpenAI/hot",
+      "requested_url": "https://www.reddit.com/r/OpenAI/hot/",
+      "actual_url": "https://www.reddit.com/r/OpenAI/hot/",
+      "page_title": "OpenAI",
+      "observed_count": 3,
+      "first_id": "t3_1w0a3kg",
+      "last_id": "t3_1w06v7v",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "OpenAI/rising",
+      "requested_url": "https://www.reddit.com/r/OpenAI/rising/",
+      "actual_url": "https://www.reddit.com/r/OpenAI/rising/",
+      "page_title": "OpenAI",
+      "observed_count": 3,
+      "first_id": "t3_1w0a3kg",
+      "last_id": "t3_1w06v7v",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "Anthropic/hot",
+      "requested_url": "https://www.reddit.com/r/Anthropic/hot/",
+      "actual_url": "https://www.reddit.com/r/Anthropic/hot/",
+      "page_title": "Anthropic",
+      "observed_count": 3,
+      "first_id": "t3_1w006g0",
+      "last_id": "t3_1vzkxh3",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "Anthropic/rising",
+      "requested_url": "https://www.reddit.com/r/Anthropic/rising/",
+      "actual_url": "https://www.reddit.com/r/Anthropic/rising/",
+      "page_title": "Anthropic",
+      "observed_count": 3,
+      "first_id": "t3_1w006g0",
+      "last_id": "t3_1vzkxh3",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "singularity/hot",
+      "requested_url": "https://www.reddit.com/r/singularity/hot/",
+      "actual_url": "https://www.reddit.com/r/singularity/hot/",
+      "page_title": "Singularity",
+      "observed_count": 3,
+      "first_id": "t3_1vzijco",
+      "last_id": "t3_1w090ua",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "singularity/rising",
+      "requested_url": "https://www.reddit.com/r/singularity/rising/",
+      "actual_url": "https://www.reddit.com/r/singularity/rising/",
+      "page_title": "Singularity",
+      "observed_count": 3,
+      "first_id": "t3_1w04skp",
+      "last_id": "t3_1vzz9iz",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "robotics/hot",
+      "requested_url": "https://www.reddit.com/r/robotics/hot/",
+      "actual_url": "https://www.reddit.com/r/robotics/hot/",
+      "page_title": "Robotics",
+      "observed_count": 3,
+      "first_id": "t3_1vzzr4r",
+      "last_id": "t3_1w0490o",
+      "status": "captured"
+    },
+    {
+      "layer": "snapshot",
+      "name": "robotics/rising",
+      "requested_url": "https://www.reddit.com/r/robotics/rising/",
+      "actual_url": "https://www.reddit.com/r/robotics/rising/",
+      "page_title": "Robotics",
+      "observed_count": 3,
+      "first_id": "t3_1vzzr4r",
+      "last_id": "t3_1w0490o",
+      "status": "captured"
+    },
+    {
+      "layer": "global",
+      "name": "home",
+      "requested_url": "https://www.reddit.com/",
+      "actual_url": "https://www.reddit.com/",
+      "page_title": "Reddit - The heart of the internet",
+      "observed_count": 3,
+      "first_id": "t3_1vvilkf",
+      "last_id": "t3_1w0cl0f",
+      "status": "captured"
+    },
+    {
+      "layer": "global",
+      "name": "popular",
+      "requested_url": "https://www.reddit.com/r/popular/",
+      "actual_url": "https://www.reddit.com/r/popular/",
+      "page_title": "r/popular",
+      "observed_count": 3,
+      "first_id": "t3_1w0cwsl",
+      "last_id": "t3_1w0ck29",
+      "status": "captured"
+    },
+    {
+      "layer": "global",
+      "name": "all",
+      "requested_url": "https://www.reddit.com/r/all/",
+      "actual_url": "https://www.reddit.com/",
+      "page_title": "Reddit - The heart of the internet",
+      "observed_count": 3,
+      "first_id": "t3_1vzfwnd",
+      "last_id": "t3_1w0cl0f",
+      "status": "captured"
+    },
+    {
+      "layer": "search",
+      "name": "AI agent OR agentic coding",
+      "requested_url": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
+      "actual_url": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
+      "page_title": "AI agent OR agentic coding - Reddit Search!",
+      "observed_count": 0,
+      "first_id": null,
+      "last_id": null,
+      "status": "failure"
+    },
+    {
+      "layer": "search",
+      "name": "LLM inference OR quantization",
+      "requested_url": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
+      "actual_url": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
+      "page_title": "LLM inference OR quantization - Reddit Search!",
+      "observed_count": 0,
+      "first_id": null,
+      "last_id": null,
+      "status": "failure"
+    },
+    {
+      "layer": "search",
+      "name": "open weights OR open source AI",
+      "requested_url": "https://www.reddit.com/search/?q=open%20weights%20OR%20open%20source%20AI&type=posts&sort=new",
+      "actual_url": "https://www.reddit.com/search/?q=open%20weights%20OR%20open%20source%20AI&type=posts&sort=new",
+      "page_title": "open weights OR open source AI - Reddit Search!",
+      "observed_count": 0,
+      "first_id": null,
+      "last_id": null,
+      "status": "failure"
+    },
+    {
+      "layer": "search",
+      "name": "AI chip OR GPU OR inference accelerator",
+      "requested_url": "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new",
+      "actual_url": "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new",
+      "page_title": "AI chip OR GPU OR inference accelerator - Reddit Search!",
+      "observed_count": 0,
+      "first_id": null,
+      "last_id": null,
+      "status": "failure"
+    },
+    {
+      "layer": "search",
+      "name": "robotics foundation model",
+      "requested_url": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
+      "actual_url": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
+      "page_title": "robotics foundation model - Reddit Search!",
+      "observed_count": 0,
+      "first_id": null,
+      "last_id": null,
+      "status": "failure"
+    },
+    {
+      "layer": "search",
+      "name": "AI security OR prompt injection",
+      "requested_url": "https://www.reddit.com/search/?q=AI%20security%20OR%20prompt%20injection&type=posts&sort=new",
+      "actual_url": "https://www.reddit.com/search/?q=AI%20security%20OR%20prompt%20injection&type=posts&sort=new",
+      "page_title": "AI security OR prompt injection - Reddit Search!",
+      "observed_count": 0,
+      "first_id": null,
+      "last_id": null,
+      "status": "failure"
+    },
+    {
+      "layer": "search",
+      "name": "developer tools OR programming language",
+      "requested_url": "https://www.reddit.com/search/?q=developer%20tools%20OR%20programming%20language&type=posts&sort=new",
+      "status": "failure",
+      "failure_reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491394. Browser reported: net::ERR_BLOCKED_BY_CLIENT"
+    },
+    {
+      "layer": "search",
+      "name": "data center energy water",
+      "requested_url": "https://www.reddit.com/search/?q=data%20center%20energy%20water&type=posts&sort=new",
+      "status": "failure",
+      "failure_reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645491394. Browser reported: net::ERR_BLOCKED_BY_CLIENT"
+    }
+  ],
+  "failures": [
+    {
+      "layer": "new",
+      "scope": "12 communities",
+      "reason": "continuity boundary not reached; checkpoints unchanged"
+    },
+    {
+      "layer": "hot_rising",
+      "scope": "24 entries",
+      "reason": "viewport-only capture; snapshots frozen pending full scroll"
+    },
+    {
+      "layer": "global",
+      "scope": "all",
+      "reason": "redirected to Home; distinctness check failed"
+    },
+    {
+      "layer": "search",
+      "scope": "8 queries",
+      "reason": "zero result containers or net::ERR_BLOCKED_BY_CLIENT"
+    },
+    {
+      "layer": "comments",
+      "scope": "2 due revisits",
+      "reason": "not run; queue frozen"
+    }
+  ],
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "pending"
+  }
+}
