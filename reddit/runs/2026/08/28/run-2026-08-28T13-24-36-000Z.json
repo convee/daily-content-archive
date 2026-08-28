@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "run_at": "2026-08-28T13:24:36.000Z",
+  "owner": "Reddit-20260828T132044Z-b540e4",
+  "raw_file": "reddit/raw/2026/08/28/browser-stability-2026-08-28T13-24-36-000Z.jsonl",
+  "collection_summary": {"posts":0,"raw_comments":0,"selected_comments":0,"new_attempted":12,"new_success":0,"snapshots_attempted":24,"snapshots_success":0,"global_attempted":3,"global_success":0,"search_attempted":8,"search_success":0,"comments_due":0,"comments_completed":0,"community_candidates_added":0},
+  "browser": {"surface":"logged-in Chrome, read-only","stability_sampling":"Each reachable target received three samples at >=520ms; an error triggered one reload and a distinct new-tab retry.","result":"MachineLearning and LocalLLaMA showed unstable lazy loading (3 to 24-27 post containers). All subsequent configured New, Hot/Rising, global, and Posts+New search navigations returned net::ERR_BLOCKED_BY_CLIENT."},
+  "failure_ledger": [
+    {"layer":"new","target":"MachineLearning, LocalLLaMA","reason":"unstable_lazy_loaded_page_no_complete_continuity_window"},
+    {"layer":"new","target":"programming, technology, netsec, opensource, selfhosted, science, OpenAI, Anthropic, singularity, robotics","reason":"navigation_blocked_by_client_after_reload_and_new_tab_retry"},
+    {"layer":"hot_rising","target":"24 configured snapshots","reason":"unstable_lazy_loaded_page_or_navigation_blocked_by_client"},
+    {"layer":"global","target":"Home, Popular, All","reason":"navigation_blocked_by_client_after_reload_and_new_tab_retry"},
+    {"layer":"search","target":"8 configured Posts+New queries","reason":"navigation_blocked_by_client_after_new_tab_retry"}
+  ],
+  "continuation":"No post or comment records were persisted; all New checkpoints, snapshot ledgers, search checkpoints, seen sets and revisit queue remain unchanged. Resume from saved continuations after Chrome navigation is available.",
+  "health_before":"healthy",
+  "github":{"status":"pending"},
+  "dingtalk":{"status":"pending","kind":"exception","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw=="}
+}
