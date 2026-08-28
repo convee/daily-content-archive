@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "platform": "twitter",
+  "run_id": "2026-08-28T211218Z",
+  "started_at_utc": "2026-08-28T21:12:18Z",
+  "finished_at_utc": "2026-08-28T21:14:00Z",
+  "status": "partial_frozen",
+  "lock": {
+    "owner": "twitter-20260828T211218Z-0a2a2b",
+    "acquire_retries": 0,
+    "ttl_seconds": 5400
+  },
+  "health_before": {
+    "status": "degraded",
+    "errors": 0,
+    "warning": "latest_run_degraded"
+  },
+  "raw_files": [
+    "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl"
+  ],
+  "sources": {
+    "accounts": {
+      "attempted": 19,
+      "succeeded": 0,
+      "frozen": 19,
+      "batches_per_source": 1,
+      "reason": "19 Posts timelines sampled 3x; no source reached retained checkpoint"
+    },
+    "queries": {
+      "attempted": 5,
+      "succeeded": 0,
+      "frozen": 5,
+      "batches_per_source": 1,
+      "reason": "five Latest query pages sampled 3x; no source reached retained checkpoint"
+    },
+    "following": {
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "batches": 1,
+      "reason": "Following tab could not be confirmed and checkpoint not reached"
+    },
+    "for_you": {
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "batches": 1,
+      "zero_new_streak": 0,
+      "reason": "only one batch; eight batches/two zero-new batches required"
+    },
+    "replies": {
+      "attempted": 0,
+      "succeeded": 0,
+      "frozen": 1,
+      "reason": "no high-signal post was eligible because all continuous sources froze before capture"
+    }
+  },
+  "continuation": {
+    "input": "origin/main state and frozen evidence retained",
+    "output": "visible IDs persisted to durable raw and seen ledger; no cursors advanced"
+  },
+  "stability_sampling": "26 Chrome source navigations; URL/title/status-anchor/article counts sampled 3x at >=550ms; no continuous traversal proceeded",
+  "counts": {
+    "observed_status_ids": 91,
+    "archived_posts": 0,
+    "archived_replies": 0
+  },
+  "git": {
+    "collection_commit": "pending_commit_and_push",
+    "collection_pushed": false,
+    "pushed": false
+  },
+  "dingtalk": {
+    "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "sendStatus": "not_sent",
+    "message_type": "exception_alert"
+  }
+}

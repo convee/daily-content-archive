@@ -2,7 +2,7 @@
   "schema_version": 1,
   "continuity_started_at_utc": "2026-08-26T12:44:32Z",
   "last_successful_run_at_utc": "2026-08-27T13:30:50.153Z",
-  "last_run_at_utc": "2026-08-28T19:13:20.557Z",
+  "last_run_at_utc": "2026-08-28T21:14:00Z",
   "seen_status_ids": [
     "1281424520100737025",
     "1862598063275061484",
@@ -1118,6 +1118,7 @@
     "2092667589801709736",
     "2092667990273663311",
     "2092669931397759141",
+    "2092669931431268613",
     "2092671079999262872",
     "2092672524660457781",
     "2092674170337550687",
@@ -1415,6 +1416,7 @@
     "2092948104635097274",
     "2092948122968182886",
     "2092948162466181168",
+    "2092948247035760961",
     "2092948332863746217",
     "2092948348617601429",
     "2092948420344295735",
@@ -2069,6 +2071,7 @@
     "2093054772161253411",
     "2093056713889079496",
     "2093059407018094947",
+    "2093063044062650744",
     "2093063897393611184",
     "2093064059906089225",
     "2093064299778290019",
@@ -2721,6 +2724,7 @@
     "2093271150734278709",
     "2093281977117921680",
     "2093285718873559443",
+    "2093297593656738060",
     "2093310159892472260",
     "2093312173455864275",
     "2093313927522263338",
@@ -2791,6 +2795,7 @@
     "2093380338059727002",
     "2093380339917857233",
     "2093384157229617624",
+    "2093384545118908724",
     "2093384615754965444",
     "2093384681945518562",
     "2093384945943351542",
@@ -2824,6 +2829,7 @@
     "2093399189690691994",
     "2093399300093222976",
     "2093402460966600794",
+    "2093403029487697958",
     "2093403516819714473",
     "2093405469834383510",
     "2093412079075991946",
@@ -2856,6 +2862,38 @@
     "2093416433279549878",
     "2093416465324007926",
     "2093416468994220248",
+    "2093417082767737075",
+    "2093419326280024493",
+    "2093421145651282347",
+    "2093431136789921871",
+    "2093434719648059590",
+    "2093444834576965923",
+    "2093445001585766449",
+    "2093445242859012355",
+    "2093445258046566534",
+    "2093445523126489210",
+    "2093445727825654011",
+    "2093445802622415198",
+    "2093445887397916952",
+    "2093446030104682563",
+    "2093446186753724834",
+    "2093446272006963565",
+    "2093446319570395284",
+    "2093446367930626179",
+    "2093446427578146916",
+    "2093446452152263100",
+    "2093446520913748480",
+    "2093446634927697975",
+    "2093446711100195240",
+    "2093446747515228420",
+    "2093446757069766832",
+    "2093446769006755959",
+    "2093446770332492084",
+    "2093446784815169712",
+    "2093446784970334461",
+    "2093446807846093257",
+    "2093446844340638105",
+    "2093446868198162457",
     "806464279302049792"
   ],
   "source_checkpoints": {
@@ -3963,264 +4001,289 @@
   ],
   "frozen_sources": {
     "query:AI agent OR agentic coding": {
-      "frozen_at": "2026-08-28T19:13:20.557Z",
-      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "1991213257218986120"
+      "captured_at": "2026-08-28T21:14:00Z",
+      "batches": 1,
+      "deepest_status_id": "2093446711100195240",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
+      "continuation": {
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
+      }
     },
     "query:LLM inference OR AI chips": {
-      "frozen_at": "2026-08-28T19:13:20.557Z",
-      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093414530340819397"
+      "captured_at": "2026-08-28T21:14:00Z",
+      "batches": 1,
+      "deepest_status_id": "2093444834576965923",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
+      "continuation": {
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
+      }
     },
     "query:open weights OR open source AI": {
-      "frozen_at": "2026-08-28T19:13:20.557Z",
-      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093414374736110065"
+      "captured_at": "2026-08-28T21:14:00Z",
+      "batches": 1,
+      "deepest_status_id": "2092948247035760961",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
+      "continuation": {
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
+      }
     },
     "query:AI security OR prompt injection": {
-      "frozen_at": "2026-08-28T19:13:20.557Z",
-      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093414695856181601"
+      "captured_at": "2026-08-28T21:14:00Z",
+      "batches": 1,
+      "deepest_status_id": "2093445887397916952",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
+      "continuation": {
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
+      }
     },
     "following": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": "2093320227811389550",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": "2093412322081436098",
+      "reason": "Following tab not confirmed and stability not established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "for_you": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": "2093049411265798550",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": "2093187702271213596",
+      "reason": "required minimum 8 batches/two zero-new batches not met; snapshot frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@OpenAI": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": "2092691863505346634",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": "2092335305366069305",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@AnthropicAI": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": "2089842389682954621",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": null,
+      "reason": "no status anchors loaded; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@GoogleDeepMind": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": "2093019632475001225",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": null,
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@xai": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": "2091957125941543034",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": null,
+      "reason": "redirected to @SpaceXAI; configured account unavailable",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@MistralAI": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": "2079598447234064801",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": null,
+      "reason": "no status anchors loaded; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@AIatMeta": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": "2090485743034716420",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": "2090505417512345857",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@ycombinator": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
       "deepest_status_id": "2092041032104022506",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@nvidia": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
       "deepest_status_id": "2092390101959479713",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "query:robotics foundation model": {
-      "frozen_at": "2026-08-28T19:13:20.557Z",
-      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093359440829587874"
+      "captured_at": "2026-08-28T21:14:00Z",
+      "batches": 1,
+      "deepest_status_id": "2093379844260409449",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
+      "continuation": {
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
+      }
     },
     "account:@huggingface": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": null,
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": "2085758063471120848",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@GitHub": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": "2092584972963983812",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": "2092584970812367077",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@producthunt": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": "2093054760228434331",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": "2093189665545507258",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@TechCrunch": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": "2093271150734278709",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": "2093361752356360667",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@arxiv": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
       "deepest_status_id": "2039441602964304025",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@karpathy": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
       "deepest_status_id": "2064394151441863006",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@AndrewYNg": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": "2086845515665166398",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": "2090840747738374568",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@ylecun": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
       "deepest_status_id": "2080392383364014159",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@simonw": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
-      "deepest_status_id": "2088648622942638557",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "deepest_status_id": "2088646238933840153",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@swyx": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
       "deepest_status_id": "2090948945753076141",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "account:@hardmaru": {
-      "captured_at": "2026-08-28T15:14:14.654Z",
+      "captured_at": "2026-08-28T21:14:00Z",
       "batches": 1,
       "deepest_status_id": "2090628114888183964",
-      "reason": "three-sample stability not established; checkpoint frozen",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "reason": "stability_not_established; checkpoint frozen",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T211218Z-attempt-ledger.jsonl",
       "continuation": {
-        "input": "existing frozen checkpoint or snapshot retained",
-        "output": "new visible status IDs persisted; no cursor advanced"
+        "input": "prior checkpoint/continuation retained",
+        "output": "visible IDs persisted; cursor unchanged"
       }
     },
     "replies:2093038426140651791": {
