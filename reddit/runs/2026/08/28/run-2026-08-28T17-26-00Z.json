@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "run_at": "2026-08-28T17:26:00Z",
+  "owner": "Reddit-20260828T172216Z-30970",
+  "browser": {
+    "surface": "logged-in local Chrome",
+    "mode": "read-only",
+    "stable_samples": 3,
+    "sample_interval_ms": 550
+  },
+  "raw_files": [
+    "reddit/raw/2026/08/28/new-2026-08-28T17-23-46-480Z.jsonl",
+    "reddit/raw/2026/08/28/snapshots-2026-08-28T17-23-46-480Z.jsonl"
+  ],
+  "health_before": "healthy",
+  "collection_summary": {
+    "new": {
+      "required": 12,
+      "attempted": 12,
+      "success": 0,
+      "frozen": 12,
+      "posts_written": 217,
+      "reason": "only first stable viewport persisted; continuity boundary/complete window not proven"
+    },
+    "hot_rising": {
+      "required": 24,
+      "attempted": 24,
+      "success": 0,
+      "frozen": 24,
+      "posts_written": 24,
+      "reason": "snapshot parser did not preserve complete observed windows"
+    },
+    "global": {
+      "required": 3,
+      "attempted": 3,
+      "success": 0,
+      "frozen": 3
+    },
+    "search": {
+      "required": 8,
+      "attempted": 8,
+      "success": 0,
+      "frozen": 8
+    },
+    "comments": {
+      "due": 0,
+      "attempted": 0,
+      "success": 0,
+      "raw_comments_written": 0
+    },
+    "community_discovery": {
+      "attempted": false,
+      "reason": "discovery inputs frozen"
+    }
+  },
+  "failure_ledger": [
+    {
+      "layer": "new",
+      "target": "all communities",
+      "reason": "durable first-viewport observations exist but scroll-to-checkpoint/continuation evidence was not completed; checkpoints frozen"
+    },
+    {
+      "layer": "hot_rising",
+      "target": "24 snapshots",
+      "reason": "only partial source-attributed records parsed; complete snapshot durability not proven"
+    },
+    {
+      "layer": "global",
+      "target": "home,popular,all",
+      "reason": "home/popular stable but not archived; all redirected to Home"
+    },
+    {
+      "layer": "search",
+      "target": "8 queries",
+      "reason": "one page lacked supported post containers; seven requests net::ERR_BLOCKED_BY_CLIENT"
+    }
+  ],
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "pending",
+    "kind": "exception"
+  }
+}
