@@ -9505,6 +9505,14 @@
       "comments_completed": 0
     }
   },
+  "last_tool_failure": {
+    "run_at": "2026-08-28T09:21:09.603Z",
+    "run_file": "reddit/runs/2026/08/28/run-2026-08-28T09-21-09-603Z.json",
+    "reason": "Chrome batch stability sampling timed out without any returned, verifiable target result",
+    "frozen_layers": ["new:12", "hot_rising:24", "global:3", "search:8"],
+    "checkpoints_advanced": false,
+    "recovery": "Resume each source from its saved continuation in bounded Chrome batches; persist raw evidence before updating checkpoints."
+  },
   "last_dingtalk_delivery": {
     "status": "sent",
     "kind": "exception",
