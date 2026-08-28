@@ -1,0 +1,24 @@
+{
+  "run_id": "twitter-2026-08-28T031500Z",
+  "started_at_utc": "2026-08-28T03:12:45Z",
+  "finished_at_utc": "2026-08-28T03:15:00Z",
+  "status": "partial_frozen",
+  "source_summary": {
+    "accounts": {"attempted": 19, "succeeded": 10, "failed": 9},
+    "queries": {"attempted": 5, "succeeded": 0, "failed": 5},
+    "following": {"attempted": 1, "succeeded": 0, "failed": 1},
+    "for_you": {"attempted": 1, "succeeded": 0, "failed": 1},
+    "replies": {"attempted": 1, "succeeded": 1, "failed": 0}
+  },
+  "source_attempts": {
+    "accounts": {"batches": 1, "hit_old_checkpoint": true, "deepest_status_id": "2093116124602724654", "raw_file": "twitter/raw/2026/08/28/2026-08-28T031500Z-observations.jsonl", "failure": "9 timelines intermittently returned no article DOM after direct read; their checkpoints remain frozen."},
+    "queries": {"batches": 1, "hit_old_checkpoint": false, "deepest_status_id": "2093172794242498922", "raw_file": "twitter/raw/2026/08/28/2026-08-28T031500Z-observations.jsonl", "failure": "All five Latest pages yielded fresh visible posts but not the committed checkpoint; continuation frozen rather than advanced."},
+    "following": {"batches": 2, "hit_old_checkpoint": false, "deepest_status_id": "2093065287054598198", "raw_file": "twitter/raw/2026/08/28/2026-08-28T031500Z-observations.jsonl", "failure": "Following tab rendered but did not reach committed checkpoint; continuation frozen."},
+    "for_you": {"batches": 8, "zero_new_streak": 0, "first_status_id": "2093148300383777102", "last_status_id": "2092667589801709736", "raw_file": "twitter/raw/2026/08/28/2026-08-28T031500Z-observations.jsonl", "failure": "8 batches read, but no two consecutive zero-new batches; discovery snapshot frozen."},
+    "replies": {"parent_status_id": "2093074192636018977", "raw_file": "twitter/raw/2026/08/28/2026-08-28T031500Z-observations.jsonl", "result": "checked; no qualifying reply archived"}
+  },
+  "raw_files": ["twitter/raw/2026/08/28/2026-08-28T031500Z-observations.jsonl"],
+  "counts": {"observed_status_ids": 54, "new_status_ids": 29, "archived_replies": 0},
+  "github": {"status": "pending_commit_and_push"},
+  "dingtalk": {"status": "not_sent"}
+}
