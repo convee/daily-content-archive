@@ -35,6 +35,6 @@
   ],
   "continuation": "No post or comment body was persisted; all existing New checkpoints, snapshot ledgers, query checkpoints and revisit queue entries remain unchanged. Resume from each saved continuation only after a complete stable page can be obtained.",
   "health_before": "healthy",
-  "github": {"status":"pending","commit":null,"remote_verified":false},
-  "dingtalk": {"status":"pending","kind":"exception","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","sendStatus":"pending"}
+  "github": {"status":"pushed","commit":"c53f20f23006eadc0ac4d14c11977edaf403ea65","remote_verified":true},
+  "dingtalk": {"status":"sent","kind":"exception","openTaskId":"ogmiZ2p1HLq2TTENVhKWwblWae/PUJXc8LcWnNuz+OU=","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","openMessageId":"msgaIV5kZY9OhFByJbd5np3Sw==","sendStatus":"SUCCESS","verified_at":"2026-08-28T11:26:47Z"}
 }
