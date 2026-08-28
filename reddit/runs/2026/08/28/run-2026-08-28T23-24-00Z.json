@@ -22,6 +22,6 @@
     {"layer": "comments", "target": "t3_1vxyp7x,t3_1vynfd8", "reason": "50 and 21 visible comments, no More replies, but required raw comment fields were not serialized; revisit queue frozen"}
   ],
   "state_effect": "No seen IDs or checkpoints advanced.",
-  "github": {"status": "pending"},
-  "dingtalk": {"status": "pending", "kind": "exception"}
+  "github": {"status": "pushed", "commit": "d38d612e2a06d398c9406728c9a48d855be4ff6d", "remote_verified": true},
+  "dingtalk": {"status": "sent", "kind": "exception", "openTaskId": "0v48u8yVSjU8ZYqFrlmzI4y0TmAzm/AT6YpJjsvgOpU=", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "openMessageId": "msg1qXg8ZT5ArFkYg67PEunmA==", "sendStatus": "SUCCESS", "verified_at_utc": "2026-08-28T23:27:00Z"}
 }
