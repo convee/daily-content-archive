@@ -153,6 +153,17 @@ def validate_daily(repo, platform, report):
         path, body = public[-1]
         if "溯源" not in body or ".json" not in body:
             add_issue(report, "error", "daily_missing_evidence", "latest public daily must link raw and run evidence", path.relative_to(repo))
+        for reference in re.findall(r"\]\(([^)]+\.jsonl?)\)", body):
+            if reference.startswith(("http://", "https://")):
+                continue
+            target = (path.parent / reference).resolve()
+            try:
+                target.relative_to(repo)
+            except ValueError:
+                add_issue(report, "error", "daily_evidence_outside_repo", "daily evidence link escapes the repository: %s" % reference, path.relative_to(repo))
+                continue
+            if not target.is_file():
+                add_issue(report, "error", "daily_evidence_missing", "daily evidence link is missing: %s" % reference, path.relative_to(repo))
 
 
 def validate_hackernews(repo, report, state, run_path, run):
