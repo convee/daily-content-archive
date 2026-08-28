@@ -7,6 +7,6 @@
   "source_attempts":{"accounts":{"per_source":"OpenAI, AnthropicAI, GoogleDeepMind, xai, MistralAI, AIatMeta, huggingface, nvidia, GitHub, ycombinator, producthunt, TechCrunch, arxiv, karpathy, AndrewYNg, ylecun, simonw, swyx, hardmaru: each 1 batch, no article DOM, no old checkpoint hit, deepest_status_id=null","raw_file":"twitter/raw/2026/08/28/2026-08-28T051359Z-observations.jsonl"},"queries":{"per_source":"all five Latest queries: 1 batch each; no old checkpoint hit; two returned no article DOM","raw_file":"twitter/raw/2026/08/28/2026-08-28T051359Z-observations.jsonl"},"following":{"batches":1,"hit_old_checkpoint":false,"deepest_status_id":"2093059407018094947","raw_file":"twitter/raw/2026/08/28/2026-08-28T051359Z-observations.jsonl"},"for_you":{"batches":8,"zero_new_streak":0,"first_status_id":"2093186338514174242","last_status_id":"2093084387667542290","raw_file":"twitter/raw/2026/08/28/2026-08-28T051359Z-observations.jsonl"},"replies":{"parent_status_id":"2093204976600293865","result":"page loaded incompletely; no qualifying reply archived","raw_file":"twitter/raw/2026/08/28/2026-08-28T051359Z-observations.jsonl"}},
   "raw_files":["twitter/raw/2026/08/28/2026-08-28T051359Z-observations.jsonl"],
   "counts":{"observed_status_ids":38,"archived_replies":0},
-  "github":{"status":"pending_commit_and_push"},
-  "dingtalk":{"status":"not_sent"}
+  "github":{"status":"pushed","commit":"5b1e0ee0d86bd5c97e15b0c81b0c554269665fb1","branch":"main","url":"https://github.com/convee/daily-content-archive/commit/5b1e0ee0d86bd5c97e15b0c81b0c554269665fb1"},
+  "dingtalk":{"status":"SUCCESS","openTaskId":"G3DQYc/WMTLvXox7I39XwIwqgptRuX16c6EVUjJ2XQg=","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","openMessageId":"msgKkjUtkiF211sxvTB/sJdMA=="}
 }
