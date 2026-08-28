@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "run_at": "2026-08-28T21:24:53Z",
+  "owner": "Reddit-20260828T212127Z-1501",
+  "browser": {
+    "surface": "logged-in local Chrome",
+    "mode": "read-only",
+    "stable_samples": 3,
+    "sample_interval_ms": 550
+  },
+  "health_before": "healthy",
+  "raw_file": "reddit/raw/2026/08/28/stability-2026-08-28T21-24-53Z.jsonl",
+  "raw_files": ["reddit/raw/2026/08/28/stability-2026-08-28T21-24-53Z.jsonl"],
+  "collection_summary": {
+    "new": {"required": 12, "attempted": 12, "success": 0, "frozen": 12, "posts_written": 0, "reason": "post anchors changed during required stable sampling; no durable continuous windows"},
+    "hot_rising": {"required": 24, "attempted": 24, "success": 0, "frozen": 24, "posts_written": 0, "reason": "post anchors changed or only pre-hydration cards were stable; complete durable snapshots not proven"},
+    "global": {"required": 3, "attempted": 3, "success": 0, "frozen": 3, "posts_written": 0, "reason": "Home/Popular unstable during hydration; All redirected to Home"},
+    "search": {"required": 8, "attempted": 8, "success": 0, "frozen": 8, "posts_written": 0, "reason": "three queries had zero parseable Posts containers; five were blocked by client"},
+    "comments": {"due": 0, "attempted": 0, "success": 0, "raw_comments_written": 0},
+    "community_discovery": {"attempted": false, "reason": "all discovery inputs frozen"}
+  },
+  "stability_evidence": {
+    "entries_attempted": 47,
+    "entries_with_stable_url_title_anchor": 13,
+    "entries_rejected_after_hydration_or_parser_check": 47,
+    "examples": [
+      {"target": "r/MachineLearning/new", "anchor_samples": [18, 18, 114], "post_samples": [3, 3, 27]},
+      {"target": "r/popular", "anchor_samples": [23, 23, 103], "post_samples": [3, 28, 28]},
+      {"target": "r/all", "requested_url": "https://www.reddit.com/r/all/", "actual_url": "https://www.reddit.com/", "result": "redirected_to_home"},
+      {"target": "AI agent OR agentic coding", "anchor_samples": [17, 17, 17], "post_samples": [0, 0, 0], "result": "no_parseable_post_container"},
+      {"target": "AI chip OR GPU OR inference accelerator", "result": "net::ERR_BLOCKED_BY_CLIENT"}
+    ]
+  },
+  "failure_ledger": [
+    {"layer": "new", "target": "12 communities", "reason": "required stable complete view and scroll-to-boundary evidence unavailable; checkpoints unchanged"},
+    {"layer": "hot_rising", "target": "24 snapshots", "reason": "durable complete observed windows unavailable; snapshot state unchanged"},
+    {"layer": "global", "target": "home,popular,all", "reason": "Home/Popular unstable; All redirected to Home and was not recorded as All"},
+    {"layer": "search", "target": "8 queries", "reason": "3 no parseable post containers; 5 net::ERR_BLOCKED_BY_CLIENT; all query checkpoints remain frozen"},
+    {"layer": "comments", "target": "revisit queue", "reason": "no due revisit entries"}
+  ],
+  "state_effect": "No seen IDs or checkpoints advanced. Existing per-layer frozen state remains authoritative.",
+  "github": {"status": "pending", "commit": null, "remote_verified": false},
+  "dingtalk": {"status": "pending", "kind": "exception", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "sendStatus": null}
+}
