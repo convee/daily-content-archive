@@ -1,9 +1,9 @@
 {
   "continuity_started_at_utc": "2026-08-26T12:33:09Z",
-  "last_collected_at_utc": "2026-08-27T01:01:15Z",
-  "last_max_item": 49458069,
-  "last_raw_file": "hackernews/raw/2026/08/27/items-49449183-49458069.jsonl",
-  "last_run_file": "hackernews/runs/2026/08/27/items-49449183-49458069.json",
+  "last_collected_at_utc": "2026-08-28T01:01:37Z",
+  "last_max_item": 49473182,
+  "last_raw_file": "hackernews/raw/2026/08/28/items-49458070-49473182.jsonl",
+  "last_run_file": "hackernews/runs/2026/08/28/items-49458070-49473182.json",
   "schema_version": 1,
   "source": "https://hacker-news.firebaseio.com/v0/",
   "source_documentation": "https://github.com/HackerNews/API"
