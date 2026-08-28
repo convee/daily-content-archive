@@ -69,8 +69,8 @@
   "git": {
     "collection_commit": "831306c789515e8f377510542afeac3fb72f8722",
     "collection_pushed": true,
-    "remote_verified": "origin/main contains state/raw/run at 831306c789515e8f377510542afeac3fb72f8722",
-    "finalization_commit": "pending_finalization",
+    "remote_verified": "origin/main contains finalization commit b58aba42c7240f83fc63bc457e7eca54fbc40558",
+    "finalization_commit": "b58aba42c7240f83fc63bc457e7eca54fbc40558",
     "pushed": true
   },
   "dingtalk": {
