@@ -14,6 +14,6 @@
     {"layer": "search", "target": "8 configured Posts + New queries", "reason": "all navigations failed with net::ERR_BLOCKED_BY_CLIENT after direct attempts; query checkpoints remain frozen"},
     {"layer": "comments", "target": "revisit queue", "reason": "no review was due"}
   ],
-  "github": {"status": "pending"},
-  "dingtalk": {"status": "pending", "kind": "exception", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw=="}
+  "github": {"status": "pushed", "commit": "7df8733c62f6e743b3056b941c1a4919b045c6cd", "remote_verified": true},
+  "dingtalk": {"status": "sent", "kind": "exception", "openTaskId": "L3UjhKWddKVR8hPHq6YvQM14gya11EcFoFYulua2aY8=", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "openMessageId": "msgHQceOE27FHEug69xf+JDkA==", "sendStatus": "SUCCESS", "verified_at": "2026-08-28T15:25:32Z"}
 }
