@@ -68,8 +68,9 @@
   "git": {
     "collection_commit": "17107a81947f235c5c07c793f620d46f298c45cb",
     "collection_pushed": true,
-    "remote_verified": "origin/main contains collection commit 17107a81947f235c5c07c793f620d46f298c45cb",
-    "pushed": true
+    "remote_verified": "origin/main contains finalization commit c2776b3ea6d164f310e5aa3e5d65ce24fb6d5d2d",
+    "pushed": true,
+    "finalization_commit": "c2776b3ea6d164f310e5aa3e5d65ce24fb6d5d2d"
   },
   "dingtalk": {
     "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
