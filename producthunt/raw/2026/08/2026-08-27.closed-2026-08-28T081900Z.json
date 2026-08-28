@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-27",
+  "captured_at": "2026-08-28T08:19:00Z",
+  "browser": "logged_in_local_chrome_read_only",
+  "stability_sampling": {
+    "samples": 3,
+    "minimum_interval_ms": 600,
+    "featured": {"url": "https://www.producthunt.com/leaderboard/daily/2026/8/27", "title": "Best of Product Hunt: August 27, 2026 | Product Hunt", "visible_ranked": 17, "stable": true},
+    "all": {"url": "https://www.producthunt.com/leaderboard/daily/2026/8/27/all", "title": "Best of Product Hunt: August 27, 2026 | Product Hunt", "visible_ranked": 17, "stable": true}
+  },
+  "featured_visible": [
+    [1,"Skydive",93,392],[2,"Enter Pro",65,372],[3,"Lenz",35,243],[4,"Speko",17,238],[5,"Gemini 3.5 Transcribe",5,220],[6,"Traccia",12,187],[7,"Yomi",26,148],[8,"GitNexus (Akon Labs)",9,143],[9,"SpacebarX",3,120],[10,"Kira Community",11,112],[11,"Pluto",26,111],[12,"Wondering Canvas",11,110],[14,"Savvy",1,107],[15,"Qwen3.8-Flash-Next",3,106],[16,"Ojin",19,105]
+  ],
+  "all_visible_observation": {
+    "ranked_names": ["Enter Pro","Skydive","Speko","Traccia","Gemini 3.5 Transcribe","Lenz","GitNexus (Akon Labs)","Ojin","Yomi","Pluto","SpacebarX","Qwen3.8-Flash-Next","Savvy","Kira Community","Wondering Canvas","GLM-5.3-Flash","The Million Sad Ducks"],
+    "unranked_interstitials": ["Viktor.com", "Context.dev"],
+    "pagination_controls": [],
+    "pagination_exhaustion_verifiable": false
+  },
+  "failure_gates": [
+    "All pagination has no verifiable exhausted terminal state",
+    "All contains unranked interstitial products, so a complete stable Product Hunt ID set cannot be established",
+    "Featured/All ID-subset reconciliation cannot be completed from the rendered listing",
+    "candidate detail and complete-comment checks have not begun for this date"
+  ],
+  "notes": "Raw observation saved before any checkpoint/state advance. This is closed-day evidence only, not a publishable daily archive. Counts are rendered ranks; trailing Featured rows were not all visible in the captured viewport and are deliberately not inferred."
+}

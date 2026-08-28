@@ -1,0 +1,20 @@
+{
+  "run_at_utc": "2026-08-28T08:19:00Z",
+  "owner": "Product-Hunt-20260828T081642Z-961612",
+  "surface": "logged_in_local_chrome_read_only",
+  "outcome": "exception",
+  "dates_processed": ["2026-08-25", "2026-08-26", "2026-08-27"],
+  "continuation": {"input": "2026-08-25 partial, 2026-08-26 partial, 2026-08-27 closed-day capture", "output": "2026-08-27 frozen at All-listing reconciliation"},
+  "health_before": "degraded: no_complete_date; latest formal run exception",
+  "stability_sampling": {"featured_samples": 3, "all_samples": 3, "interval_ms": 600, "reload_retries": 0, "new_tab_retries": 0},
+  "evidence": ["producthunt/raw/2026/08/2026-08-27.closed-2026-08-28T081900Z.json"],
+  "frozen_status": {"2026-08-25": "partial", "2026-08-26": "partial", "2026-08-27": "partial"},
+  "missing_gates": [
+    "2026-08-25: complete Featured/All records and depth evidence absent",
+    "2026-08-26: maker/hunter identities incomplete; rendered DOM lacks stable parent-comment identifiers",
+    "2026-08-27: All pagination terminal state and Featured/All stable ID reconciliation unavailable; candidates not yet checked"
+  ],
+  "delivery": {"github_push": {"status": "PENDING"}, "dingtalk": {"status": "PENDING", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw=="}},
+  "published": false,
+  "archive_page": false
+}
