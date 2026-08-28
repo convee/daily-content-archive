@@ -2,7 +2,7 @@
   "schema_version": 1,
   "continuity_started_at_utc": "2026-08-26T12:44:32Z",
   "last_successful_run_at_utc": "2026-08-27T13:30:50.153Z",
-  "last_run_at_utc": "2026-08-28T17:14:16.595Z",
+  "last_run_at_utc": "2026-08-28T19:13:20.557Z",
   "seen_status_ids": [
     "1281424520100737025",
     "1862598063275061484",
@@ -21,6 +21,7 @@
     "1973804398682751249",
     "1973808086143127682",
     "1973808498938155219",
+    "1991213257218986120",
     "1991640180185317644",
     "1991901746579509542",
     "1991942484633821553",
@@ -505,6 +506,7 @@
     "2087288043547836679",
     "2087305196841922782",
     "2087305199505342537",
+    "2087413988451574199",
     "2087437017840046156",
     "2087521619459850348",
     "2087533300403626464",
@@ -1977,6 +1979,7 @@
     "2093009115895243031",
     "2093009334712291349",
     "2093009416643825786",
+    "2093010660749951215",
     "2093011174619000981",
     "2093012808380059717",
     "2093013213038469205",
@@ -2717,6 +2720,7 @@
     "2093258552156533195",
     "2093271150734278709",
     "2093281977117921680",
+    "2093285718873559443",
     "2093310159892472260",
     "2093312173455864275",
     "2093313927522263338",
@@ -2766,8 +2770,19 @@
     "2093356094319988751",
     "2093356123789156826",
     "2093356198959403366",
+    "2093356532251476101",
     "2093358730737827952",
+    "2093359440829587874",
+    "2093361752356360667",
+    "2093365294404116789",
+    "2093367595575472167",
+    "2093368208753394033",
+    "2093368280182317137",
+    "2093371786352324888",
+    "2093374349306683864",
     "2093375334351520215",
+    "2093377991053107260",
+    "2093379844260409449",
     "2093380324730323165",
     "2093380326533816372",
     "2093380330325409923",
@@ -2803,6 +2818,44 @@
     "2093386385650520450",
     "2093386419435954621",
     "2093386503422464032",
+    "2093386528668172373",
+    "2093386529846722913",
+    "2093388974194872781",
+    "2093399189690691994",
+    "2093399300093222976",
+    "2093402460966600794",
+    "2093403516819714473",
+    "2093405469834383510",
+    "2093412079075991946",
+    "2093412322081436098",
+    "2093413136288366966",
+    "2093414374736110065",
+    "2093414433183985877",
+    "2093414486879175142",
+    "2093414530340819397",
+    "2093414631813640221",
+    "2093414695856181601",
+    "2093414714512670866",
+    "2093414764844138966",
+    "2093414825405661576",
+    "2093414904585732521",
+    "2093414950148489592",
+    "2093414997435039752",
+    "2093415072198475881",
+    "2093415328889893063",
+    "2093415706964717810",
+    "2093415745048957019",
+    "2093415841047998832",
+    "2093415908123504692",
+    "2093416144577368407",
+    "2093416198637760950",
+    "2093416200995004438",
+    "2093416253738111409",
+    "2093416296645869969",
+    "2093416386651635897",
+    "2093416433279549878",
+    "2093416465324007926",
+    "2093416468994220248",
     "806464279302049792"
   ],
   "source_checkpoints": {
@@ -3910,28 +3963,28 @@
   ],
   "frozen_sources": {
     "query:AI agent OR agentic coding": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093386205090218437"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "1991213257218986120"
     },
     "query:LLM inference OR AI chips": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093384157229617624"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093414530340819397"
     },
     "query:open weights OR open source AI": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093385055636975751"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093414374736110065"
     },
     "query:AI security OR prompt injection": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093386178859081792"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093414695856181601"
     },
     "following": {
       "captured_at": "2026-08-28T15:14:14.654Z",
@@ -4044,10 +4097,10 @@
       }
     },
     "query:robotics foundation model": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": null
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093359440829587874"
     },
     "account:@huggingface": {
       "captured_at": "2026-08-28T15:14:14.654Z",
@@ -4178,130 +4231,130 @@
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl"
     },
     "account:OpenAI": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2087996496088297746"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2092691861773160673"
     },
     "account:AnthropicAI": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2092661573223657834"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2092661574523867302"
     },
     "account:GoogleDeepMind": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2092659221477077101"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093019632475001225"
     },
     "account:xai": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": null
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2091957125941543034"
     },
     "account:MistralAI": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
       "deepest_visible_status_id": "2087305196841922782"
     },
     "account:AIatMeta": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2090505420817494500"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2090485743034716420"
     },
     "account:huggingface": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": null
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2085758063471120848"
     },
     "account:nvidia": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2091973784647451096"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2092960850197741946"
     },
     "account:GitHub": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093380339917857233"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2092584970812367077"
     },
     "account:ycombinator": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2092364282629640512"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2092041032104022506"
     },
     "account:producthunt": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2092717926914916678"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093054760228434331"
     },
     "account:TechCrunch": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "1927718512719515863"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093361752356360667"
     },
     "account:arxiv": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "1933257262912385067"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2039441602964304025"
     },
     "account:karpathy": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": null
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2064394151441863006"
     },
     "account:AndrewYNg": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": null
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2090840747738374568"
     },
     "account:ylecun": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2092459016643297728"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2080392383364014159"
     },
     "account:simonw": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093338701233541493"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2088646238933840153"
     },
     "account:swyx": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": null
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2090948945753076141"
     },
     "account:hardmaru": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "806464279302049792"
-    },
-    "following:following": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
       "deepest_visible_status_id": null
     },
+    "following:following": {
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093388974194872781"
+    },
     "for_you:for_you": {
-      "frozen_at": "2026-08-28T17:14:16.595Z",
-      "reason": "three stability samples reflowed; no safe checkpoint traversal",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T171216Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093187702271213596"
+      "frozen_at": "2026-08-28T19:13:20.557Z",
+      "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
+      "deepest_visible_status_id": "2093412322081436098"
     }
   }
 }
