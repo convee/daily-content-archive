@@ -256,6 +256,9 @@ button { color: inherit; }
 .card-link:hover { border-color: var(--card-accent, var(--accent)); color: var(--text); background: color-mix(in srgb, var(--card-accent, var(--accent)) 16%, var(--surface)); }
 .card-link::after { content: "→"; transition: transform .2s ease; }
 .archive-card:hover .card-link::after { transform: translateX(4px); }
+.card-link-disabled { color: var(--muted); border-style: dashed; background: transparent; cursor: default; }
+.card-link-disabled::after { content: ""; }
+.archive-card:hover .card-link-disabled::after { transform: none; }
 .empty-state { display: none; padding: 42px; border: 1px dashed var(--line); border-radius: var(--radius); color: var(--muted); text-align: center; }
 .empty-state[data-visible="true"] { display: block; }
 .history-section { margin: 44px 0 34px; }
