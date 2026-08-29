@@ -1,0 +1,40 @@
+{
+  "comment_count": 11268,
+  "complete": true,
+  "ids_checked": 12764,
+  "null_item_ids": [],
+  "range_end_id_inclusive": 49485946,
+  "range_start_id_exclusive": 49473182,
+  "raw_file": "hackernews/raw/2026/08/29/items-49473183-49485946.jsonl",
+  "request_failures": [],
+  "retrieved_at_utc": "2026-08-29T01:02:30Z",
+  "schema_version": 1,
+  "source": "https://hacker-news.firebaseio.com/v0/",
+  "source_documentation": "https://github.com/HackerNews/API",
+  "story_count": 1494,
+  "automation_transaction": {
+    "lock_name": "repo-write",
+    "lock_owner": "hackernews-20260829T0101Z-9f2c",
+    "browser_originals_checked": 8,
+    "browser_original_failures_excluded": 1,
+    "browser_comment_anchors_checked": 18,
+    "browser_stability_samples_per_page": 3,
+    "health_status": "healthy",
+    "tests_passed": 5,
+    "github": {
+      "status": "pending_initial_push",
+      "commit": null
+    },
+    "pages": {
+      "status": "pending",
+      "url": "https://convee.cn/daily-content-archive/hackernews/2026/08/2026-08-29.html"
+    },
+    "dingtalk": {
+      "status": "pending",
+      "openConversationId": null,
+      "openTaskId": null,
+      "openMessageId": null,
+      "sendStatus": null
+    }
+  }
+}
