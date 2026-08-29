@@ -37,7 +37,7 @@
       ],
         "run": "producthunt/run/2026/08/2026-08-27.json"
       },
-      "2026-08-27": {
+    "2026-08-27": {
         "status": "partial",
         "updated_at_utc": "2026-08-28T08:19:00Z",
         "featured_visible_ranked": 17,
@@ -48,8 +48,21 @@
           "AI/tech candidate product and full comment collection",
           "all product-detail metadata and discovery verification"
         ],
-        "run": "producthunt/run/2026/08/2026-08-28.json"
-      }
+      "run": "producthunt/run/2026/08/2026-08-28.json"
+    },
+    "2026-08-28": {
+      "status": "partial",
+      "updated_at_utc": "2026-08-29T08:19:00Z",
+      "featured_visible_ranked": 17,
+      "all_visible_ranked": 17,
+      "missing_gates": [
+        "All pagination exhausted and terminal state verified",
+        "stable Product Hunt ID set and Featured subset reconciliation",
+        "AI/tech candidate product and full comment collection",
+        "all product-detail metadata and discovery verification"
+      ],
+      "run": "producthunt/run/2026/08/2026-08-29.json"
+    }
   },
   "intraday_snapshots": {},
   "comment_revisit_queue": [],

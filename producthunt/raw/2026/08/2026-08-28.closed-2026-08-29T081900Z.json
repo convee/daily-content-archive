@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-28",
+  "captured_at": "2026-08-29T08:19:00Z",
+  "browser": "logged_in_local_chrome_read_only",
+  "stability_sampling": {
+    "samples": 3,
+    "minimum_interval_ms": 600,
+    "featured": {
+      "url": "https://www.producthunt.com/leaderboard/daily/2026/08/28",
+      "title": "Best of Product Hunt: August 28, 2026 | Product Hunt",
+      "product_anchor_count": 37,
+      "visible_ranked": 17,
+      "stable": true,
+      "unranked_interstitials": ["Viktor.com", "Wispr Flow: Dictation That Works Everywhere"]
+    },
+    "all": {
+      "url": "https://www.producthunt.com/leaderboard/daily/2026/08/28/all",
+      "title": "Best of Product Hunt: August 28, 2026 | Product Hunt",
+      "product_anchor_count": 36,
+      "visible_ranked": 17,
+      "stable": true,
+      "unranked_interstitials": ["Mark by Airtop", "Wispr Flow: Dictation That Works Everywhere"],
+      "pagination_controls": [],
+      "pagination_exhaustion_verifiable": false
+    }
+  },
+  "featured_visible_ranked": ["1. PageIndex", "2. Caddi", "3. Microduck", "4. Gemini Omni 1.1 Flash", "5. OpenTag", "6. Firecrawl Developer Index", "7. Almanac", "8. Aramb", "9. screenpipe", "10. Glisio", "11. Spline V2", "12. SuperIntern", "13. Play with Putty", "14. Revalvo", "15. CTRL Micro", "16. Fide Island", "17. AureaCam"],
+  "all_visible_ranked": ["2. Caddi", "1. PageIndex", "5. OpenTag", "3. Microduck", "4. Gemini Omni 1.1 Flash", "7. Almanac", "6. Firecrawl Developer Index", "8. Aramb", "9. screenpipe", "12. SuperIntern", "21. marketing.lol", "11. Spline V2", "10. Glisio", "13. Play with Putty", "20. CrowdVolt", "15. CTRL Micro", "14. Revalvo"],
+  "failure_gates": [
+    "All pagination has no verifiable exhausted terminal state",
+    "All contains unranked interstitial products, so a complete stable Product Hunt ID set cannot be established",
+    "Featured/All ID-subset reconciliation cannot be completed from the rendered listing",
+    "candidate detail and complete-comment checks have not begun for this date"
+  ],
+  "notes": "Three stable Chrome samples were recorded for each official closed-day URL. This durable raw observation is intentionally partial and not publishable. No page interactions, voting, commenting, following, or account changes were performed."
+}
