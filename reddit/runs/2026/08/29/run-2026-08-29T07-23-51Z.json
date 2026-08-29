@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "platform": "reddit",
+  "started_at_utc": "2026-08-29T07:21:17Z",
+  "completed_at_utc": "2026-08-29T07:23:51Z",
+  "lock_owner": "Reddit-20260829T072117Z-27853",
+  "browser": {"surface": "Chrome", "read_only": true, "stable_samples_required": 3, "result": "tool_timeout_kernel_reset"},
+  "raw_files": ["reddit/raw/2026/08/29/browser-timeout-2026-08-29T07-23-51Z.jsonl"],
+  "records": {"posts": 0, "raw_comments": 0, "selected_comments": 0},
+  "layers": {
+    "new": {"attempted": 12, "success": 0, "failure": 12, "status": "frozen"},
+    "hot_rising": {"attempted": 24, "success": 0, "failure": 24, "status": "frozen"},
+    "global": {"attempted": 3, "success": 0, "failure": 3, "status": "frozen"},
+    "search": {"attempted": 8, "success": 0, "failure": 8, "status": "frozen"},
+    "comments": {"due": 2, "success": 0, "failure": 2, "status": "frozen"},
+    "community_discovery": {"attempted": 1, "candidates_added": 0, "status": "not_evidenced"}
+  },
+  "failure_ledger": [{"source":"Chrome collection batch: New 12; Hot/Rising 24; Home/Popular/All 3; Search 8; due comment revisits 2","reason":"The required Chrome read-only batch exceeded its 120-second tool limit and reset before returning any per-source stability samples or extractable records.","frozen":true,"last_checkpoint":"unchanged","recovery":"Use smaller bounded browser batches with a supported browser-to-durable raw transfer; resume existing continuation boundaries."}],
+  "continuation": {"input":"existing state continuations retained", "output":"none; tool timeout before verifiable page result"},
+  "github": {"status":"pending","commit":null,"origin_main_verified":false},
+  "dingtalk": {"status":"pending","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","sendStatus":"pending"},
+  "publication": {"eligible":false,"reason":"No complete durable source evidence; no daily page or index change."}
+}
