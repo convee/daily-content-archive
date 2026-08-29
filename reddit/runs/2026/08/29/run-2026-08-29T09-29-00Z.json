@@ -96,7 +96,11 @@
     "origin_main_verified": true
   },
   "dingtalk": {
-    "status": "pending"
+    "status": "sent",
+    "openTaskId": "HKLLEWEozWA4GVCbziLNlILJXqG9LRftBtexbokj1jc=",
+    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "openMessageId": "msgSxlvkvA7yfMHYnN6RTfJtQ==",
+    "sendStatus": "SUCCESS"
   },
   "publication": {
     "eligible": false,
