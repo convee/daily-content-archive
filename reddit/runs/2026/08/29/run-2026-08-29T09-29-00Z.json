@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "platform": "reddit",
+  "started_at_utc": "2026-08-29T09:20:53Z",
+  "completed_at_utc": "2026-08-29T09:29:00Z",
+  "lock_owner": "Reddit-20260829T092053Z-23053",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples_required": 3,
+    "result": "partial_observations_durable_search_client_blocked"
+  },
+  "raw_files": [
+    "reddit/raw/2026/08/29/new-observations-2026-08-29T09-22-30Z.jsonl",
+    "reddit/raw/2026/08/29/discovery-partial-2026-08-29T09-28-10Z.jsonl"
+  ],
+  "records": {
+    "posts": 650,
+    "raw_comments": 0,
+    "selected_comments": 0
+  },
+  "layers": {
+    "new": {
+      "attempted": 12,
+      "success": 0,
+      "failure": 12,
+      "status": "frozen"
+    },
+    "hot_rising": {
+      "attempted": 24,
+      "success": 0,
+      "failure": 24,
+      "status": "frozen"
+    },
+    "global": {
+      "attempted": 3,
+      "success": 0,
+      "failure": 3,
+      "status": "frozen"
+    },
+    "search": {
+      "attempted": 8,
+      "success": 0,
+      "failure": 8,
+      "status": "frozen"
+    },
+    "comments": {
+      "due": 2,
+      "success": 0,
+      "failure": 2,
+      "status": "frozen"
+    },
+    "community_discovery": {
+      "attempted": 1,
+      "candidates_added": 0,
+      "status": "not_evidenced"
+    }
+  },
+  "failure_ledger": [
+    {
+      "source": "New 12 communities",
+      "reason": "head observations durable but scrolling did not cross prior continuity boundary; checkpoints frozen",
+      "frozen": true,
+      "last_checkpoint": "state.community_checkpoints unchanged",
+      "recovery": "resume each community from saved continuation/old boundary with stable pagination"
+    },
+    {
+      "source": "Hot/Rising 24 + Home/Popular/All",
+      "reason": "durable head snapshots captured but stability/complete snapshot ledger not achieved for publication-grade success",
+      "frozen": true,
+      "last_checkpoint": "snapshot cursors unchanged",
+      "recovery": "repeat bounded stable samples and persist complete per-entry snapshot ledger"
+    },
+    {
+      "source": "Search 8 queries",
+      "reason": "Chrome reported net::ERR_BLOCKED_BY_CLIENT on modern Reddit search after five attempts; remaining three not navigated",
+      "frozen": true,
+      "last_checkpoint": "search_checkpoints unchanged",
+      "recovery": "retry modern Posts+New in a fresh named Chrome tab; retain existing frozen checkpoints"
+    },
+    {
+      "source": "Comments 2 due revisits",
+      "reason": "not run because source collection consumed browser batch and search was blocked",
+      "frozen": true,
+      "last_checkpoint": "thread_revisit_queue unchanged",
+      "recovery": "open each due permalink, load all visible comments and More replies before advancing"
+    }
+  ],
+  "continuation": {
+    "input": "existing state continuations retained",
+    "output": "head observations saved; no cursor moved"
+  },
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "pending"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "partial source evidence and due comments not collected"
+  }
+}
