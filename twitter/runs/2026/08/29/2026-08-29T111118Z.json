@@ -1,0 +1,1097 @@
+{
+  "schema_version": 1,
+  "platform": "twitter",
+  "run_id": "2026-08-29T111118Z",
+  "started_at_utc": "2026-08-29T11:11:18Z",
+  "finished_at_utc": "2026-08-29T11:15:48Z",
+  "status": "partial_frozen",
+  "lock": {
+    "owner": "twitter-20260829T111118Z-16ea1b",
+    "acquire_retries": 0,
+    "waited_seconds": 0,
+    "ttl_seconds": 5400,
+    "acquired_at_utc": "2026-08-29T11:11:18Z"
+  },
+  "health_before": {
+    "status": "degraded",
+    "errors": 0,
+    "warning": "latest_run_degraded; frozen cursors retained"
+  },
+  "raw_files": [
+    "twitter/raw/2026/08/29/2026-08-29T111118Z-attempt-ledger.jsonl",
+    "twitter/raw/2026/08/29/2026-08-29T111118Z-replies.jsonl"
+  ],
+  "source_attempts": [
+    {
+      "source_type": "account",
+      "source": "@OpenAI",
+      "stability_samples": [
+        {
+          "url": "https://x.com/OpenAI",
+          "title": "OpenAI (@OpenAI) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/OpenAI",
+          "title": "OpenAI (@OpenAI) / X",
+          "anchors": 7,
+          "articles": 3
+        },
+        {
+          "url": "https://x.com/OpenAI",
+          "title": "OpenAI (@OpenAI) / X",
+          "anchors": 9,
+          "articles": 4
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2092300846675505602",
+      "deepest_visible_status_id": "2092335305366069305",
+      "observed_status_ids": [
+        "2092300846675505602",
+        "2093515564786540695",
+        "2093074192636018977",
+        "2092691861773160673",
+        "2092691863505346634",
+        "2092335305366069305"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@AnthropicAI",
+      "stability_samples": [
+        {
+          "url": "https://x.com/AnthropicAI",
+          "title": "Anthropic (@AnthropicAI) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/AnthropicAI",
+          "title": "Anthropic (@AnthropicAI) / X",
+          "anchors": 14,
+          "articles": 7
+        },
+        {
+          "url": "https://x.com/AnthropicAI",
+          "title": "Anthropic (@AnthropicAI) / X",
+          "anchors": 12,
+          "articles": 6
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2093386528668172373",
+      "deepest_visible_status_id": "2089842389682954621",
+      "observed_status_ids": [
+        "2093386528668172373",
+        "2093386529846722913",
+        "2093038426140651791",
+        "2093038427642134590",
+        "2092661573223657834",
+        "2092661574523867302",
+        "2089842387845804246",
+        "2089842389682954621"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@GoogleDeepMind",
+      "stability_samples": [
+        {
+          "url": "https://x.com/GoogleDeepMind",
+          "title": "Google DeepMind (@GoogleDeepMind) / X",
+          "anchors": 0,
+          "articles": 3
+        },
+        {
+          "url": "https://x.com/GoogleDeepMind",
+          "title": "Google DeepMind (@GoogleDeepMind) / X",
+          "anchors": 10,
+          "articles": 4
+        },
+        {
+          "url": "https://x.com/GoogleDeepMind",
+          "title": "Google DeepMind (@GoogleDeepMind) / X",
+          "anchors": 10,
+          "articles": 4
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2092961763553677387",
+      "deepest_visible_status_id": "2092659223591039374",
+      "observed_status_ids": [
+        "2092961763553677387",
+        "2093338200580256172",
+        "2093019627437662680",
+        "2093019632475001225",
+        "2092659221477077101",
+        "2092659223591039374"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@xai",
+      "stability_samples": [
+        {
+          "url": "https://x.com/spacexai",
+          "title": "SpaceXAI (@SpaceXAI) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/spacexai",
+          "title": "SpaceXAI (@SpaceXAI) / X",
+          "anchors": 11,
+          "articles": 5
+        },
+        {
+          "url": "https://x.com/spacexai",
+          "title": "SpaceXAI (@SpaceXAI) / X",
+          "anchors": 11,
+          "articles": 5
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2035562571932024842",
+      "deepest_visible_status_id": "2090885694407250418",
+      "observed_status_ids": [
+        "2035562571932024842",
+        "2092644384730972669",
+        "2091987538999197752",
+        "2091987541272543406",
+        "2091957125941543034",
+        "2090885694407250418"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@MistralAI",
+      "stability_samples": [
+        {
+          "url": "https://x.com/MistralAI",
+          "title": "Mistral AI (@MistralAI) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/MistralAI",
+          "title": "Mistral AI (@MistralAI) / X",
+          "anchors": 16,
+          "articles": 7
+        },
+        {
+          "url": "https://x.com/MistralAI",
+          "title": "Mistral AI (@MistralAI) / X",
+          "anchors": 16,
+          "articles": 7
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2091964930715013224",
+      "deepest_visible_status_id": "2075131809638088865",
+      "observed_status_ids": [
+        "2091964930715013224",
+        "2091964933172822070",
+        "2087305196841922782",
+        "2087305199505342537",
+        "2084684735725379637",
+        "2084684737554141253",
+        "2079598447234064801",
+        "2075131809638088865"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@AIatMeta",
+      "stability_samples": [
+        {
+          "url": "https://x.com/AIatMeta",
+          "title": "AI at Meta (@AIatMeta) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/AIatMeta",
+          "title": "AI at Meta (@AIatMeta) / X",
+          "anchors": 10,
+          "articles": 3
+        },
+        {
+          "url": "https://x.com/AIatMeta",
+          "title": "AI at Meta (@AIatMeta) / X",
+          "anchors": 12,
+          "articles": 4
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2086757844544811485",
+      "deepest_visible_status_id": "2085388945148297322",
+      "observed_status_ids": [
+        "2086757844544811485",
+        "2090505413817246050",
+        "2090505417512345857",
+        "2090485743034716420",
+        "2090485744620200366",
+        "2085388945148297322"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@huggingface",
+      "stability_samples": [
+        {
+          "url": "https://x.com/huggingface",
+          "title": "Hugging Face (@huggingface) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/huggingface",
+          "title": "Hugging Face (@huggingface) / X",
+          "anchors": 12,
+          "articles": 5
+        },
+        {
+          "url": "https://x.com/huggingface",
+          "title": "Hugging Face (@huggingface) / X",
+          "anchors": 10,
+          "articles": 4
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2092727360584135026",
+      "deepest_visible_status_id": "2085758063471120848",
+      "observed_status_ids": [
+        "2092727360584135026",
+        "2089673018737869242",
+        "2088301795890044975",
+        "2087521619459850348",
+        "2085758063471120848"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@nvidia",
+      "stability_samples": [
+        {
+          "url": "https://x.com/nvidia",
+          "title": "NVIDIA (@nvidia) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/nvidia",
+          "title": "NVIDIA (@nvidia) / X",
+          "anchors": 10,
+          "articles": 3
+        },
+        {
+          "url": "https://x.com/nvidia",
+          "title": "NVIDIA (@nvidia) / X",
+          "anchors": 14,
+          "articles": 5
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2093484389682270429",
+      "deepest_visible_status_id": "2093036251603734919",
+      "observed_status_ids": [
+        "2093484389682270429",
+        "2093484391771103305",
+        "2093457336161419676",
+        "2093457337369448833",
+        "2093399189690691994",
+        "2093399300093222976",
+        "2093036251603734919"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@GitHub",
+      "stability_samples": [
+        {
+          "url": "https://x.com/GitHub",
+          "title": "GitHub (@github) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/GitHub",
+          "title": "GitHub (@github) / X",
+          "anchors": 10,
+          "articles": 4
+        },
+        {
+          "url": "https://x.com/GitHub",
+          "title": "GitHub (@github) / X",
+          "anchors": 10,
+          "articles": 4
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2093008357644779643",
+      "deepest_visible_status_id": "2092584972963983812",
+      "observed_status_ids": [
+        "2093008357644779643",
+        "2093474503988801605",
+        "2093380324730323165",
+        "2093380326533816372",
+        "2092584970812367077",
+        "2092584972963983812"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@ycombinator",
+      "stability_samples": [
+        {
+          "url": "https://x.com/ycombinator",
+          "title": "Y Combinator (@ycombinator) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/ycombinator",
+          "title": "Y Combinator (@ycombinator) / X",
+          "anchors": 12,
+          "articles": 5
+        },
+        {
+          "url": "https://x.com/ycombinator",
+          "title": "Y Combinator (@ycombinator) / X",
+          "anchors": 12,
+          "articles": 5
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2092680754790891676",
+      "deepest_visible_status_id": "2091941108138066197",
+      "observed_status_ids": [
+        "2092680754790891676",
+        "2093023291124720120",
+        "2093023294413013083",
+        "2092996532232769576",
+        "2092041032104022506",
+        "2091941108138066197"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@producthunt",
+      "stability_samples": [
+        {
+          "url": "https://x.com/producthunt",
+          "title": "Product Hunt 😸 (@ProductHunt) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/producthunt",
+          "title": "Product Hunt 😸 (@ProductHunt) / X",
+          "anchors": 0,
+          "articles": 3
+        },
+        {
+          "url": "https://x.com/producthunt",
+          "title": "Product Hunt 😸 (@ProductHunt) / X",
+          "anchors": 10,
+          "articles": 5
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2093417082767737075",
+      "deepest_visible_status_id": "2093189665545507258",
+      "observed_status_ids": [
+        "2093417082767737075",
+        "2093371786352324888",
+        "2093334697120285035",
+        "2093323168073318449",
+        "2093189665545507258"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@TechCrunch",
+      "stability_samples": [
+        {
+          "url": "https://x.com/TechCrunch",
+          "title": "TechCrunch (@TechCrunch) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/TechCrunch",
+          "title": "TechCrunch (@TechCrunch) / X",
+          "anchors": 10,
+          "articles": 5
+        },
+        {
+          "url": "https://x.com/TechCrunch",
+          "title": "TechCrunch (@TechCrunch) / X",
+          "anchors": 8,
+          "articles": 4
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2093482634009588178",
+      "deepest_visible_status_id": "2093421145651282347",
+      "observed_status_ids": [
+        "2093482634009588178",
+        "2093480031574016250",
+        "2093469957308760094",
+        "2093434719648059590",
+        "2093421145651282347"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@arxiv",
+      "stability_samples": [
+        {
+          "url": "https://x.com/arxiv",
+          "title": "arXiv.org (@arxiv) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/arxiv",
+          "title": "arXiv.org (@arxiv) / X",
+          "anchors": 8,
+          "articles": 3
+        },
+        {
+          "url": "https://x.com/arxiv",
+          "title": "arXiv.org (@arxiv) / X",
+          "anchors": 8,
+          "articles": 3
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2087178413689713105",
+      "deepest_visible_status_id": "2032277654884290948",
+      "observed_status_ids": [
+        "2087178413689713105",
+        "2075304842591969385",
+        "2039441602964304025",
+        "2032306238101352842",
+        "2032277654884290948"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@karpathy",
+      "stability_samples": [
+        {
+          "url": "https://x.com/karpathy",
+          "title": "Andrej Karpathy (@karpathy) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/karpathy",
+          "title": "Andrej Karpathy (@karpathy) / X",
+          "anchors": 4,
+          "articles": 2
+        },
+        {
+          "url": "https://x.com/karpathy",
+          "title": "Andrej Karpathy (@karpathy) / X",
+          "anchors": 13,
+          "articles": 6
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2083749667410727319",
+      "deepest_visible_status_id": "2064409694761054332",
+      "observed_status_ids": [
+        "2083749667410727319",
+        "2083948654377996480",
+        "2079610838143623371",
+        "2069547676849557725",
+        "2065490793092337691",
+        "2064409694761054332"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@AndrewYNg",
+      "stability_samples": [
+        {
+          "url": "https://x.com/AndrewYNg",
+          "title": "Andrew Ng (@AndrewYNg) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/AndrewYNg",
+          "title": "Andrew Ng (@AndrewYNg) / X",
+          "anchors": 11,
+          "articles": 5
+        },
+        {
+          "url": "https://x.com/AndrewYNg",
+          "title": "Andrew Ng (@AndrewYNg) / X",
+          "anchors": 11,
+          "articles": 5
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2088302050706686198",
+      "deepest_visible_status_id": "2086845515665166398",
+      "observed_status_ids": [
+        "2088302050706686198",
+        "2093388974194872781",
+        "2092315079576555806",
+        "2091688153048645650",
+        "2090840747738374568",
+        "2086845515665166398"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@ylecun",
+      "stability_samples": [
+        {
+          "url": "https://x.com/ylecun",
+          "title": "Yann LeCun (@ylecun) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/ylecun",
+          "title": "Yann LeCun (@ylecun) / X",
+          "anchors": 0,
+          "articles": 2
+        },
+        {
+          "url": "https://x.com/ylecun",
+          "title": "Yann LeCun (@ylecun) / X",
+          "anchors": 10,
+          "articles": 4
+        }
+      ],
+      "stable": false,
+      "first_status_id": "1862598063275061484",
+      "deepest_visible_status_id": "2075574336656994736",
+      "observed_status_ids": [
+        "1862598063275061484",
+        "2088924354604040368",
+        "2083290542956224643",
+        "2080588168781336630",
+        "2075574336656994736"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@simonw",
+      "stability_samples": [
+        {
+          "url": "https://x.com/simonw",
+          "title": "Simon Willison (@simonw) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/simonw",
+          "title": "Simon Willison (@simonw) / X",
+          "anchors": 16,
+          "articles": 7
+        },
+        {
+          "url": "https://x.com/simonw",
+          "title": "Simon Willison (@simonw) / X",
+          "anchors": 13,
+          "articles": 6
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2093081897517674630",
+      "deepest_visible_status_id": "2088361426662637714",
+      "observed_status_ids": [
+        "2093081897517674630",
+        "2090299859693695283",
+        "2090300020918481059",
+        "2089112517796827439",
+        "2089120083499245921",
+        "2088646238933840153",
+        "2088648622942638557",
+        "2088361426662637714"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@swyx",
+      "stability_samples": [
+        {
+          "url": "https://x.com/swyx",
+          "title": "swyx (@swyx) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/swyx",
+          "title": "swyx (@swyx) / X",
+          "anchors": 9,
+          "articles": 3
+        },
+        {
+          "url": "https://x.com/swyx",
+          "title": "swyx (@swyx) / X",
+          "anchors": 9,
+          "articles": 3
+        }
+      ],
+      "stable": false,
+      "first_status_id": "1281424520100737025",
+      "deepest_visible_status_id": "2090813719018176904",
+      "observed_status_ids": [
+        "1281424520100737025",
+        "2092492963435946494",
+        "2090948945753076141",
+        "2090908959590740033",
+        "2090813719018176904"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "account",
+      "source": "@hardmaru",
+      "stability_samples": [
+        {
+          "url": "https://x.com/hardmaru",
+          "title": "hardmaru (@hardmaru) / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/hardmaru",
+          "title": "hardmaru (@hardmaru) / X",
+          "anchors": 4,
+          "articles": 2
+        },
+        {
+          "url": "https://x.com/hardmaru",
+          "title": "hardmaru (@hardmaru) / X",
+          "anchors": 8,
+          "articles": 4
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2068884466056225025",
+      "deepest_visible_status_id": "2089034954948706770",
+      "observed_status_ids": [
+        "2068884466056225025",
+        "2093645701192544514",
+        "2091758663199600785",
+        "2091759381318946938",
+        "2090628114888183964",
+        "2089034954948706770"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "query",
+      "source": "AI agent OR agentic coding",
+      "stability_samples": [
+        {
+          "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+          "title": "AI agent OR agentic coding - 搜索 / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+          "title": "AI agent OR agentic coding - 搜索 / X",
+          "anchors": 14,
+          "articles": 6
+        },
+        {
+          "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+          "title": "AI agent OR agentic coding - 搜索 / X",
+          "anchors": 14,
+          "articles": 6
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2093658343181357342",
+      "deepest_visible_status_id": "2093657917073285615",
+      "observed_status_ids": [
+        "2093658343181357342",
+        "2093658277557235798",
+        "2093658245705437678",
+        "2093658230077751697",
+        "2093658132186595833",
+        "2093658099290685779",
+        "2093658095285108953",
+        "2093657981451943971",
+        "2093657917073285615"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "query",
+      "source": "LLM inference OR AI chips",
+      "stability_samples": [
+        {
+          "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+          "title": "LLM inference OR AI chips - 搜索 / X",
+          "anchors": 11,
+          "articles": 5
+        },
+        {
+          "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+          "title": "LLM inference OR AI chips - 搜索 / X",
+          "anchors": 17,
+          "articles": 8
+        },
+        {
+          "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+          "title": "LLM inference OR AI chips - 搜索 / X",
+          "anchors": 17,
+          "articles": 8
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2093658302311710958",
+      "deepest_visible_status_id": "2093655176129257565",
+      "observed_status_ids": [
+        "2093658302311710958",
+        "2093658215653212439",
+        "2093656992963256626",
+        "2093656915850957067",
+        "2093656708602384845",
+        "2093656465383076196",
+        "2093655933964497219",
+        "2093655704720552308",
+        "2093655681068892433",
+        "2093655176129257565"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "query",
+      "source": "open weights OR open source AI",
+      "stability_samples": [
+        {
+          "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+          "title": "open weights OR open source AI - 搜索 / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+          "title": "open weights OR open source AI - 搜索 / X",
+          "anchors": 11,
+          "articles": 11
+        },
+        {
+          "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+          "title": "open weights OR open source AI - 搜索 / X",
+          "anchors": 22,
+          "articles": 9
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2093658216236491183",
+      "deepest_visible_status_id": "2093656138189246814",
+      "observed_status_ids": [
+        "2093658216236491183",
+        "2093658148087468354",
+        "2093658125236674955",
+        "2093658099584311644",
+        "2093657199759577508",
+        "2093657162778022319",
+        "2093656963565641782",
+        "2093656567904133528",
+        "2093656145349005636",
+        "2093656138189246814"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "query",
+      "source": "robotics foundation model",
+      "stability_samples": [
+        {
+          "url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+          "title": "robotics foundation model - 搜索 / X",
+          "anchors": 14,
+          "articles": 5
+        },
+        {
+          "url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+          "title": "robotics foundation model - 搜索 / X",
+          "anchors": 11,
+          "articles": 4
+        },
+        {
+          "url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+          "title": "robotics foundation model - 搜索 / X",
+          "anchors": 11,
+          "articles": 4
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2093624170374660361",
+      "deepest_visible_status_id": "2093454073290985607",
+      "observed_status_ids": [
+        "2093624170374660361",
+        "2093561220641051044",
+        "2093550430299230361",
+        "2093548727487389704",
+        "2093495362661277971",
+        "2093473701748412551",
+        "2093454073290985607"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "query",
+      "source": "AI security OR prompt injection",
+      "stability_samples": [
+        {
+          "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+          "title": "AI security OR prompt injection - 搜索 / X",
+          "anchors": 0,
+          "articles": 5
+        },
+        {
+          "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+          "title": "AI security OR prompt injection - 搜索 / X",
+          "anchors": 13,
+          "articles": 6
+        },
+        {
+          "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+          "title": "AI security OR prompt injection - 搜索 / X",
+          "anchors": 13,
+          "articles": 6
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2093658390514041005",
+      "deepest_visible_status_id": "2093657105861619764",
+      "observed_status_ids": [
+        "2093658390514041005",
+        "2093658243461419440",
+        "2093658171227144371",
+        "2093658057418949001",
+        "2093658009180180851",
+        "2093657471638524014",
+        "2093657105861619764"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "following",
+      "source": "following",
+      "stability_samples": [
+        {
+          "url": "https://x.com/home",
+          "title": "主页 / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/home",
+          "title": "主页 / X",
+          "anchors": 13,
+          "articles": 6
+        },
+        {
+          "url": "https://x.com/home",
+          "title": "主页 / X",
+          "anchors": 10,
+          "articles": 5
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2093225230747783513",
+      "deepest_visible_status_id": "2093162626721419666",
+      "observed_status_ids": [
+        "2093225230747783513",
+        "2092641056500363500",
+        "2093384545118908724",
+        "2093644357609939268",
+        "2093383128945430540",
+        "2093353050823852395",
+        "2093162626721419666"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    },
+    {
+      "source_type": "for_you",
+      "source": "for_you",
+      "stability_samples": [
+        {
+          "url": "https://x.com/home",
+          "title": "主页 / X",
+          "anchors": 0,
+          "articles": 0
+        },
+        {
+          "url": "https://x.com/home",
+          "title": "主页 / X",
+          "anchors": 11,
+          "articles": 5
+        },
+        {
+          "url": "https://x.com/home",
+          "title": "主页 / X",
+          "anchors": 8,
+          "articles": 4
+        }
+      ],
+      "stable": false,
+      "first_status_id": "2093635539152875554",
+      "deepest_visible_status_id": "2093629486604464405",
+      "observed_status_ids": [
+        "2093635539152875554",
+        "2088423137780396373",
+        "2093439324784058732",
+        "2093516303592268222",
+        "2093327933146349800",
+        "2093629486604464405"
+      ],
+      "old_checkpoint_reached": false,
+      "continuation_input": "origin/main checkpoint; no valid continuation boundary exposed",
+      "continuation_output": "frozen; retained checkpoint"
+    }
+  ],
+  "sources": {
+    "accounts": {
+      "required": 19,
+      "attempted": 19,
+      "succeeded": 0,
+      "frozen": 19,
+      "batches": 19,
+      "reason": "All account timelines reflowed during mandatory hydration samples; checkpoint cursors retained."
+    },
+    "queries": {
+      "required": 5,
+      "attempted": 5,
+      "succeeded": 0,
+      "frozen": 5,
+      "batches": 5,
+      "reason": "All Latest queries reflowed during sampling; checkpoint cursors retained."
+    },
+    "following": {
+      "required": 1,
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "batches": 1,
+      "reason": "Home feed reflowed; checkpoint retained."
+    },
+    "for_you": {
+      "required": 1,
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "snapshot_created": false,
+      "batches": 1,
+      "reason": "Home feed reflowed; required eight-batch snapshot incomplete."
+    },
+    "replies": {
+      "attempted": 1,
+      "selected": 2,
+      "reason": "High-signal OpenAI/Cursor post reply page stable; two supplementary developer-impact replies retained."
+    }
+  },
+  "continuation": {
+    "input": "origin/main checkpoints and frozen-source evidence",
+    "output": "all checkpoint cursors retained; visible observations persisted"
+  },
+  "stability_sampling": "Each source used a fresh Chrome tab. First of three samples reflected X hydration, so no source qualified for checkpoint advancement.",
+  "counts": {
+    "observed_status_ids": 171,
+    "archived_posts": 0,
+    "archived_replies": 2,
+    "new_seen_status_ids": 49
+  },
+  "daily": {
+    "target_date": "2026-08-28",
+    "published": false,
+    "reason": "Not the 09:10 Asia/Shanghai daily window; partial/frozen run cannot replace public report."
+  },
+  "git": {
+    "collection_commit": null,
+    "collection_pushed": false,
+    "remote_verified": null
+  },
+  "dingtalk": {
+    "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "target_verified": false,
+    "message_type": "exception_alert",
+    "openTaskId": null,
+    "sendStatus": "not_sent"
+  }
+}
