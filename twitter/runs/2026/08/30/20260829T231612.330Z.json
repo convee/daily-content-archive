@@ -2399,9 +2399,20 @@
     "reason": "partial frozen sweep; no public daily update"
   },
   "github": {
-    "status": "pending_commit_and_push"
+    "status": "pushed",
+    "commit": "d75e7a7816367200bf6a7f6a295f4365c3dbab99",
+    "remote": "origin/main",
+    "verified": true
   },
   "dingtalk": {
-    "status": "not_sent"
-  }
+    "status": "sent",
+    "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "target_verified": true,
+    "message_type": "exception_alert",
+    "openTaskId": "igoPbXnLH7vdRtZNiRcjSIzg5Xd4dQI0Y2dmgjNubDs=",
+    "openMessageId": "msgdoeh1BGJ/LpeLIPdxRIBaQ==",
+    "sendStatus": "SUCCESS",
+    "verified_at_utc": "2026-08-29T23:17:14Z"
+  },
+  "finalized_at_utc": "2026-08-29T23:17:14Z"
 }
