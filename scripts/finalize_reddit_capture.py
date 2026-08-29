@@ -18,8 +18,8 @@ for path in (repo / "reddit/raw").rglob("*.jsonl"):
     for line in path.open(encoding="utf-8", errors="replace"):
         try:
             item = json.loads(line)
-            ident = item.get("post_id") or item.get("comment_id")
-            if ident: historical.add(ident)
+            for ident in (item.get("post_id"), item.get("comment_id")):
+                if ident: historical.add(ident)
         except json.JSONDecodeError: pass
 
 posts, comments = {}, {}
@@ -48,6 +48,8 @@ for payload in capture["comments"].values():
     for row in payload.get("observed", []): add_comment(row)
 
 written = [r for k,r in {**posts, **comments}.items() if k not in historical]
+def record_id(row):
+    return row.get("comment_id") or row.get("post_id")
 raw_path = repo / raw_rel; raw_path.parent.mkdir(parents=True, exist_ok=True)
 existing_raw = []
 if raw_path.exists():
@@ -55,12 +57,12 @@ if raw_path.exists():
         try: existing_raw.append(json.loads(line))
         except json.JSONDecodeError: pass
 with raw_path.open("w", encoding="utf-8") as out:
-    merged_raw = {r.get("post_id") or r.get("comment_id"): r for r in existing_raw}
-    merged_raw.update({r.get("post_id") or r.get("comment_id"): r for r in written})
-    for row in sorted(merged_raw.values(), key=lambda x: x.get("post_id") or x.get("comment_id")):
+    merged_raw = {record_id(r): r for r in existing_raw}
+    merged_raw.update({record_id(r): r for r in written})
+    for row in sorted(merged_raw.values(), key=record_id):
         out.write(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n")
 
-all_durable = historical | {r.get("post_id") or r.get("comment_id") for r in written}
+all_durable = historical | {ident for r in written for ident in (r.get("post_id"), r.get("comment_id")) if ident}
 new_success = 0
 new_failures = []
 for community, payload in capture["new"].items():

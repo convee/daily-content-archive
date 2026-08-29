@@ -16,7 +16,7 @@
   "records": {
     "posts": 871,
     "comments": 71,
-    "written": 71
+    "written": 0
   },
   "layers": {
     "new": {
@@ -41,8 +41,8 @@
     },
     "comments": {
       "due": 2,
-      "success": 0,
-      "failure": 2
+      "success": 2,
+      "failure": 0
     },
     "community_discovery": {
       "candidates_added": 0

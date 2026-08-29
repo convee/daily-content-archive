@@ -9645,24 +9645,7 @@
     "t1_p6er6c9",
     "t1_p6fcja5"
   ],
-  "thread_revisit_queue": [
-    {
-      "post_id": "t3_1vxyp7x",
-      "next_revisit_at": "2026-08-28T12:39:31.000Z",
-      "round": 3,
-      "last_revisit_at": "2026-08-27T03:40:01.637Z",
-      "last_visible_comment_count": 43,
-      "last_raw_file": "reddit/raw/2026/08/27/comments-revisit-2026-08-27T03-40-01-637Z.jsonl"
-    },
-    {
-      "post_id": "t3_1vynfd8",
-      "next_revisit_at": "2026-08-29T05:00:29.000Z",
-      "round": 3,
-      "last_revisit_at": "2026-08-27T12:37:09.680Z",
-      "last_visible_comment_count": 20,
-      "last_raw_file": "reddit/raw/2026/08/27/comments-revisit-2026-08-27T12-37-09-680Z.jsonl"
-    }
-  ],
+  "thread_revisit_queue": [],
   "discovered_community_candidates": {
     "coding_agents": {
       "evidence": [
