@@ -6,16 +6,24 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class SiteContractTests(unittest.TestCase):
-    def test_home_uses_only_formal_pages_and_full_text(self):
+    def test_home_separates_formal_pages_and_evidence_snapshots(self):
         source = (ROOT / "index.html").read_text(encoding="utf-8")
         self.assertIn("where: 'archive_page', true", source)
-        self.assertIn("archive_page.content | strip_html | strip_newlines", source)
-        self.assertNotIn("/producthunt/2026/08/2026-08-25.html", source)
+        self.assertIn("where: 'evidence_page', true", source)
+        self.assertIn("entry_page.content | strip_html | strip_newlines", source)
+        self.assertIn("{% if entry_page.archive_page %}日报{% else %}快照{% endif %}", source)
 
-    def test_partial_product_hunt_page_is_not_published(self):
+    def test_product_hunt_snapshot_is_visible_but_not_formal(self):
         source = (ROOT / "producthunt/2026/08/2026-08-25.md").read_text(encoding="utf-8")
         self.assertIn("archive_page: false", source)
-        self.assertIn("published: false", source)
+        self.assertIn("evidence_page: true", source)
+        self.assertNotIn("Cloudflare", source)
+
+    def test_each_partial_platform_has_multiple_visible_history_entries(self):
+        for platform in ("twitter", "reddit", "producthunt"):
+            pages = list((ROOT / platform / "2026" / "08").glob("*.md"))
+            visible = [page for page in pages if "archive_page: true" in page.read_text(encoding="utf-8") or "evidence_page: true" in page.read_text(encoding="utf-8")]
+            self.assertGreaterEqual(len(visible), 2, platform)
 
     def test_current_formal_dailies_link_evidence(self):
         for relative in (

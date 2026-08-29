@@ -54,12 +54,13 @@
     });
     historyGroups.forEach(group => {
       const matchingEntries = [...group.querySelectorAll('[data-archive-entry]:not([hidden])')];
-      group.hidden = matchingEntries.length === 0;
+      const platformMatch = activePlatform === 'all' || group.dataset.platform === activePlatform;
+      group.hidden = !platformMatch || (Boolean(query) && matchingEntries.length === 0);
       const count = group.querySelector('[data-history-count]');
-      if (count) count.textContent = `${matchingEntries.length} 篇`;
+      if (count) count.textContent = `${matchingEntries.length} 条`;
       if (query && matchingEntries.length) group.open = true;
     });
-    if (resultsSummary) resultsSummary.textContent = `显示 ${visibleCards} 个最新入口 · ${visibleHistory} 篇历史简报`;
+    if (resultsSummary) resultsSummary.textContent = `显示 ${visibleCards} 个最新入口 · ${visibleHistory} 条历史记录`;
     if (emptyState) emptyState.dataset.visible = String(visibleCards + visibleHistory === 0);
     if (clearSearch) clearSearch.dataset.visible = String(Boolean(query));
   };

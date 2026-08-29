@@ -4,15 +4,25 @@ title: AI 与科技每日归档
 description: 每日聚合 Hacker News、X / Twitter、Reddit 与 Product Hunt 的 AI 和科技热点、深度评论与新产品，所有内容保留可追溯来源。
 page_kind: home
 ---
-{% assign public_pages = site.pages | where: 'archive_page', true %}
-{% assign hn_pages = public_pages | where: 'platform', 'hackernews' | sort: 'date' | reverse %}
-{% assign twitter_pages = public_pages | where: 'platform', 'twitter' | sort: 'date' | reverse %}
-{% assign reddit_pages = public_pages | where: 'platform', 'reddit' | sort: 'date' | reverse %}
-{% assign producthunt_pages = public_pages | where: 'platform', 'producthunt' | sort: 'date' | reverse %}
+{% assign formal_pages = site.pages | where: 'archive_page', true %}
+{% assign evidence_pages = site.pages | where: 'evidence_page', true %}
+{% assign history_pages = formal_pages | concat: evidence_pages %}
+{% assign hn_pages = formal_pages | where: 'platform', 'hackernews' | sort: 'date' | reverse %}
+{% assign twitter_pages = formal_pages | where: 'platform', 'twitter' | sort: 'date' | reverse %}
+{% assign reddit_pages = formal_pages | where: 'platform', 'reddit' | sort: 'date' | reverse %}
+{% assign producthunt_pages = formal_pages | where: 'platform', 'producthunt' | sort: 'date' | reverse %}
+{% assign hn_snapshots = evidence_pages | where: 'platform', 'hackernews' | sort: 'date' | reverse %}
+{% assign twitter_snapshots = evidence_pages | where: 'platform', 'twitter' | sort: 'date' | reverse %}
+{% assign reddit_snapshots = evidence_pages | where: 'platform', 'reddit' | sort: 'date' | reverse %}
+{% assign producthunt_snapshots = evidence_pages | where: 'platform', 'producthunt' | sort: 'date' | reverse %}
 {% assign latest_hn = hn_pages | first %}
 {% assign latest_twitter = twitter_pages | first %}
 {% assign latest_reddit = reddit_pages | first %}
 {% assign latest_producthunt = producthunt_pages | first %}
+{% unless latest_hn %}{% assign latest_hn = hn_snapshots | first %}{% endunless %}
+{% unless latest_twitter %}{% assign latest_twitter = twitter_snapshots | first %}{% endunless %}
+{% unless latest_reddit %}{% assign latest_reddit = reddit_snapshots | first %}{% endunless %}
+{% unless latest_producthunt %}{% assign latest_producthunt = producthunt_snapshots | first %}{% endunless %}
 <section class="hero" aria-labelledby="page-title">
   <p class="eyebrow">Daily Content Archive</p>
   <h1 id="page-title">AI 与科技信号，<br>每天连续归档。</h1>
@@ -46,11 +56,11 @@ page_kind: home
 
   <div class="section-heading">
     <div><p class="section-kicker">Latest</p><h2>最新一期</h2></div>
-    <p>快速进入每个平台最近一次成功归档的简报。</p>
+    <p>优先进入最近一次正式日报；尚未满足完整性门槛的平台显示可溯源采集快照。</p>
   </div>
   <div class="archive-grid">
     <article id="hackernews" class="archive-card" data-platform="hackernews" data-search="Hacker News HN AI 芯片 安全 RAG Python 评论 {{ latest_hn.content | strip_html | strip_newlines | escape }}">
-      <div class="card-top"><span class="platform-label"><span class="platform-dot" aria-hidden="true"></span>Hacker News</span><time class="card-date" datetime="{{ latest_hn.date | date: '%Y-%m-%d' }}">{{ latest_hn.date | date: '%Y-%m-%d' }}</time></div>
+      <div class="card-top"><span class="platform-label"><span class="platform-dot" aria-hidden="true"></span>Hacker News</span><span class="card-meta"><span class="archive-kind">{% if latest_hn.archive_page %}日报{% else %}快照{% endif %}</span><time class="card-date" datetime="{{ latest_hn.date | date: '%Y-%m-%d' }}">{{ latest_hn.date | date: '%Y-%m-%d' }}</time></span></div>
       <h2>技术社区每日精选</h2>
       <p>逐 item ID 连续采集，覆盖帖子、讨论热度与高价值评论。</p>
       <div class="card-tags" aria-label="内容标签"><span>AI</span><span>安全</span><span>开发</span><span>评论</span></div>
@@ -58,7 +68,7 @@ page_kind: home
     </article>
 
     <article id="twitter" class="archive-card" data-platform="twitter" data-search="X Twitter OpenAI Anthropic AI 机构 研究者 开发者工具 回复 {{ latest_twitter.content | strip_html | strip_newlines | escape }}">
-      <div class="card-top"><span class="platform-label"><span class="platform-dot" aria-hidden="true"></span>X / Twitter</span><time class="card-date" datetime="{{ latest_twitter.date | date: '%Y-%m-%d' }}">{{ latest_twitter.date | date: '%Y-%m-%d' }}</time></div>
+      <div class="card-top"><span class="platform-label"><span class="platform-dot" aria-hidden="true"></span>X / Twitter</span><span class="card-meta"><span class="archive-kind">{% if latest_twitter.archive_page %}日报{% else %}快照{% endif %}</span><time class="card-date" datetime="{{ latest_twitter.date | date: '%Y-%m-%d' }}">{{ latest_twitter.date | date: '%Y-%m-%d' }}</time></span></div>
       <h2>研究者与机构动态</h2>
       <p>覆盖 AI 机构、研究者、工程师、关注流、推荐流和高信号回复；采集缺口在日报中明示。</p>
       <div class="card-tags" aria-label="内容标签"><span>模型</span><span>研究</span><span>工具</span><span>回复</span></div>
@@ -66,7 +76,7 @@ page_kind: home
     </article>
 
     <article id="reddit" class="archive-card" data-platform="reddit" data-search="Reddit LocalLLaMA MachineLearning netsec technology AI 编程 安全 开源 基础设施 科学 评论 {{ latest_reddit.content | strip_html | strip_newlines | escape }}">
-      <div class="card-top"><span class="platform-label"><span class="platform-dot" aria-hidden="true"></span>Reddit</span><time class="card-date" datetime="{{ latest_reddit.date | date: '%Y-%m-%d' }}">{{ latest_reddit.date | date: '%Y-%m-%d' }}</time></div>
+      <div class="card-top"><span class="platform-label"><span class="platform-dot" aria-hidden="true"></span>Reddit</span><span class="card-meta"><span class="archive-kind">{% if latest_reddit.archive_page %}日报{% else %}快照{% endif %}</span><time class="card-date" datetime="{{ latest_reddit.date | date: '%Y-%m-%d' }}">{{ latest_reddit.date | date: '%Y-%m-%d' }}</time></span></div>
       <h2>社区实测与争议</h2>
       <p>覆盖模型、编程、安全、开源、基础设施与科学社区。</p>
       <div class="card-tags" aria-label="内容标签"><span>实测</span><span>开源</span><span>安全</span><span>争议</span></div>
@@ -74,18 +84,18 @@ page_kind: home
     </article>
 
     <article id="producthunt" class="archive-card" data-platform="producthunt" data-search="Product Hunt 产品 AI 科技 maker 用户 评论 日榜 {{ latest_producthunt.content | strip_html | strip_newlines | escape }}">
-      <div class="card-top"><span class="platform-label"><span class="platform-dot" aria-hidden="true"></span>Product Hunt</span>{% if latest_producthunt %}<time class="card-date" datetime="{{ latest_producthunt.date | date: '%Y-%m-%d' }}">{{ latest_producthunt.date | date: '%Y-%m-%d' }}</time>{% endif %}</div>
+      <div class="card-top"><span class="platform-label"><span class="platform-dot" aria-hidden="true"></span>Product Hunt</span>{% if latest_producthunt %}<span class="card-meta"><span class="archive-kind">{% if latest_producthunt.archive_page %}日报{% else %}快照{% endif %}</span><time class="card-date" datetime="{{ latest_producthunt.date | date: '%Y-%m-%d' }}">{{ latest_producthunt.date | date: '%Y-%m-%d' }}</time></span>{% endif %}</div>
       <h2>新产品与用户反馈</h2>
       <p>跟踪完整日榜、AI/科技产品，以及 maker 和用户的有效评论。</p>
       <div class="card-tags" aria-label="内容标签"><span>产品</span><span>Agent</span><span>Maker</span><span>反馈</span></div>
-      {% if latest_producthunt %}<a class="card-link" href="{{ latest_producthunt.url | relative_url }}">阅读最新简报<span class="visually-hidden">：Product Hunt</span></a>{% else %}<span class="card-link card-link-disabled" aria-disabled="true">完整结算后发布</span>{% endif %}
+      {% if latest_producthunt %}<a class="card-link" href="{{ latest_producthunt.url | relative_url }}">阅读最新{% if latest_producthunt.archive_page %}日报{% else %}快照{% endif %}<span class="visually-hidden">：Product Hunt</span></a>{% else %}<span class="card-link card-link-disabled" aria-disabled="true">暂无可公开记录</span>{% endif %}
     </article>
   </div>
 
   <section class="history-section" aria-labelledby="history-title">
     <div class="section-heading">
       <div><p class="section-kicker">Archive</p><h2 id="history-title">历史归档</h2></div>
-      <p>按平台查看全部已发布简报；日期与来源路径完整保留。</p>
+      <p>“日报”通过完整性门槛；“快照”是部分但已持久化、可回链的采集证据。</p>
     </div>
     <div class="history-groups">
       {% assign platform_keys = 'hackernews,twitter,reddit,producthunt' | split: ',' %}
@@ -96,14 +106,16 @@ page_kind: home
           {% when 'reddit' %}{% assign platform_name = 'Reddit' %}
           {% when 'producthunt' %}{% assign platform_name = 'Product Hunt' %}
         {% endcase %}
-        {% assign platform_pages = public_pages | where: 'platform', platform_key | sort: 'date' | reverse %}
-        <details class="history-group" data-history-group{% if forloop.first %} open{% endif %}>
-          <summary><span><span class="platform-dot" aria-hidden="true"></span>{{ platform_name }}</span><strong data-history-count>{{ platform_pages.size }} 篇</strong></summary>
+        {% assign platform_pages = history_pages | where: 'platform', platform_key | sort: 'date' | reverse %}
+        <details class="history-group" data-history-group data-platform="{{ platform_key }}"{% if forloop.first %} open{% endif %}>
+          <summary><span><span class="platform-dot" aria-hidden="true"></span>{{ platform_name }}</span><strong data-history-count>{{ platform_pages.size }} 条</strong></summary>
           <ul class="history-list">
-            {% for archive_page in platform_pages %}
-              <li data-archive-entry data-platform="{{ platform_key }}" data-search="{{ platform_name }} {{ archive_page.title | escape }} {{ archive_page.date | date: '%Y-%m-%d' }} {{ archive_page.content | strip_html | strip_newlines | escape }}">
-                <a href="{{ archive_page.url | relative_url }}"><span>{{ archive_page.title | escape }}</span><time datetime="{{ archive_page.date | date: '%Y-%m-%d' }}">{{ archive_page.date | date: '%Y-%m-%d' }}</time></a>
+            {% for entry_page in platform_pages %}
+              <li data-archive-entry data-platform="{{ platform_key }}" data-search="{{ platform_name }} {{ entry_page.title | escape }} {{ entry_page.date | date: '%Y-%m-%d' }} {{ entry_page.content | strip_html | strip_newlines | escape }}">
+                <a href="{{ entry_page.url | relative_url }}"><span>{{ entry_page.title | escape }}</span><span class="history-meta"><span class="archive-kind">{% if entry_page.archive_page %}日报{% else %}快照{% endif %}</span><time datetime="{{ entry_page.date | date: '%Y-%m-%d' }}">{{ entry_page.date | date: '%Y-%m-%d' }}</time></span></a>
               </li>
+            {% else %}
+              <li class="history-empty">暂无可公开记录</li>
             {% endfor %}
           </ul>
         </details>

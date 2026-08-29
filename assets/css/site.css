@@ -245,6 +245,8 @@ button { color: inherit; }
 .archive-card[data-platform="reddit"] { --card-accent: #ff6534; }
 .archive-card[data-platform="producthunt"] { --card-accent: #ff5a7a; }
 .card-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.card-meta, .history-meta { display: inline-flex; align-items: center; gap: 8px; }
+.archive-kind { display: inline-flex; align-items: center; min-height: 20px; padding: 2px 7px; border: 1px solid color-mix(in srgb, var(--card-accent, var(--accent)) 42%, var(--line)); border-radius: 999px; color: var(--accent); background: var(--accent-soft); font-size: 10px; font-weight: 800; letter-spacing: .04em; white-space: nowrap; }
 .platform-label { display: inline-flex; align-items: center; gap: 9px; font-weight: 750; }
 .platform-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--card-accent); box-shadow: 0 0 18px var(--card-accent); }
 .card-date { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 13px; }
@@ -276,6 +278,7 @@ button { color: inherit; }
 .history-group[data-history-group]:nth-child(4) { --card-accent: #ff5a7a; }
 .history-list { display: grid; gap: 1px; margin: 0; padding: 0 10px 10px; list-style: none; }
 .history-list li[hidden] { display: none; }
+.history-empty { padding: 12px 10px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
 .history-list a { display: flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 48px; padding: 9px 10px; border-top: 1px solid var(--line); border-radius: 8px; color: var(--text); text-decoration: none; }
 .history-list a:hover { color: var(--accent); background: var(--accent-soft); }
 .history-list time { flex: 0 0 auto; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }

@@ -136,23 +136,39 @@ def raw_ids(repo, platform):
 
 def validate_daily(repo, platform, report):
     public = []
+    evidence = []
+    visible = []
     partial_public = []
     for path in sorted((repo / platform).glob("[0-9][0-9][0-9][0-9]/*/*.md")):
         fields, body = frontmatter(path)
         is_public = fields.get("archive_page") in ("true", "yes")
+        is_evidence = fields.get("evidence_page") in ("true", "yes")
         if is_public:
             public.append((path, body))
             if "测试简报" in body or "生产游标未推进" in body:
                 partial_public.append(path)
-    report["metrics"]["public_daily_pages"] = len(public)
+        if is_evidence:
+            evidence.append((path, body))
+        if is_public or is_evidence:
+            visible.append((path, body, "formal" if is_public else "snapshot"))
+            if platform == "producthunt" and is_evidence and ("Cloudflare" in body or "生产游标未推进" in body):
+                add_issue(report, "error", "operational_warning_public", "public archive pages must not expose internal collection warnings", path.relative_to(repo))
+    report["metrics"].update({
+        "public_daily_pages": len(public),
+        "public_evidence_pages": len(evidence),
+        "visible_archive_pages": len(visible),
+    })
     for path in partial_public:
         add_issue(report, "error", "partial_page_public", "partial/test evidence must not be exposed as a formal daily", path.relative_to(repo))
     if platform in ("hackernews", "twitter", "reddit") and not public:
         add_issue(report, "error", "no_public_daily", "platform has no formal public daily")
-    if public:
-        path, body = public[-1]
+    if not visible:
+        add_issue(report, "error", "no_visible_archive", "platform has neither a formal daily nor a durable evidence snapshot")
+    evidence_targets = [(path, body, "snapshot") for path, body in evidence]
+    formal_targets = [(public[-1][0], public[-1][1], "formal")] if public else []
+    for path, body, page_type in formal_targets + evidence_targets:
         if "溯源" not in body or ".json" not in body:
-            add_issue(report, "error", "daily_missing_evidence", "latest public daily must link raw and run evidence", path.relative_to(repo))
+            add_issue(report, "error", "daily_missing_evidence", "%s page must link raw and run evidence" % page_type, path.relative_to(repo))
         for reference in re.findall(r"\]\(([^)]+\.jsonl?)\)", body):
             if reference.startswith(("http://", "https://")):
                 continue
