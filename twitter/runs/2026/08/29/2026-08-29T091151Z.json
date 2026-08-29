@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "platform": "twitter",
+  "run_id": "2026-08-29T091151Z",
+  "started_at_utc": "2026-08-29T09:11:51Z",
+  "finished_at_utc": "2026-08-29T09:14:12Z",
+  "status": "partial_frozen",
+  "lock": {"owner":"twitter-20260829T091151Z-dc0984","acquire_retries":0,"waited_seconds":0,"ttl_seconds":5400,"acquired_at_utc":"2026-08-29T09:11:51Z"},
+  "health_before": {"status":"degraded","errors":0,"warning":"latest_run_degraded; frozen cursors retained"},
+  "raw_files": ["twitter/raw/2026/08/29/2026-08-29T091151Z-attempt-ledger.jsonl"],
+  "sources": {"accounts":{"required":19,"attempted":19,"succeeded":0,"frozen":19,"batches":0,"reason":"All account pages changed from zero anchors during mandatory hydration samples; all checkpoints retained."},"queries":{"required":5,"attempted":5,"succeeded":0,"frozen":5,"batches":0,"reason":"Two Latest pages stabilized but no old checkpoint was reached; three reflowed; all checkpoints retained."},"following":{"required":1,"attempted":1,"succeeded":0,"frozen":1,"batches":0,"reason":"Hydration reflowed; old checkpoint not reached."},"for_you":{"required":1,"attempted":1,"succeeded":0,"frozen":1,"snapshot_created":false,"batches":0,"reason":"Hydration reflowed; required 8-batch discovery snapshot not completed."},"replies":{"attempted":0,"selected":0,"reason":"No high-signal post completed a continuous scan, so no reply page qualified."}},
+  "continuation":{"input":"origin/main frozen checkpoints and continuation evidence","output":"unchanged; no source reached prior checkpoint"},
+  "stability_sampling":"Each source used a fresh Chrome tab and three 650ms samples. URL/title stabilized; initial X hydration changed anchor counts for accounts, three queries, and both feeds.",
+  "counts":{"observed_status_ids":119,"archived_posts":0,"archived_replies":0},
+  "daily":{"target_date":"2026-08-28","published":false,"reason":"Not the 09:10 Asia/Shanghai daily window; partial/frozen run cannot generate or replace public report."},
+  "git":{"collection_commit":"pending_commit_and_push","collection_pushed":false},
+  "dingtalk":{"target_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","target_verified":false,"message_type":"exception_alert","sendStatus":"not_sent"}
+}
