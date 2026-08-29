@@ -12,6 +12,7 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn("where: 'evidence_page', true", source)
         self.assertIn("entry_page.content | strip_html | strip_newlines", source)
         self.assertIn("{% if entry_page.archive_page %}日报{% else %}快照{% endif %}", source)
+        self.assertIn('data-platform="{{ platform_key }}" open', source)
 
     def test_product_hunt_snapshot_is_visible_but_not_formal(self):
         source = (ROOT / "producthunt/2026/08/2026-08-25.md").read_text(encoding="utf-8")

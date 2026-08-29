@@ -107,7 +107,7 @@ page_kind: home
           {% when 'producthunt' %}{% assign platform_name = 'Product Hunt' %}
         {% endcase %}
         {% assign platform_pages = history_pages | where: 'platform', platform_key | sort: 'date' | reverse %}
-        <details class="history-group" data-history-group data-platform="{{ platform_key }}"{% if forloop.first %} open{% endif %}>
+        <details class="history-group" data-history-group data-platform="{{ platform_key }}" open>
           <summary><span><span class="platform-dot" aria-hidden="true"></span>{{ platform_name }}</span><strong data-history-count>{{ platform_pages.size }} 条</strong></summary>
           <ul class="history-list">
             {% for entry_page in platform_pages %}
