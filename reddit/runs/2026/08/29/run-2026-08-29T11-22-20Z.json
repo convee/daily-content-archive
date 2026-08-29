@@ -16,7 +16,7 @@
     "community_discovery": {"candidates_added": 0}
   },
   "failure_ledger": [{"scope":"all collection layers","reason":"Chrome batch exceeded the 120-second execution limit and reset before a verifiable per-source ledger was returned","last_checkpoints":"unchanged","freeze_scope":"all independently frozen source cursors and both due comment revisits","recovery":"run smaller source batches and persist each completed batch before starting the next"}],
-  "github": {"status": "pending"},
-  "dingtalk": {"status": "not_sent"},
+  "github": {"status": "pushed", "commit": "683c666fddf015e1d24ac77224498e5faa9d3362", "origin_main_verified": true},
+  "dingtalk": {"status": "sent", "openTaskId": "NhnKU55WngYCvSl+S6M4RLjmhyPWXIcLf0xrI/uJbGg=", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "sendStatus": "SUCCESS"},
   "publication": {"eligible": false, "reason": "partial collection evidence; daily page and GitHub Pages not updated"}
 }

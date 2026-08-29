@@ -9695,14 +9695,14 @@
     }
   ],
   "last_tool_failure": {
-    "at_utc": "2026-08-29T09:29:00Z",
-    "reason": "partial read-only Chrome collection; all cursors frozen; search blocked by client"
+    "at_utc": "2026-08-29T11:25:28Z",
+    "reason": "Chrome batch timed out and reset before a verifiable per-source ledger; all collection cursors and due comment revisits remain frozen"
   },
   "last_dingtalk_delivery": {
     "status": "sent",
-    "openTaskId": "HKLLEWEozWA4GVCbziLNlILJXqG9LRftBtexbokj1jc=",
+    "openTaskId": "NhnKU55WngYCvSl+S6M4RLjmhyPWXIcLf0xrI/uJbGg=",
     "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "openMessageId": "msgSxlvkvA7yfMHYnN6RTfJtQ==",
+    "openMessageId": "msgLbrYbYWj7TtxgonisuqN8w==",
     "sendStatus": "SUCCESS"
   }
 }
