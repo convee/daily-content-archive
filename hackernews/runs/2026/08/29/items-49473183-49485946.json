@@ -22,19 +22,23 @@
     "health_status": "healthy",
     "tests_passed": 5,
     "github": {
-      "status": "pending_initial_push",
-      "commit": null
+      "status": "initial_push_verified",
+      "commit": "c1533fc54ce73959302ac106ba4a06f46096a905",
+      "url": "https://github.com/convee/daily-content-archive/commit/c1533fc54ce73959302ac106ba4a06f46096a905"
     },
     "pages": {
-      "status": "pending",
-      "url": "https://convee.cn/daily-content-archive/hackernews/2026/08/2026-08-29.html"
+      "status": "success",
+      "url": "https://convee.cn/daily-content-archive/hackernews/2026/08/2026-08-29.html",
+      "deployment_run": "https://github.com/convee/daily-content-archive/actions/runs/33226020719",
+      "verified_at_utc": "2026-08-29T01:20:00Z"
     },
     "dingtalk": {
-      "status": "pending",
-      "openConversationId": null,
-      "openTaskId": null,
-      "openMessageId": null,
-      "sendStatus": null
+      "status": "success",
+      "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+      "openTaskId": "pTnLUqhH01FAfVjJrKFRrQAqVjRcayUxP9GUqzfmtdg=",
+      "openMessageId": "msgPDj0nBUItK0DnLD9UoBf7w==",
+      "sendStatus": "SUCCESS",
+      "verified_at_utc": "2026-08-29T01:20:30Z"
     }
   }
 }
