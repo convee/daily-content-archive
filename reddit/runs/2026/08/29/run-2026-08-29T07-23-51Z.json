@@ -19,6 +19,6 @@
   "failure_ledger": [{"source":"Chrome collection batch: New 12; Hot/Rising 24; Home/Popular/All 3; Search 8; due comment revisits 2","reason":"The required Chrome read-only batch exceeded its 120-second tool limit and reset before returning any per-source stability samples or extractable records.","frozen":true,"last_checkpoint":"unchanged","recovery":"Use smaller bounded browser batches with a supported browser-to-durable raw transfer; resume existing continuation boundaries."}],
   "continuation": {"input":"existing state continuations retained", "output":"none; tool timeout before verifiable page result"},
   "github": {"status":"pushed","commit":"a8d687161554009584f235db3403da415f972103","origin_main_verified":true},
-  "dingtalk": {"status":"pending","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","sendStatus":"pending"},
+  "dingtalk": {"status":"sent","openTaskId":"/MVh3Rpun7juqX7IOqi3Wy/Nw8BBECFoZdPSMTZSXbg=","openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","openMessageId":"msgRh4aMGgnfVHNT/LuSMfJIQ==","sendStatus":"SUCCESS"},
   "publication": {"eligible":false,"reason":"No complete durable source evidence; no daily page or index change."}
 }
