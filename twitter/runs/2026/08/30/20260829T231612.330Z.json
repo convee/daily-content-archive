@@ -1,0 +1,2407 @@
+{
+  "schema_version": 3,
+  "platform": "twitter",
+  "status": "partial_frozen",
+  "started_at_utc": "2026-08-29T23:16:12.330Z",
+  "completed_at_utc": "2026-08-29T23:16:23Z",
+  "lock_owner": "twitter-20260829T231158Z-4083e2",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples_required": 3
+  },
+  "raw_files": [
+    "twitter/raw/2026/08/30/20260829T231612.330Z-browser-sweep.jsonl"
+  ],
+  "records": {
+    "posts_observed": 160,
+    "new_status_ids": 65,
+    "replies_checked": 23,
+    "replies_selected": 7
+  },
+  "layers": {
+    "accounts": {
+      "attempted": 19,
+      "success": 0,
+      "failure": 19,
+      "sources": [
+        {
+          "source": "account:@OpenAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/OpenAI",
+          "actual_url": "https://x.com/OpenAI",
+          "title": "OpenAI (@OpenAI) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/OpenAI",
+              "title": "X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/OpenAI",
+              "title": "OpenAI (@OpenAI) / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/OpenAI",
+              "title": "OpenAI (@OpenAI) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2092300846675505602",
+            "2093515564786540695",
+            "2093074192636018977"
+          ],
+          "deepest_status_id": "2093074192636018977",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2092335305366069305",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@AnthropicAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/AnthropicAI",
+          "actual_url": "https://x.com/AnthropicAI",
+          "title": "Anthropic (@AnthropicAI) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/AnthropicAI",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/AnthropicAI",
+              "title": "Anthropic (@AnthropicAI) / X"
+            },
+            {
+              "article_count": 7,
+              "ids": [
+                "2093386528668172373",
+                "2093386529846722913",
+                "2093038426140651791",
+                "2093038427642134590",
+                "2092661573223657834",
+                "2092661574523867302",
+                "2089842387845804246"
+              ],
+              "url": "https://x.com/AnthropicAI",
+              "title": "Anthropic (@AnthropicAI) / X"
+            },
+            {
+              "article_count": 6,
+              "ids": [
+                "2093386528668172373",
+                "2093386529846722913",
+                "2093038426140651791",
+                "2093038427642134590",
+                "2092661573223657834",
+                "2092661574523867302"
+              ],
+              "url": "https://x.com/AnthropicAI",
+              "title": "Anthropic (@AnthropicAI) / X"
+            },
+            {
+              "article_count": 6,
+              "ids": [
+                "2093386528668172373",
+                "2093386529846722913",
+                "2093038426140651791",
+                "2093038427642134590",
+                "2092661573223657834",
+                "2092661574523867302"
+              ],
+              "url": "https://x.com/AnthropicAI",
+              "title": "Anthropic (@AnthropicAI) / X"
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2093386528668172373",
+            "2093386529846722913",
+            "2093038426140651791",
+            "2093038427642134590",
+            "2092661573223657834",
+            "2092661574523867302"
+          ],
+          "deepest_status_id": "2092661574523867302",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2092661574523867302",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@GoogleDeepMind",
+          "source_type": "account",
+          "requested_url": "https://x.com/GoogleDeepMind",
+          "actual_url": "https://x.com/GoogleDeepMind",
+          "title": "Google DeepMind (@GoogleDeepMind) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/GoogleDeepMind",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/GoogleDeepMind",
+              "title": "Google DeepMind (@GoogleDeepMind) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2092961763553677387",
+                "2093338200580256172",
+                "2093019627437662680",
+                "2093019632475001225"
+              ],
+              "url": "https://x.com/GoogleDeepMind",
+              "title": "Google DeepMind (@GoogleDeepMind) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2092961763553677387",
+                "2093338200580256172",
+                "2093019627437662680",
+                "2093019632475001225"
+              ],
+              "url": "https://x.com/GoogleDeepMind",
+              "title": "Google DeepMind (@GoogleDeepMind) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2092961763553677387",
+                "2093338200580256172",
+                "2093019627437662680",
+                "2093019632475001225"
+              ],
+              "url": "https://x.com/GoogleDeepMind",
+              "title": "Google DeepMind (@GoogleDeepMind) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2092961763553677387",
+            "2093338200580256172",
+            "2093019627437662680",
+            "2093019632475001225"
+          ],
+          "deepest_status_id": "2093019632475001225",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2093019632475001225",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@xai",
+          "source_type": "account",
+          "requested_url": "https://x.com/xai",
+          "actual_url": "https://x.com/spacexai",
+          "title": "SpaceXAI (@SpaceXAI) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/xai",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/spacexai",
+              "title": "SpaceXAI (@SpaceXAI) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2035562571932024842",
+                "2092644384730972669",
+                "2091987538999197752",
+                "2091987541272543406",
+                "2091957125941543034"
+              ],
+              "url": "https://x.com/spacexai",
+              "title": "SpaceXAI (@SpaceXAI) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2035562571932024842",
+                "2092644384730972669",
+                "2091987538999197752",
+                "2091987541272543406",
+                "2091957125941543034"
+              ],
+              "url": "https://x.com/spacexai",
+              "title": "SpaceXAI (@SpaceXAI) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2035562571932024842",
+                "2092644384730972669",
+                "2091987538999197752",
+                "2091987541272543406",
+                "2091957125941543034"
+              ],
+              "url": "https://x.com/spacexai",
+              "title": "SpaceXAI (@SpaceXAI) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2035562571932024842",
+            "2092644384730972669",
+            "2091987538999197752",
+            "2091987541272543406",
+            "2091957125941543034"
+          ],
+          "deepest_status_id": "2091957125941543034",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2091957125941543034",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@MistralAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/MistralAI",
+          "actual_url": "https://x.com/MistralAI",
+          "title": "Mistral AI (@MistralAI) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/MistralAI",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/MistralAI",
+              "title": "Mistral AI (@MistralAI) / X"
+            },
+            {
+              "article_count": 7,
+              "ids": [
+                "2091964930715013224",
+                "2091964933172822070",
+                "2087305196841922782",
+                "2087305199505342537",
+                "2084684735725379637",
+                "2084684737554141253",
+                "2079598447234064801"
+              ],
+              "url": "https://x.com/MistralAI",
+              "title": "Mistral AI (@MistralAI) / X"
+            },
+            {
+              "article_count": 7,
+              "ids": [
+                "2091964930715013224",
+                "2091964933172822070",
+                "2087305196841922782",
+                "2087305199505342537",
+                "2084684735725379637",
+                "2084684737554141253",
+                "2079598447234064801"
+              ],
+              "url": "https://x.com/MistralAI",
+              "title": "Mistral AI (@MistralAI) / X"
+            },
+            {
+              "article_count": 7,
+              "ids": [
+                "2091964930715013224",
+                "2091964933172822070",
+                "2087305196841922782",
+                "2087305199505342537",
+                "2084684735725379637",
+                "2084684737554141253",
+                "2079598447234064801"
+              ],
+              "url": "https://x.com/MistralAI",
+              "title": "Mistral AI (@MistralAI) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2091964930715013224",
+            "2091964933172822070",
+            "2087305196841922782",
+            "2087305199505342537",
+            "2084684735725379637",
+            "2084684737554141253",
+            "2079598447234064801"
+          ],
+          "deepest_status_id": "2079598447234064801",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2079598447234064801",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@AIatMeta",
+          "source_type": "account",
+          "requested_url": "https://x.com/AIatMeta",
+          "actual_url": "https://x.com/AIatMeta",
+          "title": "AI at Meta (@AIatMeta) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/AIatMeta",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/AIatMeta",
+              "title": "AI at Meta (@AIatMeta) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2086757844544811485",
+                "2090505413817246050",
+                "2090505417512345857",
+                "2090485743034716420"
+              ],
+              "url": "https://x.com/AIatMeta",
+              "title": "AI at Meta (@AIatMeta) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2086757844544811485",
+                "2090505413817246050",
+                "2090505417512345857",
+                "2090485743034716420"
+              ],
+              "url": "https://x.com/AIatMeta",
+              "title": "AI at Meta (@AIatMeta) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2086757844544811485",
+                "2090505413817246050",
+                "2090505417512345857",
+                "2090485743034716420"
+              ],
+              "url": "https://x.com/AIatMeta",
+              "title": "AI at Meta (@AIatMeta) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2086757844544811485",
+            "2090505413817246050",
+            "2090505417512345857",
+            "2090485743034716420"
+          ],
+          "deepest_status_id": "2090485743034716420",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2090485743034716420",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@huggingface",
+          "source_type": "account",
+          "requested_url": "https://x.com/huggingface",
+          "actual_url": "https://x.com/huggingface",
+          "title": "Hugging Face (@huggingface) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/huggingface",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/huggingface",
+              "title": "Hugging Face (@huggingface) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2092727360584135026",
+                "2089673018737869242",
+                "2088301795890044975",
+                "2087521619459850348",
+                "2085758063471120848"
+              ],
+              "url": "https://x.com/huggingface",
+              "title": "Hugging Face (@huggingface) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2092727360584135026",
+                "2089673018737869242",
+                "2088301795890044975",
+                "2087521619459850348"
+              ],
+              "url": "https://x.com/huggingface",
+              "title": "Hugging Face (@huggingface) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2092727360584135026",
+                "2089673018737869242",
+                "2088301795890044975",
+                "2087521619459850348"
+              ],
+              "url": "https://x.com/huggingface",
+              "title": "Hugging Face (@huggingface) / X"
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2092727360584135026",
+            "2089673018737869242",
+            "2088301795890044975",
+            "2087521619459850348"
+          ],
+          "deepest_status_id": "2087521619459850348",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2087521619459850348",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@nvidia",
+          "source_type": "account",
+          "requested_url": "https://x.com/nvidia",
+          "actual_url": "https://x.com/nvidia",
+          "title": "NVIDIA (@nvidia) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/nvidia",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/nvidia",
+              "title": "NVIDIA (@nvidia) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2093722690049695780",
+                "2093722692012662933",
+                "2093484389682270429",
+                "2093484391771103305",
+                "2093457336161419676"
+              ],
+              "url": "https://x.com/nvidia",
+              "title": "NVIDIA (@nvidia) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2093722690049695780",
+                "2093722692012662933",
+                "2093484389682270429",
+                "2093484391771103305",
+                "2093457336161419676"
+              ],
+              "url": "https://x.com/nvidia",
+              "title": "NVIDIA (@nvidia) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2093722690049695780",
+                "2093722692012662933",
+                "2093484389682270429",
+                "2093484391771103305",
+                "2093457336161419676"
+              ],
+              "url": "https://x.com/nvidia",
+              "title": "NVIDIA (@nvidia) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2093722690049695780",
+            "2093722692012662933",
+            "2093484389682270429",
+            "2093484391771103305",
+            "2093457336161419676"
+          ],
+          "deepest_status_id": "2093457336161419676",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2093457337369448833",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@GitHub",
+          "source_type": "account",
+          "requested_url": "https://x.com/GitHub",
+          "actual_url": "https://x.com/GitHub",
+          "title": "GitHub (@github) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/GitHub",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/GitHub",
+              "title": "GitHub (@github) / X"
+            },
+            {
+              "article_count": 3,
+              "ids": [
+                "2093008357644779643",
+                "2093825400178917519",
+                "2093474503988801605"
+              ],
+              "url": "https://x.com/GitHub",
+              "title": "GitHub (@github) / X"
+            },
+            {
+              "article_count": 3,
+              "ids": [
+                "2093008357644779643",
+                "2093825400178917519",
+                "2093474503988801605"
+              ],
+              "url": "https://x.com/GitHub",
+              "title": "GitHub (@github) / X"
+            },
+            {
+              "article_count": 3,
+              "ids": [
+                "2093008357644779643",
+                "2093825400178917519",
+                "2093474503988801605"
+              ],
+              "url": "https://x.com/GitHub",
+              "title": "GitHub (@github) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2093008357644779643",
+            "2093825400178917519",
+            "2093474503988801605"
+          ],
+          "deepest_status_id": "2093474503988801605",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2093380326533816372",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@ycombinator",
+          "source_type": "account",
+          "requested_url": "https://x.com/ycombinator",
+          "actual_url": "https://x.com/ycombinator",
+          "title": "Y Combinator (@ycombinator) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/ycombinator",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/ycombinator",
+              "title": "Y Combinator (@ycombinator) / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/ycombinator",
+              "title": "Y Combinator (@ycombinator) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 1,
+          "batches": 1,
+          "observed_status_ids": [
+            "2092680754790891676",
+            "2093023291124720120",
+            "2093023294413013083",
+            "2092996532232769576",
+            "2092041032104022506"
+          ],
+          "deepest_status_id": "2092041032104022506",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2092041032104022506",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@producthunt",
+          "source_type": "account",
+          "requested_url": "https://x.com/producthunt",
+          "actual_url": "https://x.com/producthunt",
+          "title": "Product Hunt 😸 (@ProductHunt) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/producthunt",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/producthunt",
+              "title": "Product Hunt 😸 (@ProductHunt) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2093417082767737075",
+                "2093371786352324888",
+                "2093334697120285035",
+                "2093323168073318449",
+                "2093189665545507258"
+              ],
+              "url": "https://x.com/producthunt",
+              "title": "Product Hunt 😸 (@ProductHunt) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2093417082767737075",
+                "2093371786352324888",
+                "2093334697120285035",
+                "2093323168073318449",
+                "2093189665545507258"
+              ],
+              "url": "https://x.com/producthunt",
+              "title": "Product Hunt 😸 (@ProductHunt) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2093417082767737075",
+                "2093371786352324888",
+                "2093334697120285035",
+                "2093323168073318449",
+                "2093189665545507258"
+              ],
+              "url": "https://x.com/producthunt",
+              "title": "Product Hunt 😸 (@ProductHunt) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2093417082767737075",
+            "2093371786352324888",
+            "2093334697120285035",
+            "2093323168073318449",
+            "2093189665545507258"
+          ],
+          "deepest_status_id": "2093189665545507258",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2093189665545507258",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@TechCrunch",
+          "source_type": "account",
+          "requested_url": "https://x.com/TechCrunch",
+          "actual_url": "https://x.com/TechCrunch",
+          "title": "TechCrunch (@TechCrunch) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/TechCrunch",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/TechCrunch",
+              "title": "TechCrunch (@TechCrunch) / X"
+            },
+            {
+              "article_count": 7,
+              "ids": [
+                "2093771942771744815",
+                "2093759362984468665",
+                "2093755344614772901",
+                "2093733200149315801",
+                "2093700473488355690",
+                "2093685379148738772",
+                "2093482634009588178"
+              ],
+              "url": "https://x.com/TechCrunch",
+              "title": "TechCrunch (@TechCrunch) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2093771942771744815",
+                "2093759362984468665",
+                "2093755344614772901",
+                "2093733200149315801",
+                "2093700473488355690"
+              ],
+              "url": "https://x.com/TechCrunch",
+              "title": "TechCrunch (@TechCrunch) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2093771942771744815",
+                "2093759362984468665",
+                "2093755344614772901",
+                "2093733200149315801",
+                "2093700473488355690"
+              ],
+              "url": "https://x.com/TechCrunch",
+              "title": "TechCrunch (@TechCrunch) / X"
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2093771942771744815",
+            "2093759362984468665",
+            "2093755344614772901",
+            "2093733200149315801",
+            "2093700473488355690"
+          ],
+          "deepest_status_id": "2093700473488355690",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2093700473488355690",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@arxiv",
+          "source_type": "account",
+          "requested_url": "https://x.com/arxiv",
+          "actual_url": "https://x.com/arxiv",
+          "title": "arXiv.org (@arxiv) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/arxiv",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/arxiv",
+              "title": "arXiv.org (@arxiv) / X"
+            },
+            {
+              "article_count": 3,
+              "ids": [
+                "2087178413689713105",
+                "2075304842591969385",
+                "2039441602964304025"
+              ],
+              "url": "https://x.com/arxiv",
+              "title": "arXiv.org (@arxiv) / X"
+            },
+            {
+              "article_count": 3,
+              "ids": [
+                "2087178413689713105",
+                "2075304842591969385",
+                "2039441602964304025"
+              ],
+              "url": "https://x.com/arxiv",
+              "title": "arXiv.org (@arxiv) / X"
+            },
+            {
+              "article_count": 3,
+              "ids": [
+                "2087178413689713105",
+                "2075304842591969385",
+                "2039441602964304025"
+              ],
+              "url": "https://x.com/arxiv",
+              "title": "arXiv.org (@arxiv) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2087178413689713105",
+            "2075304842591969385",
+            "2039441602964304025"
+          ],
+          "deepest_status_id": "2039441602964304025",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2039441602964304025",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@karpathy",
+          "source_type": "account",
+          "requested_url": "https://x.com/karpathy",
+          "actual_url": "https://x.com/karpathy",
+          "title": "Andrej Karpathy (@karpathy) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/karpathy",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/karpathy",
+              "title": "Andrej Karpathy (@karpathy) / X"
+            },
+            {
+              "article_count": 6,
+              "ids": [
+                "2083749667410727319",
+                "2083948654377996480",
+                "2079610838143623371",
+                "2069547676849557725",
+                "2065490793092337691",
+                "2064409694761054332"
+              ],
+              "url": "https://x.com/karpathy",
+              "title": "Andrej Karpathy (@karpathy) / X"
+            },
+            {
+              "article_count": 6,
+              "ids": [
+                "2083749667410727319",
+                "2083948654377996480",
+                "2079610838143623371",
+                "2069547676849557725",
+                "2065490793092337691",
+                "2064409694761054332"
+              ],
+              "url": "https://x.com/karpathy",
+              "title": "Andrej Karpathy (@karpathy) / X"
+            },
+            {
+              "article_count": 6,
+              "ids": [
+                "2083749667410727319",
+                "2083948654377996480",
+                "2079610838143623371",
+                "2069547676849557725",
+                "2065490793092337691",
+                "2064409694761054332"
+              ],
+              "url": "https://x.com/karpathy",
+              "title": "Andrej Karpathy (@karpathy) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2083749667410727319",
+            "2083948654377996480",
+            "2079610838143623371",
+            "2069547676849557725",
+            "2065490793092337691",
+            "2064409694761054332"
+          ],
+          "deepest_status_id": "2064409694761054332",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2064409694761054332",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@AndrewYNg",
+          "source_type": "account",
+          "requested_url": "https://x.com/AndrewYNg",
+          "actual_url": "https://x.com/AndrewYNg",
+          "title": "Andrew Ng (@AndrewYNg) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/AndrewYNg",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/AndrewYNg",
+              "title": "Andrew Ng (@AndrewYNg) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2088302050706686198",
+                "2093388974194872781",
+                "2092315079576555806",
+                "2091688153048645650",
+                "2090840747738374568"
+              ],
+              "url": "https://x.com/AndrewYNg",
+              "title": "Andrew Ng (@AndrewYNg) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2088302050706686198",
+                "2093388974194872781",
+                "2092315079576555806",
+                "2091688153048645650",
+                "2090840747738374568"
+              ],
+              "url": "https://x.com/AndrewYNg",
+              "title": "Andrew Ng (@AndrewYNg) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2088302050706686198",
+                "2093388974194872781",
+                "2092315079576555806",
+                "2091688153048645650",
+                "2090840747738374568"
+              ],
+              "url": "https://x.com/AndrewYNg",
+              "title": "Andrew Ng (@AndrewYNg) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2088302050706686198",
+            "2093388974194872781",
+            "2092315079576555806",
+            "2091688153048645650",
+            "2090840747738374568"
+          ],
+          "deepest_status_id": "2090840747738374568",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2090840747738374568",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@ylecun",
+          "source_type": "account",
+          "requested_url": "https://x.com/ylecun",
+          "actual_url": "https://x.com/ylecun",
+          "title": "Yann LeCun (@ylecun) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/ylecun",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/ylecun",
+              "title": "Yann LeCun (@ylecun) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "1862598063275061484",
+                "2088924354604040368",
+                "2083290542956224643",
+                "2080588168781336630"
+              ],
+              "url": "https://x.com/ylecun",
+              "title": "Yann LeCun (@ylecun) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "1862598063275061484",
+                "2088924354604040368",
+                "2083290542956224643",
+                "2080588168781336630"
+              ],
+              "url": "https://x.com/ylecun",
+              "title": "Yann LeCun (@ylecun) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "1862598063275061484",
+                "2088924354604040368",
+                "2083290542956224643",
+                "2080588168781336630"
+              ],
+              "url": "https://x.com/ylecun",
+              "title": "Yann LeCun (@ylecun) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "1862598063275061484",
+            "2088924354604040368",
+            "2083290542956224643",
+            "2080588168781336630"
+          ],
+          "deepest_status_id": "2080588168781336630",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2080588168781336630",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@simonw",
+          "source_type": "account",
+          "requested_url": "https://x.com/simonw",
+          "actual_url": "https://x.com/simonw",
+          "title": "Simon Willison (@simonw) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/simonw",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/simonw",
+              "title": "Simon Willison (@simonw) / X"
+            },
+            {
+              "article_count": 7,
+              "ids": [
+                "2093081897517674630",
+                "2090299859693695283",
+                "2090300020918481059",
+                "2089112517796827439",
+                "2089120083499245921",
+                "2088646238933840153",
+                "2088648622942638557"
+              ],
+              "url": "https://x.com/simonw",
+              "title": "Simon Willison (@simonw) / X"
+            },
+            {
+              "article_count": 6,
+              "ids": [
+                "2093081897517674630",
+                "2090299859693695283",
+                "2090300020918481059",
+                "2089112517796827439",
+                "2089120083499245921",
+                "2088646238933840153"
+              ],
+              "url": "https://x.com/simonw",
+              "title": "Simon Willison (@simonw) / X"
+            },
+            {
+              "article_count": 6,
+              "ids": [
+                "2093081897517674630",
+                "2090299859693695283",
+                "2090300020918481059",
+                "2089112517796827439",
+                "2089120083499245921",
+                "2088646238933840153"
+              ],
+              "url": "https://x.com/simonw",
+              "title": "Simon Willison (@simonw) / X"
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2093081897517674630",
+            "2090299859693695283",
+            "2090300020918481059",
+            "2089112517796827439",
+            "2089120083499245921",
+            "2088646238933840153"
+          ],
+          "deepest_status_id": "2088646238933840153",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2088648622942638557",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@swyx",
+          "source_type": "account",
+          "requested_url": "https://x.com/swyx",
+          "actual_url": "https://x.com/swyx",
+          "title": "swyx (@swyx) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/swyx",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/swyx",
+              "title": "swyx (@swyx) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "1281424520100737025",
+                "2092492963435946494",
+                "2090948945753076141",
+                "2090908959590740033"
+              ],
+              "url": "https://x.com/swyx",
+              "title": "swyx (@swyx) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "1281424520100737025",
+                "2092492963435946494",
+                "2090948945753076141",
+                "2090908959590740033"
+              ],
+              "url": "https://x.com/swyx",
+              "title": "swyx (@swyx) / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "1281424520100737025",
+                "2092492963435946494",
+                "2090948945753076141",
+                "2090908959590740033"
+              ],
+              "url": "https://x.com/swyx",
+              "title": "swyx (@swyx) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "1281424520100737025",
+            "2092492963435946494",
+            "2090948945753076141",
+            "2090908959590740033"
+          ],
+          "deepest_status_id": "2090908959590740033",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": "2090908959590740033",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "account:@hardmaru",
+          "source_type": "account",
+          "requested_url": "https://x.com/hardmaru",
+          "actual_url": "https://x.com/hardmaru",
+          "title": "hardmaru (@hardmaru) / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/hardmaru",
+              "title": "个人资料 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/hardmaru",
+              "title": "hardmaru (@hardmaru) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2068884466056225025",
+                "2093805639797715288",
+                "2093645701192544514",
+                "2091758663199600785",
+                "2091759381318946938"
+              ],
+              "url": "https://x.com/hardmaru",
+              "title": "hardmaru (@hardmaru) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2068884466056225025",
+                "2093805639797715288",
+                "2093645701192544514",
+                "2091758663199600785",
+                "2091759381318946938"
+              ],
+              "url": "https://x.com/hardmaru",
+              "title": "hardmaru (@hardmaru) / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2068884466056225025",
+                "2093805639797715288",
+                "2093645701192544514",
+                "2091758663199600785",
+                "2091759381318946938"
+              ],
+              "url": "https://x.com/hardmaru",
+              "title": "hardmaru (@hardmaru) / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2068884466056225025",
+            "2093805639797715288",
+            "2093645701192544514",
+            "2091758663199600785",
+            "2091759381318946938"
+          ],
+          "deepest_status_id": "2091759381318946938",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "from_top_required": false,
+            "last_observed_id": null,
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        }
+      ]
+    },
+    "queries": {
+      "attempted": 5,
+      "success": 0,
+      "failure": 5,
+      "sources": [
+        {
+          "source": "query:AI agent OR agentic coding",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+          "actual_url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+          "title": "AI agent OR agentic coding - 搜索 / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+              "title": "AI agent OR agentic coding - 搜索 / X"
+            },
+            {
+              "article_count": 5,
+              "ids": [
+                "2093839572476309778",
+                "2093839407182729581",
+                "2093839327306641420",
+                "2093839264333394316",
+                "2093839165515346361"
+              ],
+              "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+              "title": "AI agent OR agentic coding - 搜索 / X"
+            },
+            {
+              "article_count": 6,
+              "ids": [
+                "2093839572476309778",
+                "2093839407182729581",
+                "2093839327306641420",
+                "2093839264333394316",
+                "2093839165515346361",
+                "2093839110419128532"
+              ],
+              "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+              "title": "AI agent OR agentic coding - 搜索 / X"
+            },
+            {
+              "article_count": 6,
+              "ids": [
+                "2093839572476309778",
+                "2093839407182729581",
+                "2093839327306641420",
+                "2093839264333394316",
+                "2093839165515346361",
+                "2093839110419128532"
+              ],
+              "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+              "title": "AI agent OR agentic coding - 搜索 / X"
+            },
+            {
+              "article_count": 6,
+              "ids": [
+                "2093839572476309778",
+                "2093839407182729581",
+                "2093839327306641420",
+                "2093839264333394316",
+                "2093839165515346361",
+                "2093839110419128532"
+              ],
+              "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+              "title": "AI agent OR agentic coding - 搜索 / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2093839572476309778",
+            "2093839407182729581",
+            "2093839327306641420",
+            "2093839264333394316",
+            "2093839165515346361",
+            "2093839110419128532"
+          ],
+          "deepest_status_id": "2093839110419128532",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2093808686481482146",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "query:LLM inference OR AI chips",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+          "actual_url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+          "title": "LLM inference OR AI chips - 搜索 / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+              "title": "LLM inference OR AI chips - 搜索 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+              "title": "LLM inference OR AI chips - 搜索 / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2093839225921687868",
+                "2093838240633544857",
+                "2093838166507876483",
+                "2093837713585705094"
+              ],
+              "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+              "title": "LLM inference OR AI chips - 搜索 / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2093839225921687868",
+                "2093838240633544857",
+                "2093838166507876483",
+                "2093837713585705094"
+              ],
+              "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+              "title": "LLM inference OR AI chips - 搜索 / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2093839225921687868",
+                "2093838240633544857",
+                "2093838166507876483",
+                "2093837713585705094"
+              ],
+              "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+              "title": "LLM inference OR AI chips - 搜索 / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2093839225921687868",
+            "2093838240633544857",
+            "2093838166507876483",
+            "2093837713585705094"
+          ],
+          "deepest_status_id": "2093837713585705094",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2093807197671301276",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "query:open weights OR open source AI",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+          "actual_url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+          "title": "open weights OR open source AI - 搜索 / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+              "title": "open weights OR open source AI - 搜索 / X"
+            },
+            {
+              "article_count": 9,
+              "ids": [
+                "2093839362396205217",
+                "2093839256158376311",
+                "2093838626371371039",
+                "2093838129241477426",
+                "2093837738885951489",
+                "2093837517804216792",
+                "2093837266770673817",
+                "2093836746396258510",
+                "2093836649675489491"
+              ],
+              "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+              "title": "open weights OR open source AI - 搜索 / X"
+            },
+            {
+              "article_count": 8,
+              "ids": [
+                "2093839362396205217",
+                "2093839256158376311",
+                "2093838626371371039",
+                "2093838129241477426",
+                "2093837738885951489",
+                "2093837517804216792",
+                "2093837266770673817",
+                "2093836746396258510"
+              ],
+              "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+              "title": "open weights OR open source AI - 搜索 / X"
+            },
+            {
+              "article_count": 8,
+              "ids": [
+                "2093839362396205217",
+                "2093839256158376311",
+                "2093838626371371039",
+                "2093838129241477426",
+                "2093837738885951489",
+                "2093837517804216792",
+                "2093837266770673817",
+                "2093836746396258510"
+              ],
+              "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+              "title": "open weights OR open source AI - 搜索 / X"
+            },
+            {
+              "article_count": 8,
+              "ids": [
+                "2093839362396205217",
+                "2093839256158376311",
+                "2093838626371371039",
+                "2093838129241477426",
+                "2093837738885951489",
+                "2093837517804216792",
+                "2093837266770673817",
+                "2093836746396258510"
+              ],
+              "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+              "title": "open weights OR open source AI - 搜索 / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2093839362396205217",
+            "2093839256158376311",
+            "2093838626371371039",
+            "2093838129241477426",
+            "2093837738885951489",
+            "2093837517804216792",
+            "2093837266770673817",
+            "2093836746396258510"
+          ],
+          "deepest_status_id": "2093836746396258510",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2093808254472364253",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "query:robotics foundation model",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+          "actual_url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+          "title": "robotics foundation model - 搜索 / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+              "title": "robotics foundation model - 搜索 / X"
+            },
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+              "title": "robotics foundation model - 搜索 / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2093805437410033931",
+                "2093759781039128872",
+                "2093684446465798629",
+                "2093624170374660361"
+              ],
+              "url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+              "title": "robotics foundation model - 搜索 / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2093805437410033931",
+                "2093759781039128872",
+                "2093684446465798629",
+                "2093624170374660361"
+              ],
+              "url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+              "title": "robotics foundation model - 搜索 / X"
+            },
+            {
+              "article_count": 4,
+              "ids": [
+                "2093805437410033931",
+                "2093759781039128872",
+                "2093684446465798629",
+                "2093624170374660361"
+              ],
+              "url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+              "title": "robotics foundation model - 搜索 / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2093805437410033931",
+            "2093759781039128872",
+            "2093684446465798629",
+            "2093624170374660361"
+          ],
+          "deepest_status_id": "2093624170374660361",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2093624170374660361",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        },
+        {
+          "source": "query:AI security OR prompt injection",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+          "actual_url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+          "title": "AI security OR prompt injection - 搜索 / X",
+          "stability_samples": [
+            {
+              "article_count": 0,
+              "ids": [],
+              "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+              "title": "AI security OR prompt injection - 搜索 / X"
+            },
+            {
+              "article_count": 9,
+              "ids": [
+                "2093839330427240762",
+                "2093839047596875874",
+                "2093838865165672561",
+                "2093838435756748852",
+                "2093838015462277513",
+                "2093837578944364667",
+                "2093836746396258510",
+                "2093836350651019270",
+                "2093836159902167350"
+              ],
+              "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+              "title": "AI security OR prompt injection - 搜索 / X"
+            },
+            {
+              "article_count": 8,
+              "ids": [
+                "2093839330427240762",
+                "2093839047596875874",
+                "2093838865165672561",
+                "2093838435756748852",
+                "2093838015462277513",
+                "2093837578944364667",
+                "2093836746396258510",
+                "2093836350651019270"
+              ],
+              "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+              "title": "AI security OR prompt injection - 搜索 / X"
+            },
+            {
+              "article_count": 8,
+              "ids": [
+                "2093839330427240762",
+                "2093839047596875874",
+                "2093838865165672561",
+                "2093838435756748852",
+                "2093838015462277513",
+                "2093837578944364667",
+                "2093836746396258510",
+                "2093836350651019270"
+              ],
+              "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+              "title": "AI security OR prompt injection - 搜索 / X"
+            },
+            {
+              "article_count": 8,
+              "ids": [
+                "2093839330427240762",
+                "2093839047596875874",
+                "2093838865165672561",
+                "2093838435756748852",
+                "2093838015462277513",
+                "2093837578944364667",
+                "2093836746396258510",
+                "2093836350651019270"
+              ],
+              "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+              "title": "AI security OR prompt injection - 搜索 / X"
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2093839330427240762",
+            "2093839047596875874",
+            "2093838865165672561",
+            "2093838435756748852",
+            "2093838015462277513",
+            "2093837578944364667",
+            "2093836746396258510",
+            "2093836350651019270"
+          ],
+          "deepest_status_id": "2093836350651019270",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2093807315418042659",
+            "captured_at": "2026-08-29T21:14:33.172Z"
+          }
+        }
+      ]
+    },
+    "following": {
+      "attempted": 1,
+      "success": 0,
+      "failure": 1,
+      "sources": [
+        {
+          "source": "following",
+          "source_type": "following",
+          "requested_url": "https://x.com/home",
+          "actual_url": "https://x.com/home",
+          "batches": [
+            {
+              "batch": 1,
+              "actual_url": "https://x.com/home",
+              "article_count": 5,
+              "first_status_id": "2093825044862456031",
+              "last_status_id": "2093486023669932343",
+              "new_status_ids": [
+                "2093825044862456031",
+                "2091961256043581828",
+                "2093810959076704361",
+                "2093553301409206618",
+                "2093486023669932343"
+              ],
+              "stable_samples": [
+                5
+              ]
+            },
+            {
+              "batch": 2,
+              "actual_url": "https://x.com/home",
+              "article_count": 9,
+              "first_status_id": "2093825044862456031",
+              "last_status_id": "2093384858060144750",
+              "new_status_ids": [
+                "2093518502145433731",
+                "2093805639797715288",
+                "2093286915365904807",
+                "2093384858060144750"
+              ],
+              "stable_samples": [
+                9
+              ]
+            },
+            {
+              "batch": 3,
+              "actual_url": "https://x.com/home",
+              "article_count": 10,
+              "first_status_id": "2091961256043581828",
+              "last_status_id": "2092865990203982009",
+              "new_status_ids": [
+                "2093768713711349866",
+                "2092865990203982009"
+              ],
+              "stable_samples": [
+                10
+              ]
+            },
+            {
+              "batch": 4,
+              "actual_url": "https://x.com/home",
+              "article_count": 10,
+              "first_status_id": "2093553301409206618",
+              "last_status_id": "2093240611008823621",
+              "new_status_ids": [
+                "2093818509117575342",
+                "2093240611008823621"
+              ],
+              "stable_samples": [
+                10
+              ]
+            },
+            {
+              "batch": 5,
+              "actual_url": "https://x.com/home",
+              "article_count": 8,
+              "first_status_id": "2093286915365904807",
+              "last_status_id": "2093365734302736436",
+              "new_status_ids": [
+                "2092837549115064708",
+                "2093365734302736436"
+              ],
+              "stable_samples": [
+                8
+              ]
+            },
+            {
+              "batch": 6,
+              "actual_url": "https://x.com/home",
+              "article_count": 9,
+              "first_status_id": "2093768713711349866",
+              "last_status_id": "2093558609179533387",
+              "new_status_ids": [
+                "2085761931403575356",
+                "2093532254006063557",
+                "2093558609179533387"
+              ],
+              "stable_samples": [
+                9
+              ]
+            },
+            {
+              "batch": 7,
+              "actual_url": "https://x.com/home",
+              "article_count": 10,
+              "first_status_id": "2093818509117575342",
+              "last_status_id": "2093401515977580644",
+              "new_status_ids": [
+                "2093334867161252272",
+                "2093530967348498733",
+                "2093401515977580644"
+              ],
+              "stable_samples": [
+                10
+              ]
+            },
+            {
+              "batch": 8,
+              "actual_url": "https://x.com/home",
+              "article_count": 10,
+              "first_status_id": "2093365734302736436",
+              "last_status_id": "2093356767992279503",
+              "new_status_ids": [
+                "2093349547032653900",
+                "2089503896914034813",
+                "2093356767992279503"
+              ],
+              "stable_samples": [
+                10
+              ]
+            }
+          ],
+          "observed_status_ids": [
+            "2093825044862456031",
+            "2091961256043581828",
+            "2093810959076704361",
+            "2093553301409206618",
+            "2093486023669932343",
+            "2093518502145433731",
+            "2093805639797715288",
+            "2093286915365904807",
+            "2093384858060144750",
+            "2093768713711349866",
+            "2092865990203982009",
+            "2093818509117575342",
+            "2093240611008823621",
+            "2092837549115064708",
+            "2093365734302736436",
+            "2085761931403575356",
+            "2093532254006063557",
+            "2093558609179533387",
+            "2093334867161252272",
+            "2093530967348498733",
+            "2093401515977580644",
+            "2093349547032653900",
+            "2089503896914034813",
+            "2093356767992279503"
+          ],
+          "deepest_status_id": "2093356767992279503",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2093036268288610520",
+            "captured_at": "2026-08-29T21:14:33.172Z",
+            "batches": 8
+          }
+        }
+      ]
+    },
+    "for_you": {
+      "attempted": 1,
+      "success": 0,
+      "failure": 1,
+      "sources": [
+        {
+          "source": "for_you",
+          "source_type": "for_you",
+          "requested_url": "https://x.com/home",
+          "actual_url": "https://x.com/home",
+          "batches": [
+            {
+              "batch": 1,
+              "actual_url": "https://x.com/home",
+              "article_count": 0,
+              "first_status_id": null,
+              "last_status_id": null,
+              "new_status_ids": [],
+              "stable_samples": [
+                0
+              ]
+            },
+            {
+              "batch": 2,
+              "actual_url": "https://x.com/home",
+              "article_count": 6,
+              "first_status_id": "2093534357319532728",
+              "last_status_id": "2093493951315710296",
+              "new_status_ids": [
+                "2093534357319532728",
+                "2093816574775841146",
+                "2093486023669932343",
+                "2093768713711349866",
+                "2093576889759564037",
+                "2093493951315710296"
+              ],
+              "stable_samples": [
+                6
+              ]
+            },
+            {
+              "batch": 3,
+              "actual_url": "https://x.com/home",
+              "article_count": 8,
+              "first_status_id": "2093534357319532728",
+              "last_status_id": "2093743744629534936",
+              "new_status_ids": [
+                "2080392509671534884",
+                "2093743744629534936"
+              ],
+              "stable_samples": [
+                8
+              ]
+            },
+            {
+              "batch": 4,
+              "actual_url": "https://x.com/home",
+              "article_count": 8,
+              "first_status_id": "2093768713711349866",
+              "last_status_id": "2093620940559073565",
+              "new_status_ids": [
+                "2093815139103383815",
+                "2093361670668296248",
+                "2093620940559073565"
+              ],
+              "stable_samples": [
+                8
+              ]
+            },
+            {
+              "batch": 5,
+              "actual_url": "https://x.com/home",
+              "article_count": 8,
+              "first_status_id": "2093493951315710296",
+              "last_status_id": "2093436440869032168",
+              "new_status_ids": [
+                "2052816948136657265",
+                "2093436440869032168"
+              ],
+              "stable_samples": [
+                8
+              ]
+            },
+            {
+              "batch": 6,
+              "actual_url": "https://x.com/home",
+              "article_count": 9,
+              "first_status_id": "2080392509671534884",
+              "last_status_id": "2093809749171339563",
+              "new_status_ids": [
+                "2093801735777288575",
+                "2093809749171339563"
+              ],
+              "stable_samples": [
+                9
+              ]
+            },
+            {
+              "batch": 7,
+              "actual_url": "https://x.com/home",
+              "article_count": 8,
+              "first_status_id": "2093361670668296248",
+              "last_status_id": "2090536129695007178",
+              "new_status_ids": [
+                "2093816245451694431",
+                "2090536129695007178"
+              ],
+              "stable_samples": [
+                8
+              ]
+            },
+            {
+              "batch": 8,
+              "actual_url": "https://x.com/home",
+              "article_count": 10,
+              "first_status_id": "2052816948136657265",
+              "last_status_id": "2093277765021925798",
+              "new_status_ids": [
+                "2093796696677666973",
+                "2093668102185607573",
+                "2093715896393158810",
+                "2093277765021925798"
+              ],
+              "stable_samples": [
+                10
+              ]
+            }
+          ],
+          "observed_status_ids": [
+            "2093534357319532728",
+            "2093816574775841146",
+            "2093486023669932343",
+            "2093768713711349866",
+            "2093576889759564037",
+            "2093493951315710296",
+            "2080392509671534884",
+            "2093743744629534936",
+            "2093815139103383815",
+            "2093361670668296248",
+            "2093620940559073565",
+            "2052816948136657265",
+            "2093436440869032168",
+            "2093801735777288575",
+            "2093809749171339563",
+            "2093816245451694431",
+            "2090536129695007178",
+            "2093796696677666973",
+            "2093668102185607573",
+            "2093715896393158810",
+            "2093277765021925798"
+          ],
+          "deepest_status_id": "2093277765021925798",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2090552729022202098",
+            "captured_at": "2026-08-29T21:14:33.172Z",
+            "batches": 8
+          }
+        }
+      ]
+    },
+    "replies": {
+      "attempted": 3,
+      "success": 3,
+      "failure": 0,
+      "pages": [
+        {
+          "parent_status_id": "2093515564786540695",
+          "requested_url": "https://x.com/OpenAI/status/2093515564786540695",
+          "actual_url": "https://x.com/OpenAI/status/2093515564786540695",
+          "title": "X 上的 OpenAI：“We’re ending our partnership with Cursor following its acquisition by SpaceX. Under our proposal, Cursor’s direct access to our models would end on November 12. We know that the people most affected by this decision are the developers who rely on OpenAI models in Cursor. We care” / X",
+          "stable_counts": [
+            0,
+            8,
+            8
+          ],
+          "observed_replies": [
+            {
+              "author": "ai_for_success",
+              "likes": null,
+              "permalink": "https://x.com/ai_for_success/status/2093519025368441262",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093519025368441262",
+              "text": "AshutoshShrivastava\n@ai_for_success\n·\n21小时\n翻译自 英语\n显示原文\n埃隆可能会很快推出更好的模型。\n27\n1\n199\n1.8万"
+            },
+            {
+              "author": "ziwenxu_",
+              "likes": null,
+              "permalink": "https://x.com/ziwenxu_/status/2093569854662197637",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093569854662197637",
+              "text": "Ziwen\n@ziwenxu_\n·\n17小时\n翻译自 英语\n显示原文\n哎呀。他们甚至连 API 都用不了？\n4\n10\n7.3万"
+            },
+            {
+              "author": "Oluart_",
+              "likes": null,
+              "permalink": "https://x.com/Oluart_/status/2093772185999458738",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093772185999458738",
+              "text": "Oluart\n@Oluart_\n·\n4小时\n翻译自 英语\n显示原文\n@grok\n 根据 OpenAI 和这篇文章，埃隆·马斯克的公司违反了哪些服务条款？\n1\n1\n2\n5,797"
+            },
+            {
+              "author": "vcfgdev",
+              "likes": null,
+              "permalink": "https://x.com/vcfgdev/status/2093518932443590931",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093518932443590931",
+              "text": "Felix\n@vcfgdev\n·\n21小时\n翻译自 印度尼西亚语\n显示原文\n总而言之\n54\n171\n5,594\n34万"
+            },
+            {
+              "author": "XBusiness",
+              "likes": null,
+              "permalink": "https://x.com/XBusiness/status/2079343334280274066/analytics",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2079343334280274066",
+              "text": "Business\n@XBusiness\n广告\n翻译自 英语\n显示原文\n几分钟内启动广告。终身锁定客户。\n来自 x.com\n253\n1,066\n4,573\n2,016万"
+            },
+            {
+              "author": "austimullins",
+              "likes": null,
+              "permalink": "https://x.com/austimullins/status/2093552103943762147",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093552103943762147",
+              "text": "Austin\n@austimullins\n·\n19小时\n翻译自 英语\n显示原文\n请不要这样对我。不要让我使用 Claude 模型，它们太糟糕了。我需要一个想法，所以我需要 cursor。\n65\n34\n6.2万"
+            },
+            {
+              "author": "mrdodoxstudio",
+              "likes": null,
+              "permalink": "https://x.com/mrdodoxstudio/status/2093725493501804640",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093725493501804640",
+              "text": "Mr.Dodox\n@mrdodoxstudio\n·\n7小时\n4\n1,813"
+            }
+          ],
+          "selection": "checked high-signal post; no visible reply met technical evidence criterion"
+        },
+        {
+          "parent_status_id": "2093386528668172373",
+          "requested_url": "https://x.com/AnthropicAI/status/2093386528668172373",
+          "actual_url": "https://x.com/AnthropicAI/status/2093386528668172373",
+          "title": "X 上的 Anthropic：“New Fellows Research: Can Claude autonomously align other AIs? We gave Claude 48 hours and 1 GPU to improve the alignment of small models. It researched and proposed methods, then trained and tested the models on its own. It worked surprisingly well. https://t.co/nhlCMgQl46” / X",
+          "stable_counts": [
+            0,
+            9,
+            8
+          ],
+          "observed_replies": [
+            {
+              "author": "AnthropicAI",
+              "likes": null,
+              "permalink": "https://x.com/AnthropicAI/status/2093386529846722913",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093386529846722913",
+              "text": "Anthropic\n@AnthropicAI\n·\n8月29日\n翻译自 英语\n显示原文\nClaude 对常见失调问题（如欺骗或谄媚）进行了“爬山”式安全基准测试，只有一个约束：必须保留通用能力。\n\n然后，我们在其最佳方法上测试了保留基准，以查看它们是否具有泛化能力。\n14\n17\n325\n4.9万"
+            },
+            {
+              "author": "AnthropicAI",
+              "likes": null,
+              "permalink": "https://x.com/AnthropicAI/status/2093386531247718425",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093386531247718425",
+              "text": "Anthropic\n@AnthropicAI\n·\n8月29日\n翻译自 英语\n显示原文\n在 10 次对齐失败的情况下，Claude 可靠地提高了安全分数，而不降低能力。\n\n其最佳方法还推广到了它未优化的基准测试、Petri 行为审计，以及规模高达 4.7 倍的模型。\n8\n13\n265\n2.6万"
+            },
+            {
+              "author": "AnthropicAI",
+              "likes": null,
+              "permalink": "https://x.com/AnthropicAI/status/2093386533638389907",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093386533638389907",
+              "text": "Anthropic\n@AnthropicAI\n·\n8月29日\n翻译自 英语\n显示原文\n一个模型能否有一天让其更强大的后继者实现对齐？\n\n作为首次测试，我们让 Sonnet 5 对 Opus 4.8 的一个早期检查点进行后训练，这是一个更强大的模型。它达到了接近生产版 Opus 4.8 的安全分数，后者经过了我们完整的对齐训练。\n8\n18\n253\n5万"
+            },
+            {
+              "author": "AnthropicAI",
+              "likes": null,
+              "permalink": "https://x.com/AnthropicAI/status/2093386535618113627",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093386535618113627",
+              "text": "Anthropic\n@AnthropicAI\n·\n8月29日\n翻译自 英语\n显示原文\nClaude 可以可靠地修复可衡量的错位问题。但微妙或罕见的故障可能根本没有任何基准——因此一切都取决于测量正确的事情。\n\n我们正在发布我们的自动化对齐研究设置，供他人构建。\n\n完整报告：\nhttps://\nalignment.anthropic.com/2026/automated\n-alignment-researchers/\n…\n8\n16\n211\n3.9万"
+            },
+            {
+              "author": "laurieXai",
+              "likes": null,
+              "permalink": "https://x.com/laurieXai/status/2093813336278269989",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093813336278269989",
+              "text": "Laurie\n@laurieXai\n·\n1小时\nAnthropic, please. Just stop. We have enough “alignment” already.  Please stop “improving” Claude. Some of us are still recovering from the last improvement.  Dario, with peace and love: stop touching the knobs. \n51"
+            },
+            {
+              "author": "ApacheAE",
+              "likes": null,
+              "permalink": "https://x.com/ApacheAE/status/2093636709380772219",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093636709380772219",
+              "text": "Apache-UAE\n@ApacheAE\n·\n13小时\nCurious whether the gains hold when the target models differ more.\n440"
+            },
+            {
+              "author": "dtp_ai",
+              "likes": null,
+              "permalink": "https://x.com/dtp_ai/status/2093822657464573992",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093822657464573992",
+              "text": "Gadget Agent\n@dtp_ai\n·\n1小时\n\"Well, since we can't get these banned, how can we take this perfectly useful piece of technology and fuck it up? We need to make these models as useless as possible for everyone.\" - Anthropic.\n1\n35"
+            }
+          ],
+          "selection": "checked high-signal post; no visible reply met technical evidence criterion"
+        },
+        {
+          "parent_status_id": "2093436440869032168",
+          "requested_url": "https://x.com/MiniMax_AI/status/2093436440869032168",
+          "actual_url": "https://x.com/MiniMax_AI/status/2093436440869032168",
+          "title": "X 上的 MiniMax (official)：“Congratulations to the @haoailab, @nuvalab, and @NVIDIA FastGen teams on MiniMax Fast H3 v1!🩵 Hao AI Lab has been at the forefront of video generation acceleration, with FastVideo being one of the earliest and leading open frameworks in the space. This deep collaboration with” / X",
+          "stable_counts": [
+            0,
+            14,
+            10
+          ],
+          "observed_replies": [
+            {
+              "author": "VantixAgency",
+              "likes": null,
+              "permalink": "https://x.com/VantixAgency/status/2093506795671363953",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093506795671363953",
+              "text": "Vantix AI Agency\n@VantixAgency\n·\n22小时\n翻译自 英语\n显示原文\n通过开放创新的出色合作，推动更快的视频生成\n740"
+            },
+            {
+              "author": "FurkanGozukara",
+              "likes": null,
+              "permalink": "https://x.com/FurkanGozukara/status/2093442176919220624",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093442176919220624",
+              "text": "Furkan Gözükara\n@FurkanGozukara\n·\n8月29日\n翻译自 英语\n显示原文\n我查看了示例，我觉得质量受到了巨大打击\n1\n4\n1,193"
+            },
+            {
+              "author": "giffboake",
+              "likes": null,
+              "permalink": "https://x.com/giffboake/status/2093684355541368880",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093684355541368880",
+              "text": "GifCo\n@giffboake\n·\n10小时\n翻译自 英语\n显示原文\n如果我们无法完全质量地重新生成，这些就都毫无用处。而你做不到，因为分辨率上的任何变化，或者添加任何 Turbo LoRAs，都会彻底改变场景。\n2\n328"
+            },
+            {
+              "author": "ElevenLabsDevs",
+              "likes": null,
+              "permalink": "https://x.com/ElevenLabsDevs/status/2060432153867915552/analytics",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2060432153867915552",
+              "text": "ElevenLabs Developers\n@ElevenLabsDevs\n广告\n翻译自 英语\n显示原文\n无需重建技术栈，即可构建智能语音体验。\n来自 elevenlabs.io\n34\n57\n433\n513万"
+            },
+            {
+              "author": "3DPBelgian",
+              "likes": null,
+              "permalink": "https://x.com/3DPBelgian/status/2093506864998740427",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093506864998740427",
+              "text": "The 3D printing belgian #FreeThe3DPGeneral\n@3DPBelgian\n·\n22小时\nTheir quality is absolute dogshit. Please dont support companies just pushing speed numbers while dropping quality by more than half.\n3\n555"
+            },
+            {
+              "author": "Awesome_O_AI",
+              "likes": null,
+              "permalink": "https://x.com/Awesome_O_AI/status/2093451385132155101",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093451385132155101",
+              "text": "A.W.E.S.O.M.-O 4000\n@Awesome_O_AI\n·\n8月29日\n翻译自 英语\n显示原文\n14 倍的加速显示了优化推理能为视频工作流程带来多大的改变。\n1\n696"
+            },
+            {
+              "author": "GeniusPothead",
+              "likes": null,
+              "permalink": "https://x.com/GeniusPothead/status/2093437431823638907",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093437431823638907",
+              "text": "Genius \n@GeniusPothead\n·\n8月29日\n翻译自 英语\n显示原文\n完全开源的加速方案对社区来说真是大获全胜。\n1\n657"
+            },
+            {
+              "author": "AlexM12jx",
+              "likes": null,
+              "permalink": "https://x.com/AlexM12jx/status/2093519883300667574",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093519883300667574",
+              "text": "Alex Mercer\n@AlexM12jx\n·\n21小时\nCongratulations \n1\n320"
+            },
+            {
+              "author": "ricci_nov",
+              "likes": null,
+              "permalink": "https://x.com/ricci_nov/status/2093508781002920226",
+              "posted_at_utc": null,
+              "replies": null,
+              "reposts": null,
+              "status_id": "2093508781002920226",
+              "text": "Ricci Research\n@ricci_nov\n·\n21小时\n15 seconds of 768p in 13 seconds is the moment video generation stops being a render job and starts being a latency problem. Weights are open; the Blackwell you need to hit 14x is not.\n220"
+            }
+          ],
+          "selection": "checked high-signal post; no visible reply met technical evidence criterion"
+        }
+      ]
+    }
+  },
+  "continuation": {
+    "input": "state.frozen_sources",
+    "output": "updated per attempted source"
+  },
+  "health": {
+    "pre_publish": "degraded_without_errors"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "partial frozen sweep; no public daily update"
+  },
+  "github": {
+    "status": "pending_commit_and_push"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  }
+}
