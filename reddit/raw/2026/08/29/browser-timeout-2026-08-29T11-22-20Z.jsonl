@@ -1,0 +1,1 @@
+{"captured_at":"2026-08-29T11:25:28Z","kind":"collection_failure","owner":"Reddit-20260829T112220Z-618","reason":"Chrome batch exceeded the 120-second execution limit and reset before returning a verifiable per-source result ledger; no observations or comments were accepted as durable.","scope":{"new":12,"hot_rising":24,"global":3,"search":8,"due_comment_revisits":2}}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "platform": "reddit",
+  "started_at_utc": "2026-08-29T11:22:20Z",
+  "completed_at_utc": "2026-08-29T11:25:28Z",
+  "lock_owner": "Reddit-20260829T112220Z-618",
+  "browser": {"surface": "Chrome", "read_only": true, "stable_samples": 3, "result": "timeout_reset"},
+  "raw_files": ["reddit/raw/2026/08/29/browser-timeout-2026-08-29T11-22-20Z.jsonl"],
+  "records": {"posts": 0, "raw_comments": 0, "selected_comments": 0},
+  "layers": {
+    "new": {"attempted": 12, "success": 0, "failure": 12, "frozen": true},
+    "hot_rising": {"attempted": 24, "success": 0, "failure": 24, "frozen": true},
+    "global": {"attempted": 3, "success": 0, "failure": 3, "frozen": true},
+    "search": {"attempted": 8, "success": 0, "failure": 8, "frozen": true},
+    "comments": {"due": 2, "success": 0, "failure": 2, "frozen": true},
+    "community_discovery": {"candidates_added": 0}
+  },
+  "failure_ledger": [{"scope":"all collection layers","reason":"Chrome batch exceeded the 120-second execution limit and reset before a verifiable per-source ledger was returned","last_checkpoints":"unchanged","freeze_scope":"all independently frozen source cursors and both due comment revisits","recovery":"run smaller source batches and persist each completed batch before starting the next"}],
+  "github": {"status": "pending"},
+  "dingtalk": {"status": "not_sent"},
+  "publication": {"eligible": false, "reason": "partial collection evidence; daily page and GitHub Pages not updated"}
+}
