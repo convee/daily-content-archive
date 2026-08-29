@@ -433,10 +433,21 @@
   "daily_report_updated": false,
   "page_updated": false,
   "github": {
-    "status": "pending_commit_and_push"
+    "status": "pushed",
+    "commit": "e331b0844db4671341fef2ccfd8b4d46db7906f4",
+    "remote": "origin/main",
+    "remote_verified": true,
+    "verified_at_utc": "2026-08-29T21:16:02.606Z"
   },
   "dingtalk": {
-    "status": "not_sent"
+    "status": "sent",
+    "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "target_verified": true,
+    "message_type": "exception_alert",
+    "openTaskId": "MKMUyKbMu4mL17YQsRw9htsAwXbpF0VXF3EnU65X0o0=",
+    "openMessageId": "msgBWpS/t8xD6kRyzU8XtIoBA==",
+    "sendStatus": "SUCCESS",
+    "verified_at_utc": "2026-08-29T21:16:02.606Z"
   },
   "publication": {
     "eligible": false,
