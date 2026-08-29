@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "platform": "twitter",
+  "run_id": "2026-08-29T171121Z",
+  "started_at_utc": "2026-08-29T17:11:21Z",
+  "finished_at_utc": "2026-08-29T17:13:00Z",
+  "status": "partial_frozen",
+  "lock": {"owner":"twitter-20260829T171121Z-0e1117","acquire_retries":0,"waited_seconds":0,"ttl_seconds":5400,"acquired_at_utc":"2026-08-29T17:11:21Z"},
+  "health_before": {"status":"degraded","errors":0,"warning":"latest_run_degraded; source cursors retained"},
+  "stability_sampling": {"tabs":"one fresh named Chrome tab per source","samples_per_source":3,"interval_ms":600,"result":"X shell-to-content hydration/reflow prevented a stable status-anchor window"},
+  "raw_files": ["twitter/raw/2026/08/30/2026-08-29T171121Z-attempt-ledger.jsonl"],
+  "source_summary": {"accounts":{"attempted":19,"successful":0,"frozen":19},"queries":{"attempted":5,"successful":0,"frozen":5},"following":{"attempted":1,"successful":0,"frozen":1},"for_you":{"attempted":1,"successful":0,"frozen":1},"replies":{"attempted":0,"successful":0,"frozen":1}},
+  "source_attempts": [
+    {"source_type":"account","sources":"all 19 sources.json account Posts timelines","batches":0,"old_checkpoint_reached":false,"raw_file":"twitter/raw/2026/08/30/2026-08-29T171121Z-attempt-ledger.jsonl","failure":"Three stability samples reflowed; all account cursors and continuation evidence frozen."},
+    {"source_type":"query","sources":"all 5 sources.json Latest queries","batches":0,"old_checkpoint_reached":false,"raw_file":"twitter/raw/2026/08/30/2026-08-29T171121Z-attempt-ledger.jsonl","failure":"Three stability samples reflowed; all query cursors and continuation evidence frozen."},
+    {"source_type":"following","source":"Following","batches":0,"old_checkpoint_reached":false,"raw_file":"twitter/raw/2026/08/30/2026-08-29T171121Z-attempt-ledger.jsonl","failure":"Home-feed hydration was unstable; cursor frozen."},
+    {"source_type":"for_you","source":"For you","batches":0,"snapshot_complete":false,"raw_file":"twitter/raw/2026/08/30/2026-08-29T171121Z-attempt-ledger.jsonl","failure":"Required eight-batch discovery snapshot could not begin safely; snapshot frozen."},
+    {"source_type":"replies","sources":"none finalized","batches":0,"raw_file":"twitter/raw/2026/08/30/2026-08-29T171121Z-attempt-ledger.jsonl","failure":"No safe high-signal candidate set after source freezes; no reply result claimed."}
+  ],
+  "continuation": {"input":"origin/main state retained","output":"all source continuation/checkpoint data unchanged"},
+  "checkpoints_advanced": false,
+  "posts_added": 0,
+  "replies_added": 0,
+  "daily_report_updated": false,
+  "page_updated": false,
+  "github": {"commit":"pending_finalization","push_status":"pending","remote_verified":false},
+  "dingtalk": {"target_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","sendStatus":"pending"},
+  "reason": "All 26 required source surfaces were attempted in fresh logged-in Chrome tabs. Mandatory stability sampling failed before continuous boundary or discovery-snapshot completion; state checkpoints and public page remain unchanged."
+}
