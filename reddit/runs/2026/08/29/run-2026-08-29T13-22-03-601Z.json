@@ -1,0 +1,119 @@
+{
+  "schema_version": 2,
+  "platform": "reddit",
+  "started_at_utc": "2026-08-29T13:22:03.601Z",
+  "completed_at_utc": "2026-08-29T13:22:03.601Z",
+  "lock_owner": "Reddit-20260829T112300Z-a9f4",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples": 3
+  },
+  "raw_file": "reddit/raw/2026/08/29/capture-2026-08-29T13-22-03-601Z.jsonl",
+  "raw_files": [
+    "reddit/raw/2026/08/29/capture-2026-08-29T13-22-03-601Z.jsonl"
+  ],
+  "records": {
+    "posts": 871,
+    "comments": 71,
+    "written": 71
+  },
+  "layers": {
+    "new": {
+      "attempted": 12,
+      "success": 9,
+      "failure": 3
+    },
+    "hot_rising": {
+      "attempted": 24,
+      "success": 24,
+      "failure": 0
+    },
+    "global": {
+      "attempted": 3,
+      "success": 3,
+      "failure": 0
+    },
+    "search": {
+      "attempted": 8,
+      "success": 0,
+      "failure": 8
+    },
+    "comments": {
+      "due": 2,
+      "success": 0,
+      "failure": 2
+    },
+    "community_discovery": {
+      "candidates_added": 0
+    }
+  },
+  "failure_ledger": [
+    {
+      "source": "New:programming",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1vzw7as",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:technology",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1vzwxyi",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:opensource",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1w09i8j",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "Search 8 queries",
+      "reason": "all queries saved only discovery snapshots; time boundaries not crossed",
+      "frozen": true,
+      "recovery": "resume each modern Posts+New result stream"
+    }
+  ],
+  "failures": [
+    {
+      "source": "New:programming",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1vzw7as",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:technology",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1vzwxyi",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:opensource",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1w09i8j",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "Search 8 queries",
+      "reason": "all queries saved only discovery snapshots; time boundaries not crossed",
+      "frozen": true,
+      "recovery": "resume each modern Posts+New result stream"
+    }
+  ],
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "search continuity frozen"
+  }
+}
