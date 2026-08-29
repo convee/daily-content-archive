@@ -9426,22 +9426,22 @@
   },
   "last_run_failure_ledger": [
     {
-      "source": "Chrome batch: 12 New + 24 Hot/Rising + 3 global + 8 search",
-      "reason": "browser tool exceeded 120-second execution limit and reset before results could be persisted",
+      "source": "New: MachineLearning, LocalLLaMA, programming, technology",
+      "reason": "Chrome listings were stably observed (3 samples each), but the browser session result was truncated and its isolated clipboard could not transfer the complete records to durable raw JSONL.",
       "frozen": true,
       "last_checkpoint": "unchanged",
-      "recovery": "use bounded serial tabs; persist each source before navigating"
+      "recovery": "rerun each source in a browser-to-durable batch with a supported transfer path"
     },
     {
-      "source": "comments due",
-      "reason": "not reached after collector tool reset",
+      "source": "Hot/Rising (24), Home/Popular/All (3), Search (8), due comment revisits",
+      "reason": "not run after New persistence boundary failed",
       "frozen": true,
       "last_checkpoint": "unchanged",
-      "recovery": "retry after source batches persist"
+      "recovery": "run only after the New durable-write path succeeds"
     }
   ],
   "last_tool_failure": {
-    "at_utc": "2026-08-29T03:30:00Z",
+    "at_utc": "2026-08-29T05:24:00Z",
     "reason": "browser collection preserved as partial; all cursors frozen"
   },
   "last_dingtalk_delivery": {

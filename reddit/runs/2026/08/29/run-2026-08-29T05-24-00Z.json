@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "platform": "reddit",
+  "started_at_utc": "2026-08-29T05:24:00Z",
+  "completed_at_utc": "2026-08-29T05:24:00Z",
+  "lock_owner": "Reddit-20260829T052157Z-15150",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples": 3
+  },
+  "raw_file": "reddit/raw/2026/08/29/browser-batch-2026-08-29T05-24-00Z.jsonl",
+  "raw_files": [
+    "reddit/raw/2026/08/29/browser-batch-2026-08-29T05-24-00Z.jsonl"
+  ],
+  "records": {
+    "posts": 0,
+    "comments": 0,
+    "by_source": {}
+  },
+  "layers": {
+    "new": {
+      "attempted": 12,
+      "success": 0,
+      "failure": 12
+    },
+    "hot_rising": {
+      "attempted": 24,
+      "success": 0,
+      "failure": 24
+    },
+    "global": {
+      "attempted": 3,
+      "success": 0,
+      "failure": 3
+    },
+    "search": {
+      "attempted": 8,
+      "success": 0,
+      "failure": 8
+    },
+    "comments": {
+      "due": 0,
+      "success": 0,
+      "failure": 0
+    },
+    "community_discovery": {
+      "candidates_added": 0
+    }
+  },
+  "failure_ledger": [
+    {
+      "source": "New: MachineLearning, LocalLLaMA, programming, technology",
+      "reason": "Chrome listings were stably observed (3 samples each), but the browser session result was truncated and its isolated clipboard could not transfer the complete records to durable raw JSONL.",
+      "frozen": true,
+      "last_checkpoint": "unchanged",
+      "recovery": "rerun each source in a browser-to-durable batch with a supported transfer path"
+    },
+    {
+      "source": "Hot/Rising (24), Home/Popular/All (3), Search (8), due comment revisits",
+      "reason": "not run after New persistence boundary failed",
+      "frozen": true,
+      "last_checkpoint": "unchanged",
+      "recovery": "run only after the New durable-write path succeeds"
+    }
+  ],
+  "failures": [
+    {
+      "source": "New: MachineLearning, LocalLLaMA, programming, technology",
+      "reason": "Chrome listings were stably observed (3 samples each), but the browser session result was truncated and its isolated clipboard could not transfer the complete records to durable raw JSONL.",
+      "frozen": true,
+      "last_checkpoint": "unchanged",
+      "recovery": "rerun each source in a browser-to-durable batch with a supported transfer path"
+    },
+    {
+      "source": "Hot/Rising (24), Home/Popular/All (3), Search (8), due comment revisits",
+      "reason": "not run after New persistence boundary failed",
+      "frozen": true,
+      "last_checkpoint": "unchanged",
+      "recovery": "run only after the New durable-write path succeeds"
+    }
+  ],
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "partial source evidence"
+  }
+}
