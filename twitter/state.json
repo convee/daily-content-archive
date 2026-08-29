@@ -2,7 +2,7 @@
   "schema_version": 1,
   "continuity_started_at_utc": "2026-08-26T12:44:32Z",
   "last_successful_run_at_utc": "2026-08-27T13:30:50.153Z",
-  "last_run_at_utc": "2026-08-29T13:13:30Z",
+  "last_run_at_utc": "2026-08-29T21:14:33.172Z",
   "seen_status_ids": [
     "1281424520100737025",
     "1862598063275061484",
@@ -3067,7 +3067,79 @@
     "2093560106096939123",
     "2093659954649432469",
     "2093617616522719545",
-    "2093493868272480644"
+    "2093493868272480644",
+    "2093722690049695780",
+    "2093722692012662933",
+    "2093771942771744815",
+    "2093759362984468665",
+    "2093755344614772901",
+    "2093733200149315801",
+    "2093700473488355690",
+    "2093809141051765194",
+    "2093809100274459059",
+    "2093809010428297364",
+    "2093808961955025134",
+    "2093808960339931630",
+    "2093808711571779815",
+    "2093808703354839390",
+    "2093808686481482146",
+    "2093808844707434527",
+    "2093808024582554097",
+    "2093807982614401314",
+    "2093807630405763369",
+    "2093807314063028272",
+    "2093807197671301276",
+    "2093808838210400686",
+    "2093808721700716974",
+    "2093808713983234137",
+    "2093808485444280648",
+    "2093808378816635311",
+    "2093808378648948978",
+    "2093808254472364253",
+    "2093805437410033931",
+    "2093759781039128872",
+    "2093809135364067774",
+    "2093808978174124208",
+    "2093808536950309060",
+    "2093807952918380650",
+    "2093807381771624479",
+    "2093807315418042659",
+    "2093765415843385499",
+    "2093730586795876674",
+    "2093754163343593802",
+    "2093781510805455121",
+    "2093768970427940998",
+    "2093413305247297600",
+    "2093685415748210942",
+    "2093709490814165162",
+    "2091961256043581828",
+    "2093786010648010831",
+    "2093801735777288575",
+    "2093353136719065136",
+    "2093678278829576214",
+    "2093525881759375364",
+    "2093558693165940776",
+    "2093706032941830555",
+    "2093036268288610520",
+    "2093751328497439007",
+    "2093774711331135652",
+    "2093679847423770883",
+    "2093721140795478078",
+    "2093798341914087699",
+    "2093769355418804612",
+    "2093768326313042299",
+    "2093682610698403945",
+    "2093746422466367907",
+    "2093666101846827410",
+    "2093560175848251840",
+    "2093744353420230756",
+    "2091669834337755616",
+    "2093411543186649542",
+    "2093402966879519193",
+    "2093613416447434772",
+    "2093516029884305409",
+    "2093533603355308162",
+    "2090552729022202098"
   ],
   "source_checkpoints": {
     "account:@OpenAI": {
@@ -4174,9 +4246,15 @@
   ],
   "frozen_sources": {
     "query:AI agent OR agentic coding": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2093808686481482146",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "last_observed_id": "2093808686481482146",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2093477156907036757",
         "deepest_seen": "2093476832167461125",
         "captured_at": "2026-08-28T23:14:04.198Z",
@@ -4184,9 +4262,15 @@
       }
     },
     "query:LLM inference OR AI chips": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2093807197671301276",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "last_observed_id": "2093807197671301276",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2093477232819982827",
         "deepest_seen": "2093474303509762490",
         "captured_at": "2026-08-28T23:14:06.524Z",
@@ -4194,9 +4278,15 @@
       }
     },
     "query:open weights OR open source AI": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2093808254472364253",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "last_observed_id": "2093808254472364253",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2093477217753829696",
         "deepest_seen": "2093475261790494759",
         "captured_at": "2026-08-28T23:14:08.873Z",
@@ -4204,9 +4294,15 @@
       }
     },
     "query:AI security OR prompt injection": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2093807315418042659",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "last_observed_id": "2093807315418042659",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2093477232819982827",
         "deepest_seen": "2093476505821004012",
         "captured_at": "2026-08-28T23:14:13.496Z",
@@ -4214,9 +4310,16 @@
       }
     },
     "following": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "stable first batch but committed checkpoint 2092961084932030698 not reached; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_in_eight_batches",
+      "last_deepest_status_id": "2093036268288610520",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "last_observed_id": "2093036268288610520",
+        "captured_at": "2026-08-29T21:14:33.172Z",
+        "batches": 8
+      },
+      "previous_continuation": {
         "new_head": "2093343627015594092",
         "deepest_seen": "2093455983687217567",
         "captured_at": "2026-08-28T23:14:43.742Z",
@@ -4224,20 +4327,28 @@
       }
     },
     "for_you": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "eight discovery batches still produced new status IDs; required two consecutive zero-new batches absent",
-      "snapshot": {
-        "first_status_id": "2093448597417148607",
-        "last_status_id": "2093388908192993573",
-        "batches": 8,
-        "captured_at": "2026-08-28T23:14:40.185Z",
-        "raw_file": "twitter/raw/2026/08/28/2026-08-28T231219Z-attempt-ledger.jsonl"
-      }
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "eight_batches_completed_without_two_consecutive_zero_new_batches",
+      "last_deepest_status_id": "2090552729022202098",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "continuation": {
+        "last_observed_id": "2090552729022202098",
+        "captured_at": "2026-08-29T21:14:33.172Z",
+        "batches": 8
+      },
+      "previous_continuation": null
     },
     "account:@OpenAI": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2092335305366069305",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2092335305366069305",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2092300846675505602",
         "deepest_seen": "2092335305366069305",
         "captured_at": "2026-08-28T23:13:20.339Z",
@@ -4245,9 +4356,16 @@
       }
     },
     "account:@AnthropicAI": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2092661574523867302",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2092661574523867302",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2093386528668172373",
         "deepest_seen": "2089842387845804246",
         "captured_at": "2026-08-28T23:13:22.658Z",
@@ -4255,9 +4373,16 @@
       }
     },
     "account:@GoogleDeepMind": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2093019632475001225",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2093019632475001225",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2092961763553677387",
         "deepest_seen": "2093019632475001225",
         "captured_at": "2026-08-28T23:13:24.949Z",
@@ -4265,9 +4390,16 @@
       }
     },
     "account:@xai": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2091957125941543034",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2091957125941543034",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2035562571932024842",
         "deepest_seen": "2091957125941543034",
         "captured_at": "2026-08-28T23:13:27.255Z",
@@ -4275,9 +4407,16 @@
       }
     },
     "account:@MistralAI": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2079598447234064801",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2079598447234064801",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2091964930715013224",
         "deepest_seen": "2079598447234064801",
         "captured_at": "2026-08-28T23:13:29.584Z",
@@ -4285,9 +4424,16 @@
       }
     },
     "account:@AIatMeta": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2090485743034716420",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2090485743034716420",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2086757844544811485",
         "deepest_seen": "2090485743034716420",
         "captured_at": "2026-08-28T23:13:31.863Z",
@@ -4295,9 +4441,16 @@
       }
     },
     "account:@ycombinator": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2092041032104022506",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2092041032104022506",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2092680754790891676",
         "deepest_seen": "2092041032104022506",
         "captured_at": "2026-08-28T23:13:41.141Z",
@@ -4305,9 +4458,16 @@
       }
     },
     "account:@nvidia": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2093457337369448833",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2093457337369448833",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2093457336161419676",
         "deepest_seen": "2093036251603734919",
         "captured_at": "2026-08-28T23:13:36.576Z",
@@ -4315,9 +4475,15 @@
       }
     },
     "query:robotics foundation model": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2093624170374660361",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "last_observed_id": "2093624170374660361",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2093473701748412551",
         "deepest_seen": "2093405469834383510",
         "captured_at": "2026-08-28T23:14:11.176Z",
@@ -4325,9 +4491,16 @@
       }
     },
     "account:@huggingface": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2087521619459850348",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2087521619459850348",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2092727360584135026",
         "deepest_seen": "2087413988451574199",
         "captured_at": "2026-08-28T23:13:34.196Z",
@@ -4335,9 +4508,16 @@
       }
     },
     "account:@GitHub": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2093380326533816372",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2093380326533816372",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2093008357644779643",
         "deepest_seen": "2093380326533816372",
         "captured_at": "2026-08-28T23:13:38.854Z",
@@ -4345,9 +4525,16 @@
       }
     },
     "account:@producthunt": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2093189665545507258",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2093189665545507258",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2093417082767737075",
         "deepest_seen": "2093189665545507258",
         "captured_at": "2026-08-28T23:13:43.450Z",
@@ -4355,9 +4542,16 @@
       }
     },
     "account:@TechCrunch": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2093700473488355690",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2093700473488355690",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2093469957308760094",
         "deepest_seen": "2093403516819714473",
         "captured_at": "2026-08-28T23:13:45.705Z",
@@ -4365,9 +4559,16 @@
       }
     },
     "account:@arxiv": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2039441602964304025",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2039441602964304025",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2087178413689713105",
         "deepest_seen": "2039441602964304025",
         "captured_at": "2026-08-28T23:13:48.022Z",
@@ -4375,9 +4576,16 @@
       }
     },
     "account:@karpathy": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2064409694761054332",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2064409694761054332",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2083749667410727319",
         "deepest_seen": "2064394151441863006",
         "captured_at": "2026-08-28T23:13:50.256Z",
@@ -4385,9 +4593,16 @@
       }
     },
     "account:@AndrewYNg": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2090840747738374568",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2090840747738374568",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2088302050706686198",
         "deepest_seen": "2090840747738374568",
         "captured_at": "2026-08-28T23:13:52.604Z",
@@ -4395,9 +4610,16 @@
       }
     },
     "account:@ylecun": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2080588168781336630",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2080588168781336630",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "1862598063275061484",
         "deepest_seen": "2080392383364014159",
         "captured_at": "2026-08-28T23:13:54.877Z",
@@ -4405,9 +4627,16 @@
       }
     },
     "account:@simonw": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2088648622942638557",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2088648622942638557",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2093081897517674630",
         "deepest_seen": "2088646238933840153",
         "captured_at": "2026-08-28T23:13:57.182Z",
@@ -4415,9 +4644,16 @@
       }
     },
     "account:@swyx": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "continuity_boundary_not_reached_and_three_samples_unstable",
+      "last_deepest_status_id": "2090908959590740033",
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": "2090908959590740033",
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "1281424520100737025",
         "deepest_seen": "2092492963435946494",
         "captured_at": "2026-08-28T23:13:59.527Z",
@@ -4425,9 +4661,16 @@
       }
     },
     "account:@hardmaru": {
-      "frozen_at": "2026-08-28T23:14:50Z",
-      "reason": "mandatory three-sample stability window changed during initial render; durable evidence saved; checkpoint unchanged",
+      "frozen_at_utc": "2026-08-29T21:14:33.172Z",
+      "reason": "no_stable_article_dom",
+      "last_deepest_status_id": null,
+      "last_raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
       "continuation": {
+        "from_top_required": false,
+        "last_observed_id": null,
+        "captured_at": "2026-08-29T21:14:33.172Z"
+      },
+      "previous_continuation": {
         "new_head": "2068884466056225025",
         "deepest_seen": "2090628114888183964",
         "captured_at": "2026-08-28T23:14:01.875Z",
@@ -4439,141 +4682,163 @@
       "batches": 1,
       "deepest_status_id": "2093038432302080019",
       "reason": "reply page reflowing; no qualifying independent replies extracted",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl"
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T151151Z-attempt-ledger.jsonl",
+      "previous_continuation": null
     },
     "account:OpenAI": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2092691861773160673"
+      "deepest_visible_status_id": "2092691861773160673",
+      "previous_continuation": null
     },
     "account:AnthropicAI": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2092661574523867302"
+      "deepest_visible_status_id": "2092661574523867302",
+      "previous_continuation": null
     },
     "account:GoogleDeepMind": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093019632475001225"
+      "deepest_visible_status_id": "2093019632475001225",
+      "previous_continuation": null
     },
     "account:xai": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2091957125941543034"
+      "deepest_visible_status_id": "2091957125941543034",
+      "previous_continuation": null
     },
     "account:MistralAI": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2087305196841922782"
+      "deepest_visible_status_id": "2087305196841922782",
+      "previous_continuation": null
     },
     "account:AIatMeta": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2090485743034716420"
+      "deepest_visible_status_id": "2090485743034716420",
+      "previous_continuation": null
     },
     "account:huggingface": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2085758063471120848"
+      "deepest_visible_status_id": "2085758063471120848",
+      "previous_continuation": null
     },
     "account:nvidia": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2092960850197741946"
+      "deepest_visible_status_id": "2092960850197741946",
+      "previous_continuation": null
     },
     "account:GitHub": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2092584970812367077"
+      "deepest_visible_status_id": "2092584970812367077",
+      "previous_continuation": null
     },
     "account:ycombinator": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2092041032104022506"
+      "deepest_visible_status_id": "2092041032104022506",
+      "previous_continuation": null
     },
     "account:producthunt": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093054760228434331"
+      "deepest_visible_status_id": "2093054760228434331",
+      "previous_continuation": null
     },
     "account:TechCrunch": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093361752356360667"
+      "deepest_visible_status_id": "2093361752356360667",
+      "previous_continuation": null
     },
     "account:arxiv": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2039441602964304025"
+      "deepest_visible_status_id": "2039441602964304025",
+      "previous_continuation": null
     },
     "account:karpathy": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2064394151441863006"
+      "deepest_visible_status_id": "2064394151441863006",
+      "previous_continuation": null
     },
     "account:AndrewYNg": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2090840747738374568"
+      "deepest_visible_status_id": "2090840747738374568",
+      "previous_continuation": null
     },
     "account:ylecun": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2080392383364014159"
+      "deepest_visible_status_id": "2080392383364014159",
+      "previous_continuation": null
     },
     "account:simonw": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2088646238933840153"
+      "deepest_visible_status_id": "2088646238933840153",
+      "previous_continuation": null
     },
     "account:swyx": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2090948945753076141"
+      "deepest_visible_status_id": "2090948945753076141",
+      "previous_continuation": null
     },
     "account:hardmaru": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": null
+      "deepest_visible_status_id": null,
+      "previous_continuation": null
     },
     "following:following": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093388974194872781"
+      "deepest_visible_status_id": "2093388974194872781",
+      "previous_continuation": null
     },
     "for_you:for_you": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
       "reason": "three stability samples reflowed; continuous checkpoint/snapshot termination not established",
       "raw_file": "twitter/raw/2026/08/28/2026-08-28T191146Z-attempt-ledger.jsonl",
-      "deepest_visible_status_id": "2093412322081436098"
+      "deepest_visible_status_id": "2093412322081436098",
+      "previous_continuation": null
     },
     "replies:2093386528668172373": {
       "frozen_at": "2026-08-28T23:14:50Z",
       "reason": "reply page inspected; only two qualifying supplementary replies selected; retained in durable raw",
-      "raw_file": "twitter/raw/2026/08/28/2026-08-28T231219Z-attempt-ledger.jsonl"
+      "raw_file": "twitter/raw/2026/08/28/2026-08-28T231219Z-attempt-ledger.jsonl",
+      "previous_continuation": null
     }
   },
   "last_run_status": "partial_frozen",
-  "last_run_reason": "2026-08-29T171121Z: all 26 source surfaces attempted; X hydration/reflow prevented stable boundaries and discovery completion. Checkpoints and public report retained.",
-  "last_run_at_utc": "2026-08-29T17:13:00Z"
+  "last_run_reason": "All mandatory sources were attempted in read-only Chrome; stable samples/reflow and unmet continuity boundaries froze continuous cursors. For You recorded as an incomplete discovery snapshot after eight batches without two zero-new batches."
 }

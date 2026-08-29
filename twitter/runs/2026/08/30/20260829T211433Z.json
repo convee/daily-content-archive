@@ -1,0 +1,451 @@
+{
+  "schema_version": 2,
+  "platform": "twitter",
+  "run_id": "20260829T211433Z",
+  "started_at_utc": "2026-08-29T21:14:33.172Z",
+  "finished_at_utc": "2026-08-29T21:15:00.746Z",
+  "status": "partial_frozen",
+  "lock": {
+    "owner": "twitter-20260829T211149Z-842e62",
+    "acquired": true,
+    "retries": 0,
+    "ttl_seconds": 5400
+  },
+  "health_before": {
+    "status": "degraded",
+    "errors": 0,
+    "warning": "latest_run_degraded"
+  },
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples": 3,
+    "interval_ms": 550
+  },
+  "raw_files": [
+    "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl"
+  ],
+  "source_summary": {
+    "accounts": {
+      "attempted": 19,
+      "successful": 0,
+      "frozen": 19
+    },
+    "queries": {
+      "attempted": 5,
+      "successful": 0,
+      "frozen": 5
+    },
+    "following": {
+      "attempted": 1,
+      "successful": 0,
+      "frozen": 1
+    },
+    "for_you": {
+      "attempted": 1,
+      "successful": 0,
+      "frozen": 1
+    },
+    "replies": {
+      "attempted": 3,
+      "successful": 0,
+      "frozen": 3
+    }
+  },
+  "source_attempts": [
+    {
+      "source_type": "account",
+      "source": "@OpenAI",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        6
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2092335305366069305",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@AnthropicAI",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        3,
+        6
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2092661574523867302",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@GoogleDeepMind",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        4,
+        4
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2093019632475001225",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@xai",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        5
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2091957125941543034",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@MistralAI",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        3,
+        7
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2079598447234064801",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@AIatMeta",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        4
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2090485743034716420",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@huggingface",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        5,
+        4
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2087521619459850348",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@nvidia",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        6
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2093457337369448833",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@GitHub",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        4
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2093380326533816372",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@ycombinator",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        5
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2092041032104022506",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@producthunt",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        5
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2093189665545507258",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@TechCrunch",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        3,
+        5
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2093700473488355690",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@arxiv",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        3
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2039441602964304025",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@karpathy",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        6
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2064409694761054332",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@AndrewYNg",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        5
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2090840747738374568",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@ylecun",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        4
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2080588168781336630",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@simonw",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        3,
+        7
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2088648622942638557",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@swyx",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        4
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2090908959590740033",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "account",
+      "source": "@hardmaru",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        0
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": null,
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "no article DOM after three samples; cursor frozen"
+    },
+    {
+      "source_type": "query",
+      "source": "AI agent OR agentic coding",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        8
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2093808686481482146",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "query",
+      "source": "LLM inference OR AI chips",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        0,
+        6
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2093807197671301276",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "query",
+      "source": "open weights OR open source AI",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        9,
+        7
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2093808254472364253",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "query",
+      "source": "robotics foundation model",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        5,
+        4
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2093624170374660361",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "query",
+      "source": "AI security OR prompt injection",
+      "batches": 1,
+      "stable_samples": [
+        0,
+        8,
+        7
+      ],
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2093807315418042659",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "three stability samples did not settle and 25-batch continuity traversal was not completed; cursor frozen"
+    },
+    {
+      "source_type": "following",
+      "source": "Following",
+      "batches": 8,
+      "old_checkpoint_reached": false,
+      "deepest_status_id": "2093036268288610520",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "continuity boundary not reached; cursor frozen"
+    },
+    {
+      "source_type": "for_you",
+      "source": "For you",
+      "batches": 8,
+      "zero_new_streak": 0,
+      "first_status_id": "2093751328497439007",
+      "last_status_id": "2090552729022202098",
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "eight batches completed without two consecutive zero-new batches; discovery snapshot frozen"
+    },
+    {
+      "source_type": "replies",
+      "sources": [
+        "2093722690049695780",
+        "2093386528668172373",
+        "2093038426140651791"
+      ],
+      "batches": 3,
+      "raw_file": "twitter/raw/2026/08/30/20260829T211433Z-observations.jsonl",
+      "failure": "reply pages opened; only parent article was visible, so no qualifying replies were archived"
+    }
+  ],
+  "counts": {
+    "observed_status_ids": 159,
+    "new_status_ids": 72,
+    "archived_replies": 0
+  },
+  "continuation": {
+    "input": "origin/main frozen continuations preserved under state.frozen_sources.*.previous_continuation",
+    "output": "all observed IDs persisted; no source checkpoint advanced"
+  },
+  "checkpoints_advanced": false,
+  "daily_report_updated": false,
+  "page_updated": false,
+  "github": {
+    "status": "pending_commit_and_push"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "continuous source boundaries not reached"
+  },
+  "reason": "Partial frozen run; must alert fixed DingTalk group after GitHub push.",
+  "health_after": {
+    "status": "degraded",
+    "errors": 0,
+    "warning": "latest_run_degraded"
+  }
+}
