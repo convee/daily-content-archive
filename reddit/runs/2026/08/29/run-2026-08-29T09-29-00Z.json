@@ -91,7 +91,9 @@
     "output": "head observations saved; no cursor moved"
   },
   "github": {
-    "status": "pending"
+    "status": "pushed",
+    "commit": "8a0cc5d2b2d9cc5d1d3cfa69bae1409cdefb07d3",
+    "origin_main_verified": true
   },
   "dingtalk": {
     "status": "pending"
@@ -99,5 +101,6 @@
   "publication": {
     "eligible": false,
     "reason": "partial source evidence and due comments not collected"
-  }
+  },
+  "raw_file": "reddit/raw/2026/08/29/new-observations-2026-08-29T09-22-30Z.jsonl"
 }
