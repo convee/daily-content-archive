@@ -6,6 +6,7 @@
   "lock_owner": "Reddit-20260829T112220Z-618",
   "browser": {"surface": "Chrome", "read_only": true, "stable_samples": 3, "result": "timeout_reset"},
   "raw_files": ["reddit/raw/2026/08/29/browser-timeout-2026-08-29T11-22-20Z.jsonl"],
+  "raw_file": "reddit/raw/2026/08/29/browser-timeout-2026-08-29T11-22-20Z.jsonl",
   "records": {"posts": 0, "raw_comments": 0, "selected_comments": 0},
   "layers": {
     "new": {"attempted": 12, "success": 0, "failure": 12, "frozen": true},
