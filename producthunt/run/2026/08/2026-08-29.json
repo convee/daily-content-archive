@@ -18,7 +18,30 @@
     "2026-08-27: All pagination terminal state and Featured/All stable ID reconciliation unavailable; candidates not yet checked",
     "2026-08-28: All pagination terminal state and Featured/All stable ID reconciliation unavailable; candidates not yet checked"
   ],
-  "delivery": {"github_push": {"status": "not_sent"}, "dingtalk": {"status": "not_sent"}},
+  "delivery": {
+    "github_push": {
+      "status": "SUCCESS",
+      "evidence_commit": "8373c0ff6c39976094a3cba88db1ba7e752e029c",
+      "remote": "origin/main",
+      "remote_verified": true,
+      "page": "https://convee.github.io/daily-content-archive/"
+    },
+    "dingtalk": {
+      "status": "SUCCESS",
+      "kind": "exception_notice",
+      "openTaskId": "04xdER8cxCM+M+AloWU0GywrCHCg6P8pOxVN3ZhIovs=",
+      "openMessageId": "msgqCWKxOKzelicumxA35MHXA==",
+      "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+      "target_group_matches_fixed_group": true,
+      "verified": true,
+      "verified_sendStatus": "SUCCESS"
+    }
+  },
+  "finalization": {
+    "at_utc": "2026-08-29T08:20:00Z",
+    "health_after_evidence": "degraded warnings only; no error",
+    "remote_finalization_required": true
+  },
   "published": false,
   "archive_page": false
 }
