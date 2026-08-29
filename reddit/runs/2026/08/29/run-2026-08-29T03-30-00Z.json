@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "platform": "reddit",
+  "started_at_utc": "2026-08-29T03:30:00Z",
+  "completed_at_utc": "2026-08-29T03:30:00Z",
+  "lock_owner": "Reddit-20260829T032215Z-f2f898",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples": 3
+  },
+  "raw_file": "reddit/raw/2026/08/29/browser-batch-2026-08-29T03-30-00Z.jsonl",
+  "raw_files": [
+    "reddit/raw/2026/08/29/browser-batch-2026-08-29T03-30-00Z.jsonl"
+  ],
+  "records": {
+    "posts": 0,
+    "comments": 0,
+    "by_source": {}
+  },
+  "layers": {
+    "new": {
+      "attempted": 12,
+      "success": 0,
+      "failure": 12
+    },
+    "hot_rising": {
+      "attempted": 24,
+      "success": 0,
+      "failure": 24
+    },
+    "global": {
+      "attempted": 3,
+      "success": 0,
+      "failure": 3
+    },
+    "search": {
+      "attempted": 8,
+      "success": 0,
+      "failure": 8
+    },
+    "comments": {
+      "due": 0,
+      "success": 0,
+      "failure": 0
+    },
+    "community_discovery": {
+      "candidates_added": 0
+    }
+  },
+  "failure_ledger": [
+    {
+      "source": "Chrome batch: 12 New + 24 Hot/Rising + 3 global + 8 search",
+      "reason": "browser tool exceeded 120-second execution limit and reset before results could be persisted",
+      "frozen": true,
+      "last_checkpoint": "unchanged",
+      "recovery": "use bounded serial tabs; persist each source before navigating"
+    },
+    {
+      "source": "comments due",
+      "reason": "not reached after collector tool reset",
+      "frozen": true,
+      "last_checkpoint": "unchanged",
+      "recovery": "retry after source batches persist"
+    }
+  ],
+  "failures": [
+    {
+      "source": "Chrome batch: 12 New + 24 Hot/Rising + 3 global + 8 search",
+      "reason": "browser tool exceeded 120-second execution limit and reset before results could be persisted",
+      "frozen": true,
+      "last_checkpoint": "unchanged",
+      "recovery": "use bounded serial tabs; persist each source before navigating"
+    },
+    {
+      "source": "comments due",
+      "reason": "not reached after collector tool reset",
+      "frozen": true,
+      "last_checkpoint": "unchanged",
+      "recovery": "retry after source batches persist"
+    }
+  ],
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "partial source evidence"
+  }
+}
