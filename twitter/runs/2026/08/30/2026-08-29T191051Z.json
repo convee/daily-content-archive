@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "platform": "twitter",
+  "run_id": "2026-08-29T191051Z",
+  "started_at_utc": "2026-08-29T19:10:51Z",
+  "finished_at_utc": "2026-08-29T19:14:30Z",
+  "status": "partial_frozen",
+  "lock": {"owner": "twitter-20260829T191050Z-fe641a", "acquire_retries": 0, "waited_seconds": 0, "ttl_seconds": 5400, "acquired_at_utc": "2026-08-29T19:10:51Z"},
+  "health_before": {"status": "degraded", "errors": 0, "warning": "latest_run_degraded; source cursors retained"},
+  "stability_sampling": {"samples_per_source": 3, "interval_ms": 550, "confirmed_stable": ["account:@OpenAI"], "failure": "Chrome runner timed out during sequential continuation sweep; runner session reset before further results could be returned."},
+  "raw_files": ["twitter/raw/2026/08/30/2026-08-29T191051Z-attempt-ledger.jsonl"],
+  "source_summary": {"accounts": {"attempted": 1, "successful": 0, "frozen": 19}, "queries": {"attempted": 0, "successful": 0, "frozen": 5}, "following": {"attempted": 0, "successful": 0, "frozen": 1}, "for_you": {"attempted": 0, "successful": 0, "frozen": 1}, "replies": {"attempted": 0, "successful": 0, "frozen": 1}},
+  "source_attempts": [
+    {"source_type": "account", "sources": "account:@OpenAI confirmed; remaining 18 could not be completed after browser runner timeout", "batches": 1, "old_checkpoint_reached": true, "deepest_status_id": "2092691861773160673", "raw_file": "twitter/raw/2026/08/30/2026-08-29T191051Z-attempt-ledger.jsonl", "failure": "No checkpoint advanced because a full continuation window and durable union validation were not completed."},
+    {"source_type": "query", "sources": "all 5 frozen", "batches": 0, "old_checkpoint_reached": false, "raw_file": "twitter/raw/2026/08/30/2026-08-29T191051Z-attempt-ledger.jsonl", "failure": "Tool-level browser runner timeout before execution."},
+    {"source_type": "following", "source": "Following", "batches": 0, "old_checkpoint_reached": false, "raw_file": "twitter/raw/2026/08/30/2026-08-29T191051Z-attempt-ledger.jsonl", "failure": "Tool-level browser runner timeout before execution."},
+    {"source_type": "for_you", "source": "For you", "batches": 0, "snapshot_complete": false, "raw_file": "twitter/raw/2026/08/30/2026-08-29T191051Z-attempt-ledger.jsonl", "failure": "Tool-level browser runner timeout before execution; no snapshot claimed."},
+    {"source_type": "replies", "sources": "none finalized", "batches": 0, "raw_file": "twitter/raw/2026/08/30/2026-08-29T191051Z-attempt-ledger.jsonl", "failure": "No high-signal set reached reply review after the runner failure."}
+  ],
+  "continuation": {"input": "origin/main state retained", "output": "all source checkpoints and recommendation snapshots unchanged"},
+  "checkpoints_advanced": false,
+  "posts_added": 1,
+  "replies_added": 0,
+  "daily_report_updated": false,
+  "page_updated": false,
+  "github": {"commit": "pending_finalization", "push_status": "pending_finalization", "remote_verified": false},
+  "dingtalk": {"target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "target_verified": true, "sendStatus": "pending_finalization"},
+  "reason": "Browser runner session reset before the mandatory account/query/following/For You/reply reconciliation. No public daily or cursor progress was published."
+}
