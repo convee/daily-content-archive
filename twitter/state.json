@@ -4574,5 +4574,6 @@
     }
   },
   "last_run_status": "partial_frozen",
-  "last_run_reason": "All 26 sources attempted, but required stability sampling failed; checkpoints and public report retained."
+  "last_run_reason": "2026-08-29T151050Z: all 26 source surfaces attempted; X hydration/reflow prevented stable boundaries and discovery completion. Checkpoints and public report retained.",
+  "last_run_at_utc": "2026-08-29T15:12:46Z"
 }
