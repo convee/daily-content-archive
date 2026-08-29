@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "platform": "twitter",
+  "run_id": "2026-08-29T012119Z",
+  "started_at_utc": "2026-08-29T01:12:47Z",
+  "finished_at_utc": "2026-08-29T01:25:07Z",
+  "status": "partial_frozen",
+  "lock": {
+    "owner": "twitter-20260829T011247Z-5c69b9",
+    "acquire_retries": 18,
+    "waited_seconds": 512,
+    "ttl_seconds": 5400,
+    "acquired_at_utc": "2026-08-29T01:21:19Z"
+  },
+  "health_before": {
+    "status": "degraded",
+    "errors": 0,
+    "warning": "latest_run_degraded; continued only with frozen cursors"
+  },
+  "raw_files": [
+    "twitter/raw/2026/08/29/2026-08-29T012119Z-attempt-ledger.jsonl"
+  ],
+  "sources": {
+    "accounts": {
+      "required": 19,
+      "attempted": 1,
+      "succeeded": 0,
+      "frozen": 1,
+      "not_attempted_tool_failure": 18,
+      "OpenAI": {"batches": 1, "hit_old_checkpoint": false, "deepest_status_id": null, "raw_file": "twitter/raw/2026/08/29/2026-08-29T012119Z-attempt-ledger.jsonl", "reason": "both required stability windows reflowed"}
+    },
+    "queries": {"required": 5, "attempted": 0, "succeeded": 0, "frozen": 0, "not_attempted_tool_failure": 5},
+    "following": {"required": 1, "attempted": 0, "succeeded": 0, "frozen": 0, "not_attempted_tool_failure": 1},
+    "for_you": {"required": 1, "attempted": 0, "succeeded": 0, "frozen": 0, "not_attempted_tool_failure": 1, "snapshot_created": false},
+    "replies": {"attempted": 0, "selected": 0, "not_attempted_tool_failure": true}
+  },
+  "continuation": {
+    "input": "origin/main source checkpoints and frozen continuation evidence",
+    "output": "unchanged; no continuous source reached its checkpoint and no For You snapshot was validly completed"
+  },
+  "stability_sampling": "OpenAI was sampled three times after navigation, reloaded once and sampled three times, then retried in a new tab and sampled three times; the anchor/article counts never stabilized across three consecutive samples. The subsequent bounded multi-source Chrome operation timed out and reset before returning evidence.",
+  "counts": {"observed_status_ids": 0, "archived_posts": 0, "archived_replies": 0},
+  "daily": {"target_date": "2026-08-28", "published": false, "reason": "partial/tool-failure run may not generate or replace a public daily report"},
+  "git": {"collection_commit": null, "collection_pushed": false, "remote_verified": false, "finalization_commit": null, "pushed": false},
+  "dingtalk": {"target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "message_type": "exception_alert", "openTaskId": null, "sendStatus": "pending"}
+}
