@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "platform": "reddit",
+  "started_at_utc": "2026-08-29T23:25:51.000Z",
+  "completed_at_utc": "2026-08-29T23:25:51.000Z",
+  "lock_owner": "Reddit-20260829T232134Z-2164",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples": 3
+  },
+  "raw_file": "reddit/raw/2026/08/29/browser-batch-2026-08-29T23-25-51-000Z.jsonl",
+  "raw_files": [
+    "reddit/raw/2026/08/29/browser-batch-2026-08-29T23-25-51-000Z.jsonl"
+  ],
+  "records": {
+    "posts": 0,
+    "comments": 0,
+    "by_source": {}
+  },
+  "layers": {
+    "new": {
+      "attempted": 12,
+      "success": 0,
+      "failure": 12
+    },
+    "hot_rising": {
+      "attempted": 24,
+      "success": 0,
+      "failure": 24
+    },
+    "global": {
+      "attempted": 3,
+      "success": 0,
+      "failure": 3
+    },
+    "search": {
+      "attempted": 8,
+      "success": 0,
+      "failure": 8
+    },
+    "comments": {
+      "due": 0,
+      "success": 0,
+      "failure": 0
+    },
+    "community_discovery": {
+      "candidates_added": 0
+    }
+  },
+  "failure_ledger": [
+    {
+      "source": "New 12 communities",
+      "reason": "Chrome stable sampling was incomplete or navigation became ERR_BLOCKED_BY_CLIENT; no durable observations were produced and all New cursors remain frozen.",
+      "frozen": true,
+      "recovery": "Retry each saved continuation in Chrome after the browser block clears."
+    },
+    {
+      "source": "Hot/Rising 24 snapshots",
+      "reason": "Chrome navigation became ERR_BLOCKED_BY_CLIENT after the initial New sampling; no snapshot can be claimed complete.",
+      "frozen": true,
+      "recovery": "Retry all 24 source URLs after the browser block clears."
+    },
+    {
+      "source": "Home/Popular/All",
+      "reason": "Chrome navigation was ERR_BLOCKED_BY_CLIENT; all three global feeds are frozen, including All.",
+      "frozen": true,
+      "recovery": "Retry the three global feed URLs and verify All remains distinct from Home."
+    },
+    {
+      "source": "Search 8 queries",
+      "reason": "Chrome navigation to modern Posts+New search was ERR_BLOCKED_BY_CLIENT; query checkpoints remain frozen.",
+      "frozen": true,
+      "recovery": "Resume every modern search result stream when Chrome navigation is available."
+    },
+    {
+      "source": "Comments due",
+      "reason": "No comment revisit tasks were due in state.",
+      "frozen": false,
+      "recovery": "None."
+    }
+  ],
+  "failures": [
+    {
+      "source": "New 12 communities",
+      "reason": "Chrome stable sampling was incomplete or navigation became ERR_BLOCKED_BY_CLIENT; no durable observations were produced and all New cursors remain frozen.",
+      "frozen": true,
+      "recovery": "Retry each saved continuation in Chrome after the browser block clears."
+    },
+    {
+      "source": "Hot/Rising 24 snapshots",
+      "reason": "Chrome navigation became ERR_BLOCKED_BY_CLIENT after the initial New sampling; no snapshot can be claimed complete.",
+      "frozen": true,
+      "recovery": "Retry all 24 source URLs after the browser block clears."
+    },
+    {
+      "source": "Home/Popular/All",
+      "reason": "Chrome navigation was ERR_BLOCKED_BY_CLIENT; all three global feeds are frozen, including All.",
+      "frozen": true,
+      "recovery": "Retry the three global feed URLs and verify All remains distinct from Home."
+    },
+    {
+      "source": "Search 8 queries",
+      "reason": "Chrome navigation to modern Posts+New search was ERR_BLOCKED_BY_CLIENT; query checkpoints remain frozen.",
+      "frozen": true,
+      "recovery": "Resume every modern search result stream when Chrome navigation is available."
+    },
+    {
+      "source": "Comments due",
+      "reason": "No comment revisit tasks were due in state.",
+      "frozen": false,
+      "recovery": "None."
+    }
+  ],
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "partial source evidence"
+  }
+}
