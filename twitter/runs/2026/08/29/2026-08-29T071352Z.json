@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "platform": "twitter",
+  "run_id": "2026-08-29T071352Z",
+  "started_at_utc": "2026-08-29T07:11:24Z",
+  "finished_at_utc": "2026-08-29T07:13:52Z",
+  "status": "partial_frozen",
+  "lock": {"owner": "twitter-20260829T071124Z-96636a", "acquire_retries": 0, "waited_seconds": 0, "ttl_seconds": 5400, "acquired_at_utc": "2026-08-29T07:11:24Z"},
+  "health_before": {"status": "degraded", "errors": 0, "warning": "latest_run_degraded; frozen cursors retained"},
+  "raw_files": ["twitter/raw/2026/08/29/2026-08-29T071352Z-attempt-ledger.jsonl"],
+  "sources": {
+    "accounts": {"required": 19, "attempted": 19, "succeeded": 0, "frozen": 19, "batches": 0, "reason": "All Posts timelines failed the required three-sample status-anchor stability check before a continuous scroll; @xai redirected to @SpaceXAI."},
+    "queries": {"required": 5, "attempted": 5, "succeeded": 0, "frozen": 5, "batches": 0, "reason": "All Latest queries had changing anchor counts in the mandatory stability window; no checkpoint could be reached."},
+    "following": {"required": 1, "attempted": 1, "succeeded": 0, "frozen": 1, "batches": 0, "reason": "Initial visible batch was stable, but no committed checkpoint was reached; cursor retained."},
+    "for_you": {"required": 1, "attempted": 1, "succeeded": 0, "frozen": 1, "snapshot_created": false, "batches": 0, "reason": "No discovery snapshot: fewer than the required eight batches and no two consecutive zero-new-ID batches."},
+    "replies": {"attempted": 0, "selected": 0, "reason": "No high-signal post completed a continuous source scan; no reply page qualified for checking."}
+  },
+  "continuation": {"input": "origin/main frozen checkpoints and continuation evidence", "output": "unchanged; observed IDs are in the durable attempt ledger; no source reached its prior checkpoint"},
+  "stability_sampling": "Each source used a new Chrome tab and three samples at 600ms intervals. URL and title were stable; status-anchor count was not consistently stable for accounts and queries, so their continuous scans were frozen before scrolling.",
+  "counts": {"observed_status_ids": 130, "archived_posts": 0, "archived_replies": 0},
+  "daily": {"target_date": "2026-08-28", "published": false, "reason": "Not the 09:10 daily window; a partial/frozen run cannot generate or replace a public report."},
+  "git": {"collection_commit": "pending", "collection_pushed": false, "remote_verified": false},
+  "dingtalk": {"target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "target_verified": false, "message_type": "exception_alert", "openTaskId": null, "sendStatus": "not_sent"}
+}
