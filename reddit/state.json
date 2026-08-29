@@ -9506,12 +9506,12 @@
     }
   },
   "last_tool_failure": {
-    "run_at": "2026-08-28T13:24:36.000Z",
-    "run_file": "reddit/runs/2026/08/28/run-2026-08-28T13-24-36-000Z.json",
-    "reason": "Chrome lazy loading was unstable for reachable first targets and then all configured targets returned net::ERR_BLOCKED_BY_CLIENT after reload and new-tab retry",
-    "frozen_layers": ["new:12", "hot_rising:24", "global:3", "search:8"],
+    "run_at": "2026-08-29T01:29:59Z",
+    "run_file": "reddit/runs/2026/08/29/run-2026-08-29T01-29-59Z.json",
+    "reason": "Chrome read-only batch stability sampling exceeded the 120-second browser-tool timeout and the browser kernel reset before any page records could be returned and made durable.",
+    "frozen_layers": ["new:12", "hot_rising:24", "global:3", "search:8", "comments:2"],
     "checkpoints_advanced": false,
-    "recovery": "Resume each source from its saved continuation in bounded Chrome batches; persist raw evidence before updating checkpoints."
+    "recovery": "Resume in bounded named Chrome tabs; complete and serialize one source page at a time before proceeding, then continue each New source from its saved continuation."
   },
   "last_dingtalk_delivery": {
     "status": "sent",

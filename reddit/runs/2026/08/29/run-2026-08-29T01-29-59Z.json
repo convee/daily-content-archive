@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "run_at": "2026-08-29T01:29:59Z",
+  "owner": "Reddit-20260829T012147Z-0fe984",
+  "browser": {
+    "surface": "logged-in local Chrome",
+    "mode": "read-only",
+    "stable_samples_required": 3,
+    "sample_interval_ms": 550,
+    "result": "tool_timeout_kernel_reset"
+  },
+  "lock": {"name": "repo-write", "owner": "Reddit-20260829T012147Z-0fe984", "status": "acquired"},
+  "health_before": "healthy",
+  "raw_file": "reddit/raw/2026/08/29/collection-failure-2026-08-29T01-29-59Z.jsonl",
+  "collection_summary": {
+    "new": {"required": 12, "attempted": 0, "success": 0, "frozen": 12, "posts_written": 0, "reason": "browser_batch_timeout_before_results"},
+    "hot_rising": {"required": 24, "attempted": 0, "success": 0, "frozen": 24, "posts_written": 0, "reason": "browser_batch_timeout_before_results"},
+    "global": {"required": 3, "attempted": 0, "success": 0, "frozen": 3, "posts_written": 0, "reason": "browser_batch_timeout_before_results"},
+    "search": {"required": 8, "attempted": 0, "success": 0, "frozen": 8, "posts_written": 0, "reason": "browser_batch_timeout_before_results"},
+    "comments": {"due": 2, "attempted": 0, "success": 0, "frozen": 2, "raw_comments_written": 0, "reason": "browser_batch_timeout_before_results"},
+    "community_discovery": {"attempted": false, "reason": "all discovery sources unavailable"}
+  },
+  "failure_ledger": [
+    {"layer": "browser", "target": "read-only Chrome batch", "reason": "120-second tool timeout; kernel reset; no returned DOM record may be treated as observed"},
+    {"layer": "new", "target": "12 communities", "reason": "not run to durable checkpoint boundary; all checkpoints unchanged"},
+    {"layer": "hot_rising", "target": "24 snapshots", "reason": "not run to durable snapshot write; snapshot ledgers unchanged"},
+    {"layer": "global", "target": "Home, Popular, All", "reason": "not run; All redirection guard not evaluated"},
+    {"layer": "search", "target": "8 configured queries", "reason": "not run to durable modern-search evidence"},
+    {"layer": "comments", "target": "2 due revisits", "reason": "not run; revisit queue unchanged"}
+  ],
+  "state_effect": "No raw records, seen IDs, snapshot ledgers, or checkpoints advanced.",
+  "github": {"status": "pending"},
+  "dingtalk": {"status": "pending", "kind": "exception"}
+}
