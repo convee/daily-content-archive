@@ -9516,10 +9516,10 @@
   "last_dingtalk_delivery": {
     "status": "sent",
     "kind": "exception",
-    "openTaskId": "PkuUQizuwpxXYQamnVqKBAeVbbvdDBvdUfd721cCYrM=",
+    "openTaskId": "VOxS56L1oywhONCU4ZwYDhhSppZeI8aamwnZDH1jOfI=",
     "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "openMessageId": "msghpEFNu9hEb3H8oqONKhNRA==",
+    "openMessageId": "msgCiNhs209VLL/alxkoJXZCg==",
     "sendStatus": "SUCCESS",
-    "verified_at": "2026-08-28T13:26:00Z"
+    "verified_at": "2026-08-29T01:31:23Z"
   }
 }

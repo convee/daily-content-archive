@@ -29,6 +29,6 @@
     {"layer": "comments", "target": "2 due revisits", "reason": "not run; revisit queue unchanged"}
   ],
   "state_effect": "No raw records, seen IDs, snapshot ledgers, or checkpoints advanced.",
-  "github": {"status": "pending"},
-  "dingtalk": {"status": "pending", "kind": "exception"}
+  "github": {"status": "pushed", "commit": "375d44fa69b4024461ff23450c8af9c8ed23d47e", "remote_verified": true},
+  "dingtalk": {"status": "sent", "kind": "exception", "openTaskId": "VOxS56L1oywhONCU4ZwYDhhSppZeI8aamwnZDH1jOfI=", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "openMessageId": "msgCiNhs209VLL/alxkoJXZCg==", "sendStatus": "SUCCESS", "verified_at_utc": "2026-08-29T01:31:23Z"}
 }
