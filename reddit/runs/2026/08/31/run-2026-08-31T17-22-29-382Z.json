@@ -497,10 +497,16 @@
     }
   ],
   "github": {
-    "status": "pending"
+    "status": "pushed",
+    "commit": "b488991f378b902615f72d01d4a0d76629a47e8b",
+    "remote": "origin/main"
   },
   "dingtalk": {
-    "status": "not_sent"
+    "status": "sent",
+    "openTaskId": "PTig3Kz44K1SjGtelHyFN5Mj5oBEDP3xrnAJmXK/0zw=",
+    "openConversationId": "msg543AkMTfZzWAvqhmopUcow==",
+    "openMessageId": "SUCCESS",
+    "sendStatus": "cid4JFchXCBwQIK2cKxUXZwWw=="
   },
   "publication": {
     "eligible": false,
