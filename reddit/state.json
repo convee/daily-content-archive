@@ -6,21 +6,27 @@
     "MachineLearning": {
       "last_id": "t3_1w30ti8",
       "first_id": "t3_1w30ti8",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "scroll_batches": 1,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w1jp1j",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [],
-      "observed_count": 0,
-      "written_count": 0,
+      "observed_post_ids": [
+        "t3_1vd5kqk",
+        "t3_1w30ti8",
+        "t3_1w3imxy",
+        "t3_1w3j1vw",
+        "t3_1w3k94c"
+      ],
+      "observed_count": 5,
+      "written_count": 5,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
       "continuation": {
-        "next_url": null,
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T15:25:26.000Z"
+        "next_url": "https://www.reddit.com/r/MachineLearning/new/",
+        "last_observed_id": "t3_1w3imxy",
+        "captured_at": "2026-08-31T17:22:29.382Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w30ti8"
@@ -28,21 +34,30 @@
     "LocalLLaMA": {
       "last_id": "t3_1w1meuk",
       "first_id": "t3_1w1meuk",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "scroll_batches": 4,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w0j7w9",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [],
-      "observed_count": 0,
-      "written_count": 0,
+      "observed_post_ids": [
+        "t3_1r7bsfd",
+        "t3_1vkmhyl",
+        "t3_1vx7ei1",
+        "t3_1vyzzxu",
+        "t3_1vzxdui",
+        "t3_1w3ij25",
+        "t3_1w3jp8j",
+        "t3_1w3keyj"
+      ],
+      "observed_count": 8,
+      "written_count": 8,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
       "continuation": {
-        "next_url": null,
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T15:25:26.000Z"
+        "next_url": "https://www.reddit.com/r/LocalLLaMA/new/",
+        "last_observed_id": "t3_1r7bsfd",
+        "captured_at": "2026-08-31T17:22:29.382Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w1meuk"
@@ -50,7 +65,7 @@
     "programming": {
       "last_id": "t3_1vzw7as",
       "first_id": "t3_1vzw7as",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "scroll_batches": 8,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
@@ -79,59 +94,98 @@
         "archive_file": "reddit/raw/2026/08/27/new-repair-observations-2026-08-27T12-37-09-680Z.jsonl",
         "method": "time_boundary_crossed_exact_id_absent"
       },
-      "observed_post_ids": [],
-      "observed_count": 0,
-      "written_count": 0,
+      "observed_post_ids": [
+        "t3_1tlh5aj",
+        "t3_1w3g3vi",
+        "t3_1w3gj0n",
+        "t3_1w3j5hj"
+      ],
+      "observed_count": 4,
+      "written_count": 4,
       "status": "frozen",
       "failure_reason": "continuity_boundary_not_reached",
       "continuation": {
-        "next_url": null,
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T15:25:26.000Z"
+        "next_url": "https://www.reddit.com/r/programming/new/",
+        "last_observed_id": "t3_1w3g3vi",
+        "captured_at": "2026-08-31T17:22:29.382Z"
       },
-      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
       "new_head_id": "t3_1w06vn1"
     },
     "technology": {
       "last_id": "t3_1vzwxyi",
       "first_id": "t3_1vzwxyi",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "scroll_batches": 9,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1vzwxyi",
       "previous_checkpoint_reached": false,
-      "observed_post_ids": [],
-      "observed_count": 0,
-      "written_count": 0,
+      "observed_post_ids": [
+        "t3_1w3jn0t",
+        "t3_1w3k9j3",
+        "t3_1w3kccy"
+      ],
+      "observed_count": 3,
+      "written_count": 3,
       "status": "frozen",
       "failure_reason": "continuity_boundary_not_reached",
       "continuation": {
-        "next_url": null,
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T15:25:26.000Z"
+        "next_url": "https://www.reddit.com/r/technology/new/",
+        "last_observed_id": "t3_1w3jn0t",
+        "captured_at": "2026-08-31T17:22:29.382Z"
       },
-      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
       "new_head_id": "t3_1w0jicn"
     },
     "netsec": {
       "last_id": "t3_1w2mktz",
       "first_id": "t3_1w2mktz",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "scroll_batches": 1,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w05xwz",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [],
-      "observed_count": 0,
-      "written_count": 0,
+      "observed_post_ids": [
+        "t3_1ulbf96",
+        "t3_1vcngz2",
+        "t3_1vp35wv",
+        "t3_1vpx6ku",
+        "t3_1vq55y4",
+        "t3_1vqojw3",
+        "t3_1vqqpwn",
+        "t3_1vqtjpi",
+        "t3_1vr9ccc",
+        "t3_1vrpmr2",
+        "t3_1vrtfdo",
+        "t3_1vru26k",
+        "t3_1vrw3fd",
+        "t3_1vsbk66",
+        "t3_1vskftw",
+        "t3_1vslpnb",
+        "t3_1vsm77y",
+        "t3_1vx4j41",
+        "t3_1vx6xaj",
+        "t3_1vxfd50",
+        "t3_1vxw6ym",
+        "t3_1vy5zqu",
+        "t3_1vyonto",
+        "t3_1vyxx41",
+        "t3_1vzx029",
+        "t3_1vzxkxm",
+        "t3_1w05xwz",
+        "t3_1w2mktz",
+        "t3_1w36tcq"
+      ],
+      "observed_count": 29,
+      "written_count": 29,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
       "continuation": {
-        "next_url": null,
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T15:25:26.000Z"
+        "next_url": "https://www.reddit.com/r/netsec/new/",
+        "last_observed_id": "t3_1vp35wv",
+        "captured_at": "2026-08-31T17:22:29.382Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w2mktz"
@@ -139,29 +193,36 @@
     "opensource": {
       "last_id": "t3_1vzwv8l",
       "first_id": "t3_1vzwv8l",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "scroll_batches": 9,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1vzwv8l",
       "previous_checkpoint_reached": false,
-      "observed_post_ids": [],
-      "observed_count": 0,
-      "written_count": 0,
+      "observed_post_ids": [
+        "t3_1rffhog",
+        "t3_1vhfs49",
+        "t3_1w3corq",
+        "t3_1w3fuvo",
+        "t3_1w3hc17",
+        "t3_xrw5s9"
+      ],
+      "observed_count": 6,
+      "written_count": 6,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w0crvn",
       "continuation": {
-        "next_url": null,
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T15:25:26.000Z"
+        "next_url": "https://www.reddit.com/r/opensource/new/",
+        "last_observed_id": "t3_xrw5s9",
+        "captured_at": "2026-08-31T17:22:29.382Z"
       }
     },
     "selfhosted": {
       "last_id": "t3_1w1kygg",
       "first_id": "t3_1w1kygg",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "scroll_batches": 3,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
@@ -190,15 +251,24 @@
         "archive_file": "reddit/raw/2026/08/27/new-repair-observations-2026-08-27T12-37-09-680Z.jsonl",
         "method": "time_boundary_crossed_exact_id_absent"
       },
-      "observed_post_ids": [],
-      "observed_count": 0,
-      "written_count": 0,
+      "observed_post_ids": [
+        "t3_1sey9ch",
+        "t3_1uygu4t",
+        "t3_1w07yna",
+        "t3_1w3g2ns",
+        "t3_1w3gf92",
+        "t3_1w3h5lz",
+        "t3_bsp01i",
+        "t3_k5nzkj"
+      ],
+      "observed_count": 8,
+      "written_count": 8,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
       "continuation": {
-        "next_url": null,
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T15:25:26.000Z"
+        "next_url": "https://www.reddit.com/r/selfhosted/new/",
+        "last_observed_id": "t3_k5nzkj",
+        "captured_at": "2026-08-31T17:22:29.382Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w1kygg"
@@ -206,43 +276,78 @@
     "science": {
       "last_id": "t3_1w35p1c",
       "first_id": "t3_1w35p1c",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "scroll_batches": 1,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w1mcbc",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [],
-      "observed_count": 0,
-      "written_count": 0,
+      "observed_post_ids": [
+        "t3_1w3ey5e",
+        "t3_1w3gpb0",
+        "t3_1w3i4gc"
+      ],
+      "observed_count": 3,
+      "written_count": 3,
       "status": "frozen",
       "failure_reason": "continuity_boundary_not_reached",
       "continuation": {
-        "next_url": null,
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T15:25:26.000Z"
+        "next_url": "https://www.reddit.com/r/science/new/",
+        "last_observed_id": "t3_1w3ey5e",
+        "captured_at": "2026-08-31T17:22:29.382Z"
       },
-      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
       "new_head_id": "t3_1w35p1c"
     },
     "OpenAI": {
       "last_id": "t3_1w1litm",
       "first_id": "t3_1w1litm",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "scroll_batches": 3,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w0a3kg",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [],
-      "observed_count": 0,
-      "written_count": 0,
+      "observed_post_ids": [
+        "t3_1ieonxv",
+        "t3_1o1j23g",
+        "t3_1ugljgh",
+        "t3_1w2z87q",
+        "t3_1w30jn7",
+        "t3_1w30se9",
+        "t3_1w31674",
+        "t3_1w319w8",
+        "t3_1w32gnc",
+        "t3_1w35gjt",
+        "t3_1w37fnu",
+        "t3_1w38a4g",
+        "t3_1w390xm",
+        "t3_1w39ez4",
+        "t3_1w39ghz",
+        "t3_1w3ao4u",
+        "t3_1w3atb5",
+        "t3_1w3bk4e",
+        "t3_1w3bxzg",
+        "t3_1w3bz00",
+        "t3_1w3c9wr",
+        "t3_1w3d4ev",
+        "t3_1w3de8j",
+        "t3_1w3e3ya",
+        "t3_1w3eqau",
+        "t3_1w3eqt2",
+        "t3_1w3gtwj",
+        "t3_1w3hlup",
+        "t3_1w3iie3",
+        "t3_1w3ipsu"
+      ],
+      "observed_count": 30,
+      "written_count": 30,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
       "continuation": {
-        "next_url": null,
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T15:25:26.000Z"
+        "next_url": "https://www.reddit.com/r/OpenAI/new/",
+        "last_observed_id": "t3_1ieonxv",
+        "captured_at": "2026-08-31T17:22:29.382Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w1litm"
@@ -250,21 +355,27 @@
     "Anthropic": {
       "last_id": "t3_1w1jyk7",
       "first_id": "t3_1w1jyk7",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "scroll_batches": 1,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w0fdfr",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [],
-      "observed_count": 0,
-      "written_count": 0,
+      "observed_post_ids": [
+        "t3_1u1b1yj",
+        "t3_1vrlpux",
+        "t3_1w3gm14",
+        "t3_1w3goif",
+        "t3_1w3jyd5"
+      ],
+      "observed_count": 5,
+      "written_count": 5,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
       "continuation": {
-        "next_url": null,
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T15:25:26.000Z"
+        "next_url": "https://www.reddit.com/r/Anthropic/new/",
+        "last_observed_id": "t3_1w3gm14",
+        "captured_at": "2026-08-31T17:22:29.382Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w1jyk7"
@@ -272,21 +383,29 @@
     "singularity": {
       "last_id": "t3_1w2y9rb",
       "first_id": "t3_1w2y9rb",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "scroll_batches": 1,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w1lddy",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [],
-      "observed_count": 0,
-      "written_count": 0,
+      "observed_post_ids": [
+        "t3_1tg1y16",
+        "t3_1vso1mh",
+        "t3_1vt155o",
+        "t3_1vtqssh",
+        "t3_1w3e21z",
+        "t3_1w3eq4n",
+        "t3_1w3jq0t"
+      ],
+      "observed_count": 7,
+      "written_count": 7,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
       "continuation": {
-        "next_url": null,
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T15:25:26.000Z"
+        "next_url": "https://www.reddit.com/r/singularity/new/",
+        "last_observed_id": "t3_1w3e21z",
+        "captured_at": "2026-08-31T17:22:29.382Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w2y9rb"
@@ -294,21 +413,26 @@
     "robotics": {
       "last_id": "t3_1w1m7qd",
       "first_id": "t3_1w1m7qd",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "scroll_batches": 1,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w09jat",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [],
-      "observed_count": 0,
-      "written_count": 0,
+      "observed_post_ids": [
+        "t3_1w3huww",
+        "t3_1w3hvik",
+        "t3_1w3k2g7",
+        "t3_4t35n8"
+      ],
+      "observed_count": 4,
+      "written_count": 4,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
       "continuation": {
-        "next_url": null,
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T15:25:26.000Z"
+        "next_url": "https://www.reddit.com/r/robotics/new/",
+        "last_observed_id": "t3_4t35n8",
+        "captured_at": "2026-08-31T17:22:29.382Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w1m7qd"
@@ -323,196 +447,388 @@
     "unique_posts": 380,
     "evidence_status": "durable_raw",
     "MachineLearning:hot": {
-      "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "status": "success",
+      "actual_url": "https://www.reddit.com/r/MachineLearning/hot/",
+      "stable_counts": [
+        12,
+        12,
+        12
+      ],
+      "first_id": "t3_1vd5kqk",
+      "last_id": "t3_1w3j1vw",
+      "reason": null,
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
-      "frozen": true
+      "frozen": false
     },
     "MachineLearning:rising": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/MachineLearning/rising/",
+      "stable_counts": [
+        12,
+        12,
+        71
+      ],
+      "first_id": "t3_1vd5kqk",
+      "last_id": "t3_1w075pe",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "LocalLLaMA:hot": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/LocalLLaMA/hot/",
+      "stable_counts": [
+        13,
+        13,
+        75
+      ],
+      "first_id": "t3_1vzxdui",
+      "last_id": "t3_1r7bsfd",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "LocalLLaMA:rising": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/LocalLLaMA/rising/",
+      "stable_counts": [
+        12,
+        13,
+        13
+      ],
+      "first_id": "t3_1vzxdui",
+      "last_id": "t3_1r7bsfd",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "programming:hot": {
-      "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "status": "success",
+      "actual_url": "https://www.reddit.com/r/programming/hot/",
+      "stable_counts": [
+        7,
+        7,
+        7
+      ],
+      "first_id": "t3_1tlh5aj",
+      "last_id": "t3_1w39te8",
+      "reason": null,
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
-      "frozen": true
+      "frozen": false
     },
     "programming:rising": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/programming/rising/",
+      "stable_counts": [
+        7,
+        8,
+        8
+      ],
+      "first_id": "t3_1tlh5aj",
+      "last_id": "t3_1w39te8",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "technology:hot": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/technology/hot/",
+      "stable_counts": [
+        6,
+        7,
+        55
+      ],
+      "first_id": "t3_1w3g785",
+      "last_id": "t3_1w2shuv",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "technology:rising": {
-      "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "status": "success",
+      "actual_url": "https://www.reddit.com/r/technology/rising/",
+      "stable_counts": [
+        7,
+        7,
+        7
+      ],
+      "first_id": "t3_1w3iuti",
+      "last_id": "t3_1w3dko0",
+      "reason": null,
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
-      "frozen": true
+      "frozen": false
     },
     "netsec:hot": {
-      "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "status": "success",
+      "actual_url": "https://www.reddit.com/r/netsec/hot/",
+      "stable_counts": [
+        9,
+        9,
+        9
+      ],
+      "first_id": "t3_1ulbf96",
+      "last_id": "t3_1w05xwz",
+      "reason": null,
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
-      "frozen": true
+      "frozen": false
     },
     "netsec:rising": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/netsec/rising/",
+      "stable_counts": [
+        9,
+        9,
+        51
+      ],
+      "first_id": "t3_1ulbf96",
+      "last_id": "t3_1vqqpwn",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "opensource:hot": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/opensource/hot/",
+      "stable_counts": [
+        12,
+        12,
+        76
+      ],
+      "first_id": "t3_1rffhog",
+      "last_id": "t3_xrw5s9",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "opensource:rising": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/opensource/rising/",
+      "stable_counts": [
+        11,
+        11,
+        68
+      ],
+      "first_id": "t3_1rffhog",
+      "last_id": "t3_1w094tn",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "selfhosted:hot": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/selfhosted/hot/",
+      "stable_counts": [
+        9,
+        10,
+        10
+      ],
+      "first_id": "t3_1sey9ch",
+      "last_id": "t3_1w3dfpg",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "selfhosted:rising": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/selfhosted/rising/",
+      "stable_counts": [
+        12,
+        12,
+        68
+      ],
+      "first_id": "t3_1sey9ch",
+      "last_id": "t3_k5nzkj",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "science:hot": {
-      "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "status": "success",
+      "actual_url": "https://www.reddit.com/r/science/hot/",
+      "stable_counts": [
+        7,
+        7,
+        7
+      ],
+      "first_id": "t3_1w3af2p",
+      "last_id": "t3_1w3bxjm",
+      "reason": null,
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
-      "frozen": true
+      "frozen": false
     },
     "science:rising": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/science/rising/",
+      "stable_counts": [
+        7,
+        7,
+        49
+      ],
+      "first_id": "t3_1w3gpb0",
+      "last_id": "t3_1w21l14",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "OpenAI:hot": {
-      "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "status": "success",
+      "actual_url": "https://www.reddit.com/r/OpenAI/hot/",
+      "stable_counts": [
+        11,
+        11,
+        11
+      ],
+      "first_id": "t3_1ugljgh",
+      "last_id": "t3_1ieonxv",
+      "reason": null,
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
-      "frozen": true
+      "frozen": false
     },
     "OpenAI:rising": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/OpenAI/rising/",
+      "stable_counts": [
+        10,
+        11,
+        11
+      ],
+      "first_id": "t3_1ugljgh",
+      "last_id": "t3_1ieonxv",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "Anthropic:hot": {
-      "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "status": "success",
+      "actual_url": "https://www.reddit.com/r/Anthropic/hot/",
+      "stable_counts": [
+        8,
+        8,
+        8
+      ],
+      "first_id": "t3_1vrlpux",
+      "last_id": "t3_1w2wfke",
+      "reason": null,
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
-      "frozen": true
+      "frozen": false
     },
     "Anthropic:rising": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/Anthropic/rising/",
+      "stable_counts": [
+        8,
+        9,
+        9
+      ],
+      "first_id": "t3_1vrlpux",
+      "last_id": "t3_1w2wfke",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "singularity:hot": {
       "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/r/singularity/hot/",
+      "stable_counts": [
+        10,
+        11,
+        11
+      ],
+      "first_id": "t3_1vso1mh",
+      "last_id": "t3_1w38mkh",
+      "reason": "unstable_or_empty_dom",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "singularity:rising": {
-      "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "status": "success",
+      "actual_url": "https://www.reddit.com/r/singularity/rising/",
+      "stable_counts": [
+        11,
+        11,
+        11
+      ],
+      "first_id": "t3_1vso1mh",
+      "last_id": "t3_1w3eq4n",
+      "reason": null,
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
-      "frozen": true
+      "frozen": false
     },
     "robotics:hot": {
-      "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "status": "success",
+      "actual_url": "https://www.reddit.com/r/robotics/hot/",
+      "stable_counts": [
+        6,
+        6,
+        6
+      ],
+      "first_id": "t3_1w38in8",
+      "last_id": "t3_1w3huww",
+      "reason": null,
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
-      "frozen": true
+      "frozen": false
     },
     "robotics:rising": {
-      "status": "frozen",
-      "reason": "browser batch timeout",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "status": "success",
+      "actual_url": "https://www.reddit.com/r/robotics/rising/",
+      "stable_counts": [
+        8,
+        8,
+        8
+      ],
+      "first_id": "t3_1w38in8",
+      "last_id": "t3_4t35n8",
+      "reason": null,
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
-      "frozen": true
+      "frozen": false
     },
     "MachineLearning/hot": {
       "status": "success",
@@ -1321,26 +1637,50 @@
   },
   "global_feed_snapshots": {
     "home": {
-      "status": "frozen",
-      "reason": "browser batch timed out before durable snapshot",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "status": "success",
+      "actual_url": "https://www.reddit.com/",
+      "stable_counts": [
+        18,
+        18,
+        18
+      ],
+      "first_id": "t3_1w3bozm",
+      "last_id": "t3_1ptj9l6",
+      "reason": null,
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
-      "frozen": true
+      "frozen": false
     },
     "popular": {
-      "status": "frozen",
-      "reason": "browser batch timed out before durable snapshot",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "status": "success",
+      "actual_url": "https://www.reddit.com/r/popular/",
+      "stable_counts": [
+        16,
+        16,
+        16
+      ],
+      "first_id": "t3_1w3cfjc",
+      "last_id": "t3_1ptj9l6",
+      "reason": null,
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
-      "frozen": true
+      "frozen": false
     },
     "all": {
       "status": "frozen",
-      "reason": "browser batch timed out before distinct URL verification",
-      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-      "captured_at": "2026-08-31T15:25:26.000Z",
+      "actual_url": "https://www.reddit.com/",
+      "stable_counts": [
+        16,
+        16,
+        70
+      ],
+      "first_id": "t3_1w3i7ze",
+      "last_id": "t3_1ptj9l6",
+      "reason": "all_redirected_to_home",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+      "captured_at": "2026-08-31T17:22:29.382Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
@@ -1673,18 +2013,18 @@
       },
       "last_discovery_snapshot": {
         "actual_url": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
-        "results": 0,
-        "first_id": null,
-        "last_id": null,
-        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-        "captured_at": "2026-08-31T15:25:26.000Z",
+        "results": 2,
+        "first_id": "t3_1w3kg2o",
+        "last_id": "t3_1w3kdkz",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+        "captured_at": "2026-08-31T17:22:29.382Z",
         "stable_counts": [
-          17,
-          17,
-          17
+          18,
+          18,
+          18
         ]
       },
-      "last_attempt_at": "2026-08-31T15:25:26.000Z",
+      "last_attempt_at": "2026-08-31T17:22:29.382Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
@@ -1692,7 +2032,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "stable first window only; no durable parsed posts or boundary",
+      "failure_reason": "first-page discovery only; modern search boundary not crossed",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -1730,18 +2070,18 @@
       },
       "last_discovery_snapshot": {
         "actual_url": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
-        "results": 0,
-        "first_id": null,
-        "last_id": null,
-        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-        "captured_at": "2026-08-31T15:25:26.000Z",
+        "results": 4,
+        "first_id": "t3_1w3kctq",
+        "last_id": "t3_1w3k2gb",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+        "captured_at": "2026-08-31T17:22:29.382Z",
         "stable_counts": [
-          14,
-          15,
-          15
+          17,
+          17,
+          17
         ]
       },
-      "last_attempt_at": "2026-08-31T15:25:26.000Z",
+      "last_attempt_at": "2026-08-31T17:22:29.382Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
@@ -1749,7 +2089,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "search DOM changed during stability sampling",
+      "failure_reason": "first-page discovery only; modern search boundary not crossed",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -1775,18 +2115,18 @@
       "continuity_boundary": "crossed continuity_started_at via observed 2d result",
       "last_discovery_snapshot": {
         "actual_url": "https://www.reddit.com/search/?q=open%20weights%20OR%20open%20source%20AI&type=posts&sort=new",
-        "results": 0,
-        "first_id": null,
-        "last_id": null,
-        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-        "captured_at": "2026-08-31T15:25:26.000Z",
+        "results": 7,
+        "first_id": "t3_1w3kbnp",
+        "last_id": "t3_1w3k740",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+        "captured_at": "2026-08-31T17:22:29.382Z",
         "stable_counts": [
-          18,
-          18,
-          18
+          15,
+          15,
+          15
         ]
       },
-      "last_attempt_at": "2026-08-31T15:25:26.000Z",
+      "last_attempt_at": "2026-08-31T17:22:29.382Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=open%20weights%20OR%20open%20source%20AI&type=posts&sort=new",
@@ -1794,7 +2134,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "stable first window only; no durable parsed posts or boundary",
+      "failure_reason": "first-page discovery only; modern search boundary not crossed",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -1832,18 +2172,18 @@
       },
       "last_discovery_snapshot": {
         "actual_url": "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new",
-        "results": 0,
-        "first_id": null,
-        "last_id": null,
-        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-        "captured_at": "2026-08-31T15:25:26.000Z",
+        "results": 5,
+        "first_id": "t3_1w3k3qe",
+        "last_id": "t3_1w3imtn",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+        "captured_at": "2026-08-31T17:22:29.382Z",
         "stable_counts": [
-          15,
-          15,
-          15
+          16,
+          16,
+          16
         ]
       },
-      "last_attempt_at": "2026-08-31T15:25:26.000Z",
+      "last_attempt_at": "2026-08-31T17:22:29.382Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new",
@@ -1851,7 +2191,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "stable first window only; no durable parsed posts or boundary",
+      "failure_reason": "first-page discovery only; modern search boundary not crossed",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -1889,18 +2229,18 @@
       },
       "last_discovery_snapshot": {
         "actual_url": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
-        "results": 0,
-        "first_id": null,
-        "last_id": null,
-        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-        "captured_at": "2026-08-31T15:25:26.000Z",
+        "results": 7,
+        "first_id": "t3_1w3keoz",
+        "last_id": "t3_1w3k546",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+        "captured_at": "2026-08-31T17:22:29.382Z",
         "stable_counts": [
-          14,
+          15,
           15,
           15
         ]
       },
-      "last_attempt_at": "2026-08-31T15:25:26.000Z",
+      "last_attempt_at": "2026-08-31T17:22:29.382Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
@@ -1908,7 +2248,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "search DOM changed during stability sampling",
+      "failure_reason": "first-page discovery only; modern search boundary not crossed",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -1934,18 +2274,18 @@
       "continuity_boundary": "crossed continuity_started_at via observed 2d result",
       "last_discovery_snapshot": {
         "actual_url": "https://www.reddit.com/search/?q=AI%20security%20OR%20prompt%20injection&type=posts&sort=new",
-        "results": 0,
-        "first_id": null,
-        "last_id": null,
-        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-        "captured_at": "2026-08-31T15:25:26.000Z",
+        "results": 7,
+        "first_id": "t3_1w3jlv8",
+        "last_id": "t3_1w3ghnn",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+        "captured_at": "2026-08-31T17:22:29.382Z",
         "stable_counts": [
-          15,
-          15,
-          15
+          16,
+          16,
+          16
         ]
       },
-      "last_attempt_at": "2026-08-31T15:25:26.000Z",
+      "last_attempt_at": "2026-08-31T17:22:29.382Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=AI%20security%20OR%20prompt%20injection&type=posts&sort=new",
@@ -1953,7 +2293,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "stable first window only; no durable parsed posts or boundary",
+      "failure_reason": "first-page discovery only; modern search boundary not crossed",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -1990,19 +2330,15 @@
         "termination": "dynamic_feed_stalled_before_time_boundary"
       },
       "last_discovery_snapshot": {
-        "actual_url": "https://www.reddit.com/search/?q=developer%20tools%20OR%20programming%20language&type=posts&sort=new",
+        "actual_url": "https://www.reddit.com/search/?q=AI%20security%20OR%20prompt%20injection&type=posts&sort=new",
         "results": 0,
         "first_id": null,
         "last_id": null,
-        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-        "captured_at": "2026-08-31T15:25:26.000Z",
-        "stable_counts": [
-          15,
-          16,
-          16
-        ]
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+        "captured_at": "2026-08-31T17:22:29.382Z",
+        "stable_counts": []
       },
-      "last_attempt_at": "2026-08-31T15:25:26.000Z",
+      "last_attempt_at": "2026-08-31T17:22:29.382Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=developer%20tools%20OR%20programming%20language&type=posts&sort=new",
@@ -2010,7 +2346,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "search DOM changed during stability sampling",
+      "failure_reason": "navigation_or_page_load_incomplete; query cursor frozen",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -2035,19 +2371,15 @@
       "checkpoint_id": "t3_1vztc7q",
       "continuity_boundary": "crossed continuity_started_at via observed 2d result",
       "last_discovery_snapshot": {
-        "actual_url": "https://www.reddit.com/search/?q=data%20center%20energy%20water&type=posts&sort=new",
+        "actual_url": "https://www.reddit.com/search/?q=developer%20tools%20OR%20programming%20language&type=posts&sort=new",
         "results": 0,
         "first_id": null,
         "last_id": null,
-        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
-        "captured_at": "2026-08-31T15:25:26.000Z",
-        "stable_counts": [
-          18,
-          19,
-          19
-        ]
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T17-22-29-382Z.jsonl",
+        "captured_at": "2026-08-31T17:22:29.382Z",
+        "stable_counts": []
       },
-      "last_attempt_at": "2026-08-31T15:25:26.000Z",
+      "last_attempt_at": "2026-08-31T17:22:29.382Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=data%20center%20energy%20water&type=posts&sort=new",
@@ -2055,7 +2387,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "search DOM changed during stability sampling",
+      "failure_reason": "navigation_or_page_load_incomplete; query cursor frozen",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -2413,6 +2745,7 @@
     "t3_1tq6jqt",
     "t3_1tqbgp4",
     "t3_1tqisnn",
+    "t3_1tqv2qo",
     "t3_1tqwksq",
     "t3_1tqwtnx",
     "t3_1tqzcys",
@@ -8466,6 +8799,7 @@
     "t3_1w0932g",
     "t3_1w094tn",
     "t3_1w09bln",
+    "t3_1w09dn6",
     "t3_1w09fke",
     "t3_1w09gfe",
     "t3_1w09iay",
@@ -8483,6 +8817,7 @@
     "t3_1w0ag2v",
     "t3_1w0ahne",
     "t3_1w0amh5",
+    "t3_1w0anv0",
     "t3_1w0ao39",
     "t3_1w0ao7x",
     "t3_1w0b19t",
@@ -8967,6 +9302,7 @@
     "t3_1w1ey4j",
     "t3_1w1eyt5",
     "t3_1w1ezj2",
+    "t3_1w1f0p7",
     "t3_1w1f11x",
     "t3_1w1f2hy",
     "t3_1w1f5b4",
@@ -9280,6 +9616,7 @@
     "t3_1w1sd14",
     "t3_1w1sl70",
     "t3_1w1sw6y",
+    "t3_1w1t2ez",
     "t3_1w1t902",
     "t3_1w1t9xg",
     "t3_1w1tc5q",
@@ -9293,10 +9630,12 @@
     "t3_1w1u94r",
     "t3_1w1umip",
     "t3_1w1uug2",
+    "t3_1w1uuoz",
     "t3_1w1uwb5",
     "t3_1w1uytv",
     "t3_1w1uzcx",
     "t3_1w1uzn7",
+    "t3_1w1v06j",
     "t3_1w1v0sc",
     "t3_1w1v4yj",
     "t3_1w1v6c7",
@@ -9325,6 +9664,7 @@
     "t3_1w1y9in",
     "t3_1w1yclr",
     "t3_1w1yet7",
+    "t3_1w1ynrf",
     "t3_1w1yqku",
     "t3_1w1yv9b",
     "t3_1w1zm5m",
@@ -9352,6 +9692,7 @@
     "t3_1w26mq9",
     "t3_1w27cdj",
     "t3_1w27tjf",
+    "t3_1w28alw",
     "t3_1w28x8u",
     "t3_1w296bx",
     "t3_1w29cl2",
@@ -9387,6 +9728,7 @@
     "t3_1w2fmmq",
     "t3_1w2fmy2",
     "t3_1w2fuug",
+    "t3_1w2g179",
     "t3_1w2g6od",
     "t3_1w2g9e9",
     "t3_1w2gavg",
@@ -9396,6 +9738,7 @@
     "t3_1w2gk6d",
     "t3_1w2gl18",
     "t3_1w2go6l",
+    "t3_1w2gr8k",
     "t3_1w2gu4e",
     "t3_1w2gxvr",
     "t3_1w2h36u",
@@ -9455,6 +9798,7 @@
     "t3_1w2ndab",
     "t3_1w2nlhp",
     "t3_1w2nm79",
+    "t3_1w2nnb7",
     "t3_1w2nncg",
     "t3_1w2nyk5",
     "t3_1w2nz07",
@@ -9493,6 +9837,7 @@
     "t3_1w2rovd",
     "t3_1w2rvkz",
     "t3_1w2ryrp",
+    "t3_1w2sew7",
     "t3_1w2sg6d",
     "t3_1w2shuv",
     "t3_1w2sj1i",
@@ -9577,6 +9922,7 @@
     "t3_1w2ziq2",
     "t3_1w2zjcx",
     "t3_1w2zjrj",
+    "t3_1w2zp9v",
     "t3_1w2zqb7",
     "t3_1w2zson",
     "t3_1w2ztjv",
@@ -9629,6 +9975,7 @@
     "t3_1w34eq0",
     "t3_1w34erm",
     "t3_1w34pg1",
+    "t3_1w34r8n",
     "t3_1w34s5a",
     "t3_1w34wis",
     "t3_1w356ob",
@@ -9797,24 +10144,34 @@
     "t3_1w3ao4u",
     "t3_1w3atb5",
     "t3_1w3aujt",
+    "t3_1w3azet",
+    "t3_1w3b0ox",
     "t3_1w3bf32",
+    "t3_1w3bh6f",
     "t3_1w3bk4e",
     "t3_1w3blbq",
+    "t3_1w3bozm",
     "t3_1w3br9c",
     "t3_1w3bu10",
     "t3_1w3bu6t",
     "t3_1w3bv5t",
+    "t3_1w3bw20",
     "t3_1w3bwci",
     "t3_1w3bx1n",
     "t3_1w3bxj5",
     "t3_1w3bxjm",
+    "t3_1w3bxzg",
+    "t3_1w3bz00",
     "t3_1w3c36a",
     "t3_1w3c9wr",
     "t3_1w3c9x5",
+    "t3_1w3cams",
     "t3_1w3cbei",
     "t3_1w3cd71",
+    "t3_1w3cfjc",
     "t3_1w3co3k",
     "t3_1w3corq",
+    "t3_1w3crhr",
     "t3_1w3cspu",
     "t3_1w3cv46",
     "t3_1w3cwg0",
@@ -9829,6 +10186,7 @@
     "t3_1w3d4ev",
     "t3_1w3d6ys",
     "t3_1w3d7cy",
+    "t3_1w3d7w2",
     "t3_1w3d80c",
     "t3_1w3d8su",
     "t3_1w3da1m",
@@ -9844,6 +10202,7 @@
     "t3_1w3deqf",
     "t3_1w3deth",
     "t3_1w3dfc8",
+    "t3_1w3dfpg",
     "t3_1w3dfx3",
     "t3_1w3dgpb",
     "t3_1w3dhg3",
@@ -9855,6 +10214,8 @@
     "t3_1w3dj8w",
     "t3_1w3dj9p",
     "t3_1w3djxw",
+    "t3_1w3dk1v",
+    "t3_1w3dkio",
     "t3_1w3dko0",
     "t3_1w3dkon",
     "t3_1w3dksk",
@@ -9872,6 +10233,92 @@
     "t3_1w3do0k",
     "t3_1w3dojz",
     "t3_1w3dozu",
+    "t3_1w3dpu3",
+    "t3_1w3dr70",
+    "t3_1w3e21z",
+    "t3_1w3e3ya",
+    "t3_1w3e673",
+    "t3_1w3eq4n",
+    "t3_1w3eqau",
+    "t3_1w3eqt2",
+    "t3_1w3eser",
+    "t3_1w3ey5e",
+    "t3_1w3eznk",
+    "t3_1w3fbfk",
+    "t3_1w3fm4e",
+    "t3_1w3fuvo",
+    "t3_1w3g2ns",
+    "t3_1w3g3vi",
+    "t3_1w3g785",
+    "t3_1w3g7gz",
+    "t3_1w3gcz7",
+    "t3_1w3gf92",
+    "t3_1w3ghnn",
+    "t3_1w3gj0n",
+    "t3_1w3gj7w",
+    "t3_1w3gjlq",
+    "t3_1w3gl9y",
+    "t3_1w3gm14",
+    "t3_1w3goif",
+    "t3_1w3gpb0",
+    "t3_1w3gt1d",
+    "t3_1w3gtwj",
+    "t3_1w3h5lz",
+    "t3_1w3h7rg",
+    "t3_1w3hc17",
+    "t3_1w3hcab",
+    "t3_1w3hhv1",
+    "t3_1w3hlup",
+    "t3_1w3huww",
+    "t3_1w3hvik",
+    "t3_1w3i1rv",
+    "t3_1w3i4gc",
+    "t3_1w3i749",
+    "t3_1w3i7ze",
+    "t3_1w3ia28",
+    "t3_1w3iew2",
+    "t3_1w3iie3",
+    "t3_1w3iios",
+    "t3_1w3ij25",
+    "t3_1w3imtn",
+    "t3_1w3imxy",
+    "t3_1w3in14",
+    "t3_1w3iokc",
+    "t3_1w3ipsu",
+    "t3_1w3iuti",
+    "t3_1w3ixb3",
+    "t3_1w3j1vw",
+    "t3_1w3j5hj",
+    "t3_1w3jh98",
+    "t3_1w3jlv8",
+    "t3_1w3jn0t",
+    "t3_1w3jp8j",
+    "t3_1w3jq0t",
+    "t3_1w3jwoy",
+    "t3_1w3jyd5",
+    "t3_1w3k2g7",
+    "t3_1w3k36q",
+    "t3_1w3k3d6",
+    "t3_1w3k4qj",
+    "t3_1w3k546",
+    "t3_1w3k58p",
+    "t3_1w3k5uv",
+    "t3_1w3k740",
+    "t3_1w3k79h",
+    "t3_1w3k8zl",
+    "t3_1w3k94c",
+    "t3_1w3k9j3",
+    "t3_1w3k9n7",
+    "t3_1w3k9r9",
+    "t3_1w3kaaz",
+    "t3_1w3kaoi",
+    "t3_1w3kbnp",
+    "t3_1w3kccy",
+    "t3_1w3kctq",
+    "t3_1w3keoz",
+    "t3_1w3kev7",
+    "t3_1w3keyj",
+    "t3_1w3kfzg",
     "t3_4t35n8",
     "t3_bsp01i",
     "t3_k5nzkj",
@@ -10013,299 +10460,227 @@
       "source": "New:MachineLearning",
       "reason": "continuity boundary not reached in four stable pages",
       "frozen": true,
-      "last_checkpoint": "t3_unknown",
+      "last_checkpoint": "t3_checkpoint_preserved_in_state",
       "recovery": "resume saved next_url and merge with this durable window"
     },
     {
       "source": "New:LocalLLaMA",
       "reason": "continuity boundary not reached in four stable pages",
       "frozen": true,
-      "last_checkpoint": "t3_unknown",
+      "last_checkpoint": "t3_checkpoint_preserved_in_state",
       "recovery": "resume saved next_url and merge with this durable window"
     },
     {
       "source": "New:programming",
       "reason": "continuity boundary not reached in four stable pages",
       "frozen": true,
-      "last_checkpoint": "t3_unknown",
+      "last_checkpoint": "t3_checkpoint_preserved_in_state",
       "recovery": "resume saved next_url and merge with this durable window"
     },
     {
       "source": "New:technology",
       "reason": "continuity boundary not reached in four stable pages",
       "frozen": true,
-      "last_checkpoint": "t3_unknown",
+      "last_checkpoint": "t3_checkpoint_preserved_in_state",
       "recovery": "resume saved next_url and merge with this durable window"
     },
     {
       "source": "New:netsec",
       "reason": "continuity boundary not reached in four stable pages",
       "frozen": true,
-      "last_checkpoint": "t3_unknown",
+      "last_checkpoint": "t3_checkpoint_preserved_in_state",
       "recovery": "resume saved next_url and merge with this durable window"
     },
     {
       "source": "New:opensource",
       "reason": "continuity boundary not reached in four stable pages",
       "frozen": true,
-      "last_checkpoint": "t3_unknown",
+      "last_checkpoint": "t3_checkpoint_preserved_in_state",
       "recovery": "resume saved next_url and merge with this durable window"
     },
     {
       "source": "New:selfhosted",
       "reason": "continuity boundary not reached in four stable pages",
       "frozen": true,
-      "last_checkpoint": "t3_unknown",
+      "last_checkpoint": "t3_checkpoint_preserved_in_state",
       "recovery": "resume saved next_url and merge with this durable window"
     },
     {
       "source": "New:science",
       "reason": "continuity boundary not reached in four stable pages",
       "frozen": true,
-      "last_checkpoint": "t3_unknown",
+      "last_checkpoint": "t3_checkpoint_preserved_in_state",
       "recovery": "resume saved next_url and merge with this durable window"
     },
     {
       "source": "New:OpenAI",
       "reason": "continuity boundary not reached in four stable pages",
       "frozen": true,
-      "last_checkpoint": "t3_unknown",
+      "last_checkpoint": "t3_checkpoint_preserved_in_state",
       "recovery": "resume saved next_url and merge with this durable window"
     },
     {
       "source": "New:Anthropic",
       "reason": "continuity boundary not reached in four stable pages",
       "frozen": true,
-      "last_checkpoint": "t3_unknown",
+      "last_checkpoint": "t3_checkpoint_preserved_in_state",
       "recovery": "resume saved next_url and merge with this durable window"
     },
     {
       "source": "New:singularity",
       "reason": "continuity boundary not reached in four stable pages",
       "frozen": true,
-      "last_checkpoint": "t3_unknown",
+      "last_checkpoint": "t3_checkpoint_preserved_in_state",
       "recovery": "resume saved next_url and merge with this durable window"
     },
     {
       "source": "New:robotics",
       "reason": "continuity boundary not reached in four stable pages",
       "frozen": true,
-      "last_checkpoint": "t3_unknown",
+      "last_checkpoint": "t3_checkpoint_preserved_in_state",
       "recovery": "resume saved next_url and merge with this durable window"
     },
     {
-      "source": "Snapshot:MachineLearning:hot",
-      "reason": "browser batch timeout",
-      "frozen": true,
-      "recovery": "retry this sort independently; do not treat another sort as evidence"
-    },
-    {
       "source": "Snapshot:MachineLearning:rising",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
     },
     {
       "source": "Snapshot:LocalLLaMA:hot",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
     },
     {
       "source": "Snapshot:LocalLLaMA:rising",
-      "reason": "browser batch timeout",
-      "frozen": true,
-      "recovery": "retry this sort independently; do not treat another sort as evidence"
-    },
-    {
-      "source": "Snapshot:programming:hot",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
     },
     {
       "source": "Snapshot:programming:rising",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
     },
     {
       "source": "Snapshot:technology:hot",
-      "reason": "browser batch timeout",
-      "frozen": true,
-      "recovery": "retry this sort independently; do not treat another sort as evidence"
-    },
-    {
-      "source": "Snapshot:technology:rising",
-      "reason": "browser batch timeout",
-      "frozen": true,
-      "recovery": "retry this sort independently; do not treat another sort as evidence"
-    },
-    {
-      "source": "Snapshot:netsec:hot",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
     },
     {
       "source": "Snapshot:netsec:rising",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
     },
     {
       "source": "Snapshot:opensource:hot",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
     },
     {
       "source": "Snapshot:opensource:rising",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
     },
     {
       "source": "Snapshot:selfhosted:hot",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
     },
     {
       "source": "Snapshot:selfhosted:rising",
-      "reason": "browser batch timeout",
-      "frozen": true,
-      "recovery": "retry this sort independently; do not treat another sort as evidence"
-    },
-    {
-      "source": "Snapshot:science:hot",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
     },
     {
       "source": "Snapshot:science:rising",
-      "reason": "browser batch timeout",
-      "frozen": true,
-      "recovery": "retry this sort independently; do not treat another sort as evidence"
-    },
-    {
-      "source": "Snapshot:OpenAI:hot",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
     },
     {
       "source": "Snapshot:OpenAI:rising",
-      "reason": "browser batch timeout",
-      "frozen": true,
-      "recovery": "retry this sort independently; do not treat another sort as evidence"
-    },
-    {
-      "source": "Snapshot:Anthropic:hot",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
     },
     {
       "source": "Snapshot:Anthropic:rising",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
     },
     {
       "source": "Snapshot:singularity:hot",
-      "reason": "browser batch timeout",
+      "reason": "unstable_or_empty_dom",
       "frozen": true,
       "recovery": "retry this sort independently; do not treat another sort as evidence"
-    },
-    {
-      "source": "Snapshot:singularity:rising",
-      "reason": "browser batch timeout",
-      "frozen": true,
-      "recovery": "retry this sort independently; do not treat another sort as evidence"
-    },
-    {
-      "source": "Snapshot:robotics:hot",
-      "reason": "browser batch timeout",
-      "frozen": true,
-      "recovery": "retry this sort independently; do not treat another sort as evidence"
-    },
-    {
-      "source": "Snapshot:robotics:rising",
-      "reason": "browser batch timeout",
-      "frozen": true,
-      "recovery": "retry this sort independently; do not treat another sort as evidence"
-    },
-    {
-      "source": "Global:home",
-      "reason": "browser batch timed out before durable snapshot",
-      "frozen": true,
-      "recovery": "retry this feed independently and verify it is distinct"
-    },
-    {
-      "source": "Global:popular",
-      "reason": "browser batch timed out before durable snapshot",
-      "frozen": true,
-      "recovery": "retry this feed independently and verify it is distinct"
     },
     {
       "source": "Global:all",
-      "reason": "browser batch timed out before distinct URL verification",
+      "reason": "all_redirected_to_home",
       "frozen": true,
       "recovery": "retry this feed independently and verify it is distinct"
     },
     {
       "source": "Search:AI agent OR agentic coding",
-      "reason": "stable first window only; no durable parsed posts or boundary",
+      "reason": "first-page discovery only; modern search boundary not crossed",
       "frozen": true,
       "recovery": "resume the modern Posts + New stream from its saved boundary"
     },
     {
       "source": "Search:LLM inference OR quantization",
-      "reason": "search DOM changed during stability sampling",
+      "reason": "first-page discovery only; modern search boundary not crossed",
       "frozen": true,
       "recovery": "resume the modern Posts + New stream from its saved boundary"
     },
     {
       "source": "Search:open weights OR open source AI",
-      "reason": "stable first window only; no durable parsed posts or boundary",
+      "reason": "first-page discovery only; modern search boundary not crossed",
       "frozen": true,
       "recovery": "resume the modern Posts + New stream from its saved boundary"
     },
     {
       "source": "Search:AI chip OR GPU OR inference accelerator",
-      "reason": "stable first window only; no durable parsed posts or boundary",
+      "reason": "first-page discovery only; modern search boundary not crossed",
       "frozen": true,
       "recovery": "resume the modern Posts + New stream from its saved boundary"
     },
     {
       "source": "Search:robotics foundation model",
-      "reason": "search DOM changed during stability sampling",
+      "reason": "first-page discovery only; modern search boundary not crossed",
       "frozen": true,
       "recovery": "resume the modern Posts + New stream from its saved boundary"
     },
     {
       "source": "Search:AI security OR prompt injection",
-      "reason": "stable first window only; no durable parsed posts or boundary",
+      "reason": "first-page discovery only; modern search boundary not crossed",
       "frozen": true,
       "recovery": "resume the modern Posts + New stream from its saved boundary"
     },
     {
       "source": "Search:developer tools OR programming language",
-      "reason": "search DOM changed during stability sampling",
+      "reason": "navigation_or_page_load_incomplete; query cursor frozen",
       "frozen": true,
       "recovery": "resume the modern Posts + New stream from its saved boundary"
     },
     {
       "source": "Search:data center energy water",
-      "reason": "search DOM changed during stability sampling",
+      "reason": "navigation_or_page_load_incomplete; query cursor frozen",
       "frozen": true,
       "recovery": "resume the modern Posts + New stream from its saved boundary"
     }
   ],
   "last_tool_failure": {
-    "at_utc": "2026-08-31T15:25:26.000Z",
+    "at_utc": "2026-08-31T17:22:29.382Z",
     "reason": "search continuity remains frozen; New failures isolated to three saved continuations"
   },
   "last_dingtalk_delivery": {
