@@ -1,0 +1,24 @@
+{
+  "run_at_utc": "2026-08-31T08:18:00Z",
+  "owner": "Product-Hunt-20260831T081611Z-a77458",
+  "surface": "logged_in_local_chrome_read_only",
+  "outcome": "exception",
+  "dates_processed": ["2026-08-25", "2026-08-26", "2026-08-27", "2026-08-28", "2026-08-29", "2026-08-30"],
+  "continuation": {
+    "input": "Resume the ordered partial ledger at 2026-08-25; 2026-08-30 is the just-closed Product Hunt date.",
+    "output": "2026-08-25 remains partial after a stable reload, because All terminal pagination and full metadata were not verifiable. Later dates are frozen without advancing any cursor."
+  },
+  "lock": {"name": "repo-write", "owner": "Product-Hunt-20260831T081611Z-a77458", "ttl_seconds": 5400, "acquired": true},
+  "health_before": "degraded warnings only: no_complete_date; latest formal run exception",
+  "stability_sampling": {"initial_samples": 3, "interval_ms": 600, "reload_retries": 1, "new_tab_retries": 1, "reload_stable": true, "new_tab_challenge": true},
+  "evidence": ["producthunt/raw/2026/08/2026-08-25.closed-2026-08-31T081800Z.json"],
+  "frozen_status": {"2026-08-25": "partial", "2026-08-26": "partial", "2026-08-27": "partial", "2026-08-28": "partial", "2026-08-29": "closed_pending", "2026-08-30": "closed_pending"},
+  "missing_gates": [
+    "2026-08-25: All terminal pagination, full required metadata, and candidate comments incomplete",
+    "2026-08-26: maker/hunter identities and stable parent-comment identifiers incomplete",
+    "2026-08-27 through 2026-08-30: ordered backlog may not be bypassed"
+  ],
+  "delivery": {"github_push": {"status": "awaiting_finalization"}, "dingtalk": {"status": "awaiting_finalization"}},
+  "published": false,
+  "archive_page": false
+}

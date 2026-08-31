@@ -1,0 +1,23 @@
+{
+  "captured_at_utc": "2026-08-31T08:18:00Z",
+  "surface": "logged_in_local_chrome_read_only",
+  "date": "2026-08-25",
+  "leaderboard": "all",
+  "canonical_url": "https://www.producthunt.com/leaderboard/daily/2026/8/25/all",
+  "stability_sampling": {
+    "initial": {"title": "Just a moment...", "body_characters": 0, "stable": false},
+    "reload": {"title": "Best of Product Hunt: August 25, 2026 | Product Hunt", "body_characters": 5225, "stable_across_three_samples": true},
+    "new_tab_retry": {"title": "Just a moment...", "body_characters": 0}
+  },
+  "rendered_result": {
+    "visible_product_links": 17,
+    "visible_rank_labels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 26, 28, 29, 30],
+    "pagination_controls": "date navigation only; no verified All-list continuation or terminal-state control exposed"
+  },
+  "outcome": "partial",
+  "missing_gates": [
+    "All pagination terminal state cannot be verified from the rendered page",
+    "full product metadata and stable Product Hunt IDs were not collected before the prior continuation boundary",
+    "AI/technology candidate detail and comment surfaces remain incomplete"
+  ]
+}

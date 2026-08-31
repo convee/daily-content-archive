@@ -50,7 +50,7 @@
         ],
       "run": "producthunt/run/2026/08/2026-08-28.json"
     },
-    "2026-08-28": {
+        "2026-08-28": {
       "status": "partial",
       "updated_at_utc": "2026-08-29T08:19:00Z",
       "featured_visible_ranked": 17,
@@ -61,8 +61,24 @@
         "AI/tech candidate product and full comment collection",
         "all product-detail metadata and discovery verification"
       ],
-      "run": "producthunt/run/2026/08/2026-08-29.json"
-    }
+            "run": "producthunt/run/2026/08/2026-08-29.json"
+        },
+        "2026-08-29": {
+            "status": "closed_pending",
+            "updated_at_utc": "2026-08-31T08:18:00Z",
+            "missing_gates": [
+                "ordered backlog is blocked at 2026-08-25; no durable full leaderboard capture has been collected for this date"
+            ],
+            "run": "producthunt/run/2026/08/2026-08-31.json"
+        },
+        "2026-08-30": {
+            "status": "closed_pending",
+            "updated_at_utc": "2026-08-31T08:18:00Z",
+            "missing_gates": [
+                "ordered backlog is blocked at 2026-08-25; intraday snapshot is auxiliary evidence only and cannot settle this date"
+            ],
+            "run": "producthunt/run/2026/08/2026-08-31.json"
+        }
   },
   "intraday_snapshots": {},
   "comment_revisit_queue": [],
