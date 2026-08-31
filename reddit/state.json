@@ -6,25 +6,21 @@
     "MachineLearning": {
       "last_id": "t3_1w1jp1j",
       "first_id": "t3_1w1jp1j",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "scroll_batches": 1,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w0788j",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [
-        "t3_1w1jp1j",
-        "t3_1w1tr86",
-        "t3_1w1wt1s"
-      ],
-      "observed_count": 3,
-      "written_count": 3,
+      "observed_post_ids": [],
+      "observed_count": 0,
+      "written_count": 0,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
       "continuation": {
         "next_url": "https://www.reddit.com/r/MachineLearning/new/",
-        "last_observed_id": "t3_1w1jp1j",
-        "captured_at": "2026-08-29T21:22:16.745Z"
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T03:25:10.185Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w1jp1j"
@@ -32,25 +28,21 @@
     "LocalLLaMA": {
       "last_id": "t3_1w1meuk",
       "first_id": "t3_1w1meuk",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "scroll_batches": 4,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w0j7w9",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [
-        "t3_1w1xgm1",
-        "t3_1w1y3yo",
-        "t3_1w1yclr"
-      ],
-      "observed_count": 3,
-      "written_count": 3,
+      "observed_post_ids": [],
+      "observed_count": 0,
+      "written_count": 0,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
       "continuation": {
         "next_url": "https://www.reddit.com/r/LocalLLaMA/new/",
-        "last_observed_id": "t3_1w1xgm1",
-        "captured_at": "2026-08-29T21:22:16.745Z"
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T03:25:10.185Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w1meuk"
@@ -58,7 +50,7 @@
     "programming": {
       "last_id": "t3_1vzw7as",
       "first_id": "t3_1vzw7as",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "scroll_batches": 8,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
@@ -87,71 +79,59 @@
         "archive_file": "reddit/raw/2026/08/27/new-repair-observations-2026-08-27T12-37-09-680Z.jsonl",
         "method": "time_boundary_crossed_exact_id_absent"
       },
-      "observed_post_ids": [
-        "t3_1w1wbcj",
-        "t3_1w1wspl",
-        "t3_1w1y2m3"
-      ],
-      "observed_count": 3,
-      "written_count": 3,
+      "observed_post_ids": [],
+      "observed_count": 0,
+      "written_count": 0,
       "status": "frozen",
       "failure_reason": "continuity_boundary_not_reached",
       "continuation": {
         "next_url": "https://www.reddit.com/r/programming/new/",
-        "last_observed_id": "t3_1w1wbcj",
-        "captured_at": "2026-08-29T21:22:16.745Z"
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T03:25:10.185Z"
       },
-      "last_raw_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
       "new_head_id": "t3_1w06vn1"
     },
     "technology": {
       "last_id": "t3_1vzwxyi",
       "first_id": "t3_1vzwxyi",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "scroll_batches": 9,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1vzwxyi",
       "previous_checkpoint_reached": false,
-      "observed_post_ids": [
-        "t3_1w1xxoy",
-        "t3_1w1y5xb",
-        "t3_1w1y9in"
-      ],
-      "observed_count": 3,
-      "written_count": 3,
+      "observed_post_ids": [],
+      "observed_count": 0,
+      "written_count": 0,
       "status": "frozen",
       "failure_reason": "continuity_boundary_not_reached",
       "continuation": {
         "next_url": "https://www.reddit.com/r/technology/new/",
-        "last_observed_id": "t3_1w1xxoy",
-        "captured_at": "2026-08-29T21:22:16.745Z"
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T03:25:10.185Z"
       },
-      "last_raw_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
       "new_head_id": "t3_1w0jicn"
     },
     "netsec": {
       "last_id": "t3_1w05xwz",
       "first_id": "t3_1w05xwz",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "scroll_batches": 1,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w05xwz",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [
-        "t3_1vzx029",
-        "t3_1vzxkxm",
-        "t3_1w05xwz"
-      ],
-      "observed_count": 3,
-      "written_count": 3,
+      "observed_post_ids": [],
+      "observed_count": 0,
+      "written_count": 0,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
       "continuation": {
         "next_url": "https://www.reddit.com/r/netsec/new/",
-        "last_observed_id": "t3_1vzx029",
-        "captured_at": "2026-08-29T21:22:16.745Z"
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T03:25:10.185Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w05xwz"
@@ -159,33 +139,29 @@
     "opensource": {
       "last_id": "t3_1vzwv8l",
       "first_id": "t3_1vzwv8l",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "scroll_batches": 9,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1vzwv8l",
       "previous_checkpoint_reached": false,
-      "observed_post_ids": [
-        "t3_1w1t9xg",
-        "t3_1w1vlel",
-        "t3_1w1xlip"
-      ],
-      "observed_count": 3,
-      "written_count": 3,
+      "observed_post_ids": [],
+      "observed_count": 0,
+      "written_count": 0,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w0crvn",
       "continuation": {
         "next_url": "https://www.reddit.com/r/opensource/new/",
-        "last_observed_id": "t3_1w1t9xg",
-        "captured_at": "2026-08-29T21:22:16.745Z"
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T03:25:10.185Z"
       }
     },
     "selfhosted": {
       "last_id": "t3_1w1kygg",
       "first_id": "t3_1w1kygg",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "scroll_batches": 3,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
@@ -214,19 +190,15 @@
         "archive_file": "reddit/raw/2026/08/27/new-repair-observations-2026-08-27T12-37-09-680Z.jsonl",
         "method": "time_boundary_crossed_exact_id_absent"
       },
-      "observed_post_ids": [
-        "t3_1w1w6wt",
-        "t3_1w1wuxo",
-        "t3_1w1wv6e"
-      ],
-      "observed_count": 3,
-      "written_count": 3,
+      "observed_post_ids": [],
+      "observed_count": 0,
+      "written_count": 0,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
       "continuation": {
         "next_url": "https://www.reddit.com/r/selfhosted/new/",
-        "last_observed_id": "t3_1w1w6wt",
-        "captured_at": "2026-08-29T21:22:16.745Z"
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T03:25:10.185Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w1kygg"
@@ -234,51 +206,43 @@
     "science": {
       "last_id": "t3_1w1mcbc",
       "first_id": "t3_1w1mcbc",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "scroll_batches": 1,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w09pxu",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [
-        "t3_1w1rkfd",
-        "t3_1w1uwb5",
-        "t3_1w1y5yc"
-      ],
-      "observed_count": 3,
-      "written_count": 3,
+      "observed_post_ids": [],
+      "observed_count": 0,
+      "written_count": 0,
       "status": "frozen",
       "failure_reason": "continuity_boundary_not_reached",
       "continuation": {
         "next_url": "https://www.reddit.com/r/science/new/",
-        "last_observed_id": "t3_1w1rkfd",
-        "captured_at": "2026-08-29T21:22:16.745Z"
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T03:25:10.185Z"
       },
-      "last_raw_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
       "new_head_id": "t3_1w1mcbc"
     },
     "OpenAI": {
       "last_id": "t3_1w1litm",
       "first_id": "t3_1w1litm",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "scroll_batches": 3,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w0a3kg",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [
-        "t3_1w1rcpx",
-        "t3_1w1u94r",
-        "t3_1w1xhvi"
-      ],
-      "observed_count": 3,
-      "written_count": 3,
+      "observed_post_ids": [],
+      "observed_count": 0,
+      "written_count": 0,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
       "continuation": {
         "next_url": "https://www.reddit.com/r/OpenAI/new/",
-        "last_observed_id": "t3_1w1rcpx",
-        "captured_at": "2026-08-29T21:22:16.745Z"
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T03:25:10.185Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w1litm"
@@ -286,25 +250,21 @@
     "Anthropic": {
       "last_id": "t3_1w1jyk7",
       "first_id": "t3_1w1jyk7",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "scroll_batches": 1,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w0fdfr",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [
-        "t3_1w1uytv",
-        "t3_1w1xbt4",
-        "t3_1w1xkow"
-      ],
-      "observed_count": 3,
-      "written_count": 3,
+      "observed_post_ids": [],
+      "observed_count": 0,
+      "written_count": 0,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
       "continuation": {
         "next_url": "https://www.reddit.com/r/Anthropic/new/",
-        "last_observed_id": "t3_1w1uytv",
-        "captured_at": "2026-08-29T21:22:16.745Z"
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T03:25:10.185Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w1jyk7"
@@ -312,25 +272,21 @@
     "singularity": {
       "last_id": "t3_1w1lddy",
       "first_id": "t3_1w1lddy",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "scroll_batches": 2,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w08pt5",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [
-        "t3_1w1wt5y",
-        "t3_1w1x396",
-        "t3_1w1yet7"
-      ],
-      "observed_count": 3,
-      "written_count": 3,
+      "observed_post_ids": [],
+      "observed_count": 0,
+      "written_count": 0,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
       "continuation": {
         "next_url": "https://www.reddit.com/r/singularity/new/",
-        "last_observed_id": "t3_1w1wt5y",
-        "captured_at": "2026-08-29T21:22:16.745Z"
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T03:25:10.185Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w1lddy"
@@ -338,25 +294,21 @@
     "robotics": {
       "last_id": "t3_1w1m7qd",
       "first_id": "t3_1w1m7qd",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "scroll_batches": 1,
       "visible_posts": 25,
       "archive_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T15-27-23-744Z.jsonl",
       "previous_checkpoint": "t3_1w09jat",
       "previous_checkpoint_reached": true,
-      "observed_post_ids": [
-        "t3_1w1scfm",
-        "t3_1w1tn2m",
-        "t3_1w1uzcx"
-      ],
-      "observed_count": 3,
-      "written_count": 3,
+      "observed_post_ids": [],
+      "observed_count": 0,
+      "written_count": 0,
       "status": "frozen",
-      "last_raw_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
+      "last_raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
       "continuation": {
         "next_url": "https://www.reddit.com/r/robotics/new/",
-        "last_observed_id": "t3_1w1scfm",
-        "captured_at": "2026-08-29T21:22:16.745Z"
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T03:25:10.185Z"
       },
       "failure_reason": "continuity_boundary_not_reached",
       "new_head_id": "t3_1w1m7qd"
@@ -371,671 +323,290 @@
     "unique_posts": 380,
     "evidence_status": "durable_raw",
     "MachineLearning:hot": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/MachineLearning/hot/",
-      "title": "Machine Learning",
-      "stable_counts": [
-        3,
-        27,
-        27,
-        3
-      ],
-      "stable_batches": [
-        {
-          "url": "https://www.reddit.com/r/MachineLearning/hot/",
-          "title": "Machine Learning",
-          "posts": 3,
-          "anchors": 18
-        },
-        {
-          "url": "https://www.reddit.com/r/MachineLearning/hot/",
-          "title": "Machine Learning",
-          "posts": 27,
-          "anchors": 114
-        },
-        {
-          "url": "https://www.reddit.com/r/MachineLearning/hot/",
-          "title": "Machine Learning",
-          "posts": 27,
-          "anchors": 114
-        },
-        {
-          "url": "https://www.reddit.com/r/MachineLearning/hot/",
-          "title": "Machine Learning",
-          "posts": 3,
-          "anchors": 18
-        }
-      ],
-      "first_id": "t3_1w1wt1s",
-      "last_id": "t3_1w16jwj",
-      "retries": [
-        "reload"
-      ],
-      "reason": "stability_not_converged_or_empty",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/MachineLearning/hot/",
+      "actual_url": null,
+      "title": null,
+      "stable_counts": [],
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "MachineLearning:rising": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/MachineLearning/rising/",
-      "title": "Machine Learning",
-      "stable_counts": [
-        3,
-        24,
-        24,
-        3
-      ],
-      "stable_batches": [
-        {
-          "url": "https://www.reddit.com/r/MachineLearning/rising/",
-          "title": "Machine Learning",
-          "posts": 3,
-          "anchors": 18
-        },
-        {
-          "url": "https://www.reddit.com/r/MachineLearning/rising/",
-          "title": "Machine Learning",
-          "posts": 24,
-          "anchors": 102
-        },
-        {
-          "url": "https://www.reddit.com/r/MachineLearning/rising/",
-          "title": "Machine Learning",
-          "posts": 24,
-          "anchors": 102
-        },
-        {
-          "url": "https://www.reddit.com/r/MachineLearning/rising/",
-          "title": "Machine Learning",
-          "posts": 3,
-          "anchors": 18
-        }
-      ],
-      "first_id": "t3_1w1wt1s",
-      "last_id": "t3_1w16jwj",
-      "retries": [
-        "reload"
-      ],
-      "reason": "stability_not_converged_or_empty",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/MachineLearning/rising/",
+      "actual_url": null,
+      "title": null,
+      "stable_counts": [],
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "LocalLLaMA:hot": {
-      "status": "success",
-      "actual_url": "https://www.reddit.com/r/LocalLLaMA/hot/",
-      "title": "LocalLlama",
-      "stable_counts": [
-        3,
-        3,
-        3
-      ],
-      "stable_batches": [
-        {
-          "url": "https://www.reddit.com/r/LocalLLaMA/hot/",
-          "title": "LocalLlama",
-          "posts": 3,
-          "anchors": 21
-        },
-        {
-          "url": "https://www.reddit.com/r/LocalLLaMA/hot/",
-          "title": "LocalLlama",
-          "posts": 3,
-          "anchors": 21
-        },
-        {
-          "url": "https://www.reddit.com/r/LocalLLaMA/hot/",
-          "title": "LocalLlama",
-          "posts": 3,
-          "anchors": 21
-        }
-      ],
-      "first_id": "t3_1w1o324",
-      "last_id": "t3_1w1gec7",
-      "retries": [],
-      "reason": null,
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/LocalLLaMA/hot/",
+      "actual_url": null,
+      "title": null,
+      "stable_counts": [],
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
-      "frozen": false
+      "frozen": true
     },
     "LocalLLaMA:rising": {
-      "status": "success",
-      "actual_url": "https://www.reddit.com/r/LocalLLaMA/rising/",
-      "title": "LocalLlama",
-      "stable_counts": [
-        3,
-        3,
-        3
-      ],
-      "stable_batches": [
-        {
-          "url": "https://www.reddit.com/r/LocalLLaMA/rising/",
-          "title": "LocalLlama",
-          "posts": 3,
-          "anchors": 14
-        },
-        {
-          "url": "https://www.reddit.com/r/LocalLLaMA/rising/",
-          "title": "LocalLlama",
-          "posts": 3,
-          "anchors": 14
-        },
-        {
-          "url": "https://www.reddit.com/r/LocalLLaMA/rising/",
-          "title": "LocalLlama",
-          "posts": 3,
-          "anchors": 21
-        }
-      ],
-      "first_id": "t3_1w1o324",
-      "last_id": "t3_1w1gec7",
-      "retries": [],
-      "reason": null,
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/LocalLLaMA/rising/",
+      "actual_url": null,
+      "title": null,
+      "stable_counts": [],
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
-      "frozen": false
+      "frozen": true
     },
     "programming:hot": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/programming/hot/",
-      "title": "programming",
-      "stable_counts": [
-        3,
-        27,
-        27,
-        3
-      ],
-      "stable_batches": [
-        {
-          "url": "https://www.reddit.com/r/programming/hot/",
-          "title": "programming",
-          "posts": 3,
-          "anchors": 15
-        },
-        {
-          "url": "https://www.reddit.com/r/programming/hot/",
-          "title": "programming",
-          "posts": 27,
-          "anchors": 94
-        },
-        {
-          "url": "https://www.reddit.com/r/programming/hot/",
-          "title": "programming",
-          "posts": 27,
-          "anchors": 94
-        },
-        {
-          "url": "https://www.reddit.com/r/programming/hot/",
-          "title": "programming",
-          "posts": 3,
-          "anchors": 15
-        }
-      ],
-      "first_id": "t3_1w1sl70",
-      "last_id": "t3_1w1wspl",
-      "retries": [
-        "reload"
-      ],
-      "reason": "stability_not_converged_or_empty",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/programming/hot/",
+      "actual_url": null,
+      "title": null,
+      "stable_counts": [],
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "programming:rising": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/programming/rising/",
-      "title": "programming",
-      "stable_counts": [
-        3,
-        24,
-        24,
-        3
-      ],
-      "stable_batches": [
-        {
-          "url": "https://www.reddit.com/r/programming/rising/",
-          "title": "programming",
-          "posts": 3,
-          "anchors": 15
-        },
-        {
-          "url": "https://www.reddit.com/r/programming/rising/",
-          "title": "programming",
-          "posts": 24,
-          "anchors": 84
-        },
-        {
-          "url": "https://www.reddit.com/r/programming/rising/",
-          "title": "programming",
-          "posts": 24,
-          "anchors": 84
-        },
-        {
-          "url": "https://www.reddit.com/r/programming/rising/",
-          "title": "programming",
-          "posts": 3,
-          "anchors": 8
-        }
-      ],
-      "first_id": "t3_1w1sl70",
-      "last_id": "t3_1w1wspl",
-      "retries": [
-        "reload"
-      ],
-      "reason": "stability_not_converged_or_empty",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/programming/rising/",
+      "actual_url": null,
+      "title": null,
+      "stable_counts": [],
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "technology:hot": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/technology/hot/",
-      "title": "/r/Technology",
-      "stable_counts": [
-        3,
-        27,
-        27,
-        3
-      ],
-      "stable_batches": [
-        {
-          "url": "https://www.reddit.com/r/technology/hot/",
-          "title": "/r/Technology",
-          "posts": 3,
-          "anchors": 14
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/hot/",
-          "title": "/r/Technology",
-          "posts": 27,
-          "anchors": 90
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/hot/",
-          "title": "/r/Technology",
-          "posts": 27,
-          "anchors": 90
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/hot/",
-          "title": "/r/Technology",
-          "posts": 3,
-          "anchors": 7
-        }
-      ],
-      "first_id": "t3_1w1uzn7",
-      "last_id": "t3_1w1lue3",
-      "retries": [
-        "reload"
-      ],
-      "reason": "stability_not_converged_or_empty",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/technology/hot/",
+      "actual_url": null,
+      "title": null,
+      "stable_counts": [],
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "technology:rising": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/technology/rising/",
-      "title": "/r/Technology",
-      "stable_counts": [
-        3,
-        24,
-        24,
-        3
-      ],
-      "stable_batches": [
-        {
-          "url": "https://www.reddit.com/r/technology/rising/",
-          "title": "/r/Technology",
-          "posts": 3,
-          "anchors": 14
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/rising/",
-          "title": "/r/Technology",
-          "posts": 24,
-          "anchors": 80
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/rising/",
-          "title": "/r/Technology",
-          "posts": 24,
-          "anchors": 80
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/rising/",
-          "title": "/r/Technology",
-          "posts": 3,
-          "anchors": 14
-        }
-      ],
-      "first_id": "t3_1w1xxoy",
-      "last_id": "t3_1w1tc5q",
-      "retries": [
-        "reload"
-      ],
-      "reason": "stability_not_converged_or_empty",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/technology/rising/",
+      "actual_url": null,
+      "title": null,
+      "stable_counts": [],
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "netsec:hot": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/netsec/hot/",
-      "title": "Technical Information Security Content & Discussion",
-      "stable_counts": [
-        3,
-        27,
-        27,
-        3
-      ],
-      "stable_batches": [
-        {
-          "url": "https://www.reddit.com/r/netsec/hot/",
-          "title": "Technical Information Security Content & Discussion",
-          "posts": 3,
-          "anchors": 16
-        },
-        {
-          "url": "https://www.reddit.com/r/netsec/hot/",
-          "title": "Technical Information Security Content & Discussion",
-          "posts": 27,
-          "anchors": 92
-        },
-        {
-          "url": "https://www.reddit.com/r/netsec/hot/",
-          "title": "Technical Information Security Content & Discussion",
-          "posts": 27,
-          "anchors": 92
-        },
-        {
-          "url": "https://www.reddit.com/r/netsec/hot/",
-          "title": "Technical Information Security Content & Discussion",
-          "posts": 3,
-          "anchors": 16
-        }
-      ],
-      "first_id": "t3_1w05xwz",
-      "last_id": "t3_1vzxkxm",
-      "retries": [
-        "reload"
-      ],
-      "reason": "stability_not_converged_or_empty",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/netsec/hot/",
+      "actual_url": null,
+      "title": null,
+      "stable_counts": [],
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "netsec:rising": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/netsec/rising/",
-      "title": "Technical Information Security Content & Discussion",
-      "stable_counts": [
-        3,
-        24,
-        24,
-        3
-      ],
-      "stable_batches": [
-        {
-          "url": "https://www.reddit.com/r/netsec/rising/",
-          "title": "Technical Information Security Content & Discussion",
-          "posts": 3,
-          "anchors": 16
-        },
-        {
-          "url": "https://www.reddit.com/r/netsec/rising/",
-          "title": "Technical Information Security Content & Discussion",
-          "posts": 24,
-          "anchors": 82
-        },
-        {
-          "url": "https://www.reddit.com/r/netsec/rising/",
-          "title": "Technical Information Security Content & Discussion",
-          "posts": 24,
-          "anchors": 82
-        },
-        {
-          "url": "https://www.reddit.com/r/netsec/rising/",
-          "title": "Technical Information Security Content & Discussion",
-          "posts": 3,
-          "anchors": 13
-        }
-      ],
-      "first_id": "t3_1w05xwz",
-      "last_id": "t3_1vzxkxm",
-      "retries": [
-        "reload"
-      ],
-      "reason": "stability_not_converged_or_empty",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/netsec/rising/",
+      "actual_url": null,
+      "title": null,
+      "stable_counts": [],
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "opensource:hot": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/opensource/hot/",
-      "title": "Open Source on Reddit",
-      "stable_counts": [
-        3,
-        26,
-        26,
-        3
-      ],
-      "stable_batches": [
-        {
-          "url": "https://www.reddit.com/r/opensource/hot/",
-          "title": "Open Source on Reddit",
-          "posts": 3,
-          "anchors": 19
-        },
-        {
-          "url": "https://www.reddit.com/r/opensource/hot/",
-          "title": "Open Source on Reddit",
-          "posts": 26,
-          "anchors": 112
-        },
-        {
-          "url": "https://www.reddit.com/r/opensource/hot/",
-          "title": "Open Source on Reddit",
-          "posts": 26,
-          "anchors": 112
-        },
-        {
-          "url": "https://www.reddit.com/r/opensource/hot/",
-          "title": "Open Source on Reddit",
-          "posts": 3,
-          "anchors": 16
-        }
-      ],
-      "first_id": "t3_1w1ki5h",
-      "last_id": "t3_1w1t9xg",
-      "retries": [
-        "reload"
-      ],
-      "reason": "stability_not_converged_or_empty",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/opensource/hot/",
+      "actual_url": null,
+      "title": null,
+      "stable_counts": [],
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "opensource:rising": {
-      "status": "success",
-      "actual_url": "https://www.reddit.com/r/opensource/rising/",
-      "title": "Open Source on Reddit",
-      "stable_counts": [
-        3,
-        3,
-        3
-      ],
-      "stable_batches": [
-        {
-          "url": "https://www.reddit.com/r/opensource/rising/",
-          "title": "Open Source on Reddit",
-          "posts": 3,
-          "anchors": 15
-        },
-        {
-          "url": "https://www.reddit.com/r/opensource/rising/",
-          "title": "Open Source on Reddit",
-          "posts": 3,
-          "anchors": 15
-        },
-        {
-          "url": "https://www.reddit.com/r/opensource/rising/",
-          "title": "Open Source on Reddit",
-          "posts": 3,
-          "anchors": 15
-        }
-      ],
-      "first_id": "t3_1w1ki5h",
-      "last_id": "t3_1w1t9xg",
-      "retries": [],
-      "reason": null,
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/opensource/rising/",
+      "actual_url": null,
+      "title": null,
+      "stable_counts": [],
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
-      "frozen": false
+      "frozen": true
     },
     "selfhosted:hot": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/opensource/rising/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/selfhosted/hot/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com/r/selfhosted/hot/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "selfhosted:rising": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/selfhosted/hot/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/selfhosted/rising/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com/r/selfhosted/rising/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "science:hot": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/science/hot/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/science/hot/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com/r/science/hot/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "science:rising": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/science/rising/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/science/rising/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com/r/science/rising/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "OpenAI:hot": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/OpenAI/hot/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/OpenAI/hot/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com/r/OpenAI/hot/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "OpenAI:rising": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/OpenAI/rising/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/OpenAI/rising/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com/r/OpenAI/rising/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "Anthropic:hot": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/Anthropic/hot/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/Anthropic/hot/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com/r/Anthropic/hot/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "Anthropic:rising": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/Anthropic/rising/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/Anthropic/rising/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com/r/Anthropic/rising/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "singularity:hot": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/singularity/hot/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/singularity/hot/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com/r/singularity/hot/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "singularity:rising": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/singularity/rising/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/singularity/rising/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com/r/singularity/rising/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "robotics:hot": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/singularity/rising/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/robotics/hot/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com/r/robotics/hot/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "robotics:rising": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/robotics/rising/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/robotics/rising/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com/r/robotics/rising/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
@@ -1846,35 +1417,38 @@
   },
   "global_feed_snapshots": {
     "home": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "popular": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/r/popular/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/popular/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "Error: Browser Use cannot open https://www.reddit.com/r/popular/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
     "all": {
-      "status": "frozen",
-      "actual_url": "https://www.reddit.com/",
+      "status": "tool_batch_failure_unverified",
+      "requested_url": "https://www.reddit.com/r/all/",
+      "actual_url": null,
+      "title": null,
       "stable_counts": [],
-      "retries": [],
-      "reason": "All indistinguishable from Home or redirected",
-      "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-      "captured_at": "2026-08-29T21:22:16.745Z",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
+      "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+      "captured_at": "2026-08-31T03:25:10.185Z",
       "evidence_status": "durable_raw",
       "frozen": true
     },
@@ -2206,15 +1780,15 @@
         "termination": "dynamic_feed_stalled_before_time_boundary"
       },
       "last_discovery_snapshot": {
-        "actual_url": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
+        "actual_url": null,
         "results": 0,
         "first_id": null,
         "last_id": null,
-        "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-        "captured_at": "2026-08-29T21:22:16.745Z",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+        "captured_at": "2026-08-31T03:25:10.185Z",
         "stable_counts": []
       },
-      "last_attempt_at": "2026-08-29T21:22:16.745Z",
+      "last_attempt_at": "2026-08-31T03:25:10.185Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
@@ -2222,7 +1796,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "failure_reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -2259,15 +1833,15 @@
         "termination": "dynamic_feed_stalled_before_time_boundary"
       },
       "last_discovery_snapshot": {
-        "actual_url": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
+        "actual_url": null,
         "results": 0,
         "first_id": null,
         "last_id": null,
-        "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-        "captured_at": "2026-08-29T21:22:16.745Z",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+        "captured_at": "2026-08-31T03:25:10.185Z",
         "stable_counts": []
       },
-      "last_attempt_at": "2026-08-29T21:22:16.745Z",
+      "last_attempt_at": "2026-08-31T03:25:10.185Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
@@ -2275,7 +1849,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "failure_reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -2300,15 +1874,15 @@
       "checkpoint_id": "t3_1vzt8ca",
       "continuity_boundary": "crossed continuity_started_at via observed 2d result",
       "last_discovery_snapshot": {
-        "actual_url": "https://www.reddit.com/search/?q=open%20weights%20OR%20open%20source%20AI&type=posts&sort=new",
+        "actual_url": null,
         "results": 0,
         "first_id": null,
         "last_id": null,
-        "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-        "captured_at": "2026-08-29T21:22:16.745Z",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+        "captured_at": "2026-08-31T03:25:10.185Z",
         "stable_counts": []
       },
-      "last_attempt_at": "2026-08-29T21:22:16.745Z",
+      "last_attempt_at": "2026-08-31T03:25:10.185Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=open%20weights%20OR%20open%20source%20AI&type=posts&sort=new",
@@ -2316,7 +1890,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "failure_reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -2353,15 +1927,15 @@
         "termination": "dynamic_feed_stalled_before_time_boundary"
       },
       "last_discovery_snapshot": {
-        "actual_url": "https://www.reddit.com/search/?q=open%20weights%20OR%20open%20source%20AI&type=posts&sort=new",
+        "actual_url": null,
         "results": 0,
         "first_id": null,
         "last_id": null,
-        "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-        "captured_at": "2026-08-29T21:22:16.745Z",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+        "captured_at": "2026-08-31T03:25:10.185Z",
         "stable_counts": []
       },
-      "last_attempt_at": "2026-08-29T21:22:16.745Z",
+      "last_attempt_at": "2026-08-31T03:25:10.185Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new",
@@ -2369,7 +1943,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "failure_reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -2406,15 +1980,15 @@
         "termination": "dynamic_feed_stalled_before_time_boundary"
       },
       "last_discovery_snapshot": {
-        "actual_url": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
+        "actual_url": null,
         "results": 0,
         "first_id": null,
         "last_id": null,
-        "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-        "captured_at": "2026-08-29T21:22:16.745Z",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+        "captured_at": "2026-08-31T03:25:10.185Z",
         "stable_counts": []
       },
-      "last_attempt_at": "2026-08-29T21:22:16.745Z",
+      "last_attempt_at": "2026-08-31T03:25:10.185Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
@@ -2422,7 +1996,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "failure_reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -2447,15 +2021,15 @@
       "checkpoint_id": "t3_1vztcj6",
       "continuity_boundary": "crossed continuity_started_at via observed 2d result",
       "last_discovery_snapshot": {
-        "actual_url": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
+        "actual_url": null,
         "results": 0,
         "first_id": null,
         "last_id": null,
-        "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-        "captured_at": "2026-08-29T21:22:16.745Z",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+        "captured_at": "2026-08-31T03:25:10.185Z",
         "stable_counts": []
       },
-      "last_attempt_at": "2026-08-29T21:22:16.745Z",
+      "last_attempt_at": "2026-08-31T03:25:10.185Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=AI%20security%20OR%20prompt%20injection&type=posts&sort=new",
@@ -2463,7 +2037,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "failure_reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -2500,15 +2074,15 @@
         "termination": "dynamic_feed_stalled_before_time_boundary"
       },
       "last_discovery_snapshot": {
-        "actual_url": "https://www.reddit.com/search/?q=AI%20security%20OR%20prompt%20injection&type=posts&sort=new",
+        "actual_url": null,
         "results": 0,
         "first_id": null,
         "last_id": null,
-        "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-        "captured_at": "2026-08-29T21:22:16.745Z",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+        "captured_at": "2026-08-31T03:25:10.185Z",
         "stable_counts": []
       },
-      "last_attempt_at": "2026-08-29T21:22:16.745Z",
+      "last_attempt_at": "2026-08-31T03:25:10.185Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=developer%20tools%20OR%20programming%20language&type=posts&sort=new",
@@ -2516,7 +2090,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "failure_reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -2541,15 +2115,15 @@
       "checkpoint_id": "t3_1vztc7q",
       "continuity_boundary": "crossed continuity_started_at via observed 2d result",
       "last_discovery_snapshot": {
-        "actual_url": "https://www.reddit.com/search/?q=data%20center%20energy%20water&type=posts&sort=new",
+        "actual_url": null,
         "results": 0,
         "first_id": null,
         "last_id": null,
-        "archive_file": "reddit/raw/2026/08/29/capture-2026-08-29T21-22-16-745Z.jsonl",
-        "captured_at": "2026-08-29T21:22:16.745Z",
+        "archive_file": "reddit/raw/2026/08/31/capture-2026-08-31T03-25-10-185Z.jsonl",
+        "captured_at": "2026-08-31T03:25:10.185Z",
         "stable_counts": []
       },
-      "last_attempt_at": "2026-08-29T21:22:16.745Z",
+      "last_attempt_at": "2026-08-31T03:25:10.185Z",
       "last_raw_file": "reddit/raw/2026/08/28/posts-2026-08-27T23-22-45-300Z.jsonl",
       "last_discovery": {
         "actual_url": "https://www.reddit.com/search/?q=data%20center%20energy%20water&type=posts&sort=new",
@@ -2557,7 +2131,7 @@
         "scroll_batches": 4,
         "raw_file": "reddit/raw/2026/08/27/browser-run-2026-08-27T19-25-49-039Z.jsonl"
       },
-      "failure_reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645493900. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "failure_reason": "Chrome batch stability sampler timed out and reset before results could be serialized; no durable page observations available",
       "discovery_snapshot": {
         "observed_count": 0,
         "first_id": null,
@@ -9962,39 +9536,303 @@
   },
   "last_run_failure_ledger": [
     {
-      "source": "New 12 communities",
-      "reason": "Chrome stable sampling was incomplete or navigation became ERR_BLOCKED_BY_CLIENT; no durable observations were produced and all New cursors remain frozen.",
+      "source": "New:MachineLearning",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
       "frozen": true,
-      "recovery": "Retry each saved continuation in Chrome after the browser block clears."
+      "last_checkpoint": "t3_1w1jp1j",
+      "recovery": "resume from saved continuation with three stable samples and durable raw output"
     },
     {
-      "source": "Hot/Rising 24 snapshots",
-      "reason": "Chrome navigation became ERR_BLOCKED_BY_CLIENT after the initial New sampling; no snapshot can be claimed complete.",
+      "source": "New:LocalLLaMA",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
       "frozen": true,
-      "recovery": "Retry all 24 source URLs after the browser block clears."
+      "last_checkpoint": "t3_1w1meuk",
+      "recovery": "resume from saved continuation with three stable samples and durable raw output"
     },
     {
-      "source": "Home/Popular/All",
-      "reason": "Chrome navigation was ERR_BLOCKED_BY_CLIENT; all three global feeds are frozen, including All.",
+      "source": "New:programming",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
       "frozen": true,
-      "recovery": "Retry the three global feed URLs and verify All remains distinct from Home."
+      "last_checkpoint": "t3_1vzw7as",
+      "recovery": "resume from saved continuation with three stable samples and durable raw output"
     },
     {
-      "source": "Search 8 queries",
-      "reason": "Chrome navigation to modern Posts+New search was ERR_BLOCKED_BY_CLIENT; query checkpoints remain frozen.",
+      "source": "New:technology",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
       "frozen": true,
-      "recovery": "Resume every modern search result stream when Chrome navigation is available."
+      "last_checkpoint": "t3_1vzwxyi",
+      "recovery": "resume from saved continuation with three stable samples and durable raw output"
     },
     {
-      "source": "Comments due",
-      "reason": "No comment revisit tasks were due in state.",
-      "frozen": false,
-      "recovery": "None."
+      "source": "New:netsec",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "last_checkpoint": "t3_1w05xwz",
+      "recovery": "resume from saved continuation with three stable samples and durable raw output"
+    },
+    {
+      "source": "New:opensource",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "last_checkpoint": "t3_1vzwv8l",
+      "recovery": "resume from saved continuation with three stable samples and durable raw output"
+    },
+    {
+      "source": "New:selfhosted",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1kygg",
+      "recovery": "resume from saved continuation with three stable samples and durable raw output"
+    },
+    {
+      "source": "New:science",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1mcbc",
+      "recovery": "resume from saved continuation with three stable samples and durable raw output"
+    },
+    {
+      "source": "New:OpenAI",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1litm",
+      "recovery": "resume from saved continuation with three stable samples and durable raw output"
+    },
+    {
+      "source": "New:Anthropic",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1jyk7",
+      "recovery": "resume from saved continuation with three stable samples and durable raw output"
+    },
+    {
+      "source": "New:singularity",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1lddy",
+      "recovery": "resume from saved continuation with three stable samples and durable raw output"
+    },
+    {
+      "source": "New:robotics",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1m7qd",
+      "recovery": "resume from saved continuation with three stable samples and durable raw output"
+    },
+    {
+      "source": "Hot:MachineLearning",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Rising:MachineLearning",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Hot:LocalLLaMA",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Rising:LocalLLaMA",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Hot:programming",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Rising:programming",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Hot:technology",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Rising:technology",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Hot:netsec",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Rising:netsec",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Hot:opensource",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Rising:opensource",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Hot:selfhosted",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Rising:selfhosted",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Hot:science",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Rising:science",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Hot:OpenAI",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Rising:OpenAI",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Hot:Anthropic",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Rising:Anthropic",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Hot:singularity",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Rising:singularity",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Hot:robotics",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Rising:robotics",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry the exact endpoint with stable sampling; persist all observed posts"
+    },
+    {
+      "source": "Global:home",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry exact feed; verify All differs from Home before recording"
+    },
+    {
+      "source": "Global:popular",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry exact feed; verify All differs from Home before recording"
+    },
+    {
+      "source": "Global:all",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "retry exact feed; verify All differs from Home before recording"
+    },
+    {
+      "source": "Search:AI agent OR agentic coding",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "resume modern Posts+New dynamic stream and persist results before checkpoints"
+    },
+    {
+      "source": "Search:LLM inference OR quantization",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "resume modern Posts+New dynamic stream and persist results before checkpoints"
+    },
+    {
+      "source": "Search:open weights OR open source AI",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "resume modern Posts+New dynamic stream and persist results before checkpoints"
+    },
+    {
+      "source": "Search:AI chip OR GPU OR inference accelerator",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "resume modern Posts+New dynamic stream and persist results before checkpoints"
+    },
+    {
+      "source": "Search:robotics foundation model",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "resume modern Posts+New dynamic stream and persist results before checkpoints"
+    },
+    {
+      "source": "Search:AI security OR prompt injection",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "resume modern Posts+New dynamic stream and persist results before checkpoints"
+    },
+    {
+      "source": "Search:developer tools OR programming language",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "resume modern Posts+New dynamic stream and persist results before checkpoints"
+    },
+    {
+      "source": "Search:data center energy water",
+      "reason": "Chrome batch stability sampler timed out and reset before results could be serialized; source execution status is unverified and cursor remains frozen",
+      "frozen": true,
+      "recovery": "resume modern Posts+New dynamic stream and persist results before checkpoints"
     }
   ],
   "last_tool_failure": {
-    "at_utc": "2026-08-29T23:25:51.000Z",
-    "reason": "browser collection preserved as partial; all cursors frozen"
+    "at_utc": "2026-08-31T03:25:10.185Z",
+    "reason": "Chrome batch stability sampler timed out and reset; all per-source cursors frozen"
   },
   "last_dingtalk_delivery": {
     "status": "sent",
