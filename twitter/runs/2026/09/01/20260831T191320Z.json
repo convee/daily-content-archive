@@ -1,0 +1,604 @@
+{
+  "schema_version": 3,
+  "platform": "twitter",
+  "status": "partial_frozen",
+  "started_at_utc": "2026-08-31T19:13:20Z",
+  "completed_at_utc": "2026-08-31T19:17:23Z",
+  "lock_owner": "twitter-20260901T000000Z-a91f",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples_required": 3
+  },
+  "raw_files": [
+    "twitter/raw/2026/09/01/20260831T191320Z-browser-sweep.jsonl"
+  ],
+  "records": {
+    "posts_observed": 0,
+    "new_status_ids": 0,
+    "replies_checked": 0,
+    "replies_selected": 0
+  },
+  "layers": {
+    "accounts": {
+      "attempted": 19,
+      "success": 0,
+      "failure": 19,
+      "sources": [
+        {
+          "source": "account:@OpenAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/OpenAI",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@AnthropicAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/AnthropicAI",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@GoogleDeepMind",
+          "source_type": "account",
+          "requested_url": "https://x.com/GoogleDeepMind",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2093019627437662680",
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@xai",
+          "source_type": "account",
+          "requested_url": "https://x.com/xai",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@MistralAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/MistralAI",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2079598447234064801",
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@AIatMeta",
+          "source_type": "account",
+          "requested_url": "https://x.com/AIatMeta",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@huggingface",
+          "source_type": "account",
+          "requested_url": "https://x.com/huggingface",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2085758063471120848",
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@nvidia",
+          "source_type": "account",
+          "requested_url": "https://x.com/nvidia",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2093484389682270429",
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@GitHub",
+          "source_type": "account",
+          "requested_url": "https://x.com/GitHub",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@ycombinator",
+          "source_type": "account",
+          "requested_url": "https://x.com/ycombinator",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@producthunt",
+          "source_type": "account",
+          "requested_url": "https://x.com/producthunt",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@TechCrunch",
+          "source_type": "account",
+          "requested_url": "https://x.com/TechCrunch",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@arxiv",
+          "source_type": "account",
+          "requested_url": "https://x.com/arxiv",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@karpathy",
+          "source_type": "account",
+          "requested_url": "https://x.com/karpathy",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@AndrewYNg",
+          "source_type": "account",
+          "requested_url": "https://x.com/AndrewYNg",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@ylecun",
+          "source_type": "account",
+          "requested_url": "https://x.com/ylecun",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@simonw",
+          "source_type": "account",
+          "requested_url": "https://x.com/simonw",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@swyx",
+          "source_type": "account",
+          "requested_url": "https://x.com/swyx",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@hardmaru",
+          "source_type": "account",
+          "requested_url": "https://x.com/hardmaru",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        }
+      ]
+    },
+    "queries": {
+      "attempted": 5,
+      "success": 0,
+      "failure": 5,
+      "sources": [
+        {
+          "source": "query:AI agent OR agentic coding",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T17:13:31.816Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "query:LLM inference OR AI chips",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T17:13:31.816Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "query:open weights OR open source AI",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T17:13:31.816Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "query:robotics foundation model",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T17:13:31.816Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "query:AI security OR prompt injection",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": null,
+          "retry_count": 0,
+          "batches": 25,
+          "error": "deep_scan_tool_timeout_kernel_reset; attempt incomplete",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T17:13:31.816Z",
+            "batches": 1
+          }
+        }
+      ]
+    },
+    "following": {
+      "attempted": 1,
+      "success": 0,
+      "failure": 1,
+      "sources": [
+        {
+          "source": "following",
+          "source_type": "following",
+          "requested_url": "https://x.com/home",
+          "actual_url": "https://x.com/home",
+          "batches": [
+            {
+              "batch": 0,
+              "status_ids": []
+            }
+          ],
+          "observed_status_ids": [],
+          "error": "home_tab_unverified_and_deep_scan_tool_timeout_kernel_reset",
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T17:13:31.816Z",
+            "batches": 8
+          }
+        }
+      ]
+    },
+    "for_you": {
+      "attempted": 1,
+      "success": 0,
+      "failure": 1,
+      "sources": [
+        {
+          "source": "for_you",
+          "source_type": "for_you",
+          "requested_url": "https://x.com/home",
+          "actual_url": "https://x.com/home",
+          "batches": [
+            {
+              "batch": 0,
+              "status_ids": []
+            }
+          ],
+          "observed_status_ids": [],
+          "error": "home_tab_unverified_and_deep_scan_tool_timeout_kernel_reset",
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T17:13:31.816Z",
+            "batches": 8
+          }
+        }
+      ]
+    },
+    "replies": {
+      "attempted": 1,
+      "success": 0,
+      "failure": 1,
+      "pages": [
+        {
+          "parent_status_id": "2093038426140651791",
+          "requested_url": "https://x.com/i/status/2093038426140651791",
+          "observed_replies": [],
+          "error": "reply_scan_interrupted_by_deep_scan_tool_timeout_kernel_reset"
+        }
+      ]
+    }
+  },
+  "continuation": {
+    "input": "state.frozen_sources",
+    "output": "updated per attempted source"
+  },
+  "health": {
+    "pre_publish": "degraded_without_errors"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "partial frozen sweep; no public daily update"
+  },
+  "github": {
+    "status": "pending_commit_and_push"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  }
+}
