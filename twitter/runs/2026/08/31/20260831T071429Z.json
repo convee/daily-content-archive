@@ -1,0 +1,1682 @@
+{
+  "schema_version": 3,
+  "platform": "twitter",
+  "status": "partial_frozen",
+  "started_at_utc": "2026-08-31T07:14:29Z",
+  "completed_at_utc": "2026-08-31T07:14:34Z",
+  "lock_owner": "twitter-20260831T071106Z-878834",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples_required": 3
+  },
+  "raw_files": [
+    "twitter/raw/2026/08/31/20260831T071429Z-browser-sweep.jsonl"
+  ],
+  "records": {
+    "posts_observed": 33,
+    "new_status_ids": 30,
+    "replies_checked": 0,
+    "replies_selected": 0
+  },
+  "layers": {
+    "accounts": {
+      "attempted": 19,
+      "success": 0,
+      "failure": 19,
+      "sources": [
+        {
+          "source": "account:OpenAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/OpenAI",
+          "actual_url": "https://x.com/OpenAI",
+          "title": "个人资料 / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/OpenAI",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/OpenAI",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/OpenAI",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:AnthropicAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/AnthropicAI",
+          "actual_url": "https://x.com/AnthropicAI",
+          "title": "个人资料 / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/AnthropicAI",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/AnthropicAI",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/AnthropicAI",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:GoogleDeepMind",
+          "source_type": "account",
+          "requested_url": "https://x.com/GoogleDeepMind",
+          "actual_url": "https://x.com/GoogleDeepMind",
+          "title": "个人资料 / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/GoogleDeepMind",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/GoogleDeepMind",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/GoogleDeepMind",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:xai",
+          "source_type": "account",
+          "requested_url": "https://x.com/xai",
+          "actual_url": "https://x.com/xai",
+          "title": "个人资料 / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/xai",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/xai",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/xai",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:MistralAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/MistralAI",
+          "actual_url": "https://x.com/MistralAI",
+          "title": "个人资料 / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/MistralAI",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/MistralAI",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/MistralAI",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:AIatMeta",
+          "source_type": "account",
+          "requested_url": "https://x.com/AIatMeta",
+          "actual_url": "https://x.com/AIatMeta",
+          "title": "个人资料 / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/AIatMeta",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/AIatMeta",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/AIatMeta",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:huggingface",
+          "source_type": "account",
+          "requested_url": "https://x.com/huggingface",
+          "actual_url": "https://x.com/huggingface",
+          "title": "个人资料 / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/huggingface",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/huggingface",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/huggingface",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:nvidia",
+          "source_type": "account",
+          "requested_url": "https://x.com/nvidia",
+          "actual_url": "https://x.com/nvidia",
+          "title": "NVIDIA (@nvidia) / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/nvidia",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/nvidia",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/nvidia",
+              "title": "NVIDIA (@nvidia) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:GitHub",
+          "source_type": "account",
+          "requested_url": "https://x.com/GitHub",
+          "actual_url": "https://x.com/GitHub",
+          "title": "(1) GitHub (@github) / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/GitHub",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/GitHub",
+              "title": "GitHub (@github) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/GitHub",
+              "title": "GitHub (@github) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:ycombinator",
+          "source_type": "account",
+          "requested_url": "https://x.com/ycombinator",
+          "actual_url": "https://x.com/ycombinator",
+          "title": "(1) Y Combinator (@ycombinator) / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/ycombinator",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/ycombinator",
+              "title": "(1) Y Combinator (@ycombinator) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/ycombinator",
+              "title": "(1) Y Combinator (@ycombinator) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:producthunt",
+          "source_type": "account",
+          "requested_url": "https://x.com/producthunt",
+          "actual_url": "https://x.com/producthunt",
+          "title": "(1) Product Hunt 😸 (@ProductHunt) / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/producthunt",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/producthunt",
+              "title": "(1) Product Hunt 😸 (@ProductHunt) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/producthunt",
+              "title": "(1) Product Hunt 😸 (@ProductHunt) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:TechCrunch",
+          "source_type": "account",
+          "requested_url": "https://x.com/TechCrunch",
+          "actual_url": "https://x.com/TechCrunch",
+          "title": "(1) TechCrunch (@TechCrunch) / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/TechCrunch",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/TechCrunch",
+              "title": "(1) TechCrunch (@TechCrunch) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/TechCrunch",
+              "title": "(1) TechCrunch (@TechCrunch) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:arxiv",
+          "source_type": "account",
+          "requested_url": "https://x.com/arxiv",
+          "actual_url": "https://x.com/arxiv",
+          "title": "(1) arXiv.org (@arxiv) / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/arxiv",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/arxiv",
+              "title": "(1) arXiv.org (@arxiv) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/arxiv",
+              "title": "(1) arXiv.org (@arxiv) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:karpathy",
+          "source_type": "account",
+          "requested_url": "https://x.com/karpathy",
+          "actual_url": "https://x.com/karpathy",
+          "title": "(1) Andrej Karpathy (@karpathy) / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/karpathy",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/karpathy",
+              "title": "(1) Andrej Karpathy (@karpathy) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/karpathy",
+              "title": "(1) Andrej Karpathy (@karpathy) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:AndrewYNg",
+          "source_type": "account",
+          "requested_url": "https://x.com/AndrewYNg",
+          "actual_url": "https://x.com/AndrewYNg",
+          "title": "(1) Andrew Ng (@AndrewYNg) / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/AndrewYNg",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/AndrewYNg",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/AndrewYNg",
+              "title": "(1) Andrew Ng (@AndrewYNg) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:ylecun",
+          "source_type": "account",
+          "requested_url": "https://x.com/ylecun",
+          "actual_url": "https://x.com/ylecun",
+          "title": "(1) Yann LeCun (@ylecun) / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/ylecun",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/ylecun",
+              "title": "(1) Yann LeCun (@ylecun) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/ylecun",
+              "title": "(1) Yann LeCun (@ylecun) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:simonw",
+          "source_type": "account",
+          "requested_url": "https://x.com/simonw",
+          "actual_url": "https://x.com/simonw",
+          "title": "(1) Simon Willison (@simonw) / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/simonw",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/simonw",
+              "title": "(1) Simon Willison (@simonw) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/simonw",
+              "title": "(1) Simon Willison (@simonw) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:swyx",
+          "source_type": "account",
+          "requested_url": "https://x.com/swyx",
+          "actual_url": "https://x.com/swyx",
+          "title": "(1) swyx (@swyx) / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/swyx",
+              "title": "X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/swyx",
+              "title": "(1) 个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/swyx",
+              "title": "(1) swyx (@swyx) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:hardmaru",
+          "source_type": "account",
+          "requested_url": "https://x.com/hardmaru",
+          "actual_url": "https://x.com/hardmaru",
+          "title": "(1) hardmaru (@hardmaru) / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/hardmaru",
+              "title": "个人资料 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/hardmaru",
+              "title": "(1) hardmaru (@hardmaru) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/hardmaru",
+              "title": "(1) hardmaru (@hardmaru) / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T01:48:00Z",
+            "batches": 1
+          }
+        }
+      ]
+    },
+    "queries": {
+      "attempted": 5,
+      "success": 0,
+      "failure": 5,
+      "sources": [
+        {
+          "source": "query:AI agent OR agentic coding",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+          "actual_url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+          "title": "(1) AI agent OR agentic coding - 搜索 / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+              "title": "AI agent OR agentic coding - 搜索 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+              "title": "(1) AI agent OR agentic coding - 搜索 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&src=typed_query&f=live",
+              "title": "(1) AI agent OR agentic coding - 搜索 / X",
+              "status_anchor_count": 13,
+              "status_ids": [
+                "2094322417342759164",
+                "2094322334090031173",
+                "2094322321846894919",
+                "2094322304553771480",
+                "2094322207912550543"
+              ]
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2094322417342759164",
+            "2094322334090031173",
+            "2094322321846894919",
+            "2094322304553771480",
+            "2094322207912550543"
+          ],
+          "deepest_status_id": "2094322207912550543",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2094292095406071923",
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "query:LLM inference OR AI chips",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+          "actual_url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+          "title": "(1) LLM inference OR AI chips - 搜索 / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+              "title": "LLM inference OR AI chips - 搜索 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+              "title": "(1) LLM inference OR AI chips - 搜索 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&src=typed_query&f=live",
+              "title": "(1) LLM inference OR AI chips - 搜索 / X",
+              "status_anchor_count": 15,
+              "status_ids": [
+                "2094322155915739562",
+                "2094029193667297312",
+                "2094321782715191805",
+                "2094321495845605839",
+                "2094321330191794482",
+                "2094321013890920820"
+              ]
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2094322155915739562",
+            "2094321782715191805",
+            "2094321495845605839",
+            "2094321330191794482",
+            "2094321013890920820"
+          ],
+          "deepest_status_id": "2094321013890920820",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2094290791871222012",
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "query:open weights OR open source AI",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+          "actual_url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+          "title": "(1) open weights OR open source AI - 搜索 / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+              "title": "open weights OR open source AI - 搜索 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+              "title": "(1) open weights OR open source AI - 搜索 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&src=typed_query&f=live",
+              "title": "(1) open weights OR open source AI - 搜索 / X",
+              "status_anchor_count": 16,
+              "status_ids": [
+                "2094322320777285982",
+                "2094322277697359887",
+                "2094322157434376554",
+                "2094322084583465208",
+                "2094321992950227074",
+                "2094321759558492335",
+                "2094321361967562876"
+              ]
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [
+            "2094322320777285982",
+            "2094322277697359887",
+            "2094322157434376554",
+            "2094322084583465208",
+            "2094321992950227074",
+            "2094321759558492335",
+            "2094321361967562876"
+          ],
+          "deepest_status_id": "2094321361967562876",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2094289255354806710",
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "query:robotics foundation model",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+          "actual_url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+          "title": "(1) robotics foundation model - 搜索 / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+              "title": "robotics foundation model - 搜索 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+              "title": "robotics foundation model - 搜索 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/search?q=robotics%20foundation%20model&src=typed_query&f=live",
+              "title": "(1) robotics foundation model - 搜索 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": false,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2094253264820904261",
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "query:AI security OR prompt injection",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+          "actual_url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+          "title": "AI security OR prompt injection - 搜索 / X",
+          "stability_samples": [
+            {
+              "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+              "title": "AI security OR prompt injection - 搜索 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+              "title": "AI security OR prompt injection - 搜索 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            },
+            {
+              "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&src=typed_query&f=live",
+              "title": "AI security OR prompt injection - 搜索 / X",
+              "status_anchor_count": 0,
+              "status_ids": []
+            }
+          ],
+          "stable": true,
+          "retry_count": 0,
+          "batches": 1,
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": "2094290614422565342",
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        }
+      ]
+    },
+    "following": {
+      "attempted": 1,
+      "success": 0,
+      "failure": 1,
+      "sources": [
+        {
+          "source": "following",
+          "source_type": "following",
+          "requested_url": "https://x.com/home",
+          "actual_url": "https://x.com/home",
+          "batches": [
+            {
+              "batch": 1,
+              "visible_status_ids": [],
+              "new_status_ids": []
+            },
+            {
+              "batch": 2,
+              "visible_status_ids": [
+                "2094273496025055467",
+                "2094275331612192851",
+                "2094164713781547143",
+                "2094170843345461628",
+                "2094238011030425877",
+                "2094309993226829973"
+              ],
+              "new_status_ids": [
+                "2094273496025055467",
+                "2094275331612192851",
+                "2094164713781547143",
+                "2094170843345461628",
+                "2094238011030425877",
+                "2094309993226829973"
+              ]
+            },
+            {
+              "batch": 3,
+              "visible_status_ids": [
+                "2094273496025055467",
+                "2094275331612192851",
+                "2094164713781547143",
+                "2094170843345461628",
+                "2094238011030425877",
+                "2094309993226829973",
+                "2062292853292662848"
+              ],
+              "new_status_ids": [
+                "2062292853292662848"
+              ]
+            },
+            {
+              "batch": 4,
+              "visible_status_ids": [
+                "2094273496025055467",
+                "2094275331612192851",
+                "2094164713781547143",
+                "2094170843345461628",
+                "2094238011030425877",
+                "2094309993226829973",
+                "2062292853292662848",
+                "2094277661786886465"
+              ],
+              "new_status_ids": [
+                "2094277661786886465"
+              ]
+            },
+            {
+              "batch": 5,
+              "visible_status_ids": [
+                "2094275331612192851",
+                "2094164713781547143",
+                "2094170843345461628",
+                "2094238011030425877",
+                "2094309993226829973",
+                "2062292853292662848",
+                "2094277661786886465",
+                "2094254934095196509"
+              ],
+              "new_status_ids": [
+                "2094254934095196509"
+              ]
+            },
+            {
+              "batch": 6,
+              "visible_status_ids": [
+                "2094238011030425877",
+                "2094309993226829973",
+                "2062292853292662848",
+                "2094277661786886465",
+                "2094254934095196509",
+                "2094292441918521855",
+                "2094214035788939390"
+              ],
+              "new_status_ids": [
+                "2094292441918521855",
+                "2094214035788939390"
+              ]
+            },
+            {
+              "batch": 7,
+              "visible_status_ids": [
+                "2094309993226829973",
+                "2062292853292662848",
+                "2094277661786886465",
+                "2094254934095196509",
+                "2094292441918521855",
+                "2094214035788939390",
+                "2072415014569509023"
+              ],
+              "new_status_ids": [
+                "2072415014569509023"
+              ]
+            },
+            {
+              "batch": 8,
+              "visible_status_ids": [
+                "2062292853292662848",
+                "2094277661786886465",
+                "2094254934095196509",
+                "2094292441918521855",
+                "2094214035788939390",
+                "2072415014569509023",
+                "2094243280376529326"
+              ],
+              "new_status_ids": [
+                "2094243280376529326"
+              ]
+            },
+            {
+              "batch": 9,
+              "visible_status_ids": [
+                "2094277661786886465",
+                "2094254934095196509",
+                "2094292441918521855",
+                "2094214035788939390",
+                "2072415014569509023",
+                "2094243280376529326",
+                "2094016285457678407"
+              ],
+              "new_status_ids": [
+                "2094016285457678407"
+              ]
+            },
+            {
+              "batch": 10,
+              "visible_status_ids": [
+                "2094254934095196509",
+                "2094292441918521855",
+                "2094214035788939390",
+                "2072415014569509023",
+                "2094243280376529326",
+                "2094016285457678407",
+                "2094294436222246912",
+                "2094092790280155480",
+                "2092507856914600018"
+              ],
+              "new_status_ids": [
+                "2094294436222246912",
+                "2094092790280155480",
+                "2092507856914600018"
+              ]
+            },
+            {
+              "batch": 11,
+              "visible_status_ids": [
+                "2094292441918521855",
+                "2094214035788939390",
+                "2072415014569509023",
+                "2094243280376529326",
+                "2094016285457678407",
+                "2094294436222246912",
+                "2094092790280155480",
+                "2092507856914600018",
+                "2094104267099365586",
+                "2094084980813287933"
+              ],
+              "new_status_ids": [
+                "2094104267099365586",
+                "2094084980813287933"
+              ]
+            },
+            {
+              "batch": 12,
+              "visible_status_ids": [
+                "2072415014569509023",
+                "2094243280376529326",
+                "2094016285457678407",
+                "2094294436222246912",
+                "2094092790280155480",
+                "2092507856914600018",
+                "2094104267099365586",
+                "2094084980813287933",
+                "2094088053795045760"
+              ],
+              "new_status_ids": [
+                "2094088053795045760"
+              ]
+            },
+            {
+              "batch": 13,
+              "visible_status_ids": [
+                "2094243280376529326",
+                "2094016285457678407",
+                "2094294436222246912",
+                "2094092790280155480",
+                "2092507856914600018",
+                "2094104267099365586",
+                "2094084980813287933",
+                "2094088053795045760",
+                "2093975847766049021"
+              ],
+              "new_status_ids": [
+                "2093975847766049021"
+              ]
+            },
+            {
+              "batch": 14,
+              "visible_status_ids": [
+                "2094016285457678407",
+                "2094294436222246912",
+                "2094092790280155480",
+                "2092507856914600018",
+                "2094104267099365586",
+                "2094084980813287933",
+                "2094088053795045760",
+                "2093975847766049021",
+                "2089503896914034813",
+                "2093796696677666973",
+                "2093837282243412392"
+              ],
+              "new_status_ids": [
+                "2089503896914034813",
+                "2093796696677666973",
+                "2093837282243412392"
+              ]
+            },
+            {
+              "batch": 15,
+              "visible_status_ids": [
+                "2092507856914600018",
+                "2094104267099365586",
+                "2094084980813287933",
+                "2094088053795045760",
+                "2093975847766049021",
+                "2089503896914034813",
+                "2093796696677666973",
+                "2093837282243412392",
+                "2093807298003263858"
+              ],
+              "new_status_ids": [
+                "2093807298003263858"
+              ]
+            },
+            {
+              "batch": 16,
+              "visible_status_ids": [
+                "2094104267099365586",
+                "2094084980813287933",
+                "2094088053795045760",
+                "2093975847766049021",
+                "2089503896914034813",
+                "2093796696677666973",
+                "2093837282243412392",
+                "2093807298003263858",
+                "2093619310610485395",
+                "2093063044062650744"
+              ],
+              "new_status_ids": [
+                "2093619310610485395",
+                "2093063044062650744"
+              ]
+            },
+            {
+              "batch": 17,
+              "visible_status_ids": [
+                "2094088053795045760",
+                "2093975847766049021",
+                "2089503896914034813",
+                "2093796696677666973",
+                "2093837282243412392",
+                "2093807298003263858",
+                "2093619310610485395",
+                "2093063044062650744",
+                "2093676234974601664",
+                "2093626044037427586"
+              ],
+              "new_status_ids": [
+                "2093676234974601664",
+                "2093626044037427586"
+              ]
+            },
+            {
+              "batch": 18,
+              "visible_status_ids": [
+                "2093975847766049021",
+                "2089503896914034813",
+                "2093796696677666973",
+                "2093837282243412392",
+                "2093807298003263858",
+                "2093619310610485395",
+                "2093063044062650744",
+                "2093676234974601664",
+                "2093626044037427586",
+                "2094007931847274556",
+                "2094092858592547161"
+              ],
+              "new_status_ids": [
+                "2094007931847274556",
+                "2094092858592547161"
+              ]
+            },
+            {
+              "batch": 19,
+              "visible_status_ids": [
+                "2093837282243412392",
+                "2093807298003263858",
+                "2093619310610485395",
+                "2093063044062650744",
+                "2093676234974601664",
+                "2093626044037427586",
+                "2094007931847274556",
+                "2094092858592547161",
+                "2093936369928208688",
+                "2094079921215676720",
+                "2093816574775841146"
+              ],
+              "new_status_ids": [
+                "2093936369928208688",
+                "2094079921215676720",
+                "2093816574775841146"
+              ]
+            },
+            {
+              "batch": 20,
+              "visible_status_ids": [
+                "2093807298003263858",
+                "2093619310610485395",
+                "2093063044062650744",
+                "2093676234974601664",
+                "2093626044037427586",
+                "2094007931847274556",
+                "2094092858592547161",
+                "2093936369928208688",
+                "2094079921215676720",
+                "2093816574775841146",
+                "2094221853552435314",
+                "2093718996264599890"
+              ],
+              "new_status_ids": [
+                "2094221853552435314",
+                "2093718996264599890"
+              ]
+            },
+            {
+              "batch": 21,
+              "visible_status_ids": [
+                "2093063044062650744",
+                "2093676234974601664",
+                "2093626044037427586",
+                "2094007931847274556",
+                "2094092858592547161",
+                "2093936369928208688",
+                "2094079921215676720",
+                "2093816574775841146",
+                "2094221853552435314",
+                "2093718996264599890"
+              ],
+              "new_status_ids": []
+            },
+            {
+              "batch": 22,
+              "visible_status_ids": [
+                "2093626044037427586",
+                "2094007931847274556",
+                "2094092858592547161",
+                "2093936369928208688",
+                "2094079921215676720",
+                "2093816574775841146",
+                "2094221853552435314",
+                "2093718996264599890"
+              ],
+              "new_status_ids": []
+            },
+            {
+              "batch": 23,
+              "visible_status_ids": [
+                "2094092858592547161",
+                "2093936369928208688",
+                "2094079921215676720",
+                "2093816574775841146",
+                "2094221853552435314",
+                "2093718996264599890"
+              ],
+              "new_status_ids": []
+            },
+            {
+              "batch": 24,
+              "visible_status_ids": [
+                "2094092858592547161",
+                "2093936369928208688",
+                "2094079921215676720",
+                "2093816574775841146",
+                "2094221853552435314",
+                "2093718996264599890",
+                "2094083496020967625",
+                "2090605808459579573",
+                "2094249845695352946"
+              ],
+              "new_status_ids": [
+                "2094083496020967625",
+                "2090605808459579573",
+                "2094249845695352946"
+              ]
+            },
+            {
+              "batch": 25,
+              "visible_status_ids": [
+                "2093816574775841146",
+                "2094221853552435314",
+                "2093718996264599890",
+                "2094083496020967625",
+                "2090605808459579573",
+                "2094249845695352946",
+                "2094213843488563699",
+                "2094283795012985322"
+              ],
+              "new_status_ids": [
+                "2094213843488563699",
+                "2094283795012985322"
+              ]
+            },
+            {
+              "batch": 26,
+              "visible_status_ids": [
+                "2094221853552435314",
+                "2093718996264599890",
+                "2094083496020967625",
+                "2090605808459579573",
+                "2094249845695352946",
+                "2094213843488563699",
+                "2094283795012985322",
+                "2093962020962083139"
+              ],
+              "new_status_ids": [
+                "2093962020962083139"
+              ]
+            },
+            {
+              "batch": 27,
+              "visible_status_ids": [
+                "2094083496020967625",
+                "2090605808459579573",
+                "2094249845695352946",
+                "2094213843488563699",
+                "2094283795012985322",
+                "2093962020962083139",
+                "2084423106102526107"
+              ],
+              "new_status_ids": [
+                "2084423106102526107"
+              ]
+            }
+          ],
+          "observed_status_ids": [
+            "2090605808459579573",
+            "2094249845695352946",
+            "2094213843488563699",
+            "2094283795012985322",
+            "2093962020962083139",
+            "2084423106102526107",
+            "2094263952892907554"
+          ],
+          "deepest_status_id": "2094263952892907554",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        }
+      ]
+    },
+    "for_you": {
+      "attempted": 1,
+      "success": 0,
+      "failure": 1,
+      "sources": [
+        {
+          "source": "for_you",
+          "source_type": "for_you",
+          "requested_url": "https://x.com/home",
+          "actual_url": "https://x.com/home",
+          "batches": [
+            {
+              "batch": 1,
+              "visible_status_ids": [],
+              "new_status_ids": []
+            },
+            {
+              "batch": 2,
+              "visible_status_ids": [
+                "2094138713349476863",
+                "2080392509671534884",
+                "2094050282757890329",
+                "2094295889808347553",
+                "2094137095803523102"
+              ],
+              "new_status_ids": [
+                "2094138713349476863",
+                "2080392509671534884",
+                "2094050282757890329",
+                "2094295889808347553",
+                "2094137095803523102"
+              ]
+            },
+            {
+              "batch": 3,
+              "visible_status_ids": [
+                "2094138713349476863",
+                "2080392509671534884",
+                "2094050282757890329",
+                "2094295889808347553",
+                "2094137095803523102",
+                "2094087891790266585"
+              ],
+              "new_status_ids": [
+                "2094087891790266585"
+              ]
+            },
+            {
+              "batch": 4,
+              "visible_status_ids": [
+                "2094138713349476863",
+                "2080392509671534884",
+                "2094050282757890329",
+                "2094295889808347553",
+                "2094137095803523102",
+                "2094087891790266585",
+                "2084423106144469360",
+                "2093968973956067390"
+              ],
+              "new_status_ids": [
+                "2084423106144469360",
+                "2093968973956067390"
+              ]
+            },
+            {
+              "batch": 5,
+              "visible_status_ids": [
+                "2094138713349476863",
+                "2080392509671534884",
+                "2094050282757890329",
+                "2094295889808347553",
+                "2094137095803523102",
+                "2094087891790266585",
+                "2084423106144469360",
+                "2093968973956067390",
+                "2094268740166627439"
+              ],
+              "new_status_ids": [
+                "2094268740166627439"
+              ]
+            },
+            {
+              "batch": 6,
+              "visible_status_ids": [
+                "2094050282757890329",
+                "2094295889808347553",
+                "2094137095803523102",
+                "2094087891790266585",
+                "2084423106144469360",
+                "2093968973956067390",
+                "2094268740166627439",
+                "2094223111231295804"
+              ],
+              "new_status_ids": [
+                "2094223111231295804"
+              ]
+            },
+            {
+              "batch": 7,
+              "visible_status_ids": [
+                "2094295889808347553",
+                "2094137095803523102",
+                "2094087891790266585",
+                "2084423106144469360",
+                "2093968973956067390",
+                "2094268740166627439",
+                "2094223111231295804",
+                "2094138049525391568",
+                "2092661911120978024"
+              ],
+              "new_status_ids": [
+                "2094138049525391568",
+                "2092661911120978024"
+              ]
+            },
+            {
+              "batch": 8,
+              "visible_status_ids": [
+                "2094087891790266585",
+                "2084423106144469360",
+                "2093968973956067390",
+                "2094268740166627439",
+                "2094223111231295804",
+                "2094138049525391568",
+                "2092661911120978024",
+                "2094236190723453076",
+                "2094136744367346006"
+              ],
+              "new_status_ids": [
+                "2094236190723453076",
+                "2094136744367346006"
+              ]
+            },
+            {
+              "batch": 9,
+              "visible_status_ids": [
+                "2084423106144469360",
+                "2093968973956067390",
+                "2094268740166627439",
+                "2094223111231295804",
+                "2094138049525391568",
+                "2092661911120978024",
+                "2094236190723453076",
+                "2094136744367346006"
+              ],
+              "new_status_ids": []
+            },
+            {
+              "batch": 10,
+              "visible_status_ids": [
+                "2094268740166627439",
+                "2094223111231295804",
+                "2094138049525391568",
+                "2092661911120978024",
+                "2094236190723453076",
+                "2094136744367346006",
+                "2093778769903534294",
+                "2094273980060278978"
+              ],
+              "new_status_ids": [
+                "2093778769903534294",
+                "2094273980060278978"
+              ]
+            }
+          ],
+          "observed_status_ids": [
+            "2094223111231295804",
+            "2094138049525391568",
+            "2092661911120978024",
+            "2094236190723453076",
+            "2094136744367346006",
+            "2093778769903534294",
+            "2094273980060278978",
+            "2093398206348394711",
+            "2093707464562663740"
+          ],
+          "deepest_status_id": "2093707464562663740",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T05:14:00Z",
+            "batches": 1
+          }
+        }
+      ]
+    },
+    "replies": {
+      "attempted": 0,
+      "success": 0,
+      "failure": 0,
+      "pages": []
+    }
+  },
+  "continuation": {
+    "input": "state.frozen_sources",
+    "output": "updated per attempted source"
+  },
+  "health": {
+    "pre_publish": "degraded_without_errors"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "partial frozen sweep; no public daily update"
+  },
+  "github": {
+    "status": "pending_commit_and_push"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  }
+}

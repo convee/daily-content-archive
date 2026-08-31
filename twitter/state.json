@@ -2,7 +2,7 @@
   "schema_version": 1,
   "continuity_started_at_utc": "2026-08-26T12:44:32Z",
   "last_successful_run_at_utc": "2026-08-27T13:30:50.153Z",
-  "last_run_at_utc": "2026-08-31T05:14:00Z",
+  "last_run_at_utc": "2026-08-31T07:15:07Z",
   "seen_status_ids": [
     "806464279302049792",
     "1281424520100737025",
@@ -617,6 +617,7 @@
     "2090577927905874389",
     "2090605808396665202",
     "2090605808442847455",
+    "2090605808459579573",
     "2090621453632999543",
     "2090628114888183964",
     "2090678390575513991",
@@ -2870,6 +2871,7 @@
     "2093386955967152488",
     "2093388908192993573",
     "2093388974194872781",
+    "2093398206348394711",
     "2093398502063698292",
     "2093399189690691994",
     "2093399300093222976",
@@ -3122,6 +3124,7 @@
     "2093688296438391037",
     "2093700473488355690",
     "2093706032941830555",
+    "2093707464562663740",
     "2093709490814165162",
     "2093715896393158810",
     "2093721140795478078",
@@ -3144,6 +3147,7 @@
     "2093769355418804612",
     "2093771942771744815",
     "2093774711331135652",
+    "2093778769903534294",
     "2093781510805455121",
     "2093786010648010831",
     "2093796696677666973",
@@ -3223,6 +3227,7 @@
     "2093933495856828755",
     "2093947599795491301",
     "2093956168225874226",
+    "2093962020962083139",
     "2093968973956067390",
     "2093978807724126533",
     "2093991885035450650",
@@ -3247,7 +3252,9 @@
     "2094125378637856956",
     "2094127785342025779",
     "2094131839518560412",
+    "2094136744367346006",
     "2094137880645980320",
+    "2094138049525391568",
     "2094143950856581216",
     "2094147938645868789",
     "2094157951338442950",
@@ -3259,7 +3266,9 @@
     "2094213843488563699",
     "2094218635375997274",
     "2094222376154100033",
+    "2094223111231295804",
     "2094228186166927628",
+    "2094236190723453076",
     "2094238651714589169",
     "2094238655380349197",
     "2094238665979330699",
@@ -3274,11 +3283,15 @@
     "2094240506297680143",
     "2094240524068851922",
     "2094240529387344242",
+    "2094249845695352946",
     "2094253264820904261",
+    "2094263952892907554",
     "2094273977128776029",
+    "2094273980060278978",
     "2094274039179284960",
     "2094275017882349784",
     "2094276706341126623",
+    "2094283795012985322",
     "2094289255354806710",
     "2094289447948898335",
     "2094289920118403471",
@@ -3302,7 +3315,24 @@
     "2094292284778959024",
     "2094292296812617825",
     "2094292339460292726",
-    "2094292347060400175"
+    "2094292347060400175",
+    "2094321013890920820",
+    "2094321330191794482",
+    "2094321361967562876",
+    "2094321495845605839",
+    "2094321759558492335",
+    "2094321782715191805",
+    "2094321992950227074",
+    "2094322084583465208",
+    "2094322155915739562",
+    "2094322157434376554",
+    "2094322207912550543",
+    "2094322277697359887",
+    "2094322304553771480",
+    "2094322320777285982",
+    "2094322321846894919",
+    "2094322334090031173",
+    "2094322417342759164"
   ],
   "source_checkpoints": {
     "account:@OpenAI": {
@@ -4409,99 +4439,99 @@
   ],
   "frozen_sources": {
     "query:AI agent OR agentic coding": {
-      "frozen_at_utc": "2026-08-31T05:14:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
-      "last_deepest_status_id": "2094292095406071923",
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T051400Z-browser-sweep.jsonl",
+      "last_deepest_status_id": "2094322207912550543",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
-        "last_observed_id": "2094292095406071923",
-        "captured_at": "2026-08-31T05:14:00Z",
+        "last_observed_id": "2094322207912550543",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
       "previous_continuation": {
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "last_observed_id": "2094322207912550543",
+        "captured_at": "2026-08-31T07:14:29Z",
         "batches": 1
       }
     },
     "query:LLM inference OR AI chips": {
-      "frozen_at_utc": "2026-08-31T05:14:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
-      "last_deepest_status_id": "2094290791871222012",
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T051400Z-browser-sweep.jsonl",
+      "last_deepest_status_id": "2094321013890920820",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
-        "last_observed_id": "2094290791871222012",
-        "captured_at": "2026-08-31T05:14:00Z",
+        "last_observed_id": "2094321013890920820",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
       "previous_continuation": {
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "last_observed_id": "2094321013890920820",
+        "captured_at": "2026-08-31T07:14:29Z",
         "batches": 1
       }
     },
     "query:open weights OR open source AI": {
-      "frozen_at_utc": "2026-08-31T05:14:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
-      "last_deepest_status_id": "2094289255354806710",
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T051400Z-browser-sweep.jsonl",
+      "last_deepest_status_id": "2094321361967562876",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
-        "last_observed_id": "2094289255354806710",
-        "captured_at": "2026-08-31T05:14:00Z",
+        "last_observed_id": "2094321361967562876",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
       "previous_continuation": {
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "last_observed_id": "2094321361967562876",
+        "captured_at": "2026-08-31T07:14:29Z",
         "batches": 1
       }
     },
     "query:AI security OR prompt injection": {
-      "frozen_at_utc": "2026-08-31T05:14:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
-      "last_deepest_status_id": "2094290614422565342",
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T051400Z-browser-sweep.jsonl",
+      "last_deepest_status_id": null,
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
-        "last_observed_id": "2094290614422565342",
-        "captured_at": "2026-08-31T05:14:00Z",
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
       "previous_continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:14:29Z",
         "batches": 1
       }
     },
     "following": {
-      "frozen_at_utc": "2026-08-31T05:14:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_eight_batches",
-      "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T051400Z-browser-sweep.jsonl",
+      "last_deepest_status_id": "2094263952892907554",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T05:14:00Z",
-        "batches": 1
+        "last_observed_id": "2094263952892907554",
+        "captured_at": "2026-08-31T07:15:07Z",
+        "batches": 27
       },
       "previous_continuation": {
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
-        "batches": 1
+        "last_observed_id": "2094263952892907554",
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 27
       }
     },
     "for_you": {
-      "frozen_at_utc": "2026-08-31T05:14:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "eight_batches_completed_without_two_consecutive_zero_new_batches",
-      "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T051400Z-browser-sweep.jsonl",
+      "last_deepest_status_id": "2093707464562663740",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T05:14:00Z",
-        "batches": 1
+        "last_observed_id": "2093707464562663740",
+        "captured_at": "2026-08-31T07:15:07Z",
+        "batches": 10
       },
       "previous_continuation": {
-        "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
-        "batches": 1
+        "last_observed_id": "2093707464562663740",
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 10
       }
     },
     "account:@OpenAI": {
@@ -4633,18 +4663,18 @@
       }
     },
     "query:robotics foundation model": {
-      "frozen_at_utc": "2026-08-31T05:14:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
-      "last_deepest_status_id": "2094253264820904261",
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T051400Z-browser-sweep.jsonl",
+      "last_deepest_status_id": null,
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
-        "last_observed_id": "2094253264820904261",
-        "captured_at": "2026-08-31T05:14:00Z",
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
       "previous_continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:14:29Z",
         "batches": 1
       }
     },
@@ -4833,232 +4863,308 @@
       "previous_continuation": null
     },
     "account:OpenAI": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:AnthropicAI": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:GoogleDeepMind": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:xai": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:MistralAI": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:AIatMeta": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:huggingface": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:nvidia": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:GitHub": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:ycombinator": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:producthunt": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:TechCrunch": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:arxiv": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:karpathy": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:AndrewYNg": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:ylecun": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:simonw": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:swyx": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "account:hardmaru": {
-      "frozen_at_utc": "2026-08-31T01:48:00Z",
+      "frozen_at_utc": "2026-08-31T07:15:07Z",
       "reason": "continuity_boundary_not_reached_in_visible_stable_window",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/08/31/20260831T014800Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl",
       "continuation": {
         "last_observed_id": null,
-        "captured_at": "2026-08-31T01:48:00Z",
+        "captured_at": "2026-08-31T07:15:07Z",
         "batches": 1
       },
-      "previous_continuation": null
+      "previous_continuation": {
+        "last_observed_id": null,
+        "captured_at": "2026-08-31T07:14:29Z",
+        "batches": 1
+      }
     },
     "following:following": {
       "frozen_at": "2026-08-28T19:13:20.557Z",
@@ -5093,5 +5199,5 @@
     "sendStatus": "SUCCESS",
     "verified_at_utc": "2026-08-31T05:15:15Z"
   },
-  "last_raw_file": "twitter/raw/2026/08/31/20260831T051400Z-browser-sweep.jsonl"
+  "last_raw_file": "twitter/raw/2026/08/31/20260831T071507Z-browser-sweep.jsonl"
 }
