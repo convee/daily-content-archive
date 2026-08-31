@@ -97,7 +97,22 @@ for post_id, payload in capture["comments"].items():
 state["seen_post_ids"] = sorted(set(state.get("seen_post_ids", [])) | set(posts))
 state["seen_comment_ids"] = sorted(set(state.get("seen_comment_ids", [])) | set(comments))
 state["last_successful_new_run_at_utc"] = now if new_success else state.get("last_successful_new_run_at_utc")
-state["last_run_failure_ledger"] = new_failures + [{"source":"Search 8 queries", "reason":"all queries saved only discovery snapshots; time boundaries not crossed", "frozen":True, "recovery":"resume each modern Posts+New result stream"}]
+snapshot_failures = [
+    {"source": "Snapshot:" + key, "reason": payload.get("reason", "stable listing could not be read"), "frozen": True,
+     "recovery": "retry this sort independently; do not treat another sort as evidence"}
+    for key, payload in capture["snapshots"].items() if payload.get("status") != "success"
+]
+global_failures = [
+    {"source": "Global:" + key, "reason": payload.get("reason", "stable listing could not be read"), "frozen": True,
+     "recovery": "retry this feed independently and verify it is distinct"}
+    for key, payload in capture["global"].items() if payload.get("status") != "success"
+]
+search_failures = [
+    {"source": "Search:" + query, "reason": payload.get("reason", "search boundary not crossed"), "frozen": True,
+     "recovery": "resume the modern Posts + New stream from its saved boundary"}
+    for query, payload in capture["search"].items()
+]
+state["last_run_failure_ledger"] = new_failures + snapshot_failures + global_failures + search_failures
 state["last_tool_failure"] = {"at_utc": now, "reason":"search continuity remains frozen; New failures isolated to three saved continuations"}
 state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n")
 
