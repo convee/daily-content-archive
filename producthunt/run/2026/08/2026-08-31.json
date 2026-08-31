@@ -18,7 +18,30 @@
     "2026-08-26: maker/hunter identities and stable parent-comment identifiers incomplete",
     "2026-08-27 through 2026-08-30: ordered backlog may not be bypassed"
   ],
-  "delivery": {"github_push": {"status": "awaiting_finalization"}, "dingtalk": {"status": "awaiting_finalization"}},
+  "delivery": {
+    "github_push": {
+      "status": "SUCCESS",
+      "evidence_commit": "5d6749a0f71dcd2bec6a0e4a05cb6807ea975948",
+      "remote": "origin/main",
+      "remote_verified": true,
+      "page": "https://convee.github.io/daily-content-archive/"
+    },
+    "dingtalk": {
+      "status": "SUCCESS",
+      "kind": "exception_notice",
+      "openTaskId": "0pLWmgfm02BjFYqq6CRz/HP/OT3s8fyUvKFzq4E7Z1A=",
+      "openMessageId": "msg84tqvsW5bZbs4/uTLn0IEQ==",
+      "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+      "target_group_matches_fixed_group": true,
+      "verified": true,
+      "verified_sendStatus": "SUCCESS"
+    }
+  },
+  "finalization": {
+    "at_utc": "2026-08-31T08:19:00Z",
+    "health_after_evidence": "degraded warnings only; no error",
+    "remote_finalization_required": true
+  },
   "published": false,
   "archive_page": false
 }
