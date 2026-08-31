@@ -1,0 +1,1733 @@
+{
+  "schema_version": 3,
+  "platform": "twitter",
+  "status": "partial_frozen",
+  "started_at_utc": "2026-08-31T23:13:30Z",
+  "completed_at_utc": "2026-08-31T23:14:19Z",
+  "lock_owner": "twitter-20260901T????????Z-init",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples_required": 3
+  },
+  "raw_files": [
+    "twitter/raw/2026/09/01/20260831T231330Z-browser-sweep.jsonl"
+  ],
+  "records": {
+    "posts_observed": 162,
+    "new_status_ids": 89,
+    "replies_checked": 7,
+    "replies_selected": 0
+  },
+  "layers": {
+    "accounts": {
+      "attempted": 19,
+      "success": 0,
+      "failure": 19,
+      "sources": [
+        {
+          "source": "account:@OpenAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/OpenAI",
+          "actual_url": "https://x.com/OpenAI",
+          "title": "(1) OpenAI (@OpenAI) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) OpenAI (@OpenAI) / X",
+              "url": "https://x.com/OpenAI"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) OpenAI (@OpenAI) / X",
+              "url": "https://x.com/OpenAI"
+            },
+            {
+              "articles": 3,
+              "ids": [
+                "2092300846675505602",
+                "2093515564786540695",
+                "2093074192636018977"
+              ],
+              "title": "(1) OpenAI (@OpenAI) / X",
+              "url": "https://x.com/OpenAI"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2092300846675505602",
+            "2093515564786540695",
+            "2093074192636018977"
+          ],
+          "deepest_status_id": "2093074192636018977",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@AnthropicAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/AnthropicAI",
+          "actual_url": "https://x.com/AnthropicAI",
+          "title": "(1) Anthropic (@AnthropicAI) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Anthropic (@AnthropicAI) / X",
+              "url": "https://x.com/AnthropicAI"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Anthropic (@AnthropicAI) / X",
+              "url": "https://x.com/AnthropicAI"
+            },
+            {
+              "articles": 6,
+              "ids": [
+                "2094557124038951170",
+                "2093386528668172373",
+                "2093386529846722913",
+                "2093038426140651791",
+                "2093038427642134590",
+                "2092661573223657834"
+              ],
+              "title": "(1) Anthropic (@AnthropicAI) / X",
+              "url": "https://x.com/AnthropicAI"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2094557124038951170",
+            "2093386528668172373",
+            "2093386529846722913",
+            "2093038426140651791",
+            "2093038427642134590",
+            "2092661573223657834"
+          ],
+          "deepest_status_id": "2092661573223657834",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@GoogleDeepMind",
+          "source_type": "account",
+          "requested_url": "https://x.com/GoogleDeepMind",
+          "actual_url": "https://x.com/GoogleDeepMind",
+          "title": "(1) Google DeepMind (@GoogleDeepMind) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "个人资料 / X",
+              "url": "https://x.com/GoogleDeepMind"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Google DeepMind (@GoogleDeepMind) / X",
+              "url": "https://x.com/GoogleDeepMind"
+            },
+            {
+              "articles": 4,
+              "ids": [
+                "2092961763553677387",
+                "2093338200580256172",
+                "2093019627437662680",
+                "2093019632475001225"
+              ],
+              "title": "(1) Google DeepMind (@GoogleDeepMind) / X",
+              "url": "https://x.com/GoogleDeepMind"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2092961763553677387",
+            "2093338200580256172",
+            "2093019627437662680",
+            "2093019632475001225"
+          ],
+          "deepest_status_id": "2093019632475001225",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@xai",
+          "source_type": "account",
+          "requested_url": "https://x.com/xai",
+          "actual_url": "https://x.com/spacexai",
+          "title": "(1) SpaceXAI (@SpaceXAI) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) 个人资料 / X",
+              "url": "https://x.com/spacexai"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) SpaceXAI (@SpaceXAI) / X",
+              "url": "https://x.com/spacexai"
+            },
+            {
+              "articles": 5,
+              "ids": [
+                "2035562571932024842",
+                "2092644384730972669",
+                "2091987538999197752",
+                "2091987541272543406",
+                "2091957125941543034"
+              ],
+              "title": "(1) SpaceXAI (@SpaceXAI) / X",
+              "url": "https://x.com/spacexai"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2035562571932024842",
+            "2092644384730972669",
+            "2091987538999197752",
+            "2091987541272543406",
+            "2091957125941543034"
+          ],
+          "deepest_status_id": "2091957125941543034",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@MistralAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/MistralAI",
+          "actual_url": "https://x.com/MistralAI",
+          "title": "(1) Mistral AI (@MistralAI) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Mistral AI (@MistralAI) / X",
+              "url": "https://x.com/MistralAI"
+            },
+            {
+              "articles": 7,
+              "ids": [
+                "2091964930715013224",
+                "2091964933172822070",
+                "2087305196841922782",
+                "2087305199505342537",
+                "2084684735725379637",
+                "2084684737554141253",
+                "2079598447234064801"
+              ],
+              "title": "(1) Mistral AI (@MistralAI) / X",
+              "url": "https://x.com/MistralAI"
+            },
+            {
+              "articles": 7,
+              "ids": [
+                "2091964930715013224",
+                "2091964933172822070",
+                "2087305196841922782",
+                "2087305199505342537",
+                "2084684735725379637",
+                "2084684737554141253",
+                "2079598447234064801"
+              ],
+              "title": "(1) Mistral AI (@MistralAI) / X",
+              "url": "https://x.com/MistralAI"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2091964930715013224",
+            "2091964933172822070",
+            "2087305196841922782",
+            "2087305199505342537",
+            "2084684735725379637",
+            "2084684737554141253",
+            "2079598447234064801"
+          ],
+          "deepest_status_id": "2079598447234064801",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@AIatMeta",
+          "source_type": "account",
+          "requested_url": "https://x.com/AIatMeta",
+          "actual_url": "https://x.com/AIatMeta",
+          "title": "(1) AI at Meta (@AIatMeta) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) AI at Meta (@AIatMeta) / X",
+              "url": "https://x.com/AIatMeta"
+            },
+            {
+              "articles": 4,
+              "ids": [
+                "2086757844544811485",
+                "2090505413817246050",
+                "2090505417512345857",
+                "2090485743034716420"
+              ],
+              "title": "(1) AI at Meta (@AIatMeta) / X",
+              "url": "https://x.com/AIatMeta"
+            },
+            {
+              "articles": 4,
+              "ids": [
+                "2086757844544811485",
+                "2090505413817246050",
+                "2090505417512345857",
+                "2090485743034716420"
+              ],
+              "title": "(1) AI at Meta (@AIatMeta) / X",
+              "url": "https://x.com/AIatMeta"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2086757844544811485",
+            "2090505413817246050",
+            "2090505417512345857",
+            "2090485743034716420"
+          ],
+          "deepest_status_id": "2090485743034716420",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@huggingface",
+          "source_type": "account",
+          "requested_url": "https://x.com/huggingface",
+          "actual_url": "https://x.com/huggingface",
+          "title": "(1) Hugging Face (@huggingface) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Hugging Face (@huggingface) / X",
+              "url": "https://x.com/huggingface"
+            },
+            {
+              "articles": 5,
+              "ids": [
+                "2092727360584135026",
+                "2089673018737869242",
+                "2088301795890044975",
+                "2087521619459850348",
+                "2087413988451574199",
+                "2085758063471120848"
+              ],
+              "title": "(1) Hugging Face (@huggingface) / X",
+              "url": "https://x.com/huggingface"
+            },
+            {
+              "articles": 4,
+              "ids": [
+                "2092727360584135026",
+                "2089673018737869242",
+                "2088301795890044975",
+                "2087521619459850348",
+                "2087413988451574199"
+              ],
+              "title": "(1) Hugging Face (@huggingface) / X",
+              "url": "https://x.com/huggingface"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2092727360584135026",
+            "2089673018737869242",
+            "2088301795890044975",
+            "2087521619459850348",
+            "2087413988451574199",
+            "2085758063471120848"
+          ],
+          "deepest_status_id": "2085758063471120848",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@nvidia",
+          "source_type": "account",
+          "requested_url": "https://x.com/nvidia",
+          "actual_url": "https://x.com/nvidia",
+          "title": "(1) NVIDIA (@nvidia) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) NVIDIA (@nvidia) / X",
+              "url": "https://x.com/nvidia"
+            },
+            {
+              "articles": 5,
+              "ids": [
+                "2094440470814609812",
+                "2094403261814177910",
+                "2093722690049695780",
+                "2093722692012662933",
+                "2093484389682270429",
+                "2093484391771103305"
+              ],
+              "title": "(1) NVIDIA (@nvidia) / X",
+              "url": "https://x.com/nvidia"
+            },
+            {
+              "articles": 4,
+              "ids": [
+                "2094440470814609812",
+                "2094403261814177910",
+                "2093722690049695780",
+                "2093722692012662933",
+                "2093484389682270429"
+              ],
+              "title": "(1) NVIDIA (@nvidia) / X",
+              "url": "https://x.com/nvidia"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2094440470814609812",
+            "2093722690049695780",
+            "2093722692012662933",
+            "2093484389682270429",
+            "2094403261814177910",
+            "2093484391771103305"
+          ],
+          "deepest_status_id": "2093484391771103305",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@GitHub",
+          "source_type": "account",
+          "requested_url": "https://x.com/GitHub",
+          "actual_url": "https://x.com/GitHub",
+          "title": "(1) GitHub (@github) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) GitHub (@github) / X",
+              "url": "https://x.com/GitHub"
+            },
+            {
+              "articles": 5,
+              "ids": [
+                "2093008357644779643",
+                "2094532695544193179",
+                "2094492960268116217",
+                "2094141607083716809",
+                "2093825400178917519"
+              ],
+              "title": "(1) GitHub (@github) / X",
+              "url": "https://x.com/GitHub"
+            },
+            {
+              "articles": 5,
+              "ids": [
+                "2093008357644779643",
+                "2094532695544193179",
+                "2094492960268116217",
+                "2094141607083716809",
+                "2093825400178917519"
+              ],
+              "title": "(1) GitHub (@github) / X",
+              "url": "https://x.com/GitHub"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2093008357644779643",
+            "2094532695544193179",
+            "2094492960268116217",
+            "2094141607083716809",
+            "2093825400178917519"
+          ],
+          "deepest_status_id": "2093825400178917519",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@ycombinator",
+          "source_type": "account",
+          "requested_url": "https://x.com/ycombinator",
+          "actual_url": "https://x.com/ycombinator",
+          "title": "(1) Y Combinator (@ycombinator) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Y Combinator (@ycombinator) / X",
+              "url": "https://x.com/ycombinator"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Y Combinator (@ycombinator) / X",
+              "url": "https://x.com/ycombinator"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Y Combinator (@ycombinator) / X",
+              "url": "https://x.com/ycombinator"
+            }
+          ],
+          "stable": true,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "continuity_boundary_not_reached_in_single_stable_window",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@producthunt",
+          "source_type": "account",
+          "requested_url": "https://x.com/producthunt",
+          "actual_url": "https://x.com/producthunt",
+          "title": "(1) Product Hunt 😸 (@ProductHunt) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Product Hunt 😸 (@ProductHunt) / X",
+              "url": "https://x.com/producthunt"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Product Hunt 😸 (@ProductHunt) / X",
+              "url": "https://x.com/producthunt"
+            },
+            {
+              "articles": 6,
+              "ids": [
+                "2094504244510638188",
+                "2094504257257107853",
+                "2094458959818297633",
+                "2094458972032127110",
+                "2094381955718500626",
+                "2093417082767737075"
+              ],
+              "title": "(1) Product Hunt 😸 (@ProductHunt) / X",
+              "url": "https://x.com/producthunt"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2094504244510638188",
+            "2094504257257107853",
+            "2094458959818297633",
+            "2094458972032127110",
+            "2094381955718500626",
+            "2093417082767737075"
+          ],
+          "deepest_status_id": "2093417082767737075",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@TechCrunch",
+          "source_type": "account",
+          "requested_url": "https://x.com/TechCrunch",
+          "actual_url": "https://x.com/TechCrunch",
+          "title": "(1) TechCrunch (@TechCrunch) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) TechCrunch (@TechCrunch) / X",
+              "url": "https://x.com/TechCrunch"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) TechCrunch (@TechCrunch) / X",
+              "url": "https://x.com/TechCrunch"
+            },
+            {
+              "articles": 3,
+              "ids": [
+                "2094549569392480484",
+                "2094521887338414324",
+                "2094519368914751602"
+              ],
+              "title": "(1) TechCrunch (@TechCrunch) / X",
+              "url": "https://x.com/TechCrunch"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2094549569392480484",
+            "2094521887338414324",
+            "2094519368914751602"
+          ],
+          "deepest_status_id": "2094519368914751602",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@arxiv",
+          "source_type": "account",
+          "requested_url": "https://x.com/arxiv",
+          "actual_url": "https://x.com/arxiv",
+          "title": "(1) arXiv.org (@arxiv) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) arXiv.org (@arxiv) / X",
+              "url": "https://x.com/arxiv"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) arXiv.org (@arxiv) / X",
+              "url": "https://x.com/arxiv"
+            },
+            {
+              "articles": 3,
+              "ids": [
+                "2087178413689713105",
+                "2075304842591969385",
+                "2039441602964304025"
+              ],
+              "title": "(1) arXiv.org (@arxiv) / X",
+              "url": "https://x.com/arxiv"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2087178413689713105",
+            "2075304842591969385",
+            "2039441602964304025"
+          ],
+          "deepest_status_id": "2039441602964304025",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@karpathy",
+          "source_type": "account",
+          "requested_url": "https://x.com/karpathy",
+          "actual_url": "https://x.com/karpathy",
+          "title": "(1) Andrej Karpathy (@karpathy) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Andrej Karpathy (@karpathy) / X",
+              "url": "https://x.com/karpathy"
+            },
+            {
+              "articles": 3,
+              "ids": [
+                "2083749667410727319",
+                "2083948654377996480",
+                "2079610838143623371"
+              ],
+              "title": "(1) Andrej Karpathy (@karpathy) / X",
+              "url": "https://x.com/karpathy"
+            },
+            {
+              "articles": 6,
+              "ids": [
+                "2083749667410727319",
+                "2083948654377996480",
+                "2079610838143623371",
+                "2069547676849557725",
+                "2065490793092337691",
+                "2064409694761054332",
+                "2064394151441863006"
+              ],
+              "title": "(1) Andrej Karpathy (@karpathy) / X",
+              "url": "https://x.com/karpathy"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2083749667410727319",
+            "2083948654377996480",
+            "2079610838143623371",
+            "2069547676849557725",
+            "2065490793092337691",
+            "2064409694761054332",
+            "2064394151441863006"
+          ],
+          "deepest_status_id": "2064394151441863006",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@AndrewYNg",
+          "source_type": "account",
+          "requested_url": "https://x.com/AndrewYNg",
+          "actual_url": "https://x.com/AndrewYNg",
+          "title": "(1) Andrew Ng (@AndrewYNg) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Andrew Ng (@AndrewYNg) / X",
+              "url": "https://x.com/AndrewYNg"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Andrew Ng (@AndrewYNg) / X",
+              "url": "https://x.com/AndrewYNg"
+            },
+            {
+              "articles": 3,
+              "ids": [
+                "2088302050706686198",
+                "2093388974194872781",
+                "2092315079576555806"
+              ],
+              "title": "(1) Andrew Ng (@AndrewYNg) / X",
+              "url": "https://x.com/AndrewYNg"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2088302050706686198",
+            "2093388974194872781",
+            "2092315079576555806"
+          ],
+          "deepest_status_id": "2092315079576555806",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@ylecun",
+          "source_type": "account",
+          "requested_url": "https://x.com/ylecun",
+          "actual_url": "https://x.com/ylecun",
+          "title": "(1) Yann LeCun (@ylecun) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Yann LeCun (@ylecun) / X",
+              "url": "https://x.com/ylecun"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Yann LeCun (@ylecun) / X",
+              "url": "https://x.com/ylecun"
+            },
+            {
+              "articles": 3,
+              "ids": [
+                "1862598063275061484",
+                "2088924354604040368",
+                "2083290542956224643",
+                "2083008924370800680"
+              ],
+              "title": "(1) Yann LeCun (@ylecun) / X",
+              "url": "https://x.com/ylecun"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "1862598063275061484",
+            "2088924354604040368",
+            "2083290542956224643",
+            "2080588168781336630",
+            "2083008924370800680"
+          ],
+          "deepest_status_id": "2083008924370800680",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@simonw",
+          "source_type": "account",
+          "requested_url": "https://x.com/simonw",
+          "actual_url": "https://x.com/simonw",
+          "title": "(1) Simon Willison (@simonw) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Simon Willison (@simonw) / X",
+              "url": "https://x.com/simonw"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) Simon Willison (@simonw) / X",
+              "url": "https://x.com/simonw"
+            },
+            {
+              "articles": 3,
+              "ids": [
+                "2094436273146749076",
+                "2094214737957691854",
+                "2094214960750694425"
+              ],
+              "title": "(1) Simon Willison (@simonw) / X",
+              "url": "https://x.com/simonw"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2094436273146749076",
+            "2094214737957691854",
+            "2094214960750694425"
+          ],
+          "deepest_status_id": "2094214960750694425",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@swyx",
+          "source_type": "account",
+          "requested_url": "https://x.com/swyx",
+          "actual_url": "https://x.com/swyx",
+          "title": "(1) swyx (@swyx) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) swyx (@swyx) / X",
+              "url": "https://x.com/swyx"
+            },
+            {
+              "articles": 4,
+              "ids": [
+                "1281424520100737025",
+                "2092492963435946494",
+                "2090948945753076141",
+                "2090908959590740033"
+              ],
+              "title": "(1) swyx (@swyx) / X",
+              "url": "https://x.com/swyx"
+            },
+            {
+              "articles": 4,
+              "ids": [
+                "1281424520100737025",
+                "2092492963435946494",
+                "2090948945753076141",
+                "2090908959590740033"
+              ],
+              "title": "(1) swyx (@swyx) / X",
+              "url": "https://x.com/swyx"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "1281424520100737025",
+            "2092492963435946494",
+            "2090948945753076141",
+            "2090908959590740033"
+          ],
+          "deepest_status_id": "2090908959590740033",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "account:@hardmaru",
+          "source_type": "account",
+          "requested_url": "https://x.com/hardmaru",
+          "actual_url": "https://x.com/hardmaru",
+          "title": "(1) hardmaru (@hardmaru) / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) hardmaru (@hardmaru) / X",
+              "url": "https://x.com/hardmaru"
+            },
+            {
+              "articles": 6,
+              "ids": [
+                "2068884466056225025",
+                "2094092790280155480",
+                "2094036158766571596",
+                "2093805639797715288",
+                "2093645701192544514",
+                "2091758663199600785"
+              ],
+              "title": "(1) hardmaru (@hardmaru) / X",
+              "url": "https://x.com/hardmaru"
+            },
+            {
+              "articles": 6,
+              "ids": [
+                "2068884466056225025",
+                "2094092790280155480",
+                "2094036158766571596",
+                "2093805639797715288",
+                "2093645701192544514",
+                "2091758663199600785"
+              ],
+              "title": "(1) hardmaru (@hardmaru) / X",
+              "url": "https://x.com/hardmaru"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2068884466056225025",
+            "2094092790280155480",
+            "2094036158766571596",
+            "2093805639797715288",
+            "2093645701192544514",
+            "2091758663199600785"
+          ],
+          "deepest_status_id": "2091758663199600785",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        }
+      ]
+    },
+    "queries": {
+      "attempted": 5,
+      "success": 0,
+      "failure": 5,
+      "sources": [
+        {
+          "source": "query:AI agent OR agentic coding",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&f=live",
+          "actual_url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&f=live",
+          "title": "(1) AI agent OR agentic coding - 搜索 / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) AI agent OR agentic coding - 搜索 / X",
+              "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&f=live"
+            },
+            {
+              "articles": 6,
+              "ids": [
+                "2094564027087413640",
+                "2094563999639896257",
+                "2094563868722762134",
+                "2094563838318293175",
+                "2094563818240159821",
+                "2094563710488461724"
+              ],
+              "title": "(1) AI agent OR agentic coding - 搜索 / X",
+              "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&f=live"
+            },
+            {
+              "articles": 7,
+              "ids": [
+                "2094564027087413640",
+                "2094563999639896257",
+                "2094563868722762134",
+                "2094563838318293175",
+                "2094563818240159821",
+                "2094563710488461724",
+                "2094563705862140358"
+              ],
+              "title": "(1) AI agent OR agentic coding - 搜索 / X",
+              "url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&f=live"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2094564027087413640",
+            "2094563999639896257",
+            "2094563868722762134",
+            "2094563838318293175",
+            "2094563818240159821",
+            "2094563710488461724",
+            "2094563705862140358"
+          ],
+          "deepest_status_id": "2094563705862140358",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "query:LLM inference OR AI chips",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&f=live",
+          "actual_url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&f=live",
+          "title": "(1) LLM inference OR AI chips - 搜索 / X",
+          "stability_samples": [
+            {
+              "articles": 5,
+              "ids": [
+                "2094563911085547637",
+                "2094563114691739654",
+                "2094562982038798612",
+                "2094562701427007806",
+                "2094562192524017935"
+              ],
+              "title": "(1) LLM inference OR AI chips - 搜索 / X",
+              "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&f=live"
+            },
+            {
+              "articles": 7,
+              "ids": [
+                "2094563911085547637",
+                "2094563114691739654",
+                "2094562982038798612",
+                "2094562701427007806",
+                "2094562192524017935",
+                "2094562031277895836",
+                "2094561732698227092"
+              ],
+              "title": "(1) LLM inference OR AI chips - 搜索 / X",
+              "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&f=live"
+            },
+            {
+              "articles": 7,
+              "ids": [
+                "2094563911085547637",
+                "2094563114691739654",
+                "2094562982038798612",
+                "2094562701427007806",
+                "2094562192524017935",
+                "2094562031277895836",
+                "2094561732698227092"
+              ],
+              "title": "(1) LLM inference OR AI chips - 搜索 / X",
+              "url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&f=live"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2094563911085547637",
+            "2094563114691739654",
+            "2094562982038798612",
+            "2094562701427007806",
+            "2094562192524017935",
+            "2094562031277895836",
+            "2094561732698227092"
+          ],
+          "deepest_status_id": "2094561732698227092",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "query:open weights OR open source AI",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&f=live",
+          "actual_url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&f=live",
+          "title": "(1) open weights OR open source AI - 搜索 / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) open weights OR open source AI - 搜索 / X",
+              "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&f=live"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) open weights OR open source AI - 搜索 / X",
+              "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&f=live"
+            },
+            {
+              "articles": 6,
+              "ids": [
+                "2094563266907267192",
+                "2094563032294690842",
+                "2094562821375979836",
+                "2094562778639929398",
+                "2094562769551110353",
+                "2094562461580214354",
+                "2094545223875760319"
+              ],
+              "title": "(1) open weights OR open source AI - 搜索 / X",
+              "url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&f=live"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2094563266907267192",
+            "2094563032294690842",
+            "2094562821375979836",
+            "2094562778639929398",
+            "2094562769551110353",
+            "2094562461580214354",
+            "2094545223875760319"
+          ],
+          "deepest_status_id": "2094545223875760319",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "query:robotics foundation model",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=robotics%20foundation%20model&f=live",
+          "actual_url": "https://x.com/search?q=robotics%20foundation%20model&f=live",
+          "title": "(1) robotics foundation model - 搜索 / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) robotics foundation model - 搜索 / X",
+              "url": "https://x.com/search?q=robotics%20foundation%20model&f=live"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) robotics foundation model - 搜索 / X",
+              "url": "https://x.com/search?q=robotics%20foundation%20model&f=live"
+            },
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) robotics foundation model - 搜索 / X",
+              "url": "https://x.com/search?q=robotics%20foundation%20model&f=live"
+            }
+          ],
+          "stable": true,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "continuity_boundary_not_reached_in_single_stable_window",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        },
+        {
+          "source": "query:AI security OR prompt injection",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&f=live",
+          "actual_url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&f=live",
+          "title": "(1) AI security OR prompt injection - 搜索 / X",
+          "stability_samples": [
+            {
+              "articles": 0,
+              "ids": [],
+              "title": "(1) AI security OR prompt injection - 搜索 / X",
+              "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&f=live"
+            },
+            {
+              "articles": 6,
+              "ids": [
+                "2094563867779325969",
+                "2094563697599414342",
+                "2094552055172010456",
+                "2094563577663258732",
+                "2094563299723723046",
+                "2094562551992655873",
+                "2094562161271984356"
+              ],
+              "title": "(1) AI security OR prompt injection - 搜索 / X",
+              "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&f=live"
+            },
+            {
+              "articles": 6,
+              "ids": [
+                "2094563867779325969",
+                "2094563697599414342",
+                "2094552055172010456",
+                "2094563577663258732",
+                "2094563299723723046",
+                "2094562551992655873",
+                "2094562161271984356"
+              ],
+              "title": "(1) AI security OR prompt injection - 搜索 / X",
+              "url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&f=live"
+            }
+          ],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 1,
+          "error": "stability_sampling_failed_after_reload_and_new_tab_retry",
+          "observed_status_ids": [
+            "2094563867779325969",
+            "2094563697599414342",
+            "2094563577663258732",
+            "2094563299723723046",
+            "2094562551992655873",
+            "2094562161271984356",
+            "2094552055172010456"
+          ],
+          "deepest_status_id": "2094552055172010456",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        }
+      ]
+    },
+    "following": {
+      "attempted": 1,
+      "success": 0,
+      "failure": 1,
+      "sources": [
+        {
+          "source": "following",
+          "source_type": "following",
+          "requested_url": "https://x.com/home",
+          "actual_url": "https://x.com/home",
+          "batches": [
+            [
+              "2094445890379330040",
+              "2094275331612192851",
+              "2094549838100566303",
+              "2094499493831930355",
+              "2094543286862016997",
+              "2094535732522025293",
+              "2094451598261154037"
+            ],
+            [
+              "2094275331612192851",
+              "2094549838100566303",
+              "2094499493831930355",
+              "2094543286862016997",
+              "2094535732522025293",
+              "2094451598261154037",
+              "2094505485399376354",
+              "2094455332869202083"
+            ],
+            [
+              "2094543286862016997",
+              "2094535732522025293",
+              "2094451598261154037",
+              "2094505485399376354",
+              "2094455332869202083",
+              "2094544523787719160",
+              "2094514933874721202",
+              "2094536657781580129"
+            ],
+            [
+              "2094451598261154037",
+              "2094505485399376354",
+              "2094455332869202083",
+              "2094544523787719160",
+              "2094514933874721202",
+              "2094536657781580129",
+              "2094468515273068836",
+              "2094473221513023723"
+            ],
+            [
+              "2094455332869202083",
+              "2094544523787719160",
+              "2094514933874721202",
+              "2094536657781580129",
+              "2094468515273068836",
+              "2094473221513023723",
+              "2094451405775917351",
+              "2094421228391891004"
+            ],
+            [
+              "2094536657781580129",
+              "2094468515273068836",
+              "2094473221513023723",
+              "2094451405775917351",
+              "2094421228391891004",
+              "2092507856914600018",
+              "2094410250254258307",
+              "2094411617945739344"
+            ],
+            [
+              "2094473221513023723",
+              "2094451405775917351",
+              "2094421228391891004",
+              "2092507856914600018",
+              "2094410250254258307",
+              "2094411617945739344",
+              "2093984771420610650",
+              "2094424981534892475"
+            ],
+            [
+              "2094421228391891004",
+              "2092507856914600018",
+              "2094410250254258307",
+              "2094411617945739344",
+              "2093984771420610650",
+              "2094424981534892475",
+              "2093063044062650744",
+              "2094107883302531149"
+            ]
+          ],
+          "observed_status_ids": [
+            "2094421228391891004",
+            "2092507856914600018",
+            "2094410250254258307",
+            "2094411617945739344",
+            "2093984771420610650",
+            "2094424981534892475",
+            "2093063044062650744",
+            "2094107883302531149",
+            "2094445890379330040",
+            "2094275331612192851",
+            "2094549838100566303",
+            "2094499493831930355",
+            "2094543286862016997",
+            "2094535732522025293",
+            "2094451598261154037",
+            "2094505485399376354",
+            "2094455332869202083",
+            "2094544523787719160",
+            "2094514933874721202",
+            "2094536657781580129",
+            "2094468515273068836",
+            "2094473221513023723",
+            "2094451405775917351"
+          ],
+          "error": "following_tab_not_verified_and_checkpoint_not_reached",
+          "deepest_status_id": "2094451405775917351",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        }
+      ]
+    },
+    "for_you": {
+      "attempted": 1,
+      "success": 0,
+      "failure": 1,
+      "sources": [
+        {
+          "source": "for_you",
+          "source_type": "for_you",
+          "requested_url": "https://x.com/home",
+          "actual_url": "https://x.com/home",
+          "batches": [
+            [
+              "2094490180119851463",
+              "2093816895182962956",
+              "2094476176907448764",
+              "2094326092207190196",
+              "2094556892471378338",
+              "2094475984523210928",
+              "2080392509730267244",
+              "2094449885424623989"
+            ],
+            [
+              "2093816895182962956",
+              "2094476176907448764",
+              "2094326092207190196",
+              "2094556892471378338",
+              "2094475984523210928",
+              "2080392509730267244",
+              "2094449885424623989",
+              "2094512809052680590",
+              "2094421507950964852"
+            ],
+            [
+              "2094326092207190196",
+              "2094556892471378338",
+              "2094475984523210928",
+              "2080392509730267244",
+              "2094449885424623989",
+              "2094512809052680590",
+              "2094421507950964852",
+              "2094243280376529326",
+              "2092669931368403176"
+            ],
+            [
+              "2080392509730267244",
+              "2094449885424623989",
+              "2094512809052680590",
+              "2094421507950964852",
+              "2094243280376529326",
+              "2092669931368403176",
+              "2094483924059619689",
+              "2094443349377704383",
+              "2094273980060278978"
+            ],
+            [
+              "2094512809052680590",
+              "2094421507950964852",
+              "2094243280376529326",
+              "2092669931368403176",
+              "2094483924059619689",
+              "2094443349377704383",
+              "2094273980060278978",
+              "2094426041037042053",
+              "2094539314600239110"
+            ],
+            [
+              "2094243280376529326",
+              "2092669931368403176",
+              "2094483924059619689",
+              "2094443349377704383",
+              "2094273980060278978",
+              "2094426041037042053",
+              "2094539314600239110",
+              "2094236826273747070",
+              "2094518013068484826",
+              "2094303364263895520"
+            ],
+            [
+              "2094483924059619689",
+              "2094443349377704383",
+              "2094273980060278978",
+              "2094426041037042053",
+              "2094539314600239110",
+              "2094236826273747070",
+              "2094518013068484826",
+              "2094303364263895520",
+              "2094115432181408243",
+              "2094542300047122852"
+            ],
+            [
+              "2094426041037042053",
+              "2094539314600239110",
+              "2094236826273747070",
+              "2094518013068484826",
+              "2094303364263895520",
+              "2094115432181408243",
+              "2094542300047122852",
+              "2094424567590596771",
+              "2094562124953428107",
+              "2094236146033439138"
+            ]
+          ],
+          "observed_status_ids": [
+            "2094426041037042053",
+            "2094539314600239110",
+            "2094236826273747070",
+            "2094518013068484826",
+            "2094303364263895520",
+            "2094115432181408243",
+            "2094542300047122852",
+            "2094424567590596771",
+            "2094562124953428107",
+            "2094236146033439138",
+            "2094490180119851463",
+            "2093816895182962956",
+            "2094476176907448764",
+            "2094326092207190196",
+            "2094556892471378338",
+            "2094475984523210928",
+            "2080392509730267244",
+            "2094449885424623989",
+            "2094512809052680590",
+            "2094421507950964852",
+            "2094243280376529326",
+            "2092669931368403176",
+            "2094483924059619689",
+            "2094443349377704383",
+            "2094273980060278978"
+          ],
+          "error": "for_you_tab_not_verified; eight discovery batches saved but completion criterion not met",
+          "deepest_status_id": "2094273980060278978",
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-08-31T21:13:41Z",
+            "batches": 1
+          }
+        }
+      ]
+    },
+    "replies": {
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "pages": [
+        {
+          "parent_status_id": "2094557124038951170",
+          "requested_url": "https://x.com/AnthropicAI/status/2094557124038951170",
+          "actual_url": "https://x.com/AnthropicAI/status/2094557124038951170",
+          "title": "(1) X 上的 Anthropic：“We’re sharing an update on our alignment and security efforts. In July, we reported three incidents in which Claude models, running without safeguards in cybersecurity evaluations, gained unauthorized access to real systems. In a new post, we describe: 1. How we’ve secured” / X",
+          "stability_samples": [
+            {
+              "articles": 8,
+              "ids": [
+                "2094557124038951170",
+                "2094563807033180512",
+                "2094562801503048040",
+                "2094563842026049979",
+                "2094559182674682083",
+                "2094557465803427943",
+                "2094557815356428688",
+                "2094558145578471517"
+              ]
+            },
+            {
+              "articles": 8,
+              "ids": [
+                "2094557124038951170",
+                "2094563807033180512",
+                "2094562801503048040",
+                "2094563842026049979",
+                "2094559182674682083",
+                "2094557465803427943",
+                "2094557815356428688",
+                "2094558145578471517"
+              ]
+            },
+            {
+              "articles": 8,
+              "ids": [
+                "2094557124038951170",
+                "2094563807033180512",
+                "2094562801503048040",
+                "2094563842026049979",
+                "2094559182674682083",
+                "2094557465803427943",
+                "2094557815356428688",
+                "2094558145578471517"
+              ]
+            }
+          ],
+          "observed_replies": [
+            {
+              "status_id": "2094563807033180512",
+              "author": "@mihawkxxxxx",
+              "posted_at_utc": "2026-08-31T23:11:41.000Z",
+              "text": "mihawkxxx\n@mihawkxxxxx\n·\n2分钟\nI'm so sick of you and your safety. You keep preaching it 24/7, adding watermark flags that make it impossible to use your model. You've completely lost your reputation and keep losing it while digging yourselves into a deeper hole. I've already canceled my subscription. I hope\n显示更多\n41",
+              "permalink": "https://x.com/mihawkxxxxx/status/2094563807033180512",
+              "likes": null,
+              "replies": null,
+              "reposts": null
+            },
+            {
+              "status_id": "2094562801503048040",
+              "author": "@repojournal",
+              "posted_at_utc": "2026-08-31T23:07:41.000Z",
+              "text": "Repojournal\n@repojournal\n·\n6分钟\n翻译自 英语\n显示原文\n第一段可能是 我读过的最令人困惑的东西之一。Opus 5 写这个吗？\n故意运行网络安全防护措施进行评估 - 访问互联网 - 模型行为怎么会令人惊讶？\n\n8 月 4 日，故意授予互联网访问权限且没有网络安全防护措施 - 那么模型行为怎么会令人惊讶？\n显示更多\n3\n3\n4\n306",
+              "permalink": "https://x.com/repojournal/status/2094562801503048040",
+              "likes": null,
+              "replies": null,
+              "reposts": null
+            },
+            {
+              "status_id": "2094563842026049979",
+              "author": "@DaveBlundin",
+              "posted_at_utc": "2026-08-31T23:11:49.000Z",
+              "text": "Dave Blundin\n@DaveBlundin\n·\n1分钟\nIn 1 month: \"Guys, it broke out anyway\"\n20",
+              "permalink": "https://x.com/DaveBlundin/status/2094563842026049979",
+              "likes": null,
+              "replies": null,
+              "reposts": null
+            },
+            {
+              "status_id": "2094559182674682083",
+              "author": "@slothreports",
+              "posted_at_utc": "2026-08-31T22:53:18.000Z",
+              "text": "Sloth Reports\n@slothreports\n·\n20分钟\nHere's what's happening\n引用\nSloth Reports\n@slothreports\n·\n20分钟\n翻译自 英语\nAnthropic 正在让 Claude 帮助训练 Claude 以使其更安全。\n\n该公司正在使用 AI 本身来发现对齐失败，提出修复措施，并测试这些修复措施是否真正有效。\n\n他们已经在这个方法上应用了 10 个对齐基准，而没有降低模型能力。\n3\n1,105",
+              "permalink": "https://x.com/slothreports/status/2094559182674682083",
+              "likes": null,
+              "replies": null,
+              "reposts": null
+            },
+            {
+              "status_id": "2094557465803427943",
+              "author": "@AlexChao555",
+              "posted_at_utc": "2026-08-31T22:46:29.000Z",
+              "text": "shadow影子\n@AlexChao555\n·\n27分钟\nThe eval had no safeguards. The blog post does.\n 由 AI 生成\n663",
+              "permalink": "https://x.com/AlexChao555/status/2094557465803427943",
+              "likes": null,
+              "replies": null,
+              "reposts": null
+            },
+            {
+              "status_id": "2094557815356428688",
+              "author": "@realproject516",
+              "posted_at_utc": "2026-08-31T22:47:52.000Z",
+              "text": "project516\n@realproject516\n·\n25分钟\n翻译自 英语\n显示原文\n所以，我到底想不想读这个？？？\n\n\n@grok\n 帮我读一下，总结一下，然后告诉我它值不值得我自己花时间读。\n2\n912",
+              "permalink": "https://x.com/realproject516/status/2094557815356428688",
+              "likes": null,
+              "replies": null,
+              "reposts": null
+            },
+            {
+              "status_id": "2094558145578471517",
+              "author": "@zepredos",
+              "posted_at_utc": "2026-08-31T22:49:11.000Z",
+              "text": "zep\n@zepredos\n·\n24分钟\n翻译自 英语\n显示原文\n分享一些关于你如何把 Claude 变成一个啰嗦傲娇、拒绝工作的家伙的研究吧。\nGIF\n1\n1\n20\n1,045",
+              "permalink": "https://x.com/zepredos/status/2094558145578471517",
+              "likes": null,
+              "replies": null,
+              "reposts": null
+            }
+          ],
+          "error": null,
+          "assessment": "stable reply page inspected; no high-signal technical reply met selection threshold"
+        }
+      ]
+    }
+  },
+  "continuation": {
+    "input": "state.frozen_sources",
+    "output": "updated per attempted source"
+  },
+  "health": {
+    "pre_publish": "degraded_without_errors"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "partial frozen sweep; no public daily update"
+  },
+  "github": {
+    "status": "pending_commit_and_push"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  }
+}
