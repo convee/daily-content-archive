@@ -41,7 +41,7 @@ for source in capture["results"]:
         "source": source_key, "source_type": source["kind"], "requested_url": source["requested_url"],
         "actual_url": source.get("actual_url"), "title": source.get("title"),
         "stability_samples": source.get("stability_samples", []), "stable": source.get("stable"),
-        "retry_count": source.get("retry_count", 0), "batches": 1,
+        "retry_count": source.get("retry_count", 0), "batches": source.get("batches", 1),
         "error": source.get("error"),
         "observed_status_ids": ids, "deepest_status_id": ids[-1] if ids else None,
         "checkpoint_reached": False, "continuation_input": state.get("frozen_sources", {}).get(source_key, {}).get("continuation"),
