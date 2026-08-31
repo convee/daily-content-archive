@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "platform": "reddit",
+  "started_at_utc": "2026-08-31T07:23:12.239Z",
+  "completed_at_utc": "2026-08-31T07:23:12.239Z",
+  "lock_owner": "Reddit-20260831T072210Z-47f583",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples": 3
+  },
+  "raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T07-23-12-239Z.jsonl",
+  "raw_files": [
+    "reddit/raw/2026/08/31/capture-2026-08-31T07-23-12-239Z.jsonl"
+  ],
+  "records": {
+    "posts": 494,
+    "comments": 0,
+    "written": 356
+  },
+  "layers": {
+    "new": {
+      "attempted": 12,
+      "success": 4,
+      "failure": 8
+    },
+    "hot_rising": {
+      "attempted": 24,
+      "success": 24,
+      "failure": 0
+    },
+    "global": {
+      "attempted": 3,
+      "success": 3,
+      "failure": 0
+    },
+    "search": {
+      "attempted": 8,
+      "success": 0,
+      "failure": 8
+    },
+    "comments": {
+      "due": 0,
+      "success": 0,
+      "failure": 0
+    },
+    "community_discovery": {
+      "candidates_added": 0
+    }
+  },
+  "failure_ledger": [
+    {
+      "source": "New:LocalLLaMA",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1meuk",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:programming",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1vzw7as",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:technology",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1vzwxyi",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:opensource",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1vzwv8l",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:selfhosted",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1kygg",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:OpenAI",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1litm",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:Anthropic",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1jyk7",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:robotics",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1m7qd",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "Search 8 queries",
+      "reason": "all queries saved only discovery snapshots; time boundaries not crossed",
+      "frozen": true,
+      "recovery": "resume each modern Posts+New result stream"
+    }
+  ],
+  "failures": [
+    {
+      "source": "New:LocalLLaMA",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1meuk",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:programming",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1vzw7as",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:technology",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1vzwxyi",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:opensource",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1vzwv8l",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:selfhosted",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1kygg",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:OpenAI",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1litm",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:Anthropic",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1jyk7",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:robotics",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_1w1m7qd",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "Search 8 queries",
+      "reason": "all queries saved only discovery snapshots; time boundaries not crossed",
+      "frozen": true,
+      "recovery": "resume each modern Posts+New result stream"
+    }
+  ],
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "search continuity frozen"
+  }
+}
