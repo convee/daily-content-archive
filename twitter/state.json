@@ -5203,10 +5203,10 @@
     "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
     "target_verified": true,
     "message_type": "exception_alert",
-    "openTaskId": "F0sOToDIBN+ITarsph3/nub9dOtffvkHUDoxvHF1Zuk=",
-    "openMessageId": "msgwlvt385PY+lfWaa62ZdRfQ==",
+    "openTaskId": "yKm5YCf8xRGdd4O+9sQD4rhyuihWPbXisKxpeNS7CzM=",
+    "openMessageId": "msgsIeh8v1EP9mBxgJzMV2pqg==",
     "sendStatus": "SUCCESS",
-    "verified_at_utc": "2026-08-31T19:17:57Z"
+    "verified_at_utc": "2026-08-31T21:14:50Z"
   },
   "last_raw_file": "twitter/raw/2026/09/01/20260831T211341Z-browser-sweep.jsonl"
 }
