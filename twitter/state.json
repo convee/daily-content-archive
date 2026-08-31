@@ -4964,10 +4964,10 @@
     "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
     "target_verified": true,
     "message_type": "exception_alert",
-    "openTaskId": "igoPbXnLH7vdRtZNiRcjSIzg5Xd4dQI0Y2dmgjNubDs=",
-    "openMessageId": "msgdoeh1BGJ/LpeLIPdxRIBaQ==",
+    "openTaskId": "HZzBDt8mt9DeHjCCz1XLOCIalhiTV4zSQAuVwzGEqqU=",
+    "openMessageId": "msg94vQbZCDL5ZlM8p0MDMDvg==",
     "sendStatus": "SUCCESS",
-    "verified_at_utc": "2026-08-29T23:17:14Z"
+    "verified_at_utc": "2026-08-31T01:49:59Z"
   },
   "last_raw_file": "twitter/raw/2026/08/31/20260831T014847Z-browser-sweep.jsonl"
 }
