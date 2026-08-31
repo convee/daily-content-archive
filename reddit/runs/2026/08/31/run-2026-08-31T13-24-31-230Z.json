@@ -1,0 +1,676 @@
+{
+  "schema_version": 1,
+  "platform": "reddit",
+  "started_at_utc": "2026-08-31T13:24:31.230Z",
+  "completed_at_utc": "2026-08-31T13:24:31.230Z",
+  "lock_owner": "Reddit-20260831T132113Z-2137",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples": 3
+  },
+  "raw_file": "reddit/raw/2026/08/31/browser-batch-2026-08-31T13-24-31-230Z.jsonl",
+  "raw_files": [
+    "reddit/raw/2026/08/31/browser-batch-2026-08-31T13-24-31-230Z.jsonl"
+  ],
+  "records": {
+    "posts": 325,
+    "comments": 0,
+    "by_source": {
+      "https://www.reddit.com/r/MachineLearning/new/": 6,
+      "https://www.reddit.com/r/MachineLearning/hot/": 6,
+      "https://www.reddit.com/r/MachineLearning/rising/": 6,
+      "https://www.reddit.com/r/LocalLLaMA/new/": 9,
+      "https://www.reddit.com/r/LocalLLaMA/hot/": 9,
+      "https://www.reddit.com/r/LocalLLaMA/rising/": 9,
+      "https://www.reddit.com/r/programming/new/": 6,
+      "https://www.reddit.com/r/programming/hot/": 5,
+      "https://www.reddit.com/r/programming/rising/": 5,
+      "https://www.reddit.com/r/technology/new/": 4,
+      "https://www.reddit.com/r/technology/hot/": 3,
+      "https://www.reddit.com/r/technology/rising/": 4,
+      "https://www.reddit.com/r/netsec/new/": 6,
+      "https://www.reddit.com/r/netsec/hot/": 6,
+      "https://www.reddit.com/r/netsec/rising/": 6,
+      "https://www.reddit.com/r/opensource/new/": 7,
+      "https://www.reddit.com/r/opensource/hot/": 7,
+      "https://www.reddit.com/r/opensource/rising/": 7,
+      "https://www.reddit.com/r/selfhosted/new/": 9,
+      "https://www.reddit.com/r/selfhosted/hot/": 9,
+      "https://www.reddit.com/r/selfhosted/rising/": 9,
+      "https://www.reddit.com/r/science/new/": 4,
+      "https://www.reddit.com/r/science/hot/": 3,
+      "https://www.reddit.com/r/science/rising/": 4,
+      "https://www.reddit.com/r/OpenAI/new/": 7,
+      "https://www.reddit.com/r/OpenAI/hot/": 7,
+      "https://www.reddit.com/r/OpenAI/rising/": 7,
+      "https://www.reddit.com/r/Anthropic/new/": 6,
+      "https://www.reddit.com/r/Anthropic/hot/": 6,
+      "https://www.reddit.com/r/Anthropic/rising/": 6,
+      "https://www.reddit.com/r/singularity/new/": 9,
+      "https://www.reddit.com/r/singularity/hot/": 9,
+      "https://www.reddit.com/r/singularity/rising/": 9,
+      "https://www.reddit.com/r/robotics/new/": 6,
+      "https://www.reddit.com/r/robotics/hot/": 5,
+      "https://www.reddit.com/r/robotics/rising/": 5,
+      "https://www.reddit.com/": 13,
+      "https://www.reddit.com/r/popular/": 13,
+      "https://www.reddit.com/r/all/": 13,
+      "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new": 8,
+      "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new": 8,
+      "https://www.reddit.com/search/?q=open%20weights%20OR%20open%20source%20AI&type=posts&sort=new": 8,
+      "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new": 8,
+      "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new": 8,
+      "https://www.reddit.com/search/?q=AI%20security%20OR%20prompt%20injection&type=posts&sort=new": 8,
+      "https://www.reddit.com/search/?q=developer%20tools%20OR%20programming%20language&type=posts&sort=new": 7
+    }
+  },
+  "layers": {
+    "new": {
+      "attempted": 12,
+      "success": 0,
+      "failure": 12
+    },
+    "hot_rising": {
+      "attempted": 24,
+      "success": 0,
+      "failure": 24
+    },
+    "global": {
+      "attempted": 3,
+      "success": 0,
+      "failure": 3
+    },
+    "search": {
+      "attempted": 8,
+      "success": 0,
+      "failure": 8
+    },
+    "comments": {
+      "due": 0,
+      "success": 0,
+      "failure": 0
+    },
+    "community_discovery": {
+      "candidates_added": 0
+    }
+  },
+  "failure_ledger": [
+    {
+      "source": "https://www.reddit.com/r/MachineLearning/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/MachineLearning/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/MachineLearning/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/LocalLLaMA/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/LocalLLaMA/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/LocalLLaMA/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/programming/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/programming/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/programming/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/technology/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/technology/hot/",
+      "reason": "first-window discovery snapshot; boundary not crossed",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/technology/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/netsec/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/netsec/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/netsec/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/opensource/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/opensource/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/opensource/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/selfhosted/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/selfhosted/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/selfhosted/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/science/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/science/hot/",
+      "reason": "first-window discovery snapshot; boundary not crossed",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/science/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/OpenAI/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/OpenAI/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/OpenAI/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/Anthropic/new/",
+      "reason": "first-window discovery snapshot; boundary not crossed",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/Anthropic/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/Anthropic/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/singularity/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/singularity/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/singularity/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/robotics/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/robotics/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/robotics/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/popular/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/all/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=open%20weights%20OR%20open%20source%20AI&type=posts&sort=new",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=AI%20security%20OR%20prompt%20injection&type=posts&sort=new",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=developer%20tools%20OR%20programming%20language&type=posts&sort=new",
+      "reason": "first-window discovery snapshot; boundary not crossed",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=data%20center%20energy%20water&type=posts&sort=new",
+      "reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645495539. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "frozen": true,
+      "recovery": "reload once then open a new Chrome tab"
+    }
+  ],
+  "failures": [
+    {
+      "source": "https://www.reddit.com/r/MachineLearning/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/MachineLearning/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/MachineLearning/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/LocalLLaMA/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/LocalLLaMA/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/LocalLLaMA/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/programming/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/programming/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/programming/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/technology/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/technology/hot/",
+      "reason": "first-window discovery snapshot; boundary not crossed",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/technology/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/netsec/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/netsec/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/netsec/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/opensource/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/opensource/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/opensource/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/selfhosted/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/selfhosted/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/selfhosted/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/science/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/science/hot/",
+      "reason": "first-window discovery snapshot; boundary not crossed",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/science/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/OpenAI/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/OpenAI/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/OpenAI/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/Anthropic/new/",
+      "reason": "first-window discovery snapshot; boundary not crossed",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/Anthropic/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/Anthropic/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/singularity/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/singularity/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/singularity/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/robotics/new/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/robotics/hot/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/robotics/rising/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/popular/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/r/all/",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=AI%20agent%20OR%20agentic%20coding&type=posts&sort=new",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=LLM%20inference%20OR%20quantization&type=posts&sort=new",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=open%20weights%20OR%20open%20source%20AI&type=posts&sort=new",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=AI%20chip%20OR%20GPU%20OR%20inference%20accelerator&type=posts&sort=new",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=robotics%20foundation%20model&type=posts&sort=new",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=AI%20security%20OR%20prompt%20injection&type=posts&sort=new",
+      "reason": "stability sampling changed while loading",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=developer%20tools%20OR%20programming%20language&type=posts&sort=new",
+      "reason": "first-window discovery snapshot; boundary not crossed",
+      "frozen": true,
+      "recovery": "retain durable discovery evidence and resume at saved boundary"
+    },
+    {
+      "source": "https://www.reddit.com/search/?q=data%20center%20energy%20water&type=posts&sort=new",
+      "reason": "Error: Browser Use cannot open https://www.reddit.com/search/ in tab 645495539. Browser reported: net::ERR_BLOCKED_BY_CLIENT",
+      "frozen": true,
+      "recovery": "reload once then open a new Chrome tab"
+    }
+  ],
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "partial source evidence"
+  }
+}
