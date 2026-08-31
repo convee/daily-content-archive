@@ -1,0 +1,653 @@
+{
+  "schema_version": 2,
+  "platform": "reddit",
+  "started_at_utc": "2026-08-31T15:25:26.000Z",
+  "completed_at_utc": "2026-08-31T15:25:26.000Z",
+  "lock_owner": "Reddit-20260831T152151Z-31594",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples": 3
+  },
+  "raw_file": "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl",
+  "raw_files": [
+    "reddit/raw/2026/08/31/capture-2026-08-31T15-25-26-000Z.jsonl"
+  ],
+  "records": {
+    "posts": 0,
+    "comments": 0,
+    "written": 0
+  },
+  "layers": {
+    "new": {
+      "attempted": 12,
+      "success": 0,
+      "failure": 12
+    },
+    "hot_rising": {
+      "attempted": 24,
+      "success": 0,
+      "failure": 24
+    },
+    "global": {
+      "attempted": 3,
+      "success": 0,
+      "failure": 3
+    },
+    "search": {
+      "attempted": 8,
+      "success": 0,
+      "failure": 8
+    },
+    "comments": {
+      "due": 0,
+      "success": 0,
+      "failure": 0
+    },
+    "community_discovery": {
+      "candidates_added": 0
+    }
+  },
+  "failure_ledger": [
+    {
+      "source": "New:MachineLearning",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:LocalLLaMA",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:programming",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:technology",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:netsec",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:opensource",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:selfhosted",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:science",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:OpenAI",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:Anthropic",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:singularity",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:robotics",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "Snapshot:MachineLearning:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:MachineLearning:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:LocalLLaMA:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:LocalLLaMA:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:programming:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:programming:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:technology:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:technology:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:netsec:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:netsec:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:opensource:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:opensource:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:selfhosted:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:selfhosted:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:science:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:science:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:OpenAI:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:OpenAI:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:Anthropic:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:Anthropic:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:singularity:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:singularity:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:robotics:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:robotics:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Global:home",
+      "reason": "browser batch timed out before durable snapshot",
+      "frozen": true,
+      "recovery": "retry this feed independently and verify it is distinct"
+    },
+    {
+      "source": "Global:popular",
+      "reason": "browser batch timed out before durable snapshot",
+      "frozen": true,
+      "recovery": "retry this feed independently and verify it is distinct"
+    },
+    {
+      "source": "Global:all",
+      "reason": "browser batch timed out before distinct URL verification",
+      "frozen": true,
+      "recovery": "retry this feed independently and verify it is distinct"
+    },
+    {
+      "source": "Search:AI agent OR agentic coding",
+      "reason": "stable first window only; no durable parsed posts or boundary",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:LLM inference OR quantization",
+      "reason": "search DOM changed during stability sampling",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:open weights OR open source AI",
+      "reason": "stable first window only; no durable parsed posts or boundary",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:AI chip OR GPU OR inference accelerator",
+      "reason": "stable first window only; no durable parsed posts or boundary",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:robotics foundation model",
+      "reason": "search DOM changed during stability sampling",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:AI security OR prompt injection",
+      "reason": "stable first window only; no durable parsed posts or boundary",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:developer tools OR programming language",
+      "reason": "search DOM changed during stability sampling",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:data center energy water",
+      "reason": "search DOM changed during stability sampling",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    }
+  ],
+  "failures": [
+    {
+      "source": "New:MachineLearning",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:LocalLLaMA",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:programming",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:technology",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:netsec",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:opensource",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:selfhosted",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:science",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:OpenAI",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:Anthropic",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:singularity",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "New:robotics",
+      "reason": "continuity boundary not reached in four stable pages",
+      "frozen": true,
+      "last_checkpoint": "t3_unknown",
+      "recovery": "resume saved next_url and merge with this durable window"
+    },
+    {
+      "source": "Snapshot:MachineLearning:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:MachineLearning:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:LocalLLaMA:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:LocalLLaMA:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:programming:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:programming:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:technology:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:technology:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:netsec:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:netsec:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:opensource:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:opensource:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:selfhosted:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:selfhosted:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:science:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:science:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:OpenAI:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:OpenAI:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:Anthropic:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:Anthropic:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:singularity:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:singularity:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:robotics:hot",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Snapshot:robotics:rising",
+      "reason": "browser batch timeout",
+      "frozen": true,
+      "recovery": "retry this sort independently; do not treat another sort as evidence"
+    },
+    {
+      "source": "Global:home",
+      "reason": "browser batch timed out before durable snapshot",
+      "frozen": true,
+      "recovery": "retry this feed independently and verify it is distinct"
+    },
+    {
+      "source": "Global:popular",
+      "reason": "browser batch timed out before durable snapshot",
+      "frozen": true,
+      "recovery": "retry this feed independently and verify it is distinct"
+    },
+    {
+      "source": "Global:all",
+      "reason": "browser batch timed out before distinct URL verification",
+      "frozen": true,
+      "recovery": "retry this feed independently and verify it is distinct"
+    },
+    {
+      "source": "Search:AI agent OR agentic coding",
+      "reason": "stable first window only; no durable parsed posts or boundary",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:LLM inference OR quantization",
+      "reason": "search DOM changed during stability sampling",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:open weights OR open source AI",
+      "reason": "stable first window only; no durable parsed posts or boundary",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:AI chip OR GPU OR inference accelerator",
+      "reason": "stable first window only; no durable parsed posts or boundary",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:robotics foundation model",
+      "reason": "search DOM changed during stability sampling",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:AI security OR prompt injection",
+      "reason": "stable first window only; no durable parsed posts or boundary",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:developer tools OR programming language",
+      "reason": "search DOM changed during stability sampling",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    },
+    {
+      "source": "Search:data center energy water",
+      "reason": "search DOM changed during stability sampling",
+      "frozen": true,
+      "recovery": "resume the modern Posts + New stream from its saved boundary"
+    }
+  ],
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "search continuity frozen"
+  }
+}
