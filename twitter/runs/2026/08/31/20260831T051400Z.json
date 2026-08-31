@@ -1116,7 +1116,8 @@
     "status": "pushed",
     "commit": "e7534d354a8d887267b2cc76fff0ae796aee6c5d",
     "remote": "origin/main",
-    "verified": true
+    "verified": true,
+    "finalization_commit": "da715402aa227fab7256ed9ab22eaae6f0536950"
   },
   "dingtalk": {
     "status": "sent",
