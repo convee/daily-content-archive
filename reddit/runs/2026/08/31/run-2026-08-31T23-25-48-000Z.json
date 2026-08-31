@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "platform": "reddit",
+  "started_at_utc": "2026-08-31T23:25:48.000Z",
+  "completed_at_utc": "2026-08-31T23:25:48.000Z",
+  "lock_owner": "Reddit-20260831T232234Z-eeec9c",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples": 3
+  },
+  "raw_file": "reddit/raw/2026/08/31/browser-batch-2026-08-31T23-25-48-000Z.jsonl",
+  "raw_files": [
+    "reddit/raw/2026/08/31/browser-batch-2026-08-31T23-25-48-000Z.jsonl"
+  ],
+  "records": {
+    "posts": 0,
+    "comments": 0,
+    "by_source": {}
+  },
+  "layers": {
+    "new": {
+      "attempted": 12,
+      "success": 0,
+      "failure": 12
+    },
+    "hot_rising": {
+      "attempted": 24,
+      "success": 0,
+      "failure": 24
+    },
+    "global": {
+      "attempted": 3,
+      "success": 0,
+      "failure": 3
+    },
+    "search": {
+      "attempted": 8,
+      "success": 0,
+      "failure": 8
+    },
+    "comments": {
+      "due": 0,
+      "success": 0,
+      "failure": 0
+    },
+    "community_discovery": {
+      "candidates_added": 0
+    }
+  },
+  "failure_ledger": [
+    {
+      "source": "Chrome batch probe",
+      "reason": "Chrome execution timed out while performing required three-sample stability checks; browser kernel reset before results could be durably returned",
+      "frozen": true,
+      "recovery": "Reconnect Chrome; resume each source independently from its saved continuation/checkpoint; do not advance cursors"
+    },
+    {
+      "source": "New",
+      "reason": "all 12 community /new probes were started in the single Chrome batch but no complete durable result set returned",
+      "frozen": true,
+      "recovery": "rerun each /new source with durable observation output before checkpoint changes"
+    },
+    {
+      "source": "Hot/Rising",
+      "reason": "batch interrupted before complete durable snapshots were returned",
+      "frozen": true,
+      "recovery": "rerun all 24 snapshots independently"
+    },
+    {
+      "source": "Home/Popular/All",
+      "reason": "batch interrupted before complete durable snapshots were returned",
+      "frozen": true,
+      "recovery": "rerun each global feed and verify All is distinct from Home"
+    },
+    {
+      "source": "Search",
+      "reason": "batch interrupted before modern Posts + New results could be persisted",
+      "frozen": true,
+      "recovery": "rerun all eight queries with stable sampling and boundary traversal"
+    },
+    {
+      "source": "Comment revisit",
+      "reason": "not reached because Chrome batch tool timed out",
+      "frozen": true,
+      "recovery": "run all due revisit tasks after browser recovery"
+    }
+  ],
+  "failures": [
+    {
+      "source": "Chrome batch probe",
+      "reason": "Chrome execution timed out while performing required three-sample stability checks; browser kernel reset before results could be durably returned",
+      "frozen": true,
+      "recovery": "Reconnect Chrome; resume each source independently from its saved continuation/checkpoint; do not advance cursors"
+    },
+    {
+      "source": "New",
+      "reason": "all 12 community /new probes were started in the single Chrome batch but no complete durable result set returned",
+      "frozen": true,
+      "recovery": "rerun each /new source with durable observation output before checkpoint changes"
+    },
+    {
+      "source": "Hot/Rising",
+      "reason": "batch interrupted before complete durable snapshots were returned",
+      "frozen": true,
+      "recovery": "rerun all 24 snapshots independently"
+    },
+    {
+      "source": "Home/Popular/All",
+      "reason": "batch interrupted before complete durable snapshots were returned",
+      "frozen": true,
+      "recovery": "rerun each global feed and verify All is distinct from Home"
+    },
+    {
+      "source": "Search",
+      "reason": "batch interrupted before modern Posts + New results could be persisted",
+      "frozen": true,
+      "recovery": "rerun all eight queries with stable sampling and boundary traversal"
+    },
+    {
+      "source": "Comment revisit",
+      "reason": "not reached because Chrome batch tool timed out",
+      "frozen": true,
+      "recovery": "run all due revisit tasks after browser recovery"
+    }
+  ],
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "partial source evidence"
+  }
+}

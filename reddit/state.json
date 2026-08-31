@@ -10790,113 +10790,45 @@
   },
   "last_run_failure_ledger": [
     {
-      "source": "New:LocalLLaMA",
-      "reason": "continuity boundary not reached in four stable pages",
+      "source": "Chrome batch probe",
+      "reason": "Chrome execution timed out while performing required three-sample stability checks; browser kernel reset before results could be durably returned",
       "frozen": true,
-      "last_checkpoint": "t3_1w1meuk",
-      "recovery": "resume saved next_url and merge with this durable window"
+      "recovery": "Reconnect Chrome; resume each source independently from its saved continuation/checkpoint; do not advance cursors"
     },
     {
-      "source": "New:programming",
-      "reason": "continuity boundary not reached in four stable pages",
+      "source": "New",
+      "reason": "all 12 community /new probes were started in the single Chrome batch but no complete durable result set returned",
       "frozen": true,
-      "last_checkpoint": "t3_1vzw7as",
-      "recovery": "resume saved next_url and merge with this durable window"
+      "recovery": "rerun each /new source with durable observation output before checkpoint changes"
     },
     {
-      "source": "New:technology",
-      "reason": "continuity boundary not reached in four stable pages",
+      "source": "Hot/Rising",
+      "reason": "batch interrupted before complete durable snapshots were returned",
       "frozen": true,
-      "last_checkpoint": "t3_1vzwxyi",
-      "recovery": "resume saved next_url and merge with this durable window"
+      "recovery": "rerun all 24 snapshots independently"
     },
     {
-      "source": "New:opensource",
-      "reason": "continuity boundary not reached in four stable pages",
+      "source": "Home/Popular/All",
+      "reason": "batch interrupted before complete durable snapshots were returned",
       "frozen": true,
-      "last_checkpoint": "t3_1vzwv8l",
-      "recovery": "resume saved next_url and merge with this durable window"
+      "recovery": "rerun each global feed and verify All is distinct from Home"
     },
     {
-      "source": "New:selfhosted",
-      "reason": "continuity boundary not reached in four stable pages",
+      "source": "Search",
+      "reason": "batch interrupted before modern Posts + New results could be persisted",
       "frozen": true,
-      "last_checkpoint": "t3_1w1kygg",
-      "recovery": "resume saved next_url and merge with this durable window"
+      "recovery": "rerun all eight queries with stable sampling and boundary traversal"
     },
     {
-      "source": "New:OpenAI",
-      "reason": "continuity boundary not reached in four stable pages",
+      "source": "Comment revisit",
+      "reason": "not reached because Chrome batch tool timed out",
       "frozen": true,
-      "last_checkpoint": "t3_1w1litm",
-      "recovery": "resume saved next_url and merge with this durable window"
-    },
-    {
-      "source": "New:Anthropic",
-      "reason": "continuity boundary not reached in four stable pages",
-      "frozen": true,
-      "last_checkpoint": "t3_1w1jyk7",
-      "recovery": "resume saved next_url and merge with this durable window"
-    },
-    {
-      "source": "New:robotics",
-      "reason": "continuity boundary not reached in four stable pages",
-      "frozen": true,
-      "last_checkpoint": "t3_1w1m7qd",
-      "recovery": "resume saved next_url and merge with this durable window"
-    },
-    {
-      "source": "Search:AI agent OR agentic coding",
-      "reason": "modern Posts + New result container unavailable or returned no parseable /comments/ links",
-      "frozen": true,
-      "recovery": "resume the modern Posts + New stream from its saved boundary"
-    },
-    {
-      "source": "Search:LLM inference OR quantization",
-      "reason": "modern Posts + New result container unavailable or returned no parseable /comments/ links",
-      "frozen": true,
-      "recovery": "resume the modern Posts + New stream from its saved boundary"
-    },
-    {
-      "source": "Search:open weights OR open source AI",
-      "reason": "modern Posts + New result container unavailable or returned no parseable /comments/ links",
-      "frozen": true,
-      "recovery": "resume the modern Posts + New stream from its saved boundary"
-    },
-    {
-      "source": "Search:AI chip OR GPU OR inference accelerator",
-      "reason": "modern Posts + New result container unavailable or returned no parseable /comments/ links",
-      "frozen": true,
-      "recovery": "resume the modern Posts + New stream from its saved boundary"
-    },
-    {
-      "source": "Search:robotics foundation model",
-      "reason": "modern Posts + New result container unavailable or returned no parseable /comments/ links",
-      "frozen": true,
-      "recovery": "resume the modern Posts + New stream from its saved boundary"
-    },
-    {
-      "source": "Search:AI security OR prompt injection",
-      "reason": "modern Posts + New result container unavailable or returned no parseable /comments/ links",
-      "frozen": true,
-      "recovery": "resume the modern Posts + New stream from its saved boundary"
-    },
-    {
-      "source": "Search:developer tools OR programming language",
-      "reason": "modern Posts + New result container unavailable or returned no parseable /comments/ links",
-      "frozen": true,
-      "recovery": "resume the modern Posts + New stream from its saved boundary"
-    },
-    {
-      "source": "Search:data center energy water",
-      "reason": "modern Posts + New result container unavailable or returned no parseable /comments/ links",
-      "frozen": true,
-      "recovery": "resume the modern Posts + New stream from its saved boundary"
+      "recovery": "run all due revisit tasks after browser recovery"
     }
   ],
   "last_tool_failure": {
-    "at_utc": "2026-08-31T21:26:29.949Z",
-    "reason": "search continuity remains frozen; New failures isolated to three saved continuations"
+    "at_utc": "2026-08-31T23:25:48.000Z",
+    "reason": "browser collection preserved as partial; all cursors frozen"
   },
   "last_dingtalk_delivery": {
     "status": "sent",
