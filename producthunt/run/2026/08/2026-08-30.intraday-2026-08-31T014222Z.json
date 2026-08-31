@@ -15,7 +15,10 @@
   "failure_ledger": [{"entry": "https://www.producthunt.com/leaderboard/daily/2026/8/30/all", "failure": "All exposed 50 visible ranked products spanning ranks 1 through 582, but no pagination control, continuation cursor, or terminal exhausted state. The complete All set cannot be verified.", "partial_evidence_saved": true}],
   "state": {"intraday_snapshots_advanced": false, "date_ledger_advanced": false, "last_complete_date_advanced": false},
   "evidence": ["producthunt/raw/2026/08/2026-08-30.intraday-2026-08-31T014222Z.json"],
-  "delivery": {"github_push": {"status": "PENDING"}, "dingtalk": {"status": "PENDING"}},
+  "delivery": {
+    "github_push": {"status": "SUCCESS", "evidence_commit": "4909b57a499f320ecb3967631845c320417e8642", "remote": "origin/main", "remote_verified": true},
+    "dingtalk": {"status": "SUCCESS", "kind": "exception_notice", "openTaskId": "pjugxhKew3raV7tUSg4M1JjLPLX49lJrtodZrNgLelc=", "openMessageId": "msgBDcCt2WEQp+BsfqEt66seg==", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "target_group_matches_fixed_group": true, "verified_sendStatus": "SUCCESS"}
+  },
   "published": false,
   "archive_page": false,
   "next_action": "Retry only with logged-in local Chrome after Product Hunt exposes a complete All listing with a verifiable pagination terminal state."
