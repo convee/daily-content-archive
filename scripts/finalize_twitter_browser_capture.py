@@ -42,6 +42,7 @@ for source in capture["results"]:
         "actual_url": source.get("actual_url"), "title": source.get("title"),
         "stability_samples": source.get("stability_samples", []), "stable": source.get("stable"),
         "retry_count": source.get("retry_count", 0), "batches": 1,
+        "error": source.get("error"),
         "observed_status_ids": ids, "deepest_status_id": ids[-1] if ids else None,
         "checkpoint_reached": False, "continuation_input": state.get("frozen_sources", {}).get(source_key, {}).get("continuation"),
     })
@@ -54,6 +55,7 @@ for feed in capture["feeds"]:
             ids.append(sid); posts.setdefault(sid, row); sources_by_id[sid].add(source_key)
     attempts.append({"source": source_key, "source_type": source_key, "requested_url": "https://x.com/home",
         "actual_url": feed.get("actual_url"), "batches": feed.get("batches", []), "observed_status_ids": ids,
+        "error": feed.get("error", "post_dom_unavailable_after_reload_and_new_tab_retry" if not ids else None),
         "deepest_status_id": ids[-1] if ids else None, "checkpoint_reached": False,
         "continuation_input": state.get("frozen_sources", {}).get(source_key, {}).get("continuation")})
 
@@ -101,10 +103,11 @@ accounts=[a for a in attempts if a["source_type"]=="account"]
 queries=[a for a in attempts if a["source_type"]=="query"]
 following=[a for a in attempts if a["source"]=="following"]
 for_you=[a for a in attempts if a["source"]=="for_you"]
+reply_failures = sum(bool(page.get("error")) for page in capture["replies"])
 run={"schema_version":3,"platform":"twitter","status":"partial_frozen","started_at_utc":captured_at,"completed_at_utc":utc_now(),
  "lock_owner":owner,"browser":{"surface":"Chrome","read_only":True,"stable_samples_required":3},"raw_files":[raw_rel],
  "records":{"posts_observed":len(posts),"new_status_ids":len(new_ids),"replies_checked":len(reply_records),"replies_selected":sum(r["selected"] for r in reply_records)},
- "layers":{"accounts":{"attempted":len(accounts),"success":0,"failure":len(accounts),"sources":accounts},"queries":{"attempted":len(queries),"success":0,"failure":len(queries),"sources":queries},"following":{"attempted":1,"success":0,"failure":1,"sources":following},"for_you":{"attempted":1,"success":0,"failure":1,"sources":for_you},"replies":{"attempted":len(capture["replies"]),"success":len(capture["replies"]),"failure":0,"pages":capture["replies"]}},
+ "layers":{"accounts":{"attempted":len(accounts),"success":0,"failure":len(accounts),"sources":accounts},"queries":{"attempted":len(queries),"success":0,"failure":len(queries),"sources":queries},"following":{"attempted":1,"success":0,"failure":1,"sources":following},"for_you":{"attempted":1,"success":0,"failure":1,"sources":for_you},"replies":{"attempted":len(capture["replies"]),"success":len(capture["replies"])-reply_failures,"failure":reply_failures,"pages":capture["replies"]}},
  "continuation":{"input":"state.frozen_sources","output":"updated per attempted source"},"health":{"pre_publish":"degraded_without_errors"},"publication":{"eligible":False,"reason":"partial frozen sweep; no public daily update"},"github":{"status":"pending_commit_and_push"},"dingtalk":{"status":"not_sent"}}
 state_path.write_text(json.dumps(state,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 run_path.write_text(json.dumps(run,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
