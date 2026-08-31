@@ -1,0 +1,24 @@
+{
+  "schema_version": 3,
+  "platform": "twitter",
+  "status": "partial_frozen",
+  "started_at_utc": "2026-08-31T09:11:33Z",
+  "completed_at_utc": "2026-08-31T09:18:00Z",
+  "lock_owner": "twitter-20260831T091133Z-4a580b",
+  "browser": {"surface":"Chrome","read_only":true,"stable_samples_required":3,"retry_policy":"reload/new-tab retry once"},
+  "health": {"before":"degraded","before_errors":0,"before_issue":"latest_run_degraded","after":"degraded","after_errors":0},
+  "raw_files": ["twitter/raw/2026/08/31/20260831T091800Z-browser-attempts.jsonl"],
+  "records": {"posts_observed":0,"new_status_ids":0,"replies_checked":0,"replies_selected":0},
+  "layers": {
+    "accounts":{"attempted":19,"success":0,"failure":19,"sources":[
+      {"source":"account:OpenAI","batches":2,"checkpoint_reached":false,"deepest_status_id":"2092691861773160673","raw_file":"twitter/raw/2026/08/31/20260831T091800Z-browser-attempts.jsonl"},{"source":"account:AnthropicAI","batches":2,"checkpoint_reached":false,"deepest_status_id":"2092661574523867302","raw_file":"twitter/raw/2026/08/31/20260831T091800Z-browser-attempts.jsonl"},{"source":"account:GoogleDeepMind","batches":2,"checkpoint_reached":false,"deepest_status_id":null},{"source":"account:xai","batches":2,"checkpoint_reached":false,"deepest_status_id":null},{"source":"account:MistralAI","batches":2,"checkpoint_reached":false,"deepest_status_id":null},{"source":"account:AIatMeta","batches":2,"checkpoint_reached":false,"deepest_status_id":null},{"source":"account:huggingface","batches":2,"checkpoint_reached":false,"deepest_status_id":null},{"source":"account:nvidia","batches":2,"checkpoint_reached":false,"deepest_status_id":null},{"source":"account:GitHub","batches":2,"checkpoint_reached":false,"deepest_status_id":null},{"source":"account:ycombinator","batches":2,"checkpoint_reached":false,"deepest_status_id":null},{"source":"account:producthunt","batches":2,"checkpoint_reached":false,"deepest_status_id":"2093323168073318449"},{"source":"account:TechCrunch","batches":2,"checkpoint_reached":false,"deepest_status_id":null},{"source":"account:arxiv","batches":2,"checkpoint_reached":false,"deepest_status_id":"2039441602964304025"},{"source":"account:karpathy","batches":2,"checkpoint_reached":false,"deepest_status_id":null},{"source":"account:AndrewYNg","batches":2,"checkpoint_reached":false,"deepest_status_id":"2092315079576555806"},{"source":"account:ylecun","batches":2,"checkpoint_reached":false,"deepest_status_id":"2080588168781336630"},{"source":"account:simonw","batches":2,"checkpoint_reached":false,"deepest_status_id":"2093081897517674630"},{"source":"account:swyx","batches":2,"checkpoint_reached":false,"deepest_status_id":"2092492963435946494"},{"source":"account:hardmaru","batches":2,"checkpoint_reached":false,"deepest_status_id":"2091758663199600785"}]},
+    "queries":{"attempted":5,"success":0,"failure":5,"sources":["AI agent OR agentic coding","LLM inference OR AI chips","open weights OR open source AI","robotics foundation model","AI security OR prompt injection"]},
+    "following":{"attempted":1,"success":0,"failure":1,"batches":2,"checkpoint_reached":false,"deepest_status_id":"2094138178009551089"},
+    "for_you":{"attempted":1,"success":0,"failure":1,"batches":2,"snapshot_complete":false,"first_status_id":"2094318519257067596","last_status_id":"2094022347464323140"},
+    "replies":{"attempted":0,"failure":1,"reason":"no stable high-signal parent post available after source freezes"}
+  },
+  "continuation":{"input":"retained frozen state from 2026-08-31T07:15:07Z","output":"all continuous checkpoints unchanged; no partial visible window promoted"},
+  "github":{"evidence_commit":"9604c9283cdc2c7f8f03042d168f6035cc371aa1","finalization_commit":"PENDING","origin_main_verified":true},
+  "dingtalk":{"message_type":"exception_alert","target_openConversationId":"cid4JFchXCBwQIK2cKxUXZwWw==","target_verified":true,"openTaskId":"/tzLWGM0Yg+gJ5eSZvGDFmmC3ATNidz9DnzgK4O8BbA=","openMessageId":"msgADBN+PL1uepENyegOGbNAw==","sendStatus":"SUCCESS"},
+  "daily":{"generated":false,"page_updated":false,"reason":"partial run and archive health degraded; public page not replaced"}
+}
