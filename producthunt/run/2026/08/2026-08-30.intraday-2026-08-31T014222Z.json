@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-30",
+  "run_at_utc": "2026-08-31T01:42:22Z",
+  "owner": "Product Hunt-20260831T014029Z-f6536d",
+  "mode": "intraday_snapshot",
+  "result": "frozen_failure",
+  "official_date_verified": true,
+  "browser": "logged_in_local_chrome_read_only",
+  "continuation": {
+    "input": "Start at the official 2026-08-30 daily Featured and All URLs.",
+    "output": "Frozen after a stable All view lacked a pagination or continuation terminal state."
+  },
+  "stability_sampling": {"featured_samples": 3, "all_samples": 3, "interval_ms": 600, "reload_retries": 0, "new_tab_retries": 0},
+  "counts": {"featured_visible_ranked": 17, "all_visible_ranked": 50, "intraday_snapshot_saved": 0},
+  "failure_ledger": [{"entry": "https://www.producthunt.com/leaderboard/daily/2026/8/30/all", "failure": "All exposed 50 visible ranked products spanning ranks 1 through 582, but no pagination control, continuation cursor, or terminal exhausted state. The complete All set cannot be verified.", "partial_evidence_saved": true}],
+  "state": {"intraday_snapshots_advanced": false, "date_ledger_advanced": false, "last_complete_date_advanced": false},
+  "evidence": ["producthunt/raw/2026/08/2026-08-30.intraday-2026-08-31T014222Z.json"],
+  "delivery": {"github_push": {"status": "PENDING"}, "dingtalk": {"status": "PENDING"}},
+  "published": false,
+  "archive_page": false,
+  "next_action": "Retry only with logged-in local Chrome after Product Hunt exposes a complete All listing with a verifiable pagination terminal state."
+}

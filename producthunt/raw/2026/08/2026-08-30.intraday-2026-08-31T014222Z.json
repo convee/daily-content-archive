@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-30",
+  "captured_at": "2026-08-31T01:42:22Z",
+  "browser": "logged_in_local_chrome_read_only",
+  "mode": "intraday_snapshot_frozen_evidence",
+  "stability_sampling": {
+    "samples": 3,
+    "minimum_interval_ms": 600,
+    "featured": {
+      "url": "https://www.producthunt.com/leaderboard/daily/2026/8/30",
+      "title": "Best of Product Hunt: August 30, 2026 | Product Hunt",
+      "product_anchor_count": 35,
+      "visible_ranked": 17,
+      "stable": true
+    },
+    "all": {
+      "url": "https://www.producthunt.com/leaderboard/daily/2026/8/30/all",
+      "title": "Best of Product Hunt: August 30, 2026 | Product Hunt",
+      "product_anchor_count": 36,
+      "visible_ranked": 50,
+      "stable": true,
+      "pagination_controls": [],
+      "pagination_exhaustion_verifiable": false
+    }
+  },
+  "featured_visible_ranked": [
+    "1. Topview Motion Studio", "2. Hyperfocus", "3. Olostep", "4. Prequel", "5. Murfy AI", "6. Referent", "7. Ravioli", "8. RIP MY BUILD", "9. Ulpaso", "10. Superagent", "11. Sayscroll", "12. oMLX", "13. Retro Y2K Theme", "14. Maritime", "15. Edge Drop", "16. Skud", "17. Caplio"
+  ],
+  "all_observation": {
+    "visible_ranked": 50,
+    "rank_range_observed": [1, 582],
+    "featured_subset_observed": true,
+    "selected_entries": [
+      "1. Topview Motion Studio — 253 points, 62 comments", "2. Hyperfocus — 238 points, 65 comments", "3. Olostep — 197 points, 18 comments", "4. Prequel — 168 points, 10 comments", "5. Murfy AI — 163 points, 34 comments", "6. Referent — 159 points, 48 comments", "17. Caplio — 75 points, 2 comments", "18. Softorino Online Converter — 36 points, 17 comments", "80. Sentrint — 2 points, 1 comment", "582. Convobox — 1 point, 3 comments"
+    ]
+  },
+  "failure_gates": [
+    "All listing exposes no pagination control or verifiable exhausted terminal state",
+    "All rendered list is a partial surface: 50 visible records span ranks 1 through 582 without a continuation boundary",
+    "Stable complete All product-ID set and full metadata cannot be established from the visible surface"
+  ],
+  "notes": "The page date was read from the official leaderboard title. Three stable Chrome samples were recorded for each URL; one scroll-to-end pass was attempted per board. No voting, commenting, following, subscription, or account change was performed. This evidence is frozen and is not an intraday snapshot."
+}
