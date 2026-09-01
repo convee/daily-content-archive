@@ -78,6 +78,15 @@
                 "ordered backlog is blocked at 2026-08-25; intraday snapshot is auxiliary evidence only and cannot settle this date"
             ],
             "run": "producthunt/run/2026/08/2026-08-31.json"
+        },
+        "2026-08-31": {
+            "status": "closed_pending",
+            "updated_at_utc": "2026-09-01T08:17:04Z",
+            "missing_gates": [
+                "ordered backlog is blocked at 2026-08-25",
+                "mandatory local Chrome browser binding unavailable; no official closed-day collection was attempted"
+            ],
+            "run": "producthunt/run/2026/09/2026-08-31.chrome-unavailable-2026-09-01T081704Z.json"
         }
   },
   "intraday_snapshots": {},

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "captured_at_utc": "2026-09-01T08:17:04Z",
+  "surface": "logged_in_local_chrome_read_only",
+  "operation": "connect_chrome_for_producthunt_closed_day_collection",
+  "target": "https://www.producthunt.com/",
+  "result": "unavailable",
+  "error": "Browser is not available: chrome",
+  "collection_not_attempted": true,
+  "reason": "The required local Chrome browser binding was unavailable; no fallback source was used so logged-in browser-only collection remains enforceable.",
+  "dates_frozen": ["2026-08-25", "2026-08-26", "2026-08-27", "2026-08-28", "2026-08-29", "2026-08-30", "2026-08-31"]
+}
