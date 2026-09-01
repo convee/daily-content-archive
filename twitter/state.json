@@ -2,7 +2,7 @@
   "schema_version": 1,
   "continuity_started_at_utc": "2026-08-26T12:44:32Z",
   "last_successful_run_at_utc": "2026-08-27T13:30:50.153Z",
-  "last_run_at_utc": "2026-09-01T07:13:08Z",
+  "last_run_at_utc": "2026-09-01T09:13:31Z",
   "seen_status_ids": [
     "806464279302049792",
     "1281424520100737025",
@@ -4579,10 +4579,10 @@
   ],
   "frozen_sources": {
     "query:AI agent OR agentic coding": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -4595,10 +4595,10 @@
       }
     },
     "query:LLM inference OR AI chips": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -4611,10 +4611,10 @@
       }
     },
     "query:open weights OR open source AI": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -4627,10 +4627,10 @@
       }
     },
     "query:AI security OR prompt injection": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -4643,10 +4643,10 @@
       }
     },
     "following": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_eight_batches",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -4659,10 +4659,10 @@
       }
     },
     "for_you": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "eight_batches_completed_without_two_consecutive_zero_new_batches",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -4811,10 +4811,10 @@
       "freeze_note": "Chrome control unavailable in 20260901T051220Z; checkpoint retained unchanged from prior continuation."
     },
     "query:robotics foundation model": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5022,10 +5022,10 @@
       "previous_continuation": null
     },
     "account:OpenAI": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5038,10 +5038,10 @@
       }
     },
     "account:AnthropicAI": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5054,10 +5054,10 @@
       }
     },
     "account:GoogleDeepMind": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5070,10 +5070,10 @@
       }
     },
     "account:xai": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5086,10 +5086,10 @@
       }
     },
     "account:MistralAI": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5102,10 +5102,10 @@
       }
     },
     "account:AIatMeta": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5118,10 +5118,10 @@
       }
     },
     "account:huggingface": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5134,10 +5134,10 @@
       }
     },
     "account:nvidia": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5150,10 +5150,10 @@
       }
     },
     "account:GitHub": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5166,10 +5166,10 @@
       }
     },
     "account:ycombinator": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5182,10 +5182,10 @@
       }
     },
     "account:producthunt": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5198,10 +5198,10 @@
       }
     },
     "account:TechCrunch": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5214,10 +5214,10 @@
       }
     },
     "account:arxiv": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5230,10 +5230,10 @@
       }
     },
     "account:karpathy": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5246,10 +5246,10 @@
       }
     },
     "account:AndrewYNg": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5262,10 +5262,10 @@
       }
     },
     "account:ylecun": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5278,10 +5278,10 @@
       }
     },
     "account:simonw": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5294,10 +5294,10 @@
       }
     },
     "account:swyx": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5310,10 +5310,10 @@
       }
     },
     "account:hardmaru": {
-      "frozen_at_utc": "2026-09-01T07:13:08Z",
-      "reason": "continuity_boundary_not_reached_in_visible_stable_window",
+      "frozen_at_utc": "2026-09-01T09:13:31Z",
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
       "last_deepest_status_id": null,
-      "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl",
+      "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl",
       "continuation": {
         "last_observed_id": null,
         "captured_at": "2026-09-01T07:13:08Z",
@@ -5347,7 +5347,7 @@
     }
   },
   "last_run_status": "partial_frozen",
-  "last_run_reason": "All 19 accounts, five Latest queries, Following and For You were attempted in read-only Chrome. Continuous checkpoints were not reached; all continuous cursors frozen. For You remains an incomplete eight-batch discovery snapshot.",
+  "last_run_reason": "Chrome browser connection unavailable; no read-only authenticated surface available",
   "last_dingtalk_delivery": {
     "status": "sent",
     "target_openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
@@ -5358,5 +5358,5 @@
     "sendStatus": "SUCCESS",
     "verified_at_utc": "2026-09-01T07:14:40Z"
   },
-  "last_raw_file": "twitter/raw/2026/09/01/20260901T071308Z-browser-sweep.jsonl"
+  "last_raw_file": "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl"
 }

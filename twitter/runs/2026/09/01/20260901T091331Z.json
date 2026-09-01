@@ -1,0 +1,778 @@
+{
+  "schema_version": 3,
+  "platform": "twitter",
+  "status": "partial_frozen",
+  "started_at_utc": "2026-09-01T09:13:31Z",
+  "completed_at_utc": "2026-09-01T09:13:31Z",
+  "lock_owner": "twitter-20260901T091213Z-1d18a1",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "stable_samples_required": 3,
+    "connection": "unavailable"
+  },
+  "raw_files": [
+    "twitter/raw/2026/09/01/20260901T091331Z-browser-unavailable.jsonl"
+  ],
+  "records": {
+    "posts_observed": 0,
+    "new_status_ids": 0,
+    "replies_checked": 0,
+    "replies_selected": 0
+  },
+  "layers": {
+    "accounts": {
+      "attempted": 19,
+      "success": 0,
+      "failure": 19,
+      "sources": [
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:OpenAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/OpenAI",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:AnthropicAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/AnthropicAI",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:GoogleDeepMind",
+          "source_type": "account",
+          "requested_url": "https://x.com/GoogleDeepMind",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:xai",
+          "source_type": "account",
+          "requested_url": "https://x.com/xai",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:MistralAI",
+          "source_type": "account",
+          "requested_url": "https://x.com/MistralAI",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:AIatMeta",
+          "source_type": "account",
+          "requested_url": "https://x.com/AIatMeta",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:huggingface",
+          "source_type": "account",
+          "requested_url": "https://x.com/huggingface",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:nvidia",
+          "source_type": "account",
+          "requested_url": "https://x.com/nvidia",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:GitHub",
+          "source_type": "account",
+          "requested_url": "https://x.com/GitHub",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:ycombinator",
+          "source_type": "account",
+          "requested_url": "https://x.com/ycombinator",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:producthunt",
+          "source_type": "account",
+          "requested_url": "https://x.com/producthunt",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:TechCrunch",
+          "source_type": "account",
+          "requested_url": "https://x.com/TechCrunch",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:arxiv",
+          "source_type": "account",
+          "requested_url": "https://x.com/arxiv",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:karpathy",
+          "source_type": "account",
+          "requested_url": "https://x.com/karpathy",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:AndrewYNg",
+          "source_type": "account",
+          "requested_url": "https://x.com/AndrewYNg",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:ylecun",
+          "source_type": "account",
+          "requested_url": "https://x.com/ylecun",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:simonw",
+          "source_type": "account",
+          "requested_url": "https://x.com/simonw",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:swyx",
+          "source_type": "account",
+          "requested_url": "https://x.com/swyx",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "account:hardmaru",
+          "source_type": "account",
+          "requested_url": "https://x.com/hardmaru",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        }
+      ]
+    },
+    "queries": {
+      "attempted": 5,
+      "success": 0,
+      "failure": 5,
+      "sources": [
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "query:AI agent OR agentic coding",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=AI%20agent%20OR%20agentic%20coding&f=live",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "query:LLM inference OR AI chips",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=LLM%20inference%20OR%20AI%20chips&f=live",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "query:open weights OR open source AI",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=open%20weights%20OR%20open%20source%20AI&f=live",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "query:robotics foundation model",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=robotics%20foundation%20model&f=live",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        },
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "query:AI security OR prompt injection",
+          "source_type": "query",
+          "requested_url": "https://x.com/search?q=AI%20security%20OR%20prompt%20injection&f=live",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        }
+      ]
+    },
+    "following": {
+      "attempted": 1,
+      "success": 0,
+      "failure": 1,
+      "sources": [
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "following",
+          "source_type": "following",
+          "requested_url": "https://x.com/home",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        }
+      ]
+    },
+    "for_you": {
+      "attempted": 1,
+      "success": 0,
+      "failure": 1,
+      "sources": [
+        {
+          "record_type": "source_attempt",
+          "captured_at": "2026-09-01T09:13:31Z",
+          "source": "for_you",
+          "source_type": "for_you",
+          "requested_url": "https://x.com/home",
+          "actual_url": null,
+          "title": null,
+          "stability_samples": [],
+          "stable": false,
+          "retry_count": 1,
+          "batches": 0,
+          "error": "Chrome browser connection unavailable; no read-only authenticated surface available",
+          "observed_status_ids": [],
+          "deepest_status_id": null,
+          "checkpoint_reached": false,
+          "continuation_input": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          },
+          "continuation_output": {
+            "last_observed_id": null,
+            "captured_at": "2026-09-01T07:13:08Z",
+            "batches": 0
+          }
+        }
+      ]
+    },
+    "replies": {
+      "attempted": 0,
+      "success": 0,
+      "failure": 1,
+      "reason": "Chrome browser connection unavailable; no read-only authenticated surface available"
+    }
+  },
+  "continuation": {
+    "input": "origin/main frozen checkpoints and continuation evidence",
+    "output": "unchanged; browser unavailable"
+  },
+  "health": {
+    "pre_publish": "degraded_without_errors"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "partial frozen run; no public daily update"
+  },
+  "github": {
+    "status": "pending_commit_and_push"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  }
+}
