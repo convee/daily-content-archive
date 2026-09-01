@@ -10,6 +10,8 @@
     "status": "unavailable",
     "error": "Browser is not available: chrome"
   },
+  "raw_file": "reddit/raw/2026/09/01/partial-probe-2026-09-01T03-22-42Z.jsonl",
+  "raw_files": ["reddit/raw/2026/09/01/partial-probe-2026-09-01T03-22-42Z.jsonl"],
   "records": {"posts": 0, "comments": 0, "selected_comments": 0},
   "layers": {
     "new": {"attempted": 12, "success": 0, "failure": 12, "detail": "Not run: the required logged-in Chrome surface was unavailable before navigation. All community New checkpoints remain frozen."},
