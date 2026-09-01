@@ -10814,14 +10814,14 @@
       "recovery": "Retry all three independently and verify All is distinct from Home."
     },
     {
-      "source": "Search (0 queries)",
+      "source": "Search (8 queries)",
       "reason": "Not run; no modern Posts + New traversal occurred.",
       "frozen": true,
       "recovery": "Retry every query from its existing checkpoint after Chrome recovery."
     }
   ],
   "last_tool_failure": {
-    "at_utc": "2026-09-01T09:22:46Z",
+    "at_utc": "2026-09-01T09:23:10Z",
     "reason": "Required logged-in local Chrome binding unavailable before navigation"
   },
   "last_dingtalk_delivery": {
@@ -10831,6 +10831,6 @@
     "openMessageId": "msgg0KrxzfnujQURncY6J+iFQ==",
     "sendStatus": "SUCCESS"
   },
-  "last_run_at_utc": "2026-09-01T09:22:46Z",
+  "last_run_at_utc": "2026-09-01T09:23:10Z",
   "last_run_status": "partial_frozen"
 }

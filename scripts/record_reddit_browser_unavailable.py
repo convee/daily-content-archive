@@ -17,7 +17,7 @@ state_path = repo / "reddit/state.json"
 sources = json.loads((repo / "reddit/sources.json").read_text(encoding="utf-8"))
 state = json.loads(state_path.read_text(encoding="utf-8"))
 communities = sources.get("priority_communities", sources.get("communities", []))
-queries = sources.get("search_queries", sources.get("queries", []))
+queries = sources.get("sitewide_searches", sources.get("search_queries", sources.get("queries", [])))
 error = "Required logged-in local Chrome binding unavailable before navigation"
 
 def entry(layer, source, checkpoint=None):
