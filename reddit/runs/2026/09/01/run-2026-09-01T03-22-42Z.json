@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "platform": "reddit",
+  "started_at_utc": "2026-09-01T03:22:42Z",
+  "completed_at_utc": "2026-09-01T03:28:30Z",
+  "lock_owner": "Reddit-20260901T032242Z-vu71i5",
+  "browser": {"surface": "Chrome", "read_only": true, "stable_samples": 3},
+  "raw_file": "reddit/raw/2026/09/01/partial-probe-2026-09-01T03-22-42Z.jsonl",
+  "raw_files": ["reddit/raw/2026/09/01/partial-probe-2026-09-01T03-22-42Z.jsonl"],
+  "records": {"posts": 3, "comments": 0, "by_source": {"new": 3}},
+  "layers": {
+    "new": {"attempted": 12, "success": 0, "failure": 12, "detail": "All twelve modern New feeds received three stable head samples, but no source was paginated to the 2026-08-27 checkpoint; no New checkpoint advanced."},
+    "hot_rising": {"attempted": 24, "success": 0, "failure": 24, "detail": "24 feeds were probed; no complete durable snapshot JSONL was produced. opensource/rising navigation timed out; unstable samples: programming/rising, netsec/rising, science/hot, OpenAI/hot, robotics/rising."},
+    "global": {"attempted": 3, "success": 0, "failure": 3, "detail": "Home and Popular were readable only as unpersisted head samples. All redirected to Home and is frozen as required."},
+    "search": {"attempted": 8, "success": 0, "failure": 8, "detail": "All modern Posts+New searches attempted with three samples. Six had no shreddit-post container; developer tools and data center energy water were blocked by client."},
+    "comments": {"due": 0, "success": 0, "failure": 0, "detail": "No revisit queue is present in authoritative state."},
+    "community_discovery": {"candidates_added": 0}
+  },
+  "failure_ledger": [
+    {"source": "New (12 communities)", "reason": "Only modern head samples were obtained; the required stable pagination to each previous checkpoint and durable union of all observed IDs was not completed.", "frozen": true, "recovery": "Resume each community from the saved 2026-08-27 repair checkpoint using old.reddit.com pagination; write every observation before advancing only that community's New cursor."},
+    {"source": "Hot/Rising (24 snapshots)", "reason": "Head probes were not durably stored as complete snapshot evidence; opensource/rising navigation timed out and five feeds varied across stability samples.", "frozen": true, "recovery": "Retry each failed or unstable feed in a fresh Chrome tab, persist the full observed snapshot and source-label merge before marking success."},
+    {"source": "Home/Popular/All", "reason": "All was redirected to https://www.reddit.com/ and therefore matched Home; no global snapshot was published.", "frozen": true, "recovery": "Keep All frozen; retry Home and Popular with durable JSONL snapshots independently."},
+    {"source": "Search (8 queries)", "reason": "Six results pages exposed zero shreddit-post cards; two navigations failed with net::ERR_BLOCKED_BY_CLIENT. No query boundary traversal or durable discovery snapshot was completed.", "frozen": true, "recovery": "Retry modern Posts+New in fresh tabs; if containers remain absent, use old.reddit.com only as parsing fallback and preserve modern failure evidence."}
+  ],
+  "github": {"status": "pending", "commit": null, "remote": "origin/main"},
+  "dingtalk": {"status": "pending", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "sendStatus": null},
+  "publication": {"eligible": false, "reason": "partial source evidence; no public daily brief generated or replaced."}
+}
