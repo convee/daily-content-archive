@@ -22,7 +22,7 @@
     {"source": "Home/Popular/All", "reason": "All was redirected to https://www.reddit.com/ and therefore matched Home; no global snapshot was published.", "frozen": true, "recovery": "Keep All frozen; retry Home and Popular with durable JSONL snapshots independently."},
     {"source": "Search (8 queries)", "reason": "Six results pages exposed zero shreddit-post cards; two navigations failed with net::ERR_BLOCKED_BY_CLIENT. No query boundary traversal or durable discovery snapshot was completed.", "frozen": true, "recovery": "Retry modern Posts+New in fresh tabs; if containers remain absent, use old.reddit.com only as parsing fallback and preserve modern failure evidence."}
   ],
-  "github": {"status": "pending", "commit": null, "remote": "origin/main"},
-  "dingtalk": {"status": "pending", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "sendStatus": null},
+  "github": {"status": "pushed", "commit": "2eda5e5e35032d6d0a6eb973ce974b72390f4ded", "remote": "origin/main", "verified_at_utc": "2026-09-01T03:27:37Z"},
+  "dingtalk": {"status": "sent", "openTaskId": "02aR3kfTIGm9j07DbaWMSEKHdgcYQpEUWuVGHtpRjps=", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "openMessageId": "msggQGzNuc1HB1aU+8KSM4dSQ==", "sendStatus": "SUCCESS", "verified_at_utc": "2026-09-01T03:29:10Z"},
   "publication": {"eligible": false, "reason": "partial source evidence; no public daily brief generated or replaced."}
 }
