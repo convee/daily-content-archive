@@ -1,0 +1,71 @@
+{
+  "archive_pages": [
+    "hackernews/2026/08/2026-08-29.md",
+    "hackernews/2026/08/2026-08-30.md",
+    "hackernews/2026/08/2026-08-31.md",
+    "hackernews/2026/09/2026-09-01.md"
+  ],
+  "browser_verification": {
+    "comment_anchors_verified": 50,
+    "discussion_pages_verified": 18,
+    "original_pages_verified": 18,
+    "read_only": true,
+    "selected_story_ids": [
+      49486172,
+      49489982,
+      49487341,
+      49491791,
+      49499854,
+      49492632,
+      49498787,
+      49496918,
+      49506819,
+      49504625,
+      49506142,
+      49503956,
+      49508317,
+      49514878,
+      49511856,
+      49511534,
+      49515830,
+      49516199
+    ],
+    "stable_samples_required": 3,
+    "status": "success"
+  },
+  "comment_count": 27049,
+  "complete": true,
+  "dingtalk": {
+    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "sendStatus": "pending",
+    "verified": false
+  },
+  "git": {
+    "commit": "pending",
+    "remote": "origin/main",
+    "remote_verified": false
+  },
+  "health": {
+    "post_collection_checked_at_utc": "2026-09-01T01:39:01Z",
+    "post_collection_status": "healthy",
+    "pre_collection_checked_at_utc": "2026-09-01T01:01:23Z",
+    "pre_collection_status": "healthy"
+  },
+  "ids_checked": 30755,
+  "lock": {
+    "name": "repo-write",
+    "owner": "hackernews-20260901T010050Z-4b7e",
+    "retry_count": 0,
+    "ttl_seconds": 5400
+  },
+  "null_item_ids": [],
+  "range_end_id_inclusive": 49516701,
+  "range_start_id_exclusive": 49485946,
+  "raw_file": "hackernews/raw/2026/09/01/items-49485947-49516701.jsonl",
+  "request_failures": [],
+  "retrieved_at_utc": "2026-09-01T01:01:34Z",
+  "schema_version": 1,
+  "source": "https://hacker-news.firebaseio.com/v0/",
+  "source_documentation": "https://github.com/HackerNews/API",
+  "story_count": 3694
+}
