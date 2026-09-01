@@ -17,6 +17,7 @@
   ],
   "state": {"intraday_snapshots_advanced": false, "date_ledger_advanced": false, "last_complete_date_advanced": false},
   "evidence": ["producthunt/raw/2026/08/2026-08-31.intraday-2026-09-01T015059Z.json"],
+  "github": {"evidence_commit": "d57c040e15b54c1234c917bd809f32b92a79c257", "initial_push": "SUCCESS", "remote_verified_after_fetch": true},
   "dingtalk": {"status": "SUCCESS", "kind": "exception_notice", "openTaskId": "2n+E5M4wF0qNFVKBw9E2lGdE2wp/8JozlSLe1m5CHuA=", "openMessageId": "msgTRXBtMnZqTqxsY1p3LW32Q==", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "target_group_matches_fixed_group": true, "verified_sendStatus": "SUCCESS"},
   "next_action": "Retry only through logged-in local Chrome when the All leaderboard exposes a complete, verifiably terminal continuation; do not create an intraday snapshot or advance state from this evidence."
 }
