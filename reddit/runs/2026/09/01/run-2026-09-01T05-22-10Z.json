@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "platform": "reddit",
+  "started_at_utc": "2026-09-01T05:22:10Z",
+  "completed_at_utc": "2026-09-01T05:23:30Z",
+  "lock_owner": "Reddit-20260901T052210Z-834d5e",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "status": "unavailable",
+    "error": "Browser is not available: chrome"
+  },
+  "records": {"posts": 0, "comments": 0, "selected_comments": 0},
+  "layers": {
+    "new": {"attempted": 12, "success": 0, "failure": 12, "detail": "Not run: the required logged-in Chrome surface was unavailable before navigation. All community New checkpoints remain frozen."},
+    "hot_rising": {"attempted": 24, "success": 0, "failure": 24, "detail": "Not run: Chrome unavailable; no durable snapshot JSONL was written."},
+    "global": {"attempted": 3, "success": 0, "failure": 3, "detail": "Not run: Chrome unavailable; Home, Popular, and All remain independently frozen."},
+    "search": {"attempted": 8, "success": 0, "failure": 8, "detail": "Not run: Chrome unavailable; all modern Posts + New query checkpoints remain frozen."},
+    "comments": {"due": 0, "success": 0, "failure": 0, "detail": "No revisit jobs are due in authoritative state; no Chrome comment read was attempted."},
+    "community_discovery": {"candidates_added": 0, "detail": "Not run because no source evidence was captured."}
+  },
+  "failure_ledger": [
+    {"source": "Chrome", "reason": "The required local Chrome browser binding was unavailable before any navigation.", "frozen": true, "recovery": "Restore the Chrome browser extension/connection, then resume every source from its existing checkpoint or continuation. Do not advance any cursor based on this run."},
+    {"source": "New (12 communities)", "reason": "Not run; no durable raw observations were possible.", "frozen": true, "recovery": "Run each /new feed to its saved boundary and archive every observed non-ad post before advancing that community only."},
+    {"source": "Hot/Rising (24 snapshots)", "reason": "Not run; no durable snapshots were possible.", "frozen": true, "recovery": "Retry all 24 independently after Chrome recovery."},
+    {"source": "Home/Popular/All", "reason": "Not run; no durable snapshots were possible.", "frozen": true, "recovery": "Retry independently and verify All remains distinct from Home."},
+    {"source": "Search (8 queries)", "reason": "Not run; no modern Posts + New traversal occurred.", "frozen": true, "recovery": "Retry all queries from their existing checkpoints after Chrome recovery."}
+  ],
+  "github": {"status": "pending", "commit": null, "remote": "origin/main"},
+  "dingtalk": {"status": "pending", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "sendStatus": null},
+  "publication": {"eligible": false, "reason": "No durable source evidence; no public daily brief was generated or replaced."}
+}

@@ -10790,6 +10790,12 @@
   },
   "last_run_failure_ledger": [
     {
+      "source": "Chrome",
+      "reason": "Required local Chrome binding unavailable before collection; no browser navigation or durable capture occurred.",
+      "frozen": true,
+      "recovery": "Restore Chrome connection and resume all sources from their saved checkpoints/continuations; do not advance cursors from this run."
+    },
+    {
       "source": "Chrome batch probe",
       "reason": "Chrome execution timed out while performing required three-sample stability checks; browser kernel reset before results could be durably returned",
       "frozen": true,
@@ -10827,8 +10833,8 @@
     }
   ],
   "last_tool_failure": {
-    "at_utc": "2026-08-31T23:25:48.000Z",
-    "reason": "browser collection preserved as partial; all cursors frozen"
+    "at_utc": "2026-09-01T05:22:10Z",
+    "reason": "required Chrome browser binding unavailable; all collection layers frozen without cursor changes"
   },
   "last_dingtalk_delivery": {
     "status": "sent",
