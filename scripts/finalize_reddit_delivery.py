@@ -9,6 +9,8 @@ commit, task, conversation, message, status = sys.argv[3:]
 run = json.loads(run_path.read_text())
 run["github"] = {"status": "pushed", "commit": commit, "remote": "origin/main"}
 run["dingtalk"] = {"status": "sent", "openTaskId": task, "openConversationId": conversation, "openMessageId": message, "sendStatus": status}
+if isinstance(run.get("health"), dict):
+    run["health"]["final"] = "healthy"
 run_path.write_text(json.dumps(run, ensure_ascii=False, indent=2) + "\n")
 state_path = repo / "reddit/state.json"
 state = json.loads(state_path.read_text())

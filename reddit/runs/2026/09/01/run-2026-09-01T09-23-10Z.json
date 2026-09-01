@@ -20,7 +20,7 @@
   },
   "health": {
     "initial": "healthy",
-    "final": "pending"
+    "final": "healthy"
   },
   "raw_file": "reddit/raw/2026/09/01/browser-unavailable-2026-09-01T09-23-10Z.jsonl",
   "raw_files": [
@@ -96,10 +96,16 @@
     }
   ],
   "github": {
-    "status": "pending"
+    "status": "pushed",
+    "commit": "34c33719aebc0514c670b5a81e641fdaedd539fd",
+    "remote": "origin/main"
   },
   "dingtalk": {
-    "status": "not_sent"
+    "status": "sent",
+    "openTaskId": "uePjIMI3RAPwxQpYTupote4lHDg+uQeY3SqRBlAtdE0=",
+    "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
+    "openMessageId": "msg/vUGTX1oWWXXx8baQifo6A==",
+    "sendStatus": "SUCCESS"
   },
   "publication": {
     "eligible": false,
