@@ -1,0 +1,108 @@
+{
+  "schema_version": 2,
+  "platform": "reddit",
+  "status": "partial_frozen",
+  "started_at_utc": "2026-09-01T09:22:46Z",
+  "completed_at_utc": "2026-09-01T09:22:46Z",
+  "lock_owner": "Reddit-20260901T092124Z-b75558",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "status": "unavailable",
+    "error": "Required logged-in local Chrome binding unavailable before navigation",
+    "retries": [
+      {
+        "kind": "initial_binding",
+        "result": "unavailable"
+      }
+    ],
+    "stability_sampling": "not_started"
+  },
+  "health": {
+    "initial": "healthy",
+    "final": "pending"
+  },
+  "raw_file": "reddit/raw/2026/09/01/browser-unavailable-2026-09-01T09-22-46Z.jsonl",
+  "raw_files": [
+    "reddit/raw/2026/09/01/browser-unavailable-2026-09-01T09-22-46Z.jsonl"
+  ],
+  "records": {
+    "posts": 0,
+    "comments": 0,
+    "selected_comments": 0
+  },
+  "layers": {
+    "new": {
+      "attempted": 12,
+      "success": 0,
+      "failure": 12
+    },
+    "hot_rising": {
+      "attempted": 24,
+      "success": 0,
+      "failure": 24
+    },
+    "global": {
+      "attempted": 3,
+      "success": 0,
+      "failure": 3
+    },
+    "search": {
+      "attempted": 0,
+      "success": 0,
+      "failure": 0
+    },
+    "comments": {
+      "due": 0,
+      "success": 0,
+      "failure": 0,
+      "detail": "No comment page read; browser unavailable."
+    },
+    "community_discovery": {
+      "candidates_added": 0,
+      "detail": "No source evidence captured."
+    }
+  },
+  "failure_ledger": [
+    {
+      "source": "Chrome",
+      "reason": "Required logged-in local Chrome binding unavailable before navigation; no browser navigation or durable content capture occurred.",
+      "frozen": true,
+      "recovery": "Restore Chrome extension/connection; resume each source from saved checkpoint or continuation without cursor advancement."
+    },
+    {
+      "source": "New (12 communities)",
+      "reason": "Not run; no durable raw observations possible.",
+      "frozen": true,
+      "recovery": "Resume each /new feed independently to its boundary and archive every observed non-ad post before advancing only that checkpoint."
+    },
+    {
+      "source": "Hot/Rising (24 snapshots)",
+      "reason": "Not run; no durable snapshots possible.",
+      "frozen": true,
+      "recovery": "Retry every Hot and Rising snapshot independently after Chrome recovery."
+    },
+    {
+      "source": "Home/Popular/All",
+      "reason": "Not run; no durable snapshots possible.",
+      "frozen": true,
+      "recovery": "Retry all three independently and verify All is distinct from Home."
+    },
+    {
+      "source": "Search (0 queries)",
+      "reason": "Not run; no modern Posts + New traversal occurred.",
+      "frozen": true,
+      "recovery": "Retry every query from its existing checkpoint after Chrome recovery."
+    }
+  ],
+  "github": {
+    "status": "pending"
+  },
+  "dingtalk": {
+    "status": "not_sent"
+  },
+  "publication": {
+    "eligible": false,
+    "reason": "No durable content evidence; no daily brief or Pages replacement."
+  }
+}

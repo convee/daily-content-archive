@@ -10791,50 +10791,38 @@
   "last_run_failure_ledger": [
     {
       "source": "Chrome",
-      "reason": "Required local Chrome binding unavailable before collection; no browser navigation or durable capture occurred.",
+      "reason": "Required logged-in local Chrome binding unavailable before navigation; no browser navigation or durable content capture occurred.",
       "frozen": true,
-      "recovery": "Restore Chrome connection and resume all sources from their saved checkpoints/continuations; do not advance cursors from this run."
+      "recovery": "Restore Chrome extension/connection; resume each source from saved checkpoint or continuation without cursor advancement."
     },
     {
-      "source": "Chrome batch probe",
-      "reason": "Chrome execution timed out while performing required three-sample stability checks; browser kernel reset before results could be durably returned",
+      "source": "New (12 communities)",
+      "reason": "Not run; no durable raw observations possible.",
       "frozen": true,
-      "recovery": "Reconnect Chrome; resume each source independently from its saved continuation/checkpoint; do not advance cursors"
+      "recovery": "Resume each /new feed independently to its boundary and archive every observed non-ad post before advancing only that checkpoint."
     },
     {
-      "source": "New",
-      "reason": "all 12 community /new probes were started in the single Chrome batch but no complete durable result set returned",
+      "source": "Hot/Rising (24 snapshots)",
+      "reason": "Not run; no durable snapshots possible.",
       "frozen": true,
-      "recovery": "rerun each /new source with durable observation output before checkpoint changes"
-    },
-    {
-      "source": "Hot/Rising",
-      "reason": "batch interrupted before complete durable snapshots were returned",
-      "frozen": true,
-      "recovery": "rerun all 24 snapshots independently"
+      "recovery": "Retry every Hot and Rising snapshot independently after Chrome recovery."
     },
     {
       "source": "Home/Popular/All",
-      "reason": "batch interrupted before complete durable snapshots were returned",
+      "reason": "Not run; no durable snapshots possible.",
       "frozen": true,
-      "recovery": "rerun each global feed and verify All is distinct from Home"
+      "recovery": "Retry all three independently and verify All is distinct from Home."
     },
     {
-      "source": "Search",
-      "reason": "batch interrupted before modern Posts + New results could be persisted",
+      "source": "Search (0 queries)",
+      "reason": "Not run; no modern Posts + New traversal occurred.",
       "frozen": true,
-      "recovery": "rerun all eight queries with stable sampling and boundary traversal"
-    },
-    {
-      "source": "Comment revisit",
-      "reason": "not reached because Chrome batch tool timed out",
-      "frozen": true,
-      "recovery": "run all due revisit tasks after browser recovery"
+      "recovery": "Retry every query from its existing checkpoint after Chrome recovery."
     }
   ],
   "last_tool_failure": {
-    "at_utc": "2026-09-01T07:21:19Z",
-    "reason": "required Chrome browser binding unavailable; all collection layers frozen without cursor changes"
+    "at_utc": "2026-09-01T09:22:46Z",
+    "reason": "Required logged-in local Chrome binding unavailable before navigation"
   },
   "last_dingtalk_delivery": {
     "status": "sent",
@@ -10842,5 +10830,7 @@
     "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
     "openMessageId": "msgg0KrxzfnujQURncY6J+iFQ==",
     "sendStatus": "SUCCESS"
-  }
+  },
+  "last_run_at_utc": "2026-09-01T09:22:46Z",
+  "last_run_status": "partial_frozen"
 }
