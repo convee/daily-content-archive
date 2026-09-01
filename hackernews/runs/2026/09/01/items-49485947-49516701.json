@@ -37,13 +37,16 @@
   "complete": true,
   "dingtalk": {
     "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==",
-    "sendStatus": "pending",
-    "verified": false
+    "openMessageId": "msgIo4IPR4OQoW86fjRTyvo7g==",
+    "openTaskId": "f8d8EzP3LqoZDKhp9KB915403j5r35I0x4TWJ08AjwA=",
+    "sendStatus": "SUCCESS",
+    "verified": true,
+    "verified_at_utc": "2026-09-01T01:41:37Z"
   },
   "git": {
-    "commit": "pending",
+    "commit": "3e461fdfa1c6b72a574b474d8c8bb0ee61b1279f",
     "remote": "origin/main",
-    "remote_verified": false
+    "remote_verified": true
   },
   "health": {
     "post_collection_checked_at_utc": "2026-09-01T01:39:01Z",
@@ -57,6 +60,12 @@
     "owner": "hackernews-20260901T010050Z-4b7e",
     "retry_count": 0,
     "ttl_seconds": 5400
+  },
+  "pages": {
+    "build_run": "https://github.com/convee/daily-content-archive/actions/runs/33459585265",
+    "latest_daily": "https://convee.cn/daily-content-archive/hackernews/2026/09/2026-09-01.html",
+    "status": "SUCCESS",
+    "verified_in_chrome": true
   },
   "null_item_ids": [],
   "range_end_id_inclusive": 49516701,
