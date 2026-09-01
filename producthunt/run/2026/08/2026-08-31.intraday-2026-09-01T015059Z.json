@@ -1,0 +1,22 @@
+{
+  "schema_version": 2,
+  "platform": "producthunt",
+  "mode": "intraday_snapshot",
+  "result": "frozen_failure",
+  "started_at_utc": "2026-09-01T01:31:44Z",
+  "completed_at_utc": "2026-09-01T01:50:59.013Z",
+  "lock_owner": "Product Hunt-20260901T013144Z-23754c",
+  "lock": {"waited_seconds": 1082, "retries": 8, "result": "acquired_after_stale_hackernews_lease_released"},
+  "health_before": "degraded warnings only: no_complete_date; latest formal run exception",
+  "browser": {"surface": "Chrome", "read_only": true, "initial_cloudflare": true, "reload_retry": true, "new_tab_retry": true, "featured_stable_samples": 3, "all_stable_samples": 3},
+  "page_date": "2026-08-31",
+  "counts": {"featured_visible_ranked": 12, "all_visible_ranked": 17, "intraday_snapshot_saved": 0},
+  "failure_ledger": [
+    {"entry": "https://www.producthunt.com/", "failure": "Cloudflare challenge appeared in three consecutive initial samples; reload and a new named Chrome tab recovered to the logged-in leaderboard.", "partial_evidence_saved": true},
+    {"entry": "https://www.producthunt.com/leaderboard/daily/2026/8/31/all", "failure": "All shows 17 visible ranks with gaps at 16 and 18-21. A scroll-to-end pass exposed no pagination/continuation or verifiable terminal state.", "partial_evidence_saved": true}
+  ],
+  "state": {"intraday_snapshots_advanced": false, "date_ledger_advanced": false, "last_complete_date_advanced": false},
+  "evidence": ["producthunt/raw/2026/08/2026-08-31.intraday-2026-09-01T015059Z.json"],
+  "dingtalk": {"status": "SUCCESS", "kind": "exception_notice", "openTaskId": "2n+E5M4wF0qNFVKBw9E2lGdE2wp/8JozlSLe1m5CHuA=", "openMessageId": "msgTRXBtMnZqTqxsY1p3LW32Q==", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "target_group_matches_fixed_group": true, "verified_sendStatus": "SUCCESS"},
+  "next_action": "Retry only through logged-in local Chrome when the All leaderboard exposes a complete, verifiably terminal continuation; do not create an intraday snapshot or advance state from this evidence."
+}

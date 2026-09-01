@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "platform": "producthunt",
+  "mode": "intraday_snapshot_frozen_evidence",
+  "captured_at_utc": "2026-09-01T01:50:59.013Z",
+  "page_date": "2026-08-31",
+  "browser": {
+    "surface": "Chrome",
+    "read_only": true,
+    "login_used": true,
+    "initial_cloudflare": {
+      "url": "https://www.producthunt.com/",
+      "title": "请稍候…",
+      "stable_samples": 3,
+      "main_result_anchor_counts": [0, 0, 0],
+      "result": "transient_cloudflare_challenge"
+    },
+    "recovery": {
+      "reload_attempted": true,
+      "new_named_tab_attempted": true,
+      "result": "leaderboard_rendered"
+    }
+  },
+  "sources": {
+    "featured": {
+      "url": "https://www.producthunt.com/leaderboard/daily/2026/8/31",
+      "title": "Best of Product Hunt: August 31, 2026 | Product Hunt",
+      "stable_samples": 3,
+      "visible_ranked": 12,
+      "ranks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    "all": {
+      "url": "https://www.producthunt.com/leaderboard/daily/2026/8/31/all",
+      "title": "Best of Product Hunt: August 31, 2026 | Product Hunt",
+      "stable_samples": 3,
+      "visible_ranked": 17,
+      "ranks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 22],
+      "scroll_to_end_attempted": true,
+      "continuation_or_pagination_control": null,
+      "terminal_state_verifiable": false
+    }
+  },
+  "visible_all_products": [
+    {"rank": 1, "stable_url": "https://www.producthunt.com/products/fotor", "name": "Video Agent by Fotor"},
+    {"rank": 2, "stable_url": "https://www.producthunt.com/products/brandjet-ai", "name": "BrandJet"},
+    {"rank": 3, "stable_url": "https://www.producthunt.com/products/revolte", "name": "Interactive Sessions"},
+    {"rank": 4, "stable_url": "https://www.producthunt.com/products/teenage-engineering", "name": "EP–2350 FX–MIC"},
+    {"rank": 5, "stable_url": "https://www.producthunt.com/products/tether-a-ball-for-boring-meetings", "name": "Tether"},
+    {"rank": 6, "stable_url": "https://www.producthunt.com/products/brandmylaptop", "name": "BrandMyLaptop"},
+    {"rank": 7, "stable_url": "https://www.producthunt.com/products/ask-my-wardrobe", "name": "Ask My Wardrobe"},
+    {"rank": 8, "stable_url": "https://www.producthunt.com/products/particle-5", "name": "Radar by Particle"},
+    {"rank": 9, "stable_url": "https://www.producthunt.com/products/webterm", "name": "WebTerm Learn"},
+    {"rank": 10, "stable_url": "https://www.producthunt.com/products/frameos-3", "name": "FrameOS"},
+    {"rank": 11, "stable_url": "https://www.producthunt.com/products/orato-speech-coach", "name": "Orato"},
+    {"rank": 12, "stable_url": "https://www.producthunt.com/products/stackscope-dev", "name": "StackScope"},
+    {"rank": 13, "stable_url": "https://www.producthunt.com/products/houndly", "name": "Houndly"},
+    {"rank": 14, "stable_url": "https://www.producthunt.com/products/leasebase", "name": "LeaseBase"},
+    {"rank": 15, "stable_url": "https://www.producthunt.com/products/mascofast", "name": "Mascofast"},
+    {"rank": 17, "stable_url": "https://www.producthunt.com/products/conscioussai", "name": "ConscioussAI"},
+    {"rank": 22, "stable_url": "https://www.producthunt.com/products/waterme", "name": "WaterMe"}
+  ],
+  "failure_gates": [
+    "All lacks ranks 16 and 18 through 21 in the visible result set",
+    "All exposes no pagination or continuation control and no verifiable exhausted terminal state",
+    "The required complete Featured/All reconciliation and full metadata collection cannot be established"
+  ],
+  "frozen": true,
+  "intraday_snapshot_saved": false,
+  "state_advanced": false
+}
