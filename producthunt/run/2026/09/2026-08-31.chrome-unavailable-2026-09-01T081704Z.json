@@ -18,7 +18,8 @@
     "2026-08-25 ordered backlog remains partial",
     "Featured/All pagination, product metadata, candidate comments, discovery verification, and reconciliation remain incomplete"
   ],
-  "delivery": {"github_push": {"status": "pending_finalization"}, "dingtalk": {"status": "SUCCESS", "kind": "exception_notice", "openTaskId": "5NNEbXjfpPQau9ZOkfhgFmLusAy1sDpQd4RakZlTXPg=", "openMessageId": "msgtl8i6+oL/vSlPrw/c43aqQ==", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "target_group_matches_fixed_group": true, "verified": true, "verified_sendStatus": "SUCCESS"}},
+  "delivery": {"github_push": {"status": "SUCCESS", "evidence_commit": "c7bc4eaa2deaefbba424f4311a7d328e876211be", "remote": "origin/main", "remote_verified": true, "page": "https://convee.github.io/daily-content-archive/"}, "dingtalk": {"status": "SUCCESS", "kind": "exception_notice", "openTaskId": "5NNEbXjfpPQau9ZOkfhgFmLusAy1sDpQd4RakZlTXPg=", "openMessageId": "msgtl8i6+oL/vSlPrw/c43aqQ==", "openConversationId": "cid4JFchXCBwQIK2cKxUXZwWw==", "target_group_matches_fixed_group": true, "verified": true, "verified_sendStatus": "SUCCESS"}},
+  "finalization": {"at_utc": "2026-09-01T08:18:00Z", "health_after_evidence": "degraded warnings only; no error", "remote_finalization_required": true, "remote_finalization": "committed and pushed in the immediately following transaction"},
   "published": false,
   "archive_page": false
 }
