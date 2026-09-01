@@ -10833,7 +10833,7 @@
     }
   ],
   "last_tool_failure": {
-    "at_utc": "2026-09-01T05:22:10Z",
+    "at_utc": "2026-09-01T07:21:19Z",
     "reason": "required Chrome browser binding unavailable; all collection layers frozen without cursor changes"
   },
   "last_dingtalk_delivery": {
